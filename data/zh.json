@@ -1,1 +1,3794 @@
-{}
+{
+  "plugin87/ux-ui-agent-skills": {
+    "positioning": "把 Claude 变成资深设计架构师的 AI 技能套件",
+    "summary": "一套为 AI 编程代理打造的设计知识层，包含结构化指令、DTCG 设计令牌、26 个可运行技能、52 个组件规范和 138 套品牌级设计系统，支持任意框架输出。内置 52 项客观质量门禁，覆盖 WCAG 2.2 AA 到 AAA 无障碍标准，不达标即让构建失败而非伪造成功。无构建工具和运行时依赖，可即插即用于 Claude Code、Cursor、Copilot 等代理。",
+    "scenarios": [
+      "AI 辅助生成可访问 UI 组件",
+      "构建令牌驱动的设计系统",
+      "WCAG 无障碍合规性检查",
+      "设计稿到多框架代码转换",
+      "统一团队前端设计规范"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "前端开发"
+    ],
+    "tags": [
+      "Claude",
+      "设计系统",
+      "设计令牌",
+      "无障碍",
+      "AI编程",
+      "UI组件"
+    ],
+    "sourceHash": "d768659fa2e28a1b8680bec87df8cecfb9b8cf51245aadec83902169421f6d16",
+    "translatedAt": "2026-10-21T16:42:22.634Z"
+  },
+  "ShenSeanChen/waku-agent": {
+    "positioning": "本地优先的个人 AI 智能体，循环、记忆、评估全可读",
+    "summary": "Waku 是一个本地优先的个人 AI 助手与智能体框架，将 Harness、Loop、Memory、Eval 四大支柱全部用可读的 Python 代码实现。记忆以单个 SQLite 文件存储，完全归用户所有，主循环仅约 95 行代码；内置本地仪表盘实时展示消息流转，并自带确定性测试与 LLM-as-judge 评估及发布门禁。",
+    "scenarios": [
+      "学习智能体架构设计原理",
+      "搭建本地个人 AI 助手",
+      "研究智能体记忆系统实现",
+      "LLM 应用评估与 LLM-Ops 实践",
+      "基于可读代码二次开发代理"
+    ],
+    "quickStart": "pip install waku-agent\nwaku\nwaku dashboard\ngit clone https://github.com/ShenSeanChen/waku-agent && cd waku-agent\nuv venv && uv pip install -e .\ncp .env.example .env\nuv run waku\nuv run waku dashboard",
+    "categories": [
+      "人工智能",
+      "学习资源"
+    ],
+    "tags": [
+      "AI智能体",
+      "本地优先",
+      "记忆系统",
+      "LLM",
+      "个人助手",
+      "评估测试"
+    ],
+    "sourceHash": "32883b56d16857b12d38a23a99ae3c3727a2831dcfb6ec99ee12704ada113e12",
+    "translatedAt": "2026-10-21T16:42:25.616Z"
+  },
+  "anywhere-labs/dsh-desktop": {
+    "positioning": "基于 DeepSeek Harness 的开源桌面客户端",
+    "summary": "DSH Desktop 将 DeepSeek Harness 的本地 Web UI、Host 服务和插件系统集成到原生桌面应用，支持 Windows 和 macOS。项目秉持「万物皆插件」理念，提供窗口、托盘、终端与自动更新等桌面能力，并通过插件机制与上游能力自由组合。无需额外环境，下载安装即可使用。",
+    "scenarios": [
+      "DeepSeek 对话桌面化使用",
+      "管理 DSH 插件生态",
+      "桌面集成 AI 工作流",
+      "插件开发与组合调试",
+      "Windows/macOS 客户端替代"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "DeepSeek",
+      "桌面客户端",
+      "插件化",
+      "跨平台",
+      "开源"
+    ],
+    "sourceHash": "b8f81a2eb9c1a1aaf260e9f32134fb7c7a1219b87df3f8ae8bc3d21d66176431",
+    "translatedAt": "2026-10-21T16:42:31.236Z"
+  },
+  "wheresryan22/anatomy": {
+    "positioning": "把技术概念变成可交互等距机械插画的 AI Agent 技能",
+    "summary": "Anatomy 是一个适用于 Claude Code 等 AI Agent 的技能，它将抽象技术概念转化为由多个精细部件组成的交互式等距插画，并以带标题和实时读数的图卡形式呈现。生成的图形基于 SVG，可选 WebGL 着色器与 3D 效果，可随指针和键盘动态响应，零依赖、仅需 Node 20.10 以上。",
+    "scenarios": [
+      "技术概念讲解配图",
+      "技术文档与博客插图",
+      "系统原理可视化演示",
+      "教学课件动态图示",
+      "方案设计讲解素材"
+    ],
+    "quickStart": "npx skills add wheresryan22/anatomy -g",
+    "categories": [
+      "人工智能",
+      "数据可视化"
+    ],
+    "tags": [
+      "AI技能",
+      "等距插画",
+      "SVG",
+      "WebGL",
+      "交互可视化"
+    ],
+    "sourceHash": "4ee5d5285d913bd331f5a5bf6ebdd01a9fb7326a9232238510425d4006ae17df",
+    "translatedAt": "2026-10-21T16:42:43.911Z"
+  },
+  "GuanYixuan/pyCapCut": {
+    "positioning": "用 Python 生成 CapCut 草稿，构建自动化视频剪辑流水线",
+    "summary": "pyCapCut 是一个轻量易用的 Python 库，可程序化生成 CapCut（国际版剪映）草稿，支持多轨道、关键帧、特效、转场、字幕以及模板素材替换等能力，适合搭建自动化剪辑与混剪流水线。它与 PyJianYingDraft 同源，生成草稿后需在 CapCut 中打开并手动导出视频。",
+    "scenarios": [
+      "批量生成短视频草稿",
+      "自动化视频混剪流水线",
+      "模板化视频内容生产",
+      "SRT 字幕自动合成",
+      "程序化编排视频特效"
+    ],
+    "quickStart": "pip install pycapcut",
+    "categories": [
+      "效率工具"
+    ],
+    "tags": [
+      "Python",
+      "CapCut",
+      "视频剪辑",
+      "自动化",
+      "草稿生成",
+      "模板复用"
+    ],
+    "sourceHash": "2f3f5ce69ac4eac993bf24037248ef983e2912fda2cd7eb526a81a7b6c9ccce6",
+    "translatedAt": "2026-10-21T16:42:59.372Z"
+  },
+  "linyqh/NarratoAI": {
+    "positioning": "AI 大模型驱动的视频解说与自动剪辑工具",
+    "summary": "NarratoAI 是一款基于 Python 开发的 AI 视频解说剪辑工具，调用 Gemini 等大模型自动分析视频内容并生成解说文案，再借助 moviepy 完成切片、配音与字幕合成。用户只需提供视频素材，即可一键产出带解说的成品视频，显著降低影视解说类内容的制作门槛。",
+    "scenarios": [
+      "影视解说视频批量制作",
+      "自媒体短视频内容创作",
+      "长视频剪辑成短内容",
+      "无人声视频自动配解说",
+      "视频文案自动生成"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "AI解说",
+      "视频剪辑",
+      "大模型",
+      "Gemini",
+      "短视频制作"
+    ],
+    "sourceHash": "6e2576ff8921fbb1da2fb963b7a651bd060bc3dbce5697d2e1e81edc731ccb30",
+    "translatedAt": "2026-10-21T16:43:00.210Z"
+  },
+  "bradautomates/claude-video": {
+    "positioning": "让 Claude 能够观看和理解任意视频内容的工具",
+    "summary": "claude-video 为 Claude 增加了\"看视频\"的能力。执行 /watch 命令后，工具会自动下载目标视频、提取关键帧并完成语音转写，再将画面与文字内容一并交给 Claude 分析。基于 Python 实现，适合集成到 Claude 的工作流中处理视频内容。",
+    "scenarios": [
+      "快速总结长视频要点",
+      "分析教学或会议录像",
+      "为视频生成文字摘要",
+      "提取视频中的关键画面",
+      "辅助内容创作与素材整理"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "CLI工具"
+    ],
+    "tags": [
+      "Claude",
+      "视频分析",
+      "语音转写",
+      "帧提取",
+      "自动化"
+    ],
+    "sourceHash": "05a30f8ef22cf315c58d4b162149191804400279d05ada253b8d14deebfa51e2",
+    "translatedAt": "2026-10-21T16:43:25.864Z"
+  },
+  "eternity4719/HowToLiveBetter": {
+    "positioning": "只引期刊论文与官方文件的人生实用指南，767条建议",
+    "summary": "覆盖长寿防病、急救、省钱理财、法律红线、失业与医保社保、婚恋生育、创业合规、出国技能等生活领域，共 767 条建议。每条注明成本、收益与证据等级（A/B/C 分级），来源只引期刊论文和官方文件。提供在线检索页、PDF/EPUB 下载、Anki 牌组，并可装成 AI 助手 skill 让其按书中条目回答问题。",
+    "scenarios": [
+      "规划健康与疾病预防",
+      "了解医保社保与失业救济",
+      "婚恋生育决策参考",
+      "创业开店与平台合规咨询",
+      "理财避坑与法律风险自查"
+    ],
+    "quickStart": "打开在线检索页：https://eternity4719.github.io/HowToLiveBetter/",
+    "categories": [
+      "学习资源",
+      "效率工具"
+    ],
+    "tags": [
+      "生活指南",
+      "健康长寿",
+      "医保社保",
+      "法律常识",
+      "理财省钱",
+      "证据分级"
+    ],
+    "sourceHash": "5acd0878c82a3c0896d95861275226063e1bc69f0b89bbc7d4c3bf7eb9f5531f",
+    "translatedAt": "2026-10-21T16:43:30.945Z"
+  },
+  "jev-chat/jev-chat-jarvis": {
+    "positioning": "聊天辅助决策工具：读懂对方意图，一键起草回复",
+    "summary": "Jev Chat 是一款聊天辅助决策工具，在你回复前先阅读聊天内容，判断对方意图与风险，并起草回复草稿，你只需一键填充、再自行决定是否发送。项目借助 LLM、无障碍服务与 OCR 识别聊天信息，支持 Android、Windows、macOS 和 iOS 多平台。",
+    "scenarios": [
+      "判断对方消息真实意图",
+      "识别聊天中的风险话术",
+      "快速起草得体的回复",
+      "社交防诈骗风险提示",
+      "多平台聊天智能辅助"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "聊天助手",
+      "AI辅助",
+      "LLM",
+      "无障碍服务",
+      "OCR识别"
+    ],
+    "sourceHash": "9a3ebc9e5cbaec635f1b938d42259b41c8daad2caceac638b11ef9ff56ec9c84",
+    "translatedAt": "2026-10-21T16:43:33.923Z"
+  },
+  "browser-use/jev-ultrafast": {
+    "positioning": "极速浏览器智能体，动态索引动作空间，一个目标自动操作网页",
+    "summary": "Jev Ultrafast 是 Browser Use 团队推出的超快网页智能体，采用动态索引动作空间设计：每次观察生成带编号的元素表，由 TypeSafe 的 Jev 模型一次网络请求同时决策操作与目标元素，仅在需要输入文本时才调用小模型生成内容。官方演示中在 Google Flights 完成苏黎世至伦敦的航班搜索仅用 7.1 秒，主打速度与低成本。既提供交互式网页检查器演示，也可作为 Python 库嵌入自定义任务。",
+    "scenarios": [
+      "自动化网页信息查询",
+      "表单填写与提交流程",
+      "多步骤网页任务自动化",
+      "AI 浏览器代理研发参考",
+      "端到端网页操作验证"
+    ],
+    "quickStart": "git clone https://github.com/browser-use/jev-ultrafast.git\ncd jev-ultrafast\nuv sync\ncp .env.example .env\nuv run jev",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "浏览器自动化",
+      "AI智能体",
+      "LLM",
+      "网页操作",
+      "Python"
+    ],
+    "sourceHash": "d0b8e64ba5a4ec2faad20a6145161c0b6e207bf213ac99600ac309bff7129228",
+    "translatedAt": "2026-10-21T16:43:50.634Z"
+  },
+  "linesoft2/TaskMonitor": {
+    "positioning": "常驻任务栏实时监测 Windows 系统负载的开源工具",
+    "summary": "TaskMonitor 是一款 Windows 系统监测工具，通过常驻任务栏视图或悬浮窗实时展示 CPU、内存、磁盘、GPU、网络五个维度的负载，点击后可下钻查看各进程的占用详情。它采用 Fluent2 设计风格贴近系统原生 UI，采样逻辑与 Windows 任务管理器一致，单文件分发且资源占用极低，还支持与 Clash/Mihomo 集成展示经代理的进程网速。",
+    "scenarios": [
+      "排查系统卡顿与高负载来源",
+      "常驻任务栏监控五维负载",
+      "定位占用网络带宽的进程",
+      "监测 GPU 温度与显存占用",
+      "查看经代理的进程实时网速"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "效率工具"
+    ],
+    "tags": [
+      "Windows",
+      "系统监控",
+      "任务栏工具",
+      "性能监测",
+      "进程管理"
+    ],
+    "sourceHash": "398f3a1b93dd4cd1e8d646e9c5968780ee4465daec223326973309f7b2121b0e",
+    "translatedAt": "2026-10-21T16:43:59.570Z"
+  },
+  "qingjian-team/qingjian": {
+    "positioning": "用 Rust 写的拼音输入法，候选旁显示所学语言译词",
+    "summary": "青简是一款用 Rust 编写的拼音输入法，在候选词旁显示正在学习的语言（英语、日语、西班牙语、越南语、德语）译词，让语言学习融入日常打字。它支持整句输入、简拼、拼写纠错、双拼、五笔等输入方式，本地整句模型会在停顿后调整句子候选。拼音转换、模型与输入统计均在本地完成，无需账号，可选的云联想默认关闭。",
+    "scenarios": [
+      "日常打字时积累外语词汇",
+      "对隐私要求高的离线输入",
+      "需要整句、双拼、五笔输入",
+      "语言学习者借中文输入练外语"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "效率工具",
+      "学习资源"
+    ],
+    "tags": [
+      "拼音输入法",
+      "Rust",
+      "语言学习",
+      "离线",
+      "双拼",
+      "跨平台"
+    ],
+    "sourceHash": "92bb93a14209441384ad2ea474df5d386e2542dfc403715e7d1abc043e676734",
+    "translatedAt": "2026-10-21T16:44:10.180Z"
+  },
+  "xuanyustudio/LocalMiniDrama": {
+    "positioning": "本地离线运行的 AI 短剧与漫剧一站式生成工具",
+    "summary": "LocalMiniDrama 是基于 Vue3、Node.js 与 Electron 构建的桌面应用，覆盖故事、角色与场景、分镜到视频合成的完整短剧创作流程。它接入通义、火山 Seedance、可灵、Gemini 等多家 AI 服务商，支持列表精细编辑与画布流水线批量编排两种视图，数据与素材全部保存在本机 SQLite 和本地文件中，无需订阅且完全开源。",
+    "scenarios": [
+      "AI 真人短剧本地批量生成",
+      "AI 漫剧与动画短剧制作",
+      "分镜流水线可视化编排",
+      "隐私敏感的个人短剧创作",
+      "短剧工作室离线内容生产"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "AI短剧",
+      "视频生成",
+      "分镜制作",
+      "离线运行",
+      "Electron",
+      "数据本地化"
+    ],
+    "sourceHash": "6a2303b5b942aad90f9bb13020078353537df16ba667561eb8242cf50bb9a55b",
+    "translatedAt": "2026-10-21T16:44:14.495Z"
+  },
+  "hicocos/tg-vault": {
+    "positioning": "Telegram 文件转存归档工具，多存储源自托管私有云",
+    "summary": "TG Vault 是一个 Telegram 文件转存与归档系统，支持频道/群组按日期或标签批量下载、订阅同步，并提供 Web 文件上传、搜索、整理与媒体预览。后端可接入本地磁盘、OneDrive、Google Drive、阿里云 OSS、S3、WebDAV 等多种存储源，通过 Web 与 Bot 管理任务进度、重试与暂停。同时内置管理员密码、Bot 用户允许列表和 TOTP 双重验证，保障数据安全。",
+    "scenarios": [
+      "频道文件批量归档下载",
+      "搭建个人私有云网盘",
+      "多存储源统一文件管理",
+      "Telegram 媒体资源备份",
+      "群组资源订阅自动同步"
+    ],
+    "quickStart": "git clone https://github.com/hicocos/tg-vault.git\ncd tg-vault\n./deploy/install.sh",
+    "categories": [
+      "自托管服务",
+      "效率工具"
+    ],
+    "tags": [
+      "Telegram",
+      "私有云",
+      "文件归档",
+      "自托管",
+      "多存储源",
+      "Docker"
+    ],
+    "sourceHash": "c699a9570087994e54d5b0133d08b5be52b66f5cbef62d1ee329c41fab9dea70",
+    "translatedAt": "2026-10-21T16:44:20.228Z"
+  },
+  "petergyang/no-ai-slop": {
+    "positioning": "清除 20+ 种 AI 写作套话的技能，保留个人文风",
+    "summary": "这是一个可安装到 ChatGPT、Claude Code、Codex 等编码助手的技能（skill），能识别并清除 20+ 种常见 AI 腔调，如'It's not X. It's Y.'式对仗、'专家表示'式含糊引用，同时保留作者的词汇、语气与幽默感。除编辑文本外，还能逐条检测文中 AI 套话，或反向生成夸张 AI 腔文章用于讽刺。",
+    "scenarios": [
+      "净化 AI 生成的初稿",
+      "润色时保留个人语气风格",
+      "检测文章中的 AI 套话",
+      "编辑后自查 AI 腔调残留",
+      "生成讽刺性 AI 套话内容"
+    ],
+    "quickStart": "npx skills add petergyang/no-ai-slop --skill no-ai-slop --global --yes\n/no-ai-slop (your writing)",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "AI写作",
+      "去AI味",
+      "Claude技能",
+      "文本编辑",
+      "写作辅助"
+    ],
+    "sourceHash": "9cab9e77c73643ed1fa4dab673d8927abd30e46dfe71a1b4ba6beac5f7b1f3f8",
+    "translatedAt": "2026-10-21T16:44:35.970Z"
+  },
+  "huangbai-AI/sd-2-5-prompt": {
+    "positioning": "五段式公式编写 Seedance 2.5 视频提示词的 Skill",
+    "summary": "一套面向 Seedance 2.5 视频生成的提示词编写 Skill，用主体、风格、时间线、BGM、限制五段式公式统一组织创意，覆盖产品广告、人物叙事、一镜到底、动作对战等场景。内置 15 个真实案例、五段式填空模板和自动检查脚本，可发现时间线错误、结构缺失和素材职责不明等问题。画面不对改主体或时间线，节奏不对改 BGM，稳定性不足加限制，修改思路清晰。",
+    "scenarios": [
+      "编写产品广告视频提示词",
+      "人物叙事短片与 MV 创作",
+      "复杂打斗动作场面提示词",
+      "参考视频反推与复刻",
+      "检查提示词结构与风险"
+    ],
+    "quickStart": "git clone https://github.com/huangbai-AI/sd-2-5-prompt.git\ncp -R sd-2-5-prompt/skills/sd-2-5-prompt ~/.codex/skills/",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "AI视频",
+      "提示词工程",
+      "Seedance",
+      "视频生成",
+      "AI创作"
+    ],
+    "sourceHash": "91a0886aa2f4471a2ba6ad2d7ff5b563c59585bf7eaf24bdfcdb8bddf898d2c3",
+    "translatedAt": "2026-10-21T16:44:41.782Z"
+  },
+  "nashsu/llm_wiki": {
+    "positioning": "LLM 自动将文档构建为互联知识库的桌面应用",
+    "summary": "LLM Wiki 是一款跨平台桌面应用，利用 LLM 读取 PDF、Office、EPUB、网页剪藏等多种文档，自动生成并持续维护结构化、互相链接的 Wiki 知识库，区别于每次从头检索回答的传统 RAG。它内置四信号知识图谱与社区发现、向量语义搜索、深度研究和异步人工审核，还提供本地 HTTP API 与 MCP 服务器，便于接入 Claude Code 等 AI 代理。",
+    "scenarios": [
+      "个人文档自动整理归档",
+      "论文与电子书知识沉淀",
+      "网页剪藏与批量链接收录",
+      "构建知识图谱发现隐藏关联",
+      "通过 MCP 供 AI 代理调用"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "效率工具",
+      "人工智能"
+    ],
+    "tags": [
+      "知识库",
+      "LLM",
+      "知识图谱",
+      "文档管理",
+      "MCP"
+    ],
+    "sourceHash": "06a5e114e48fe4b656c5cd2fa1e57f50b6bdf208fcaf1ab4d7d14969b5122cca",
+    "translatedAt": "2026-10-21T16:44:59.528Z"
+  },
+  "EveningStudy/asmr-dubber": {
+    "positioning": "AI 音视频配音工具，音色克隆配音与空间跟随混音",
+    "summary": "支持日语、英语、中文的音视频配成中文或英文，识别、翻译、音色克隆配音、混音、字幕一站式完成。特色是逐句分析原声空间位置，让配音与原声方位一致；基于 IndexTTS2 在本地显卡克隆音色，也支持人声分离替换版、批量处理和仅字幕导出。",
+    "scenarios": [
+      "日语音声制作中文双语版",
+      "替换原人声制作中文配音版",
+      "为外语音视频生成中文字幕",
+      "批量处理整个作品文件夹",
+      "利用现成字幕跳过识别翻译"
+    ],
+    "quickStart": "见 README「三分钟上手」：从 Releases 下载压缩包解压，双击 ASMR-Dubber.exe 启动，在界面内下载模型即可，无需预装 Python",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "AI配音",
+      "音色克隆",
+      "语音识别",
+      "人声分离",
+      "视频翻译",
+      "字幕生成"
+    ],
+    "sourceHash": "e41fd7dae18405d24adbb8877594e22fd5ba1fb941903d93395b48dfcb40f0b7",
+    "translatedAt": "2026-10-21T16:45:04.049Z"
+  },
+  "alsk1992/CloddsBot": {
+    "positioning": "自托管AI交易终端，覆盖预测市场与加密交易",
+    "summary": "CloddsBot 是基于 Claude 构建的开源 AI 交易代理，覆盖 Polymarket、Kalshi 等 10 个预测市场，以及 Binance、Hyperliquid、Solana DEX 和 EVM 链等 7 家交易所，共 1000+ 市场。内置 118+ 交易策略、鲸鱼追踪、套利检测、跟单与定投机器人，可通过 21 个消息平台以自然对话操作，全程数据自托管。",
+    "scenarios": [
+      "预测市场自动化套利交易",
+      "加密货币与永续合约交易",
+      "聊天平台自然语言下单",
+      "自托管管理多平台投资组合",
+      "跨链代币发行与子网挖矿"
+    ],
+    "quickStart": "npm install -g https://github.com/alsk1992/CloddsBot/releases/latest/download/clodds.tgz --loglevel=error\nclodds onboard",
+    "categories": [
+      "人工智能",
+      "自托管服务"
+    ],
+    "tags": [
+      "AI交易",
+      "预测市场",
+      "加密货币",
+      "Claude",
+      "套利",
+      "量化交易"
+    ],
+    "sourceHash": "4b26a6b39318d69b74c6c61ca4b30e9f290943d40dc3cc505fcd2cd088b27910",
+    "translatedAt": "2026-10-21T16:45:05.224Z"
+  },
+  "Tencent/teamai-cli": {
+    "positioning": "基于 Git 管理团队 AI 资产的命令行工具",
+    "summary": "TeamAI 是腾讯开源的 CLI 工具，将团队的技能、规则、Agent、经验、模型、MCP 等 AI 资产统一托管在 Git 仓库中。成员只需初始化一次，之后每次 AI 会话都会自动拉取管理员发布的最新资产，无需手动同步。它提供团队执行、团队上下文、团队改进三层能力，让每个 Agent 都按团队规范工作。",
+    "scenarios": [
+      "团队统一管理 AI 技能与规则",
+      "新成员快速接入团队 AI 资产",
+      "跨工具共享 MCP 与 Agent 配置",
+      "沉淀团队经验与代码库知识",
+      "标准化多人协作的 AI 工作流"
+    ],
+    "quickStart": "npm install -g teamai-cli\nteamai init https://github.com/your-org/your-repo",
+    "categories": [
+      "CLI工具",
+      "人工智能"
+    ],
+    "tags": [
+      "团队协作",
+      "AI资产管理",
+      "Git",
+      "AI Agent",
+      "知识沉淀",
+      "MCP"
+    ],
+    "sourceHash": "4109d3665679ddc0a3bff315d72790879f9d76aef5be772f2bdeea852f274feb",
+    "translatedAt": "2026-10-21T16:45:17.072Z"
+  },
+  "OpenBMB/PilotDeck": {
+    "positioning": "以 WorkSpace 为核心的开源 AI Agent 生产力平台",
+    "summary": "PilotDeck 是由清华大学 THUNLP、ModelBest、OpenBMB 等联合开源的任务导向 AI Agent 生产力平台，围绕「WorkSpace」概念组织多项目并行工作。它支持长时任务在超过 2000 轮交互中保持上下文与记忆演进，原生支持 MCP 协议，并提供一键安装与可视化配置。内置高质量 Word/Excel/PPT 技能，可一键产出办公级文档。",
+    "scenarios": [
+      "多项目并行的 AI 协作办公",
+      "长时间运行任务的持续管理",
+      "一键生成 Office 办公文档",
+      "基于 MCP 扩展 Agent 工具能力",
+      "桌面端多任务知识工作管理"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "AI Agent",
+      "生产力工具",
+      "MCP",
+      "WorkSpace",
+      "办公自动化",
+      "任务管理"
+    ],
+    "sourceHash": "d1d5a85a88e75e427d833a62811d8f07a48195b1a5ad2497f50468499aec1540",
+    "translatedAt": "2026-10-21T16:45:33.256Z"
+  },
+  "Hypostasis-Cat/HypoMux": {
+    "positioning": "Windows 多网卡聚合工具，多网络并发加速下载",
+    "summary": "HypoMux 是面向 Windows 10/11 的开源多网卡聚合与分流工具，可将下载任务分配到有线、Wi-Fi、手机热点等多张网卡同时传输。它支持按进程、域名、IP 选择聚合或直连的分流规则，兼容 Clash/sing-box 规则集，并提供 TUN 安全启动校验与网络配置快照恢复机制。项目采用 Go + Wails v3 + React 构建，界面遵循 Fluent UI 设计。",
+    "scenarios": [
+      "Steam 等游戏平台更新下载提速",
+      "浏览器与下载工具大文件加速",
+      "有线与 Wi-Fi 带宽同时利用",
+      "宽带与手机热点融合上网",
+      "按进程或域名自定义分流"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "效率工具",
+      "其他"
+    ],
+    "tags": [
+      "多网卡聚合",
+      "网络加速",
+      "流量分流",
+      "Windows",
+      "下载加速",
+      "Go"
+    ],
+    "sourceHash": "60c1c3790fad6f45471ac2688b0f4de0df4d47c40d5169d2bced0e61e2b0c672",
+    "translatedAt": "2026-10-21T16:45:35.674Z"
+  },
+  "AdventDevInc/kudu": {
+    "positioning": "开源免费的跨平台系统清理与安全扫描工具",
+    "summary": "Kudu 是一款支持 Windows、macOS 和 Linux 的免费开源系统清理与安全扫描工具，可清理系统、浏览器、应用和游戏缓存，并提供注册表与启动项管理、磁盘分析、恶意软件扫描、隐私保护和软件更新等功能。所有操作均在本地运行，无广告、无捆绑软件，支持 30 种语言，并通过 CLI 支持脚本化操作。",
+    "scenarios": [
+      "清理系统与浏览器缓存垃圾",
+      "分析磁盘释放存储空间",
+      "扫描检测恶意软件",
+      "管理开机启动项优化性能",
+      "清理痕迹保护个人隐私"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "安全隐私",
+      "效率工具"
+    ],
+    "tags": [
+      "系统清理",
+      "恶意软件扫描",
+      "隐私保护",
+      "磁盘分析",
+      "跨平台",
+      "开源替代CCleaner"
+    ],
+    "sourceHash": "9cca4fdf673956ccb9e7af23c8d64a67b994310ff60f6ec0a44b7d293fe7b90e",
+    "translatedAt": "2026-10-21T16:45:39.435Z"
+  },
+  "neopen/story-shot-agent": {
+    "positioning": "剧本转分镜智能体，生成 Sora/Veo 可用的连贯视频提示词",
+    "summary": "PenShot 是基于 LangGraph 与 LlamaIndex 的多智能体协作系统，可将电影、短剧、动漫、小说等任意格式剧本自动解析为镜头级片段，并生成适配 Sora、Veo、Runway、可灵等模型的 text-to-video 提示词。通过多级记忆、RAG 向量检索与快照机制保障角色、场景和剧情跨片段一致，并提供 Python SDK、REST API、MCP、Function Calling 等多种集成方式。",
+    "scenarios": [
+      "短剧微短剧批量生成分镜",
+      "AI 视频创作提示词自动生成",
+      "小说改编可视化的镜头拆解",
+      "动漫分镜脚本自动化制作",
+      "视频流水线中的提示词服务"
+    ],
+    "quickStart": "pip install penshot\ndocker pull neotems/penshot",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "AI视频生成",
+      "分镜智能体",
+      "提示词工程",
+      "剧本解析",
+      "多智能体协作"
+    ],
+    "sourceHash": "e7e81d349451c33b213bc9b01cbdf9ff455bee775de13308d3fc2b743fdba7f7",
+    "translatedAt": "2026-10-21T16:45:52.527Z"
+  },
+  "LIUFelix2004/God-minmax-H3": {
+    "positioning": "MiniMax H3 视频提示词库，分段生成长片成片",
+    "summary": "面向 MiniMax H3（海螺 3.0）的视频提示词库，也可作为 Agent Skill 安装到 Claude、Cursor 等客户端。收录 5 条经真实成片验证的提示词模板，附 API 速查、提示词语法和尾帧接力、ffmpeg 拼接脚本，解决单次 15 秒上限下 29 秒长片的分段、一致性与拼接问题。",
+    "scenarios": [
+      "生成超过 15 秒的 AI 长视频",
+      "学习 H3 提示词与分镜写法",
+      "为 Claude 等客户端装视频生成技能",
+      "跨分段保持人物与画风一致",
+      "参考片逆向拆解提示词模板"
+    ],
+    "quickStart": "git clone https://github.com/LIUFelix2004/God-minmax-H3.git ~/.claude/skills/minimax-h3-video\n./scripts/extract_last_frame.sh segA.mp4\n./scripts/extract_audio.sh segA.mp4\n./scripts/stitch.sh 29 final.mp4 segA.mp4 segB.mp4",
+    "categories": [
+      "人工智能",
+      "设计资源"
+    ],
+    "tags": [
+      "视频生成",
+      "提示词库",
+      "海螺H3",
+      "Agent Skill",
+      "分镜拼接",
+      "Shell脚本"
+    ],
+    "sourceHash": "4cf64f0de468c34ee587d64ebc12068be597161f6451e05c9bcabf4cdb02fde2",
+    "translatedAt": "2026-10-21T16:46:03.131Z"
+  },
+  "chen2he/orange-cloud": {
+    "positioning": "开源原生 Cloudflare 移动客户端，OAuth 免 Token 管理",
+    "summary": "Orange Cloud 是一款用 Swift/SwiftUI 打造的第三方 Cloudflare 管理应用，通过官方 OAuth 2.0 + PKCE 流程登录，无需复制粘贴 API Token。功能覆盖 DNS 记录增删改、Workers/Pages 创建部署与灵动岛实时日志、R2/D1/KV 存储管理、WAF 安全规则及流量分析图表，并深度集成桌面小组件、Siri、Apple Watch 表盘复杂功能等系统特性。支持 13 种语言，Android 版本正在开发中。",
+    "scenarios": [
+      "手机上快速增删改 DNS 记录",
+      "移动端实时查看 Workers 日志",
+      "一键清理缓存与切换代理状态",
+      "手表上查看域名请求量",
+      "多账号 Cloudflare 站点管理"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "移动开发",
+      "效率工具"
+    ],
+    "tags": [
+      "Cloudflare",
+      "iOS",
+      "SwiftUI",
+      "DNS管理",
+      "Apple Watch",
+      "开源客户端"
+    ],
+    "sourceHash": "f5249c4e175a303e8394665243f292f819aaf75eac0ba1d95eba38e25cef62c8",
+    "translatedAt": "2026-10-21T16:46:10.086Z"
+  },
+  "yizhi-chengzi/video-ai-talking": {
+    "positioning": "上传真人视频写文案，本机AI配音对口型一键出片",
+    "summary": "上传一段真人出镜视频并写好口播文案，工具调用火山引擎或阿里百炼配音，再由百炼 VideoRetalk 对齐口型，最后用 FFmpeg 合成竖屏 MP4，无需自己出镜念稿。支持 AI 生成文案、中途插切视频素材、字幕皮肤与 BGM。密钥只保存在浏览器，任务和成片都写在本机，无云端服务器。",
+    "scenarios": [
+      "自媒体口播视频批量制作",
+      "不出镜的短视频内容生产",
+      "营销带货竖屏视频生成",
+      "知识科普类口播内容创作",
+      "个人IP账号快速起号"
+    ],
+    "quickStart": "git clone https://github.com/yizhi-chengzi/video-ai-talking.git\ncd video-ai-talking\ncp .env.example .env\nnpm install\nnpm run dev",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "AI对口型",
+      "口播视频",
+      "视频生成",
+      "数字人",
+      "本地运行"
+    ],
+    "sourceHash": "7f9299b969ee799810193ce20ec625f8ab716a14dc0fcc1b00914ba74ccb9176",
+    "translatedAt": "2026-10-21T16:46:25.982Z"
+  },
+  "hooosberg/AgentLimb": {
+    "positioning": "让 AI 编程工具驱动真实 Chrome 的开源浏览器扩展",
+    "summary": "AgentLimb 是一款浏览器扩展，可让 Claude Code、Codex、Cursor 等各类 AI 终端精准操控你真实的 Chromium 浏览器，直接复用现有登录态和会话，无需无头浏览器。复制一段提示词粘贴给 AI 即可在 10 秒内完成自动配置，全程本地运行、不追踪数据。其「肌肉记忆」机制会将学习到的选择器与流程写入本地 JSON，重复任务可减少约 85% 的 token 消耗和等待时间。",
+    "scenarios": [
+      "让 AI 自动完成重复网页操作",
+      "复用真实登录态执行浏览器任务",
+      "降低 AI 浏览器任务的 token 成本",
+      "Claude Code 或 Cursor 操控页面",
+      "本地优先、注重隐私的自动化"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "浏览器自动化",
+      "Chrome扩展",
+      "AI代理",
+      "本地优先",
+      "Claude Code"
+    ],
+    "sourceHash": "3bd33332f41090007b04ae75baf96a95c22955e71eff58addd00809f9a9b9fd0",
+    "translatedAt": "2026-10-21T16:46:32.238Z"
+  },
+  "XxMinor/mykvm": {
+    "positioning": "开源软件 KVM，跨平台共享键鼠与剪贴板",
+    "summary": "MyKVM 是一款基于 Rust 和 Tauri 开发的开源软件 KVM，光标滑过屏幕边缘即可切换到另一台电脑，键盘跟随输入，剪贴板（含文本和图片）自动同步。它通过 QUIC 在局域网内通信，无需 KVM 硬件和线缆，支持 macOS 和 Windows，Linux 版本可下载但键鼠捕获功能尚未实现。",
+    "scenarios": [
+      "多台电脑共用一套键鼠",
+      "跨设备复制粘贴文本图片",
+      "替代物理 KVM 切换硬件",
+      "局域网内多机协作办公",
+      "Mac 与 Windows 混合开发"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "效率工具"
+    ],
+    "tags": [
+      "KVM",
+      "键鼠共享",
+      "剪贴板同步",
+      "跨平台",
+      "Rust",
+      "局域网"
+    ],
+    "sourceHash": "e5a5dd7a26171f014a95f4798769f37fe35e3cd6043017c5c4b29bfa2513873c",
+    "translatedAt": "2026-10-21T16:46:33.896Z"
+  },
+  "OpenBMB/MiniCPM-V": {
+    "positioning": "端侧多模态大模型，在本地设备看、听并交互",
+    "summary": "MiniCPM-V 与 MiniCPM-o 是可在手机等本地设备运行的开源多模态大模型系列，支持图像、视频与文档理解及语音交互。最新 35B-A3B MoE 版本借助前瞻专家调度等技术，在 iPhone 上仅用 3GB 内存即可实现 13+ tokens/s 解码，并覆盖 iOS、Android、HarmonyOS 及多家芯片平台。",
+    "scenarios": [
+      "手机端离线图像视频理解",
+      "文档识别与内容问答",
+      "端侧实时语音视觉交互",
+      "移动端多模态应用开发",
+      "隐私敏感的本地推理"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "移动开发"
+    ],
+    "tags": [
+      "多模态",
+      "大语言模型",
+      "端侧推理",
+      "图像理解",
+      "语音交互",
+      "MoE"
+    ],
+    "sourceHash": "caece4e77ca76c29d5c5b335af7790e95ecdad126de9a12f0624e46d66263489",
+    "translatedAt": "2026-10-21T16:46:40.683Z"
+  },
+  "daimon3332/address": {
+    "positioning": "基于真实开放数据的自托管地址测试生成器",
+    "summary": "Address 覆盖 27 个国家和地区，地址数据来自官方地址登记册、开放地图数据或经验证的地理编码结果，每条记录携带来源、精度与坐标，而非随机拼接的字符串。支持十种显示语言、IP 附近生成、地图预览、管理后台与 Bearer 认证的开放 API，单个 Docker Compose 文件即可完成部署与数据同步。",
+    "scenarios": [
+      "表单与结账流程测试",
+      "地址格式化校验",
+      "物流演示数据生成",
+      "批量合成测试资料",
+      "多语言地址本地化验证"
+    ],
+    "quickStart": "mkdir address && cd address\ncurl -fsSLo docker-compose.yml https://raw.githubusercontent.com/daimon3332/address/main/docker-compose.yml\ndocker compose up -d\ncurl -fsS http://127.0.0.1:8787/api/v1/ready",
+    "categories": [
+      "自托管服务",
+      "测试工具"
+    ],
+    "tags": [
+      "地址生成",
+      "测试数据",
+      "自托管",
+      "Mock数据",
+      "开放数据",
+      "API服务"
+    ],
+    "sourceHash": "cb5114b591d1f3493338c26b43378e990026849c77b1b726578bec6538246bd8",
+    "translatedAt": "2026-10-21T16:46:49.390Z"
+  },
+  "matthart1983/netwatch": {
+    "positioning": "终端里的实时网络诊断工具，零配置一键启动",
+    "summary": "NetWatch 是用 Rust 编写的终端网络诊断工具，单个二进制文件、无需任何配置即可运行。它提供实时流量捕获与 L7 协议解析，可按进程归属定位流量来源，并内置基于学习基线的诊断引擎，自动发现和标记网络异常。支持 macOS、Linux、Windows 和 FreeBSD 多平台。",
+    "scenarios": [
+      "实时监控网络吞吐与延迟",
+      "按进程定位流量来源",
+      "排查网络连接异常问题",
+      "检测网络基线异常波动",
+      "服务器端网络性能诊断"
+    ],
+    "quickStart": "brew install netwatch\ncargo binstall netwatch-tui\nsudo netwatch",
+    "categories": [
+      "CLI工具",
+      "DevOps运维"
+    ],
+    "tags": [
+      "网络诊断",
+      "流量监控",
+      "终端工具",
+      "TUI",
+      "Rust"
+    ],
+    "sourceHash": "d6905deeca8ea8a8d35b3ef1db36089770fe615fee61cff5c4764ebd1d2f423f",
+    "translatedAt": "2026-10-21T16:46:59.145Z"
+  },
+  "jub0t/Concat": {
+    "positioning": "免费开源的本地视频剪辑工具，CapCut 替代品",
+    "summary": "Concat 是一款跨平台的开源视频编辑器，支持 macOS、Windows、Linux 和 Android，提供自动字幕、文本转语音、背景移除、关键帧动画、多轨剪辑与 4K 导出等功能，且无水印、无需注册、无需订阅。它基于 Rust 引擎和 GPU 合成器完全在本地运行，并可通过 JSON-RPC API 与 MCP 进行脚本化控制，适合自动化视频生产流程。",
+    "scenarios": [
+      "短视频与字幕快速剪辑",
+      "YouTube 视频自动化制作",
+      "无水印导出高清视频",
+      "离线本地剪辑保护素材隐私",
+      "API 脚本化批量剪辑"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "其他",
+      "效率工具"
+    ],
+    "tags": [
+      "视频编辑",
+      "开源软件",
+      "自动字幕",
+      "语音合成",
+      "Rust",
+      "本地优先"
+    ],
+    "sourceHash": "8ca15fd2300cac32442af8684d982ba6180a8c2b9ed448945896db6886412712",
+    "translatedAt": "2026-10-21T16:46:59.281Z"
+  },
+  "Giammarco-Ferranti/deja": {
+    "positioning": "zsh 智能命令预测补全工具，历史学习即输即荐",
+    "summary": "deja 是 zsh-autosuggestions 的智能替代品，能学习你的命令序列习惯（如 make build 后接 make test），结合模糊匹配、目录感知和频率时效排序给出内联幽灵文本建议。命令历史存储在本地 SQLite 数据库，通过共享后台进程服务所有终端窗口，不向服务器发送任何数据。",
+    "scenarios": [
+      "高频重复命令快速补全",
+      "替代 zsh-autosuggestions",
+      "模糊输入找到完整命令",
+      "项目目录内快速唤起常用命令",
+      "多终端窗口共享预测服务"
+    ],
+    "quickStart": "brew install deja\ncurl -fsSL https://raw.githubusercontent.com/Giammarco-Ferranti/deja/main/install.sh | sh",
+    "categories": [
+      "CLI工具",
+      "效率工具"
+    ],
+    "tags": [
+      "zsh",
+      "命令补全",
+      "自动建议",
+      "命令行工具",
+      "开发效率"
+    ],
+    "sourceHash": "64b89102084c8428f111f119d269b189c40e1120015ce4cbece6dd0af423b016",
+    "translatedAt": "2026-10-21T16:47:11.319Z"
+  },
+  "tt-a1i/archify": {
+    "positioning": "AI 代理技能，把想法、计划或代码库变成交互式图表",
+    "summary": "Archify 是一个开源的 AI 代理技能，支持 Claude Code、Codex、Cursor、OpenCode 等主流编程助手。向 AI 描述一个想法、问题或计划，它就会生成可探索、可定制、可分享的交互式 HTML 图表，涵盖架构图、流程图、时序图等形式。项目采用 MIT 协议，在 skills.sh 上已获 13 万+ 安装，从旅行行程、学习地图到复杂系统设计均可胜任。",
+    "scenarios": [
+      "梳理代码库架构设计",
+      "绘制流程图与时序图",
+      "规划旅行行程与学习路线",
+      "系统设计与方案分享",
+      "生成可交互架构文档"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "数据可视化",
+      "人工智能"
+    ],
+    "tags": [
+      "Claude Code",
+      "AI代理技能",
+      "交互式图表",
+      "架构图",
+      "Mermaid",
+      "可视化"
+    ],
+    "sourceHash": "6730f2561f4d5acc07bde81032eacdf25e205202b6fcc1721feb3855f5360276",
+    "translatedAt": "2026-10-21T16:47:24.519Z"
+  },
+  "gauthierpiarrette/highball": {
+    "positioning": "在 Apple Silicon Mac 上运行 Windows 游戏的开源工具",
+    "summary": "Highball 是原生 macOS 应用（含 CLI），自动配置 Wine、DXMT、D3DMetal 和 DXVK，支持安装 Steam 或接入 Epic 游戏库，并按游戏推荐最佳渲染器。其核心亮点是基于 CC0 协议的开放兼容性数据库，下载前即可查询游戏能否运行、实际帧率与反作弊拦截情况，每条结论都标注来源。",
+    "scenarios": [
+      "在 Mac 上玩 Windows 游戏",
+      "下载前查询游戏兼容性",
+      "接入 Steam 与 Epic 游戏库",
+      "按游戏切换最佳图形渲染器",
+      "运行单个 Windows 应用程序"
+    ],
+    "quickStart": "brew install --cask highball",
+    "categories": [
+      "游戏娱乐"
+    ],
+    "tags": [
+      "Apple Silicon",
+      "Windows游戏",
+      "Wine",
+      "macOS",
+      "兼容性数据库",
+      "开源"
+    ],
+    "sourceHash": "6c60bf74206547dc070fb114ec2dea42439faf641a0e80cbd903347f071a90b1",
+    "translatedAt": "2026-10-21T16:47:27.329Z"
+  },
+  "Shrey113/Android-Dex": {
+    "positioning": "通用 Samsung DeX 替代方案，让安卓应用在电脑上窗口化运行",
+    "summary": "Android DEX 是一款面向 Windows、Linux 和 macOS 的免费桌面应用，可将任意安卓设备的应用以可调大小的桌面窗口运行。它基于高性能 ADB 与配套服务，支持 USB 或 Wi-Fi 连接下的屏幕镜像、按应用音频串流、通知管理、媒体控制，以及原生键鼠输入的游戏操控。由于游戏直接运行在真实手机硬件上，触控事件通过底层协议传递，可规避模拟器检测，无封号风险。注意：该项目虽托管在 GitHub，但为闭源软件。",
+    "scenarios": [
+      "在电脑大屏上多窗口运行安卓应用",
+      "键鼠玩手游，免模拟器检测封号",
+      "无线投屏手机画面与应用到桌面",
+      "桌面端统一管理手机通知与媒体",
+      "手机游戏宏与连招自动化操作"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "效率工具",
+      "游戏娱乐"
+    ],
+    "tags": [
+      "安卓投屏",
+      "桌面化",
+      "键鼠映射",
+      "游戏操控",
+      "无线调试",
+      "ADB"
+    ],
+    "sourceHash": "106511a23fed46de6c2cc0ac5a10aea97be69cd1252ab7caf1c6374ddb73c639",
+    "translatedAt": "2026-10-21T16:47:38.975Z"
+  },
+  "34306/vphone-aio": {
+    "positioning": "一个脚本在 Mac 上运行已越狱的 iOS 虚拟手机",
+    "summary": "vphone-aio 提供一个 Shell 脚本，用于在 Mac 上一键部署 iOS 26.1 虚拟手机，镜像已预置越狱环境和完整 bootstrap。脚本会自动下载缺失的分卷文件并合并约 12GB 的镜像，解压完成后通过 VNC 即可连接使用。",
+    "scenarios": [
+      "在 Mac 上体验 iOS 系统",
+      "越狱环境研究学习",
+      "iOS 应用兼容性测试",
+      "移动安全逆向分析"
+    ],
+    "quickStart": "brew install git-lfs wget zstd libimobiledevice\n./vphone-aio.sh",
+    "categories": [
+      "移动开发",
+      "CLI工具"
+    ],
+    "tags": [
+      "iOS虚拟机",
+      "越狱",
+      "Shell脚本",
+      "VNC",
+      "Mac工具"
+    ],
+    "sourceHash": "7a9b420d1e9d9561f4b3212e0df1c39fd591911066eba61fc0d6a03f447ef45e",
+    "translatedAt": "2026-10-21T16:47:57.460Z"
+  },
+  "BYTEDz/PCLink": {
+    "positioning": "安全远程控制电脑的跨平台服务器，自带 WebUI 和 API",
+    "summary": "PCLink 是一个基于 FastAPI 的远程 PC 管理服务器，提供浏览器端 Web UI 和移动 App 配对连接。支持超低延迟屏幕串流、键鼠与媒体控制、远程文件浏览、进程管理及 WebSocket 终端访问，并可通过插件系统扩展功能。强制 HTTPS 与设备手动审批机制保障连接安全。",
+    "scenarios": [
+      "手机远程控制电脑",
+      "远程查看屏幕实时画面",
+      "远程管理文件与进程",
+      "通过终端远程运维",
+      "多设备安全接入个人电脑"
+    ],
+    "quickStart": "bash <(curl -fsSL https://raw.githubusercontent.com/BYTEDz/PCLink/main/install.sh)\nyay -S pclink\npclink",
+    "categories": [
+      "自托管服务",
+      "安全隐私"
+    ],
+    "tags": [
+      "远程控制",
+      "屏幕串流",
+      "FastAPI",
+      "WebUI",
+      "文件管理",
+      "安全连接"
+    ],
+    "sourceHash": "3952711dd0a2107a4de51ce99141390cdc39e91be8d92722f6d985d359855f81",
+    "translatedAt": "2026-10-21T16:47:57.992Z"
+  },
+  "XiakeMan777/xiakeman-ai-short-drama": {
+    "positioning": "源码公开的AI短剧创作工作台，从剧本到成片全流程",
+    "summary": "虾客漫是一套在本地运行的 AI 视频创作工作台，可从小说、剧本或故事梗概出发，完成角色场景整理、分镜设计、图片素材生成、视频片段批量生成与成片合成导出。深度适配 Seedance 2.0 提示词与火山方舟视频生成工作流，模型服务由用户自行填写 API，项目和密钥保存在本地浏览器。注意项目采用 PolyForm 非商业许可证，商业使用需另行授权。",
+    "scenarios": [
+      "小说改编成AI短剧",
+      "剧本分析与分集设计",
+      "生成分镜与图片素材",
+      "批量生成视频片段",
+      "合成导出短剧成片"
+    ],
+    "quickStart": "git clone https://github.com/XiakeMan777/xiakeman-ai-short-drama.git\ncd xiakeman-ai-short-drama\nnpm ci\nnpm ci --prefix bff\nCopy-Item .env.example .env\nnpm run dev:bff\nnpm run dev",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "AI短剧",
+      "视频生成",
+      "分镜",
+      "Seedance",
+      "小说改编",
+      "剧本创作"
+    ],
+    "sourceHash": "a8968f1365299a80a35875fec0529bdfb87e0e0df4785b218615c5faa1fae8ce",
+    "translatedAt": "2026-10-21T16:48:02.498Z"
+  },
+  "Talljack/echo-type": {
+    "positioning": "融合听说读写与打字的沉浸式英语学习应用",
+    "summary": "EchoType 是一个开源英语学习平台，将听力、口语、阅读、写作整合到同一工作流，可对同一份材料进行跟听、朗读和打字的影子跟读练习。支持导入文章、YouTube 视频或网页作为素材，内置 CEFR 分级测试、AI 导师、音素级发音评分和基于 FSRS 的间隔重复记忆。数据本地存储，可在浏览器或桌面端使用。",
+    "scenarios": [
+      "沉浸式听说读写综合练习",
+      "单词句子的间隔重复记忆",
+      "英语水平 CEFR 分级自测",
+      "跟读练习改善英语发音",
+      "打字练习提升输入速度"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "学习资源",
+      "人工智能"
+    ],
+    "tags": [
+      "英语学习",
+      "听力训练",
+      "口语练习",
+      "打字练习",
+      "AI导师",
+      "间隔重复"
+    ],
+    "sourceHash": "a05b366dfed5b6c1c07aa5e2c9ccc8b89b36a82f5f105172bc001f9d420b68bd",
+    "translatedAt": "2026-10-21T16:48:22.019Z"
+  },
+  "didriksg/Crisp": {
+    "positioning": "免费开源的 macOS 菜单栏显示器控制工具",
+    "summary": "Crisp 是一款原生 macOS 菜单栏应用，补齐系统缺失的外接显示器控制能力：为任意显示器提供清晰的 HiDPI 缩放，通过 DDC 控制真实亮度和音量，还支持突破 100% 的额外亮度、分辨率预设和虚拟显示器。所有功能完全免费，无 Pro 版和许可证，可作为 BetterDisplay 和 Lunar 的开源替代品。",
+    "scenarios": [
+      "外接显示器文字模糊发虚",
+      "控制显示器真实亮度音量",
+      "HDR 屏幕突破百分之百亮度",
+      "一键切换显示方案预设",
+      "扩展坞下关闭内置屏幕"
+    ],
+    "quickStart": "brew install --cask crisp",
+    "categories": [
+      "效率工具"
+    ],
+    "tags": [
+      "macOS",
+      "菜单栏",
+      "显示器控制",
+      "HiDPI",
+      "DDC",
+      "亮度调节"
+    ],
+    "sourceHash": "ffc5732b356c1c106ebff738b08b8a7bb7ab486b0edb4b13eb31ff80cb8f1e2b",
+    "translatedAt": "2026-10-21T16:48:23.174Z"
+  },
+  "pmh1314520/MCTier": {
+    "positioning": "虚拟局域网联机工具，跨网络与好友畅玩局域网游戏",
+    "summary": "MCTier 是一款基于 EasyTier 与 WebRTC 的虚拟局域网组网工具，支持 Windows 10/11 与 Android，可将不同网络环境下的设备组进同一个大厅。它兼容所有局域网游戏（如 Minecraft、泰拉瑞亚、饥荒），还内置聊天室、语音、文件夹共享和屏幕共享，电脑与手机可通过扫码或邀请链接快速加入同一虚拟局域网。",
+    "scenarios": [
+      "Minecraft 等局域网游戏联机",
+      "跨网络访问本地开发调试服务",
+      "小团队临时语音与屏幕共享",
+      "手机扫码与电脑快速组网互联",
+      "好友间临时共享文件夹与聊天"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "游戏娱乐",
+      "效率工具"
+    ],
+    "tags": [
+      "虚拟局域网",
+      "游戏联机",
+      "EasyTier",
+      "WebRTC",
+      "Minecraft",
+      "Android"
+    ],
+    "sourceHash": "aabd6841e5e36c376f062166f2dda03ea3487c72a79bcf79a287789d0fa67282",
+    "translatedAt": "2026-10-21T16:48:29.586Z"
+  },
+  "gobackup/gobackup": {
+    "positioning": "定时备份数据库与文件到云存储的 CLI 工具",
+    "summary": "GoBackup 是为中小型应用服务器设计的备份工具，支持 MySQL、PostgreSQL、Redis、MongoDB 等多种数据库及文件归档，可加密压缩后上传至 S3、阿里云 OSS 等多种云存储。内置计划任务，一次部署即可长期自动运行，还提供 Web UI 管理和备份成功/失败的通知功能。",
+    "scenarios": [
+      "服务器定时备份数据库",
+      "网站文件全量备份上云",
+      "备份异地容灾存储",
+      "应用服务器无人值守备份",
+      "备份结果通知运维人员"
+    ],
+    "quickStart": "curl -sSL https://gobackup.github.io/install | sh\nbrew install gobackup",
+    "categories": [
+      "DevOps运维",
+      "CLI工具"
+    ],
+    "tags": [
+      "数据备份",
+      "数据库",
+      "云存储",
+      "计划任务",
+      "命令行工具"
+    ],
+    "sourceHash": "027780bc37004b9c8991476a0fc18d3fca695cd21d02ac7e81aa06e1346721ee",
+    "translatedAt": "2026-10-21T16:48:37.305Z"
+  },
+  "JimmySadek/video-fetcher-to-markdown": {
+    "positioning": "视频链接一键转 Obsidian 结构化 Markdown 笔记的 AI 技能",
+    "summary": "将 YouTube、Instagram、TikTok、X 等视频链接转换为结构化 Markdown 归档笔记：YouTube 直接读取字幕，其他平台在本机用 Whisper 转写，全程无需 API 密钥。笔记包含完整字幕、创作者元数据、描述、章节与可点击时间戳，短视频还会生成帧图集。YAML frontmatter 可配合 Dataview 查询，文件也可迁移至 Logseq 等知识库。",
+    "scenarios": [
+      "构建个人视频知识库",
+      "AI 代理归档视频内容",
+      "无字幕视频本地转写",
+      "提取短视频画面要点",
+      "教程视频笔记与摘录"
+    ],
+    "quickStart": "npx skills add JimmySadek/video-fetcher-to-markdown",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "视频转写",
+      "Obsidian",
+      "Whisper",
+      "AI技能",
+      "知识库"
+    ],
+    "sourceHash": "9c10454d5420ad71067c86786605c2ccaf9f5af197620c82ca4e7b7ad408ff8f",
+    "translatedAt": "2026-10-21T16:48:49.827Z"
+  },
+  "3441293738/creatorhub": {
+    "positioning": "本地运行的多平台内容面板，统一监控采集发布抖音/小红书/快手",
+    "summary": "CreatorHub 是基于 Python + FastAPI 的本地 Web 管理面板，支持抖音、小红书、快手、视频号的账号登录、关键词采集、作品与评论监控、内容下载、多平台发布及自动评论。每个账号使用独立浏览器 Profile，登录态、数据库和媒体文件均保存在本地，并支持 Bark/钉钉/Telegram 通知推送。",
+    "scenarios": [
+      "矩阵账号统一运营管理",
+      "关键词内容批量采集",
+      "竞品作品与评论监控",
+      "多平台内容一键分发",
+      "作品下载与素材存档"
+    ],
+    "quickStart": "git clone https://github.com/3441293738/creatorhub.git\ncd creatorhub\n./start.sh",
+    "categories": [
+      "自托管服务",
+      "效率工具"
+    ],
+    "tags": [
+      "爬虫",
+      "自动化",
+      "多平台管理",
+      "FastAPI",
+      "Playwright",
+      "自托管"
+    ],
+    "sourceHash": "b4da6d59ca0249f9df76145dcc8754f2ca4c50e4b23613342b344169e560057c",
+    "translatedAt": "2026-10-21T16:48:54.113Z"
+  },
+  "iAmCorey/Wake": {
+    "positioning": "聚合管理所有 AI 编程代理会话的原生桌面应用",
+    "summary": "Wake 是一款用 Rust + GPUI 构建的桌面应用，将本机 Claude Code、Codex、Cursor、Gemini CLI 等多种 AI 代理的会话记录聚合到一处，纯本地只读，不改动原始数据。支持全文搜索（含中文和代码）、完整对话回放、一键在终端或桌面端恢复会话，还可导出 Markdown、清理占用磁盘的记录、查看活动热力图。通过插件让新会话自动了解历史上下文，并提供 wake-mcp 和 wake-cli 供代理检索历史。",
+    "scenarios": [
+      "集中管理多个 AI 代理会话",
+      "跨项目全文搜索历史对话",
+      "一键恢复中断的编码会话",
+      "清理占满磁盘的会话记录",
+      "通过 MCP 让代理检索历史"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "AI代理",
+      "会话管理",
+      "Rust",
+      "桌面应用",
+      "全文搜索",
+      "Claude Code"
+    ],
+    "sourceHash": "3927505c03444f4e8a8f288c97eb6e183aac71d04673b4b2a5b476a0d95f6f87",
+    "translatedAt": "2026-10-21T16:49:01.608Z"
+  },
+  "harry0703/AudioNotes": {
+    "positioning": "本地运行的音视频转文字与智能笔记工具",
+    "summary": "AudioNotes 支持上传音频或视频（也可浏览器录音），自动生成文字稿并整理成结构化 Markdown 笔记，还能就内容继续提问。基于 FunASR 和 Ollama 全程本地运行，音视频、笔记与对话数据均保存在本机，不依赖云端 AI 服务，兼顾中文识别质量与普通电脑的资源占用。",
+    "scenarios": [
+      "整理会议录音为会议纪要",
+      "课程视频转学习笔记",
+      "访谈录音整理成文字稿",
+      "语音备忘录归档整理",
+      "隐私敏感内容的本地转写"
+    ],
+    "quickStart": "ollama pull qwen3.5:2b\nmkdir audionotes\ncd audionotes\ncurl -fsSL https://github.com/harry0703/AudioNotes/raw/main/docker-compose.yml -o docker-compose.yml\ncurl -fsSL https://github.com/harry0703/AudioNotes/raw/main/.env.example -o .env\ndocker compose up -d --remove-orphans",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "语音识别",
+      "音视频转写",
+      "智能笔记",
+      "本地部署",
+      "隐私保护",
+      "Ollama"
+    ],
+    "sourceHash": "d071bcdadfca0876840ef73aa5eb1c10b5883a3b759aa8affff1729ab28ed426",
+    "translatedAt": "2026-10-21T16:49:13.219Z"
+  },
+  "fxy2311-youyou/expression-trainer": {
+    "positioning": "离线口语表达训练器，实时字幕检测口头禅并给AI反馈",
+    "summary": "一款 Electron 桌面应用，基于 Sherpa-ONNX 实现完全离线的实时语音识别，把你说的话以全屏字幕呈现，并自动标注填充词、犹豫词和笼统词，给出精准替代建议。词库分析基于大连理工情感词库结构，可选接入 DeepSeek、OpenAI、Groq、Ollama 等后端，生成逻辑、直接性、填充词等六维度的表达分析报告。",
+    "scenarios": [
+      "演讲、汇报前的口语表达练习",
+      "主播减少嗯啊那个等口头禅",
+      "面试表达自我演练",
+      "教师培训师打磨授课语言",
+      "隐私敏感用户的本地语音训练"
+    ],
+    "quickStart": "cd expression-trainer\nnpm install\ncd models\nwget https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-streaming-paraformer-bilingual-zh-en.tar.bz2\ntar xvf sherpa-onnx-streaming-paraformer-bilingual-zh-en.tar.bz2\nnpm start",
+    "categories": [
+      "效率工具",
+      "人工智能"
+    ],
+    "tags": [
+      "语音识别",
+      "表达训练",
+      "离线运行",
+      "Electron",
+      "AI反馈",
+      "情感词库"
+    ],
+    "sourceHash": "ed50855f92c6274de90d0530bce3a1b96743d103c50c5d4bc4ff3a8833ed0c46",
+    "translatedAt": "2026-10-21T16:49:25.155Z"
+  },
+  "geeklee/srt-whiteboard-animation": {
+    "positioning": "把 SRT 字幕转成白板手绘动画视频的工具",
+    "summary": "解析 SRT 字幕并按叙事顺序拆分场景，通过分区遮罩编排与流式笔迹（先铺线稿再添彩）渲染暖米黄纸张底的手绘动画。工作流采用字幕驱动、逐步确认的方式，配合浏览器预览台调整区域、时序与字幕关联，最终逐幕渲染并合并输出 MP4。",
+    "scenarios": [
+      "知识讲解视频制作",
+      "故事口播配动画",
+      "课程字幕可视化",
+      "短视频文案动画",
+      "教学内容手绘呈现"
+    ],
+    "quickStart": "python scripts/prepare_env.py --check\npython scripts/prepare_env.py\npython scripts/parse_srt.py <字幕.srt> --target-sec 30 --min-sec 25 --max-sec 35",
+    "categories": [
+      "效率工具",
+      "设计资源"
+    ],
+    "tags": [
+      "白板动画",
+      "SRT字幕",
+      "手绘视频",
+      "Python",
+      "OpenCV",
+      "AI技能"
+    ],
+    "sourceHash": "bab7aac996619d9cc0758c2f79e35171065072c04a34a6e3d774d51d2c1643b8",
+    "translatedAt": "2026-10-21T16:49:25.207Z"
+  },
+  "Blue-B/WhisperSubTranslate": {
+    "positioning": "本地离线的视频字幕提取与翻译桌面工具",
+    "summary": "基于 whisper.cpp 从视频语音生成 SRT 字幕，全程在本机完成，视频不上传云端、无需注册账号。支持下载 Hy-MT2 模型离线翻译，也可选用 DeepL、OpenAI、Gemini 等在线引擎。模型自动下载，无需 Python 环境，内置任务队列与进度管理。",
+    "scenarios": [
+      "为无字幕视频快速生成 SRT",
+      "制作多语言或双语字幕",
+      "处理隐私敏感视频素材",
+      "离线环境完成字幕翻译",
+      "外语视频本地化字幕制作"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "语音识别",
+      "字幕生成",
+      "离线翻译",
+      "本地隐私",
+      "桌面应用",
+      "Whisper"
+    ],
+    "sourceHash": "fb3fc07d23ac011555217a342312006e232d1f2559a9273b88af1862c9ad3c3e",
+    "translatedAt": "2026-10-21T16:49:30.765Z"
+  },
+  "sysadminsmedia/homebox": {
+    "positioning": "面向家庭用户的自托管物品清单与整理管理系统",
+    "summary": "HomeBox 是为家庭用户打造的物品清单与整理系统，支持按分类、位置、标签组织物品，可上传图片并追踪文档、保修、购买与维护记录。项目采用 Go 编写，使用 SQLite 和内嵌 Web UI，部署轻量（容器空闲内存通常低于 50MB），并提供强大的搜索和响应式界面。",
+    "scenarios": [
+      "家庭物品清单整理",
+      "家电保修与文档管理",
+      "物品购买与维护记录",
+      "藏书收藏品编目管理",
+      "家庭资产盘点统计"
+    ],
+    "quickStart": "openssl rand -base64 48 > hbox.pepper\nchmod 400 hbox.pepper\nmkdir -p /path/to/data/folder\ndocker run -d \\\n  --name homebox \\\n  --restart unless-stopped \\\n  --publish 3100:7745 \\\n  --env TZ=Europe/Bucharest \\\n  --env HBOX_AUTH_API_KEY_PEPPER=$(cat hbox.pepper) \\\n  --volume /path/to/data/folder/:/data \\\n  ghcr.io/sysadminsmedia/homebox:latest",
+    "categories": [
+      "自托管服务",
+      "效率工具"
+    ],
+    "tags": [
+      "自托管",
+      "物品清单",
+      "家庭管理",
+      "Go",
+      "SQLite"
+    ],
+    "sourceHash": "97804f64114250cc8054d1206ae5c37965f6e26e7cc3f81fd5e69fe73567fb88",
+    "translatedAt": "2026-10-21T16:49:46.194Z"
+  },
+  "DietrichGebert/ponytail": {
+    "positioning": "让 AI 编程助手像'懒惰的资深开发者'一样少写代码",
+    "summary": "Ponytail 是一个 AI 代理技能/规则集，可将'最懒资深工程师'的克制编码哲学注入 Claude Code、Cursor 等 20 多种 AI 编程代理。它基于 YAGNI 原则抑制过度设计与冗余代码，官方基准显示代码量减少 53%、token 消耗降低 45%，同时 98% 的风险逻辑仍附带测试。",
+    "scenarios": [
+      "为 Claude Code、Cursor 配置编码规范",
+      "抑制 AI 过度设计生成冗余代码",
+      "降低 AI 编程的 token 与调用成本",
+      "团队统一 AI 辅助开发的代码风格",
+      "让高风险逻辑自动配套测试"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "AI代理",
+      "提示工程",
+      "YAGNI",
+      "Claude Code",
+      "Cursor",
+      "开发者工具"
+    ],
+    "sourceHash": "0658d5819fc1bc1d795fc1e86658b608812892368a1cb0f767a84db6ca851b7f",
+    "translatedAt": "2026-10-21T16:49:46.320Z"
+  },
+  "Jaksay/Linux-Router": {
+    "positioning": "把 Debian/Armbian 设备变成带 Web 控制台的软路由",
+    "summary": "Linux Router 可将 Debian 或 Armbian 设备一键改造成路由器，提供 Web 控制台管理系统状态、有线网络、Wi-Fi、热点共享和连接设备。项目基于 Flask、NetworkManager 和 systemd 构建，Web 服务无需高权限运行，由独立的 root Agent 通过 Unix socket 执行白名单内的网络操作。支持 AP+STA 并发模式、热点保活自动恢复及 Tailscale 登录辅助。",
+    "scenarios": [
+      "树莓派/开发板软路由改造",
+      "便携式 Wi-Fi 热点共享",
+      "家庭局域网设备可视化管理",
+      "远程维护小型网络设备",
+      "Wi-Fi 中继与 AP+STA 并发"
+    ],
+    "quickStart": "curl -fsSL https://raw.githubusercontent.com/Jaksay/Linux-Router/main/install.sh -o /tmp/linux-router-install.sh\nsudo bash /tmp/linux-router-install.sh install",
+    "categories": [
+      "自托管服务"
+    ],
+    "tags": [
+      "软路由",
+      "热点共享",
+      "Web控制台",
+      "NetworkManager",
+      "Debian",
+      "Armbian"
+    ],
+    "sourceHash": "b2db42f63599d4a750b74f4b33bec8ed14a8c262ec4ec032e6d8e50f31da6d33",
+    "translatedAt": "2026-10-21T16:49:50.862Z"
+  },
+  "calesthio/Crucix": {
+    "positioning": "个人情报终端：聚合27个开源数据源，本地运行并推送变更告警",
+    "summary": "Crucix 从卫星火点、航班追踪、辐射监测、经济指标、市场价格、冲突数据、制裁名单等 27 个开源情报源并行拉取数据，每 15 分钟更新一次，全部呈现在一个本地运行的仪表盘上。接入 LLM 后可成为双向情报助手，向 Telegram 和 Discord 推送多级告警，并支持 /brief、/sweep 等远程命令。无云端、无遥测、无订阅，仅依赖 Node.js 和 Express 即可运行。",
+    "scenarios": [
+      "全球事件实时监控",
+      "OSINT 开源情报分析",
+      "新闻与舆情追踪",
+      "市场信号与交易参考",
+      "远程接收情报简报"
+    ],
+    "quickStart": "git clone https://github.com/calesthio/Crucix.git\ncd Crucix\nnpm install",
+    "categories": [
+      "人工智能",
+      "自托管服务"
+    ],
+    "tags": [
+      "开源情报",
+      "实时监控",
+      "仪表盘",
+      "LLM助手",
+      "自托管",
+      "告警推送"
+    ],
+    "sourceHash": "f1bdd8fd20c2a329e13ca8df9dff31354dba600d9893b734c77465ab8d954131",
+    "translatedAt": "2026-10-21T16:50:09.705Z"
+  },
+  "YTwsy/OpenSurge-for-Mac": {
+    "positioning": "把 Mac 变成 Surge 风格全屋透明代理网关，支持按设备分流",
+    "summary": "OpenSurge for Mac 是开源的 Surge 风格 macOS 网关与控制面，基于 mihomo TUN 与 dnsmasq 提供透明代理和 DHCP/DNS 服务，支持 IPv4/IPv6。它提供旁路由、局域网 DHCP 接管、独立下游 LAN 三种接入模式，可为手机、电视、游戏机等设备分别配置出口策略，并配有 Web GUI 与菜单栏 App。",
+    "scenarios": [
+      "手机电脑按规则分流上网",
+      "游戏机连接特定地区节点",
+      "电视盒子走流媒体线路",
+      "局域网设备自动接入代理",
+      "旁路由模式零侵入体验"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "自托管服务",
+      "安全隐私"
+    ],
+    "tags": [
+      "macOS",
+      "透明代理",
+      "旁路由",
+      "全屋网关",
+      "DHCP",
+      "按设备分流"
+    ],
+    "sourceHash": "b32fb51e9f6061f8f5a725a5a6e819d254fdf1c9f4ac1d730267f401c0bc714d",
+    "translatedAt": "2026-10-21T16:50:13.875Z"
+  },
+  "90le/worker-rights-cn": {
+    "positioning": "中国大陆劳动者维权AI助手：整理证据、估算赔偿、起草文书",
+    "summary": "开源 AI 助手，帮助中国大陆劳动者梳理用工事实时间线、留存证据、估算经济补偿，并生成协商谈判与仲裁文书草稿，计算结果附带法规来源标注。内置确定性薪酬计算器，可从 UTF-8 CSV 工资与考勤数据推算平均工资、加班费及 N/N+1/2N 估算路径，原始文件不被保存。项目强调隐私安全，默认不保存、不上传案件材料，并明确声明不替代律师与官方程序。",
+    "scenarios": [
+      "劳动争议前的证据与事实梳理",
+      "估算经济补偿金与加班费金额",
+      "起草协商谈判与仲裁文书草稿",
+      "审查劳动合同或离职协议风险",
+      "本地工资考勤数据离线核算"
+    ],
+    "quickStart": "codex plugin marketplace add 90le/worker-rights-cn --ref main\ncodex plugin add worker-rights-cn@worker-rights-cn",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "劳动法",
+      "维权助手",
+      "赔偿计算",
+      "Codex插件",
+      "隐私保护",
+      "MCP"
+    ],
+    "sourceHash": "f2e68543304e5983134e2ebad0a76a76553b79cda014898dced57d0de7893aeb",
+    "translatedAt": "2026-10-21T16:50:23.315Z"
+  },
+  "Kami958/WhoShitsonMyC": {
+    "positioning": "C盘快照对比工具，揪出偷偷吃掉磁盘空间的元凶",
+    "summary": "WhoShitsOnMyC 是一款 Windows 平台的磁盘空间变化对比工具。在空间正常时扫描生成快照，空间异常减少后再扫一次，通过对比两份快照直观显示哪些目录在增长、哪些是新出现的。单文件即开即用，无需安装、无常驻服务，支持 MFT 加速扫描和中英文、明暗主题切换。",
+    "scenarios": [
+      "排查C盘清完又莫名减少",
+      "找出垃圾文件的真实来源",
+      "监控软件安装后的空间占用",
+      "手动管理磁盘空间的日常维护"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "效率工具"
+    ],
+    "tags": [
+      "磁盘空间",
+      "快照对比",
+      "Windows",
+      "垃圾清理",
+      "系统工具",
+      "轻量单文件"
+    ],
+    "sourceHash": "ebff9a8df675eea99286734b10bbc90a96d2ec3affd4d4904746baca630571f9",
+    "translatedAt": "2026-10-21T16:50:33.744Z"
+  },
+  "justlovemaki/LumaRescue": {
+    "positioning": "面向 Codex/豆包桌面版的 AI 废片修复美化技能",
+    "summary": "一套为 Codex/豆包桌面版打造的照片增强技能，自动判断人像、风景、建筑、老照片等类型，依次完成曝光、色彩、光影、构图、修复与审美提升。它严格保留人物身份、文字、文物事实等硬锚点，只放开光线、氛围、背景等软锚点，避免修图失真。每次默认交付程序化与 AI 版的自然、美化四个成片，并附可复用的生成提示词。",
+    "scenarios": [
+      "拯救曝光差、噪点重的废片",
+      "美化人像并保留五官身份",
+      "增强风景旅行照氛围感",
+      "修复老照片划痕与褪色",
+      "优化产品、展品、文档照片"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "照片修复",
+      "AI技能",
+      "图像增强",
+      "老照片修复",
+      "摄影后期"
+    ],
+    "sourceHash": "b2f5198e0327d94d72f4953a0f25f2785fb569a71c549d206447b9ed9aba5372",
+    "translatedAt": "2026-10-21T16:50:39.855Z"
+  },
+  "stardustai/dataset-viewer": {
+    "positioning": "支持多协议流式加载的桌面数据集查看器，秒开超大文件",
+    "summary": "基于 Tauri、React 和 TypeScript 构建的高性能数据集查看器，可秒级打开 100GB+ 大文件，支持毫秒级搜索与高亮。支持 WebDAV、S3、SSH、SMB、HuggingFace 等多种数据源，可直接预览 Parquet、Excel、CSV、JSON 等格式，并能不解压直接浏览 ZIP/TAR 压缩包。该项目完全由 AI Agent 编写。",
+    "scenarios": [
+      "在线预览 HuggingFace 数据集文件",
+      "查看 S3 或 WebDAV 上的超大日志",
+      "不解压直接浏览 ZIP/TAR 压缩包",
+      "检查 Parquet、CSV 训练数据内容",
+      "通过 SSH/SFTP 查看服务器文件"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "效率工具",
+      "数据可视化"
+    ],
+    "tags": [
+      "数据集查看器",
+      "大文件流式加载",
+      "HuggingFace",
+      "S3",
+      "桌面应用",
+      "文件预览"
+    ],
+    "sourceHash": "ad4add039816da73c32b0adbe8721fe7c56c6428b7b2ca2bfc21b1b38e0594e5",
+    "translatedAt": "2026-10-21T16:50:59.317Z"
+  },
+  "feigeCode/navop": {
+    "positioning": "基于 Rust 的原生一体化工作台，集成数据库、SSH 与 AI",
+    "summary": "Navop 是用 Rust 和 GPUI 构建的原生工作台，GPU 加速渲染、不依赖 WebView。它将数据库管理（支持 MySQL、PostgreSQL、Oracle、达梦、人大金仓、openGauss 等主流及国产数据库）、SSH/SFTP、终端、RDP/VNC 远程桌面、端口转发与监控整合在同一界面，并提供 AI 智能体辅助。此外还内置 Markdown 笔记与 Mermaid 图表，适合统一管理本地与云端的基础设施。",
+    "scenarios": [
+      "统一管理主流与国产数据库",
+      "SSH 终端连接与文件传输",
+      "RDP/VNC 远程桌面运维",
+      "端口转发与服务器监控",
+      "AI 辅助编写和优化 SQL"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "数据库",
+      "效率工具"
+    ],
+    "tags": [
+      "数据库管理",
+      "SSH",
+      "远程桌面",
+      "终端",
+      "Rust",
+      "AI助手"
+    ],
+    "sourceHash": "8786b09c6c07da03f7d78e0d56401e1d1fedd804e55a1d630e78eda0fb948448",
+    "translatedAt": "2026-10-21T16:50:59.894Z"
+  },
+  "xiaochong/hi-kid": {
+    "positioning": "面向非英语国家儿童的本地离线AI英语口语陪练应用",
+    "summary": "HiKid 是一款完全免费的开源桌面应用，专为非英语国家儿童设计，通过语音对话练习英语听说，支持自由聊天、讲故事和单词游戏。语音识别、语音合成和大语言模型全部在本地运行，无需联网，对话数据不上传云端。界面卡通可爱，无需打字、开口即聊，目前仅支持 macOS。",
+    "scenarios": [
+      "儿童英语口语日常练习",
+      "无网络环境的听说训练",
+      "注重隐私的家庭教育",
+      "英语启蒙与磨耳朵",
+      "本地AI语音链路开发参考"
+    ],
+    "quickStart": "git clone https://github.com/xiaochong/hi-kid.git\ncd hi-kid\nnpm install\nnpm run dev",
+    "categories": [
+      "人工智能",
+      "学习资源"
+    ],
+    "tags": [
+      "英语学习",
+      "儿童教育",
+      "本地AI",
+      "语音对话",
+      "Electron",
+      "离线应用"
+    ],
+    "sourceHash": "1847c5b12eb32bbaba27cd6994908a8be81ac84292e8029e81c4350e33169837",
+    "translatedAt": "2026-10-21T16:51:13.289Z"
+  },
+  "LingyiChen-AI/AIComicBuilder": {
+    "positioning": "AI 漫剧生成器，剧本一键变动画视频",
+    "summary": "AIComicBuilder 是一个 AI 驱动的漫剧生成器，覆盖剧本解析、角色提取、智能分镜、首尾帧生成到视频合成的全自动流水线。通过角色四视图参考图保证画面一致性，支持接入 OpenAI、Gemini、Kling、Seedance 等多家模型，并提供 Docker 一键部署和多语言界面。",
+    "scenarios": [
+      "小说剧本转动画短剧",
+      "短视频动漫内容批量生产",
+      "个人创作者漫剧制作",
+      "分镜预演与故事可视化",
+      "营销动画视频快速生成"
+    ],
+    "quickStart": "pnpm install\npnpm drizzle-kit push\npnpm dev\ndocker run -d \\\n  --name ai-comic-builder \\\n  -p 3000:3000 \\\n  -v ./data:/app/data \\\n  -v ./uploads:/app/uploads \\\n  --platform linux/amd64 \\\n  twwch/aicomicbuilder:latest",
+    "categories": [
+      "人工智能",
+      "设计资源"
+    ],
+    "tags": [
+      "AI漫剧",
+      "文生视频",
+      "智能分镜",
+      "动画生成",
+      "AI创作"
+    ],
+    "sourceHash": "700a92f7418a96928daea364c90ee78ae06a3a9e84ed5ef0e06fd8f660decd93",
+    "translatedAt": "2026-10-21T16:51:28.740Z"
+  },
+  "nullclaw/nullclaw": {
+    "positioning": "极致轻量的 Zig 自主 AI 助手基础设施",
+    "summary": "NullClaw 是用 Zig 编写的全自主 AI 助手基础设施，编译为仅 678 KB 的静态二进制文件，峰值内存约 1 MB，启动时间不到 2 毫秒，可运行在最低 5 美元的硬件板上。它支持 50+ 模型提供商、19 种通道、35+ 工具，核心系统全部基于 vtable 接口可插拔，兼容 OpenAI 接口标准，无厂商锁定。安全方面提供多层沙箱（landlock、firejail、bubblewrap、docker）、显式白名单和加密密钥管理。",
+    "scenarios": [
+      "在低成本边缘设备上运行 AI 助手",
+      "自托管个人 AI 助手",
+      "嵌入式开发板与微控制器部署",
+      "多模型提供商的本地代理接入",
+      "对内存和启动速度敏感的服务端"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "自托管服务"
+    ],
+    "tags": [
+      "Zig",
+      "AI助手",
+      "轻量级",
+      "边缘计算",
+      "自托管"
+    ],
+    "sourceHash": "27644edbdac0b577a3c76e1cdc57024985f07ca60b5339654ed79b7a1ea796d2",
+    "translatedAt": "2026-10-21T16:51:30.146Z"
+  },
+  "AIsouler/MyClash": {
+    "positioning": "Mihomo 覆写脚本与配置，解决机场私有 DNS 解析难题",
+    "summary": "MyClash 提供基于 Mihomo 内核的覆写脚本与配置文件，内置 AI、YouTube、Telegram 等常用分流策略组，可自动识别地区节点并按倍率分类。DNS 配置与路由规则配套设计，避免 DNS 泄露，并自动处理机场私有 DNS 与节点域名 hosts 映射导致的解析问题。支持通过 Bettbox 图形界面开关策略组与功能选项。",
+    "scenarios": [
+      "覆写机场订阅，自动生成分组",
+      "解决私有 DNS 解析失败问题",
+      "AI 与流媒体服务精准分流",
+      "节点按倍率自动分类整理",
+      "Bettbox 图形化管理策略组"
+    ],
+    "quickStart": "https://raw.githubusercontent.com/AIsouler/MyClash/main/Script/mihomoScript.js\nhttps://raw.githubusercontent.com/AIsouler/MyClash/main/Script/Script.js\nhttps://raw.githubusercontent.com/AIsouler/MyClash/main/Config/mihomoConfig.yaml\nhttps://raw.githubusercontent.com/AIsouler/MyClash/main/Config/mihomoConfigLite.yaml",
+    "categories": [
+      "安全隐私"
+    ],
+    "tags": [
+      "Mihomo",
+      "Clash",
+      "覆写脚本",
+      "分流规则",
+      "DNS泄露",
+      "代理配置"
+    ],
+    "sourceHash": "bbab93110f67f7b4d5ae2d7041e8e1a05d2e3a1196440f7470795654a5569370",
+    "translatedAt": "2026-10-21T16:51:48.729Z"
+  },
+  "shengjidaguai-china/goutoujunshi": {
+    "positioning": "AI 恋爱军师：先接住情绪，再分析关系并给出可执行策略",
+    "summary": "一个面向心动、暧昧、追求、冲突、分手与复合全周期的 Codex Skill，能读取聊天截图与导出文本，区分事实与推测，输出可直接发送的话术、邀约方案和停止条件。内置覆盖心理学、法律、社会人文、哲学、婚姻家庭与性学的跨学科知识库，整理 135 条参考资料，并支持多元性取向与非单偶关系。",
+    "scenarios": [
+      "不知道消息怎么回时获取话术",
+      "追求、复联与邀约的行动规划",
+      "冷淡、冲突与分手局势分析",
+      "长聊天记录的事实与关系梳理",
+      "多元与非单偶关系的沟通建议"
+    ],
+    "quickStart": "请将公开仓库 https://github.com/shengjidaguai-china/goutoujunshi 下载并安装为本地 Skill。\n请使用狗头军师帮我梳理情绪、分析当前关系，并给出下一步建议。",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "AI智能体",
+      "恋爱分析",
+      "情感支持",
+      "心理学",
+      "Codex技能",
+      "多元关系"
+    ],
+    "sourceHash": "1de0bfe352770c4bbb75933bf0e0b9e4469b26e72e5f9e6ef135de76c09ad89d",
+    "translatedAt": "2026-10-21T16:51:54.639Z"
+  },
+  "MDX-Tom/gpt-instruct": {
+    "positioning": "针对 gpt 系列 Codex 的破甲提示词与可复现评测工具链",
+    "summary": "gpt-instruct 提供面向 gpt 系列 Codex 的自定义指令提示词，并配套可复现的评测工具链，重点改善复杂任务首轮执行、过程连续性、工件验证与可运行回滚。项目采用 epoch 迭代与 A/B 门槛机制，长期维护一条稳定生产版和两条预发布优化线。作者提醒使用自定义模型指令存在账号风险，建议在日抛账号上使用。",
+    "scenarios": [
+      "Codex 复杂任务执行优化",
+      "提示词版本对比评测",
+      "AI 智能体指令定制调试",
+      "模型行为安全边界研究"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "安全隐私"
+    ],
+    "tags": [
+      "Codex",
+      "提示词工程",
+      "AI安全",
+      "评测工具",
+      "GPT"
+    ],
+    "sourceHash": "733cdf7d3c29174812b66b6dc0edffc4768e87b41c4056740525c63c652f20c4",
+    "translatedAt": "2026-10-21T16:52:05.664Z"
+  },
+  "MartinDelophy/ai-video-editor": {
+    "positioning": "开源本地优先视频编辑器，人与AI共享同一条时间线",
+    "summary": "基于 React、WebCodecs 与 WebGPU 构建的浏览器端视频编辑器，素材本地处理，无需上传云端。内置 AI 配音、文本转语音、自动字幕、数字人、视频修复等能力，创作者与 AI 智能体可在同一条真实时间线上协作剪辑。",
+    "scenarios": [
+      "浏览器内剪辑短视频",
+      "AI 自动生成配音与字幕",
+      "制作数字人口播视频",
+      "隐私素材本地离线剪辑",
+      "老视频修复与画质增强"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "视频编辑",
+      "AI剪辑",
+      "本地优先",
+      "自动字幕",
+      "WebGPU",
+      "数字人"
+    ],
+    "sourceHash": "b61b9d77c4dedea990d90861e12ffba3de725932cd7e6310ee5fc41e26adfdfa",
+    "translatedAt": "2026-10-21T16:52:22.674Z"
+  },
+  "OpenMinis/OpenMinis": {
+    "positioning": "跨平台移动端开源 AI Agent，内置本地 Linux 沙箱",
+    "summary": "OpenMinis 是一款免费开源的移动端 AI Agent 应用，可接入 Claude、GPT、Gemini 等主流模型。它在设备本地运行沙箱化的 Alpine Linux，为模型提供真实 Shell、浏览器自动化、可扩展技能与持久记忆，并深度集成健康、日历、提醒事项等系统能力。为 Claude、Codex 等生态构建的技能大多可直接复用。",
+    "scenarios": [
+      "拍照识别餐食并记录健康数据",
+      "抓取并语音播报社交时间线",
+      "群聊消息自动提取为待办任务",
+      "挂载 Obsidian 库读写笔记",
+      "分享网页一键创建日历日程"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "AI Agent",
+      "移动端",
+      "本地沙箱",
+      "技能系统",
+      "开源",
+      "隐私"
+    ],
+    "sourceHash": "e9d9408659e30c393e10a6cb5d46b1db512cb52b58b07c9e6edefd70ab0ca9c7",
+    "translatedAt": "2026-10-21T16:52:32.925Z"
+  },
+  "zjp1997720/wechat-radar": {
+    "positioning": "本地优先的微信群聊情报看板，把群噪音变成每日情报",
+    "summary": "WeChat Radar 将微信群消息、话题、链接、@提及和高信号人物聚合为按日期查看的本地工作台，提供今日优先分区、话题雷达、链接去重和群日报等功能。数据默认落在本机 SQLite，不上传第三方服务，并支持浅色与深色主题。",
+    "scenarios": [
+      "每日筛选群聊高价值消息",
+      "跨群话题聚合与趋势追踪",
+      "整理群内文章与工具链接",
+      "生成群日报供 AI 深度处理",
+      "追踪 @提及与关键人物动态"
+    ],
+    "quickStart": "git clone https://github.com/joeseesun/wechat-radar.git\ncd wechat-radar\npnpm install\npnpm rebuild better-sqlite3\npnpm dev",
+    "categories": [
+      "效率工具",
+      "数据可视化"
+    ],
+    "tags": [
+      "微信",
+      "情报看板",
+      "本地优先",
+      "消息聚合",
+      "SQLite"
+    ],
+    "sourceHash": "036ac4f85ed9315101ef1918dd1a3b097bef502ac7f638481eab5b67a773e29d",
+    "translatedAt": "2026-10-21T16:52:40.996Z"
+  },
+  "HaujetZhao/SubTap": {
+    "positioning": "点读式英语学习工具，点句播放、分级词库标生词",
+    "summary": "SubTap 是一个点读式英语学习工具：载入字幕和音视频后，点击任意句子即可播放对应片段，点了才读、读完暂停。内置 7 级约 34000 词的分级词库，按难度为句中生词着色并给出释义与词源分析。支持 SRT/VTT/ASS 字幕、无字幕时用 VAD 自动分段，没有音视频还可调用浏览器语音朗读；在线版为可安装、可离线的 PWA，离线版是双击即开的单 HTML 文件。",
+    "scenarios": [
+      "逐句精听美剧、演讲、视频",
+      "生词分级着色辅助阅读",
+      "无字幕音频自动分段点读",
+      "离线单文件随时随地学习",
+      "自选内容主动推进式学英语"
+    ],
+    "quickStart": "在线使用：访问 https://haujetzhao.github.io/SubTap/\n离线使用：下载 https://github.com/HaujetZhao/SubTap/releases/latest/download/SubTap.html 后双击打开\nnpm install\nnpm run dev",
+    "categories": [
+      "学习资源",
+      "效率工具"
+    ],
+    "tags": [
+      "英语学习",
+      "点读",
+      "字幕",
+      "PWA",
+      "听力训练"
+    ],
+    "sourceHash": "3029155ddd272f8b3d8f7be2788fdebea6e7fa7ad9216d41cb8d39958e3163c5",
+    "translatedAt": "2026-10-21T16:52:43.211Z"
+  },
+  "twpayne/chezmoi": {
+    "positioning": "安全地在多台异构机器间管理 dotfiles 的工具",
+    "summary": "chezmoi 是一个用 Go 编写的 dotfiles 管理工具，支持在 Linux、macOS、Windows 等多种不同机器间安全地同步配置文件。它强调安全性，适合统一管理个人开发环境配置。项目文档详见 chezmoi.io。",
+    "scenarios": [
+      "在多台电脑间同步配置文件",
+      "新机器快速恢复开发环境",
+      "安全备份个人 dotfiles",
+      "统一管理多平台系统配置"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "CLI工具",
+      "效率工具"
+    ],
+    "tags": [
+      "dotfiles",
+      "配置管理",
+      "跨平台",
+      "安全",
+      "开发环境",
+      "Go"
+    ],
+    "sourceHash": "8ddf506b0ac66ec3ed633ecb0e160c78aa237d89d1b017e9ba8f7ab0775d7679",
+    "translatedAt": "2026-10-21T16:52:59.402Z"
+  },
+  "jundot/omlx": {
+    "positioning": "Mac 本地 LLM 推理服务器，菜单栏即可管理",
+    "summary": "oMLX 是基于 MLX、专为 Apple Silicon 优化的 LLM 推理服务器，支持连续批处理与内存/SSD 分层 KV 缓存，即使对话中途切换上下文也能复用缓存。它提供 OpenAI 兼容 API、管理面板和 macOS 菜单栏应用，可将常用模型常驻内存、按需自动加载更重的模型，还可选支持 MCP 协议，适合配合 Claude Code 等编码工具使用。",
+    "scenarios": [
+      "Mac 本地部署大模型服务",
+      "为 Claude Code 提供本地后端",
+      "多模型常驻与按需自动切换",
+      "长对话上下文缓存复用加速",
+      "OpenAI 兼容接口替代方案"
+    ],
+    "quickStart": "brew tap jundot/omlx https://github.com/jundot/omlx\nbrew install jundot/omlx/omlx --with-custom-kernel\nomlx start",
+    "categories": [
+      "人工智能",
+      "自托管服务"
+    ],
+    "tags": [
+      "LLM推理",
+      "Apple Silicon",
+      "MLX",
+      "本地部署",
+      "OpenAI兼容",
+      "菜单栏应用"
+    ],
+    "sourceHash": "fcdd28e78a03d54512699fc5c7e5360a7f1def66286f7675d5994cc0168dca60",
+    "translatedAt": "2026-10-21T16:53:03.578Z"
+  },
+  "wavetermdev/waveterm": {
+    "positioning": "开源 AI 集成跨平台终端，支持持久 SSH 远程开发",
+    "summary": "Wave Terminal 是一款开源跨平台终端，内置 AI 助手，支持 OpenAI、Claude、Gemini 等模型自带 API Key，也可通过 Ollama、LM Studio 运行本地模型。其持久化 SSH 会话能在断网或重启后自动重连，并内置图形化编辑器和远程文件预览功能。界面支持拖拽式分块布局，配合 wsh 命令系统可在 CLI 中管理工作区与文件同步。",
+    "scenarios": [
+      "远程服务器运维与管理",
+      "AI 辅助调试和输出分析",
+      "编辑和预览远程文件",
+      "多任务分块终端工作流",
+      "本地大模型终端集成"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "CLI工具",
+      "效率工具"
+    ],
+    "tags": [
+      "终端",
+      "SSH",
+      "AI助手",
+      "远程开发",
+      "开发者工具"
+    ],
+    "sourceHash": "d5be90196dc329de9101c0d051603137684672708f2e30e928b968d84409a52d",
+    "translatedAt": "2026-10-21T16:53:08.680Z"
+  },
+  "drduh/macOS-Security-and-Privacy-Guide": {
+    "positioning": "社区维护的 macOS 安全与隐私加固实用指南",
+    "summary": "一份面向 macOS 用户的开源安全指南，系统覆盖威胁建模、磁盘加密、防火墙、DNS、浏览器与通信加密等主题。内容源自组织级安全实践，同时兼顾关注隐私的普通用户，附有可操作的配置步骤与命令示例。",
+    "scenarios": [
+      "新 Mac 开箱安全配置",
+      "个人隐私保护加固",
+      "企业设备安全基线参考",
+      "安全运维知识学习",
+      "隐私敏感场景系统调优"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "安全隐私",
+      "学习资源"
+    ],
+    "tags": [
+      "macOS",
+      "安全加固",
+      "隐私保护",
+      "检查清单",
+      "运维指南"
+    ],
+    "sourceHash": "36116ed47fdf9d4d22155a3cf08bda33d712c2fc000091bf7c8fe5d2fb468987",
+    "translatedAt": "2026-10-21T16:53:21.319Z"
+  },
+  "manaflow-ai/cmux": {
+    "positioning": "面向 AI 编程代理的 macOS 终端，垂直标签与通知提升多任务效率",
+    "summary": "cmux 是基于 Ghostty 构建的开源 macOS 终端，专为同时运行多个 AI 编程代理而设计。它提供通知环与通知面板，在代理需要关注时即时提醒；垂直标签侧边栏可显示 git 分支、PR 状态、工作目录与监听端口，并支持横竖分屏。此外还内置可脚本化浏览器、SSH 远程工作区以及 Claude Code Teams 一键启动等能力。",
+    "scenarios": [
+      "并行运行多个 AI 编程代理",
+      "集中管理代理任务通知",
+      "多项目多分支工作区管理",
+      "远程服务器开发与运维",
+      "终端与浏览器并排调试"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "效率工具",
+      "人工智能"
+    ],
+    "tags": [
+      "macOS",
+      "终端",
+      "AI编程代理",
+      "Ghostty",
+      "终端复用",
+      "多任务"
+    ],
+    "sourceHash": "8f300136cfc08353d73406393b006dbeb3f5e108e10f23bae3a70fcf8ea20cb6",
+    "translatedAt": "2026-10-21T16:53:38.954Z"
+  },
+  "QuixoticHeart/rule-set": {
+    "positioning": "为 mihomo、sing-box 等代理工具定制的每日更新规则集",
+    "summary": "该项目为 mihomo/clash.meta、surge、loon、stash、shadowrocket、quantumultx、egern 和 sing-box 等代理工具提供定制规则集，每天北京时间 7:30 自动构建。支持 mihomo 独有的 mrs 与 sing-box 独有的 srs 二进制格式，可降低内核启动资源占用并缩减规则文件体积，覆盖广告屏蔽、AI 服务、流媒体、DMCA 等常见分类。",
+    "scenarios": [
+      "mihomo 分流规则集订阅",
+      "sing-box 加载 srs 二进制规则",
+      "Surge、Loon 等 iOS 端分流配置",
+      "硬路由等低性能设备规则优化",
+      "广告屏蔽与流媒体、AI 服务分流"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "安全隐私",
+      "其他"
+    ],
+    "tags": [
+      "规则集",
+      "代理工具",
+      "分流规则",
+      "mihomo",
+      "sing-box",
+      "广告屏蔽"
+    ],
+    "sourceHash": "0ed20e5d2cea1802f8bb7f01f2ca747945ccf9eb5c2f894b46492ad29d30ded9",
+    "translatedAt": "2026-10-21T16:53:48.888Z"
+  },
+  "SimonAKing/Gwitter": {
+    "positioning": "把 GitHub Issues 变成个人微博客平台",
+    "summary": "Gwitter 是一个基于 GitHub Issues 的轻量级微博客应用，通过创建 Issue 以 Markdown 发布内容，并利用标签进行分类。它支持 GitHub Reactions 点赞、嵌套评论、中英双语与无限滚动加载，还可借助 GitHub Actions 将新发布的内容自动同步到 Telegram 和 Gist。",
+    "scenarios": [
+      "个人想法与随笔记录",
+      "零成本搭建轻量博客",
+      "技术灵感与好物分享",
+      "多平台内容自动分发"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "自托管服务",
+      "前端开发"
+    ],
+    "tags": [
+      "微博客",
+      "GitHub",
+      "博客",
+      "React",
+      "TypeScript",
+      "自动同步"
+    ],
+    "sourceHash": "26eea1d991b021822aeee663ae53c0be37a75c3a9dc3c56c23e72287c9e0d54f",
+    "translatedAt": "2026-10-21T16:53:48.996Z"
+  },
+  "kangarooking/cangjie-skill": {
+    "positioning": "把书籍、长视频、播客蒸馏成可调用的 AI 技能",
+    "summary": "Cangjie Skill 是一个基于 Python 的知识蒸馏工具，能将书籍、长视频、播客等高价值内容提炼为方法论文档，并编译成可在 Claude Code、OpenClaw、DeepSeek Harness 等平台调用的 Agent Skill。v2.5.0 提供能力卡片、单一路由或技能包两种确定性输出模式，配套诊断、编译、增量更新、回滚与评测等本地工具链。",
+    "scenarios": [
+      "读完一本书沉淀可执行方法论",
+      "长视频课程提炼为 AI 技能",
+      "播客干货转化为调用式知识",
+      "搭建个人 AI 技能库",
+      "为 Claude Code 定制专属技能"
+    ],
+    "quickStart": "mkdir -p ~/.dsh/packages\ncurl -fL \"https://github.com/kangarooking/cangjie-skill/releases/download/v2.5.0/dsh-cangjie-skill-2.5.0.tgz\" -o ~/.dsh/packages/dsh-cangjie-skill-2.5.0.tgz\ncurl -fL \"https://github.com/kangarooking/cangjie-skill/releases/download/v2.5.0/dsh-cangjie-skill-2.5.0.tgz.sha256\" -o ~/.dsh/packages/dsh-cangjie-skill-2.5.0.tgz.sha256",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "AI技能",
+      "知识蒸馏",
+      "Claude Code",
+      "方法论提炼",
+      "Prompt工程",
+      "自动化"
+    ],
+    "sourceHash": "32e2950bf455868943ae90a4058666aa239fe16757af6ff8631211a8baeff949",
+    "translatedAt": "2026-10-21T16:54:02.990Z"
+  },
+  "tutti-os/tutti": {
+    "positioning": "开源多用户多智能体实时协作空间，人机协同构建",
+    "summary": "Tutti 是一个开源的多用户、多智能体实时协作空间，让开发者与 AI 智能体在同一工作区协同构建项目。它支持接入 Claude Code、Codex 等现有智能体并复用已有订阅额度，具备共享上下文与多智能体编排能力，本地优先运行。除开源版外，官方还提供支持群聊、多人同时编辑、跨设备使用的 Tutti · VM 版本。",
+    "scenarios": [
+      "多智能体协同编码开发",
+      "接入 Claude Code 等现有智能体",
+      "团队多人实时协作开发",
+      "人机团队共享上下文工作",
+      "本地优先的智能体工作区"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "AI智能体",
+      "实时协作",
+      "多智能体",
+      "本地优先",
+      "桌面应用",
+      "开发者工具"
+    ],
+    "sourceHash": "55bc2d85a670956c2b511df76ae0006ddb309ab9d8bc1fac44b82e5ff6292266",
+    "translatedAt": "2026-10-21T16:54:13.169Z"
+  },
+  "Zesty0wl/mac-performance-monitor": {
+    "positioning": "macOS 菜单栏性能监控与记录工具，可回溯卡顿时刻",
+    "summary": "一款原生 macOS 性能监控与记录工具，可在菜单栏实时显示 CPU、内存、GPU、网络、磁盘和电池读数。支持后台静默记录历史数据，出现卡顿或飙升时可回溯到问题发生的时刻，并关联到对应的进程。免费开源，无遥测数据，记录样本仅保存在本机。",
+    "scenarios": [
+      "排查 Mac 卡顿与性能下降",
+      "菜单栏实时查看系统负载",
+      "回溯分析历史性能数据",
+      "监控 GPU、电池与传感器",
+      "结合 AI 助手诊断性能问题"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "效率工具"
+    ],
+    "tags": [
+      "macOS",
+      "性能监控",
+      "菜单栏",
+      "系统监控",
+      "Apple Silicon",
+      "无遥测"
+    ],
+    "sourceHash": "ee830b16db6c814b6e80fe9b3d6ea722b5a14f0cc49e891aec2d997079bc5bf7",
+    "translatedAt": "2026-10-21T16:54:20.977Z"
+  },
+  "raojiacui/prompt-lens": {
+    "positioning": "反推 AI 视频提示词并支持台词提取与剪辑的工具",
+    "summary": "PromptLens 是一款 AI 视频提示词分析工具，上传视频后自动提取关键帧并分析画面、场景与动作，反推出原视频的提示词，便于二次创作。同时提供音频转录提取台词文案、一句话剪辑视频等功能，支持智谱AI、Gemini、OpenRouter 等多个 API。项目基于 Next.js 构建，可直接使用线上版，也可按教程本地部署或自托管。",
+    "scenarios": [
+      "分析爆款 AI 视频提示词",
+      "提取视频中的台词文案",
+      "修改提示词二次创作视频",
+      "学习 AI 视频创作脚本",
+      "自托管部署私有分析服务"
+    ],
+    "quickStart": "git clone https://github.com/raojiacui/prompt-lens.git\ncd prompt-lens\npnpm install\ncp .env.example .env.local\npnpm db:push\npnpm dev",
+    "categories": [
+      "人工智能",
+      "自托管服务"
+    ],
+    "tags": [
+      "AI视频",
+      "提示词工程",
+      "视频分析",
+      "音频转录",
+      "视频剪辑",
+      "Next.js"
+    ],
+    "sourceHash": "49409a8386ce1c1c3f0fc4ee363027cc2579443644fc8b16332cb91f01d11b35",
+    "translatedAt": "2026-10-21T16:54:29.087Z"
+  },
+  "FrizzleM/SideInstaller": {
+    "positioning": "在 iPhone 上免电脑直接安装 SideStore 的开源工具",
+    "summary": "SideInstaller 是一款免费开源的 iOS 应用，可在手机本地完成 SideStore 和 LiveContainer 的配对、签名与安装，全程无需连接电脑。所有步骤均在设备上运行，Apple 账号凭据不会离开设备。打开应用按提示操作几步即可完成部署，适合没有 Mac 或 PC 的侧载用户。",
+    "scenarios": [
+      "没有电脑时在 iPhone 侧载应用",
+      "免电脑部署 SideStore 侧载环境",
+      "安装 LiveContainer 运行更多应用",
+      "iOS 27 设备本地完成签名安装",
+      "要求账号凭据不出设备的用户"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "移动开发",
+      "效率工具"
+    ],
+    "tags": [
+      "iOS",
+      "侧载",
+      "SideStore",
+      "免电脑安装",
+      "Swift"
+    ],
+    "sourceHash": "b909d5a7a9605ac7c31c659aaa1fb460e107c11057334bd072cfad5b6ba2a58d",
+    "translatedAt": "2026-10-21T16:54:30.402Z"
+  },
+  "rokartur/BetterCmdTab": {
+    "positioning": "开源的 macOS ⌘Tab 增强替代切换器",
+    "summary": "BetterCmdTab 是 macOS 原生 ⌘Tab 的开源替代品，支持列表、网格和实时窗口预览三种布局。内置模糊搜索、浏览器标签页独立切换和窗口平铺功能，应用可置顶或隐藏，支持 JSON 配置同步。免费开源，无遥测数据收集。",
+    "scenarios": [
+      "多窗口应用快速切换",
+      "浏览器多标签页独立管理",
+      "键盘快捷窗口平铺布局",
+      "多显示器工作流切换",
+      "替代系统默认切换器"
+    ],
+    "quickStart": "brew install --cask bettercmdtab        # stable\nbrew install --cask bettercmdtab@beta   # beta",
+    "categories": [
+      "效率工具"
+    ],
+    "tags": [
+      "macOS",
+      "应用切换",
+      "窗口管理",
+      "模糊搜索",
+      "窗口平铺"
+    ],
+    "sourceHash": "1d592d96267c55be4b8076f3db8ce5a6ead50852132651169041f1718881e724",
+    "translatedAt": "2026-10-21T16:54:43.803Z"
+  },
+  "BigDawnGhost/wenyi": {
+    "positioning": "整书理解的小说长文翻译桌面应用，术语统一可续翻",
+    "summary": "文亦（Wenyi）是一个本地桌面应用，专注翻译小说、社科专著等长篇作品。它通过整书预扫描生成章节摘要与全书梗概注入每批翻译，实时提取术语并检测译名冲突，保证人名与术语前后一致。支持翻译、润色、基于证据的全书审校多阶段流程，批处理断点自动保存，可随时恢复进度。",
+    "scenarios": [
+      "翻译网络小说与文学作品",
+      "社科人文专著整书翻译",
+      "统一人名术语的批量翻译",
+      "中英双语段落校对润色",
+      "长篇非虚构作品译制"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "小说翻译",
+      "整书翻译",
+      "桌面应用",
+      "AI翻译",
+      "术语一致"
+    ],
+    "sourceHash": "ab28658e74474f6b73bfd8490a473ce3a5cc2c795cb845555cd50aa879d89166",
+    "translatedAt": "2026-10-21T16:54:51.792Z"
+  },
+  "dominostars/playtranslate": {
+    "positioning": "安卓端游戏屏幕实时翻译与语言学习工具",
+    "summary": "PlayTranslate 是一款 Android 实时屏幕翻译与语言学习应用，一键捕捉游戏、视觉小说、漫画等屏幕文字进行翻译，支持 26 种游戏语言和 59 种用户语言。提供自动翻译、悬浮镜头查词、振假名/拼音标注、摄像头翻译等功能，OCR 与词典支持离线使用。还可将原句、译文、截图甚至游戏录音导出到 AnkiDroid，并深度集成 Yomitan 词典。",
+    "scenarios": [
+      "安卓游戏对话实时翻译",
+      "视觉小说边玩边学日语",
+      "漫画屏幕文字即时翻译",
+      "离线 OCR 查词学外语",
+      "导出例句到 Anki 复习"
+    ],
+    "quickStart": "见 README（从 GitHub Releases 下载最新 APK 安装）",
+    "categories": [
+      "效率工具",
+      "学习资源"
+    ],
+    "tags": [
+      "屏幕翻译",
+      "游戏翻译",
+      "安卓",
+      "离线翻译",
+      "语言学习",
+      "Anki"
+    ],
+    "sourceHash": "ebb1935ac4511ccaa2384cbfebe1389dfa324861e745e0e7830b164d3dcea7a9",
+    "translatedAt": "2026-10-21T16:54:52.344Z"
+  },
+  "hanliang97/MatrixMedia": {
+    "positioning": "多平台视频矩阵批量发布工具，支持GUI与CLI",
+    "summary": "矩媒 MatrixMedia 是基于 Electron 的自媒体矩阵发布工具，支持将视频批量分发到抖音、快手、小红书、哔哩哔哩、百家号、头条、视频号、番茄视频等 8 个平台。除图形界面外还提供 CLI 命令行与 HTTP API，登录态检测、发布记录查询均可自动化，并能被 OpenClaw、Claude Code、Dify、n8n 等 AI 工具与智能体编排框架直接调用。支持 Windows 与 macOS。",
+    "scenarios": [
+      "自媒体多账号矩阵批量运营",
+      "短视频一键分发到多平台",
+      "AI 智能体自动化发布编排",
+      "本地或远程视频批量上传",
+      "脚本化查询账号登录状态"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "效率工具",
+      "CLI工具"
+    ],
+    "tags": [
+      "自媒体",
+      "视频发布",
+      "矩阵分发",
+      "Electron",
+      "自动化",
+      "CLI"
+    ],
+    "sourceHash": "5a4c390c3dad72e7c28d981c3ea725ebf1c409f0d5f20f2a97f90015217d597c",
+    "translatedAt": "2026-10-21T16:55:12.036Z"
+  },
+  "shanraisshan/claude-code-best-practice": {
+    "positioning": "Claude Code 最佳实践合集，助你进阶智能体工程",
+    "summary": "该项目系统整理了 Claude Code 的使用最佳实践，涵盖子代理、斜杠命令、技能、编排工作流与钩子等核心概念。每个概念都配有最佳实践说明和真实实现示例，还收录了 Boris Cherny 的使用技巧，帮助开发者从氛围编码走向规范的智能体工程。",
+    "scenarios": [
+      "学习配置 Claude Code 子代理",
+      "构建项目自定义命令与技能",
+      "设计多代理编排工作流",
+      "规范团队 AI 编码流程",
+      "实践钩子与上下文工程"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "学习资源",
+      "人工智能"
+    ],
+    "tags": [
+      "Claude Code",
+      "最佳实践",
+      "智能体工程",
+      "AI编程",
+      "上下文工程"
+    ],
+    "sourceHash": "79050c010033b4dcd7eb5a7942799227e1e383b447afb00197e3680d032183ac",
+    "translatedAt": "2026-10-21T16:55:12.289Z"
+  },
+  "Crosstalk-Solutions/project-nomad": {
+    "positioning": "离线优先的自托管知识服务器，集维基、课程与本地AI于一身",
+    "summary": "Project NOMAD 是一个离线优先的知识与教育服务器，通过 Docker 编排容器化工具，提供离线维基百科、电子书、Khan Academy 课程、离线地图、笔记和 CyberChef 数据工具等能力。它内置基于 Ollama 的本地 AI 对话，支持文档上传与语义搜索（RAG）。系统本身仅需约 5GB 磁盘与 1GB 内存，安装全程基于终端，通过浏览器即可访问。",
+    "scenarios": [
+      "无网络环境的教学与学习",
+      "应急准备与离线资料库",
+      "本地 AI 知识库问答",
+      "户外出行的离线地图",
+      "家庭自托管知识中心"
+    ],
+    "quickStart": "sudo apt-get update && \\\nsudo apt-get install -y curl && \\\ncurl -fsSL https://raw.githubusercontent.com/Crosstalk-Solutions/project-nomad/refs/heads/main/install/install_nomad.sh \\\n  -o install_nomad.sh && \\\nsudo bash install_nomad.sh",
+    "categories": [
+      "自托管服务",
+      "学习资源"
+    ],
+    "tags": [
+      "离线优先",
+      "自托管",
+      "本地AI",
+      "知识库",
+      "Docker",
+      "教育"
+    ],
+    "sourceHash": "e8ccc3657e08303f5918f6111e6af27f5aec05f14b88ba27e993f1def7a6691a",
+    "translatedAt": "2026-10-21T16:55:17.037Z"
+  },
+  "hyperfield/ai-file-sorter": {
+    "positioning": "AI 驱动的跨平台桌面文件整理与智能重命名工具",
+    "summary": "AI File Sorter 是一款跨平台桌面应用，利用本地或远程 LLM 分析文件内容与元数据，为图片、文档及音视频文件提供分类和重命名建议，例如将 IMG_2048.jpg 重命名为 clouds_over_lake.jpg。应用支持 Vulkan、CUDA、Metal 等本地推理后端，所有变更均需用户预览确认后才执行，文件数据可完全留在本机处理，注重隐私保护。",
+    "scenarios": [
+      "整理杂乱的下载文件夹",
+      "清理外接硬盘与 NAS 存储",
+      "批量重命名无意义的照片文件",
+      "规范音视频媒体文件命名",
+      "本地隐私敏感文件分类归档"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "文件管理",
+      "AI整理",
+      "LLM",
+      "桌面应用",
+      "隐私保护",
+      "文件重命名"
+    ],
+    "sourceHash": "10deccef066d059bfc9fd2ae388fb9f580fc674d87adfa575a096afa4403bb43",
+    "translatedAt": "2026-10-21T16:55:32.611Z"
+  },
+  "helloianneo/ian-xiaohei-scenes": {
+    "positioning": "让 AI 为中文文章生成小黑实物场景配图的 Codex Skill",
+    "summary": "这是一个面向 Codex 的 Skill，指导 AI Agent 把中文文章、教程、项目复盘等内容转化为「小黑 + 真实物件 + 物理动作 + 留白叙事」风格的配图。提供 16:9 正文配图的标准模式和用于个人经历、项目复盘的超横版彩蛋长卷模式，并内置母版选择与 QA 检查流程，保证视觉风格稳定、有个人识别度。",
+    "scenarios": [
+      "中文文章正文配图生成",
+      "项目复盘长卷故事图",
+      "个人经历可视化叙事",
+      "职场处境主题插画",
+      "AI 内容生产工作流"
+    ],
+    "quickStart": "git clone https://github.com/helloianneo/ian-xiaohei-scenes.git\ncd ian-xiaohei-scenes\nmkdir -p \"${CODEX_HOME:-$HOME/.codex}/skills\"\ncp -R ./ian-xiaohei-scenes \"${CODEX_HOME:-$HOME/.codex}/skills/\"",
+    "categories": [
+      "人工智能",
+      "设计资源"
+    ],
+    "tags": [
+      "AI绘图",
+      "插画配图",
+      "CodexSkill",
+      "提示词工程",
+      "叙事长卷"
+    ],
+    "sourceHash": "1ba3ba8d820afbccfabac3cf2efcb65988173f73e58eeb495d99f9ebcb06ae4f",
+    "translatedAt": "2026-10-21T16:55:43.591Z"
+  },
+  "luongnv89/claude-howto": {
+    "positioning": "Claude Code 可视化教程，含即用模板与进阶路径",
+    "summary": "这是一份结构化、示例驱动的 Claude Code 学习指南，包含 10 个教程模块，从斜杠命令基础讲到智能体、hooks、技能和 MCP 服务器的高级用法。提供大量可直接复制使用的 CLAUDE.md 模板、hook 脚本、MCP 配置和子智能体定义，配合 Mermaid 图解讲解功能内部原理，并通过内置自测题帮助读者定位知识盲区，规划从新手到高手的 11-13 小时学习路线。",
+    "scenarios": [
+      "系统学习 Claude Code 各项功能",
+      "搭建自动化代码审查工作流",
+      "配置 hooks 与 MCP 服务器",
+      "编排多智能体协作任务",
+      "自测薄弱点制定学习计划"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "学习资源",
+      "人工智能"
+    ],
+    "tags": [
+      "Claude Code",
+      "AI编程",
+      "教程指南",
+      "智能体",
+      "MCP",
+      "学习路径"
+    ],
+    "sourceHash": "883b66a7f321b56db2fd6d2878b260869c18750ee9d5acba33c558a1d4d5b66e",
+    "translatedAt": "2026-10-21T16:55:43.631Z"
+  },
+  "AIEraDev/Clypra": {
+    "positioning": "基于 Rust 与 GPU 加速的免费开源视频剪辑器",
+    "summary": "Clypra 是一款采用 Rust、Tauri v2 与 React 19 构建的视频编辑器，依托 GPU 解码实现低于 10 毫秒的帧解码与原生渲染，提供帧级精准的多轨时间线。支持实时音频波形、文字与滤镜合成、多格式导入导出，遵循 MIT 协议，无水印、无订阅限制，覆盖桌面及移动端。",
+    "scenarios": [
+      "短视频与 Vlog 多轨剪辑",
+      "帧级精准的片段修剪",
+      "字幕与文字特效合成",
+      "免水印高质量视频导出",
+      "跨平台桌面视频制作"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "设计资源",
+      "效率工具"
+    ],
+    "tags": [
+      "视频剪辑",
+      "开源软件",
+      "Tauri",
+      "GPU加速",
+      "Rust",
+      "跨平台"
+    ],
+    "sourceHash": "da3ef536e8bec43300e8bffdc01b590949242bf57a46d02895e3aa0dc3c7fdf9",
+    "translatedAt": "2026-10-21T16:55:54.959Z"
+  },
+  "caezium/burrow": {
+    "positioning": "开源原生 Mac 系统管家，集清理、卸载与监控于一体",
+    "summary": "Burrow 是一款免费开源的原生 Mac 应用，提供垃圾清理、开发缓存清除、应用卸载与残留清除、重复文件查找、磁盘空间分析及实时系统状态监控。它内置 MCP 服务器，可让 Claude Code、Cursor 等 AI 代理查询和维护系统，所有操作均需用户授权且可审计。",
+    "scenarios": [
+      "清理系统垃圾与开发缓存",
+      "彻底卸载应用并清除残留",
+      "查找重复文件释放磁盘空间",
+      "实时监控 CPU 内存与磁盘",
+      "让 AI 代理代为维护系统"
+    ],
+    "quickStart": "brew install --cask caezium/tap/burrow",
+    "categories": [
+      "效率工具"
+    ],
+    "tags": [
+      "macOS",
+      "系统清理",
+      "磁盘分析",
+      "系统监控",
+      "MCP",
+      "AI代理"
+    ],
+    "sourceHash": "5fc83dea77791a52b78f316c7b4bcbe8a654f9bf7b8d9a5686d11db396d5478f",
+    "translatedAt": "2026-10-21T16:56:01.245Z"
+  },
+  "sigoden/dufs": {
+    "positioning": "轻量多功能文件服务器，支持上传与 WebDAV",
+    "summary": "Dufs 是一个用 Rust 编写的实用文件服务器，单个二进制即可运行。它支持静态文件托管、拖拽上传、断点续传、文件夹打包 zip 下载、文件搜索与在线编辑，并提供访问控制和 HTTPS。同时兼容 WebDAV 协议，可被挂载为网络磁盘，也方便通过 curl 进行脚本化操作。",
+    "scenarios": [
+      "局域网内快速共享文件",
+      "自建轻量私人网盘",
+      "托管静态网站或 SPA 应用",
+      "WebDAV 客户端挂载访问",
+      "服务器目录在线管理"
+    ],
+    "quickStart": "cargo install dufs\ndocker run -v `pwd`:/data -p 5000:5000 --rm sigoden/dufs /data -A\nbrew install dufs",
+    "categories": [
+      "自托管服务",
+      "CLI工具"
+    ],
+    "tags": [
+      "文件服务器",
+      "WebDAV",
+      "静态托管",
+      "文件共享",
+      "Rust",
+      "自建网盘"
+    ],
+    "sourceHash": "a6df5c685c05d2d44d6d9b4e7778524a7a319b66183fb98bcb4459825cd0a359",
+    "translatedAt": "2026-10-21T16:56:08.470Z"
+  },
+  "SkyBlue997/enableMacosAI": {
+    "positioning": "国行 Mac 一键解锁完整 Apple 智能功能",
+    "summary": "项目通过内核扩展在 IORegistry 源头把国行 Mac 的区域码伪装为美版，使其通过 Apple 智能的设备资格校验，macOS 27 上端侧模型与 Private Cloud Compute 云端功能均可用。提供一键安装、状态体检与一键诊断脚本，并附带逐 App 中文界面方案，不损失资格。",
+    "scenarios": [
+      "国行 Mac 解锁 Apple 智能",
+      "启用端侧模型与 PCC 云端",
+      "诊断资格与区域伪装状态",
+      "不掉资格使用中文界面",
+      "系统更新后功能失效排查"
+    ],
+    "quickStart": "sudo ./install.sh\nsudo ./install.sh status",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "Apple 智能",
+      "国行 Mac",
+      "内核扩展",
+      "macOS",
+      "区域伪装",
+      "Shell脚本"
+    ],
+    "sourceHash": "2656a91c4e15a5d41c7d310766a7eaa45ce516dd9b0f60d9de8d34bb9ac6ce44",
+    "translatedAt": "2026-10-21T16:56:14.469Z"
+  },
+  "ChatLab/ChatLab": {
+    "positioning": "本地优先的 AI 聊天记录分析与可视化工具",
+    "summary": "ChatLab 是一款开源桌面应用，支持 WhatsApp、QQ、Telegram、Discord 等多种聊天记录的导入分析，通过流式解析和多线程处理可应对百万级消息量。它将 SQL 引擎与 AI Agent 结合，提供 24+ 工具的智能检索、总结与统计，并以趋势、时段、互动频率等可视化视图呈现洞察。所有数据保留在本地，默认不上传云端。",
+    "scenarios": [
+      "分析 QQ/Telegram 等聊天记录",
+      "挖掘群聊活跃度与话题趋势",
+      "用 AI 总结和检索聊天内容",
+      "本地隐私环境下洞察社交数据",
+      "百万级消息量的历史记录分析"
+    ],
+    "quickStart": "npm i chatlab-cli -g\nclb web            # Start API + Web UI, auto-open in browser\nclb web --no-open  # Start API + Web UI, skip auto-open\nclb web --headless # API only, no Web UI (for scripts / AI Agents)",
+    "categories": [
+      "人工智能",
+      "数据可视化"
+    ],
+    "tags": [
+      "聊天记录分析",
+      "AI智能体",
+      "本地优先",
+      "数据可视化",
+      "隐私保护",
+      "SQL查询"
+    ],
+    "sourceHash": "c39320e3a32b69a5a910e74429fc313c40932151e8c1f1ad151fc2fce08479f7",
+    "translatedAt": "2026-10-21T16:56:22.404Z"
+  },
+  "LingyiChen-AI/JadeAI": {
+    "positioning": "AI 驱动的开源智能简历构建器，支持解析、优化与多格式导出",
+    "summary": "JadeAI 是基于 Next.js 和 TypeScript 构建的开源 AI 简历工具，提供 50+ 专业模板和拖拽式编辑。支持 PDF/图片简历解析、AI 内容优化、语法检查、JD 匹配分析及模拟面试报告，可导出 PDF、HTML、DOCX 等多格式并生成分享链接。支持 Docker 一键部署，同时提供 macOS 和 Windows 桌面客户端，数据可完全保存在本地。",
+    "scenarios": [
+      "求职者快速制作专业简历",
+      "针对目标 JD 定制优化简历",
+      "解析旧简历并用 AI 改写",
+      "模拟面试练习与复盘",
+      "自托管搭建简历服务"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "简历制作",
+      "AI优化",
+      "简历模板",
+      "求职",
+      "Docker部署",
+      "模拟面试"
+    ],
+    "sourceHash": "163f0ca2239f31e88f05f97be837c9011759a5c86f1bd9d624a576cdeb1abc87",
+    "translatedAt": "2026-10-21T16:56:27.748Z"
+  },
+  "hicccc77/WeFlow": {
+    "positioning": "完全本地的微信聊天记录查看、分析与年度报告工具",
+    "summary": "WeFlow 是一款完全本地运行的微信聊天记录工具，支持实时查看消息、解密图片视频与实况、消息防撤回和桌面弹窗提醒。它提供私聊/群聊统计分析、年度报告与双人报告，可将聊天记录导出为 HTML、Markdown、Excel 等多种格式，并通过本地 HTTP API 便于二次开发。",
+    "scenarios": [
+      "生成个人微信年度报告",
+      "导出备份聊天记录",
+      "分析群聊成员活跃情况",
+      "生成双人专属聊天报告",
+      "通过 HTTP API 二次开发"
+    ],
+    "quickStart": "git clone https://github.com/hicccc77/WeFlow.git\ncd WeFlow\nnpm install\nnpm run dev",
+    "categories": [
+      "数据可视化",
+      "效率工具"
+    ],
+    "tags": [
+      "微信",
+      "聊天记录",
+      "年度报告",
+      "数据分析",
+      "消息导出"
+    ],
+    "sourceHash": "9b150e38986ba81e574d00de72ddb83e61d1f29dc4ab5a241c64f43c2a717d3e",
+    "translatedAt": "2026-10-21T16:56:33.928Z"
+  },
+  "k8sgpt-ai/k8sgpt": {
+    "positioning": "AI 驱动的 Kubernetes 集群诊断与故障排查工具",
+    "summary": "k8sgpt 能够扫描 Kubernetes 集群，用通俗易懂的语言诊断和分拣问题。它将 SRE 经验固化到内置分析器中，提取最相关的信息并交由 AI 丰富解读。开箱即支持 OpenAI、Azure、Cohere、Amazon Bedrock、Google Gemini 及本地模型。",
+    "scenarios": [
+      "Kubernetes 集群故障排查",
+      "SRE 快速定位异常事件",
+      "集群日常健康巡检",
+      "辅助新手理解集群报错",
+      "结合本地大模型离线诊断"
+    ],
+    "quickStart": "brew install k8sgpt",
+    "categories": [
+      "人工智能",
+      "DevOps运维"
+    ],
+    "tags": [
+      "Kubernetes",
+      "AI诊断",
+      "SRE",
+      "运维工具",
+      "OpenAI",
+      "故障排查"
+    ],
+    "sourceHash": "39bfa816385432036cf91833a39d0c180d6eb6df6245e6461207d3b4621315ef",
+    "translatedAt": "2026-10-21T16:56:39.593Z"
+  },
+  "op7418/guizang-social-card-skill": {
+    "positioning": "AI Agent 专用小红书图文与公众号封面卡片生成技能",
+    "summary": "适配 Claude Code / Codex 等环境的图文卡片技能，可将文章、文案、照片或视频生成小红书图文组图、Live Photo 动态卡与公众号 21:9 + 1:1 封面对。内置电子杂志风与瑞士国际主义两套视觉系统，提供 28 个版式骨架和 10 套主题预设。输出单文件 HTML 并经 Playwright 渲染成 PNG，无需前端构建链。",
+    "scenarios": [
+      "小红书图文组图生成",
+      "公众号封面配图设计",
+      "Live Photo 动态卡片制作",
+      "产品测评与教程配图",
+      "旅行攻略地图卡片"
+    ],
+    "quickStart": "npx skills add https://github.com/op7418/guizang-social-card-skill --skill guizang-social-card-skill",
+    "categories": [
+      "人工智能",
+      "设计资源"
+    ],
+    "tags": [
+      "小红书图文",
+      "公众号封面",
+      "Claude Code",
+      "AI Agent",
+      "设计模板",
+      "Live Photo"
+    ],
+    "sourceHash": "94282f0b8b5bb98e8c3ab7f8e589e626176beee34d3aff0d9ed0dcc63bed5ac0",
+    "translatedAt": "2026-10-21T16:56:50.944Z"
+  },
+  "helloianneo/ian-xiaohei-illustrations": {
+    "positioning": "为中文文章生成小黑怪诞手绘配图的 Codex Skill",
+    "summary": "这是一个指导 AI Agent 为中文文章生成正文配图的 Codex Skill，将文章中的判断、流程、状态和隐喻转化为 16:9 白底手绘解释图。它先提炼文章的认知锚点并输出 shot list，再逐张生成小黑 IP 风格的 PNG 配图，画面采用黑色细线手绘搭配少量红橙蓝中文批注，风格怪诞清爽。",
+    "scenarios": [
+      "中文博客文章配图",
+      "知识型内容视觉化",
+      "Notion 文档插图生成",
+      "方法论抽象概念绘图",
+      "AI 内容生产流水线"
+    ],
+    "quickStart": "git clone https://github.com/helloianneo/ian-xiaohei-illustrations.git\ncd ian-xiaohei-illustrations\nmkdir -p \"${CODEX_HOME:-$HOME/.codex}/skills\"\ncp -R ./ian-xiaohei-illustrations \"${CODEX_HOME:-$HOME/.codex}/skills/\"",
+    "categories": [
+      "人工智能",
+      "设计资源"
+    ],
+    "tags": [
+      "Codex Skill",
+      "图像生成",
+      "手绘插画",
+      "中文配图",
+      "AI Agent"
+    ],
+    "sourceHash": "46695865d509884dfb89ddb0cb631c72f07bd562d539c3c8d5f60daa899def29",
+    "translatedAt": "2026-10-21T16:56:52.013Z"
+  },
+  "byoungd/up": {
+    "positioning": "AI 时代的终身学习开放书稿，助普通人持续学习成长",
+    "summary": "《人生进阶指南》是一份持续更新的中英双语开放书稿，从英语学习出发，延伸到 AI 学习、真实项目实践、创业复盘与生活节律恢复。提供可下载的 EPUB/PDF、可复制的诊断模板与实践工作表，主张\"定义问题→保存基线→完成最小任务→记录证据→延迟复测\"的实践路径。",
+    "scenarios": [
+      "系统提升英语听说读写能力",
+      "借助 AI 完成真实工作任务",
+      "从零启动个人项目或创业验证",
+      "重建生活节律走出低谷期",
+      "离线阅读并引用开放书稿"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "学习资源"
+    ],
+    "tags": [
+      "终身学习",
+      "英语学习",
+      "AI素养",
+      "开放书稿",
+      "个人成长"
+    ],
+    "sourceHash": "0cc2e13c212c8c4008b692c33f30649c152936dd53a9649ddf735f9c80cb7b6e",
+    "translatedAt": "2026-10-21T16:57:06.160Z"
+  },
+  "jackwener/OpenCLI": {
+    "positioning": "把任意网站变成 CLI，让 AI 代理操作登录浏览器",
+    "summary": "OpenCLI 是一个面向 AI 代理的通用浏览器自动化 CLI，可将网站和浏览器会话转换为确定性命令行接口。内置 Bilibili、知乎、小红书、Reddit、Twitter/X 等站点适配器，也可通过 opencli browser 原语让 Claude Code、Cursor 等 AI 代理在你的登录 Chrome 中导航、点击、填表和提取数据。命令默认输出 JSON 并遵循统一的代理命令契约，便于机器解析与编排。",
+    "scenarios": [
+      "让 AI 代理操作登录态网页",
+      "将网站封装为可复用 CLI 命令",
+      "网页数据抓取与信息提取",
+      "浏览器自动化巡检与测试",
+      "编写自定义站点适配器"
+    ],
+    "quickStart": "npm install -g @jackwener/opencli",
+    "categories": [
+      "CLI工具",
+      "人工智能"
+    ],
+    "tags": [
+      "浏览器自动化",
+      "AI代理",
+      "命令行工具",
+      "Playwright",
+      "网页抓取",
+      "站点适配器"
+    ],
+    "sourceHash": "7c6d7029131b8fe30981ea8c78aae2c0fbaf477f293e6709433dd42b044ce775",
+    "translatedAt": "2026-10-21T16:57:11.227Z"
+  },
+  "daeuniverse/dae": {
+    "positioning": "基于 eBPF 的 Linux 高性能透明代理分流方案",
+    "summary": "dae 是 v2rayA 的后继项目，利用 Linux 内核 eBPF 实现透明代理与流量分流，直连流量可真正绕过代理转发，性能损耗极低。支持按进程名、MAC 地址等规则分流，可按策略自动测速切换节点，兼容 Shadowsocks、Trojan、VMess 等主流代理协议。",
+    "scenarios": [
+      "Linux 软路由透明代理网关",
+      "按进程名精准分流本机流量",
+      "局域网按 MAC 地址分流",
+      "节点自动测速策略切换",
+      "自建 SD-WAN 流量调度"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "自托管服务",
+      "安全隐私"
+    ],
+    "tags": [
+      "eBPF",
+      "透明代理",
+      "流量分流",
+      "Linux",
+      "网络代理"
+    ],
+    "sourceHash": "9f82903f12e07b5a4a15b12d44eaa24962650de2786a160b635e7d4b2b95c7ec",
+    "translatedAt": "2026-10-21T16:57:14.052Z"
+  },
+  "BigPizzaV3/CodexPlusPlus": {
+    "positioning": "Codex 桌面应用增强工具，统一管理供应商与界面",
+    "summary": "Codex++ 是面向 OpenAI Codex / ChatGPT 桌面应用的统一管理工具，基于 Rust 与 Tauri 构建，支持 Windows 和 macOS。它通过 CDP 提供供应商切换、协议转换、会话管理和界面增强，不修改官方应用的 app.asar，也不向安装目录写入补丁文件，实现无侵入式增强。",
+    "scenarios": [
+      "切换和统一管理 AI 模型供应商",
+      "增强 Codex 桌面端会话体验",
+      "个性化定制工作区界面",
+      "不修改官方应用的无侵入增强",
+      "多模型协议转换与接入"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "Codex",
+      "AI工具",
+      "供应商管理",
+      "桌面应用",
+      "Rust",
+      "Tauri"
+    ],
+    "sourceHash": "8ada1818b897b0c27a7c6b04dcfb58bbf85496d1d3b7816de39856ace82f52e9",
+    "translatedAt": "2026-10-21T16:57:28.244Z"
+  },
+  "ianho7/maptoposter-online": {
+    "positioning": "浏览器中的城市地图海报生成器，免安装即开即用",
+    "summary": "MapPoster Online 是 maptoposter Python CLI 的网页升级版，基于 OpenStreetMap 数据将任意城市的路网渲染成设计感十足的地图海报。前端采用 React 19 + Tailwind CSS，核心渲染由 Rust 编译的 WASM 驱动，无需安装任何软件，打开网页即可生成并下载城市海报。",
+    "scenarios": [
+      "制作城市地图装饰挂画",
+      "生成旅行纪念主题海报",
+      "设计个性化家居装饰",
+      "导出高清图用于打印",
+      "为城市创作路网艺术图"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "设计资源"
+    ],
+    "tags": [
+      "地图海报",
+      "OpenStreetMap",
+      "在线工具",
+      "视觉设计",
+      "Rust WASM"
+    ],
+    "sourceHash": "15c1d64a13c0c294ba8209d2612ecb3dc1fb0ebf860d76fe67ad9dd7c97180c3",
+    "translatedAt": "2026-10-21T16:57:28.372Z"
+  },
+  "Egonex-AI/Understand-Anything": {
+    "positioning": "把代码库变成可探索、可提问的知识图谱",
+    "summary": "Understand Anything 是一个 Claude Code 插件，通过多智能体管线分析项目，为每个文件、函数、类和依赖构建知识图谱，并提供交互式可视化面板。你可以缩放、搜索图谱节点，查看通俗摘要与关联关系，并向 AI 提问理解代码。兼容 Claude Code、Codex、Cursor、Copilot、Gemini CLI 等多种 AI 编程工具。",
+    "scenarios": [
+      "快速理解新接手的大型代码库",
+      "为新团队成员做代码导读",
+      "梳理项目模块与依赖关系",
+      "代码库与文档知识库可视化",
+      "辅助 AI 编程工具理解项目"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "知识图谱",
+      "代码分析",
+      "AI编程",
+      "Claude Code",
+      "开发效率"
+    ],
+    "sourceHash": "628a4f624c56d24fb83de987512d1d5436e4cb0ff9ee262c18807e6e3b05fef5",
+    "translatedAt": "2026-10-21T16:57:43.788Z"
+  },
+  "UniClipboard/UniClipboard": {
+    "positioning": "本地优先、端到端加密的跨设备剪贴板实时同步工具",
+    "summary": "UniClipboard 是一款隐私优先的剪贴板工具，可在多台设备间实时同步文本、图片和文件，无论设备处于同一局域网还是不同网络。它以加密形式保存可搜索的剪贴板历史，内容在传输和存储时均保持加密，仅在你自己的设备上解密，无需账号、不依赖云服务器和中心节点。",
+    "scenarios": [
+      "多台电脑间复制粘贴内容",
+      "手机与电脑互传截图文件",
+      "跨网络同步剪贴板内容",
+      "搜索查找历史剪贴板记录",
+      "不信任云端的隐私数据同步"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "效率工具",
+      "安全隐私"
+    ],
+    "tags": [
+      "剪贴板同步",
+      "端到端加密",
+      "本地优先",
+      "P2P",
+      "跨平台",
+      "Rust"
+    ],
+    "sourceHash": "6d71801b8bc04ed49bdc9021fd01908abf4ec916d601128a263233492579dc71",
+    "translatedAt": "2026-10-21T16:57:44.595Z"
+  },
+  "colbymchenry/codegraph": {
+    "positioning": "面向 AI 编程助手的本地预索引代码知识图谱",
+    "summary": "CodeGraph 为代码库构建预索引的知识图谱，并在代码变更时自动同步，帮助 Claude Code、Cursor、Codex、Gemini 等 AI 编程助手以更少的 token 和工具调用获取精准上下文。内核由 Rust 编写，数据 100% 保留在本地。支持多语言解析与框架感知的路由分析，并提供 MCP 工具接口供智能体调用。",
+    "scenarios": [
+      "为 AI 编程助手提供精准上下文",
+      "大型代码库跨文件检索分析",
+      "降低 AI 编程 token 消耗",
+      "本地离线分析代码结构",
+      "多智能体协同开发提效"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "CLI工具"
+    ],
+    "tags": [
+      "代码知识图谱",
+      "AI编程",
+      "MCP",
+      "本地运行",
+      "Rust"
+    ],
+    "sourceHash": "335027708b5538b3b68c34e7f216af604071c4da0f88051fc7d70607b46e1ac7",
+    "translatedAt": "2026-10-21T16:57:57.601Z"
+  },
+  "himomohi/AirTranslate": {
+    "positioning": "macOS 实时音频字幕与翻译应用",
+    "summary": "AirTranslate 是一款开源 macOS 应用，可捕获 Mac 上播放的音频，实时转写为字幕并按需翻译。字幕支持以浮窗形式悬浮在其他应用之上，默认采用本地优先的 Apple 工作流，云端引擎可在配置密钥后选用。适用于会议、视频、讲座、采访和直播等场景。",
+    "scenarios": [
+      "线上会议实时字幕",
+      "外语视频观看翻译",
+      "讲座课堂字幕辅助",
+      "采访内容实时转写",
+      "直播音频字幕显示"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "效率工具",
+      "人工智能"
+    ],
+    "tags": [
+      "macOS",
+      "实时字幕",
+      "翻译",
+      "语音识别",
+      "悬浮字幕"
+    ],
+    "sourceHash": "8a094222df044ce8ccfb1b7a0e8d3d10ec65e7431a0fcd8fc60b6eebde5d2fea",
+    "translatedAt": "2026-10-21T16:58:04.551Z"
+  },
+  "jipika/WaifuX": {
+    "positioning": "macOS 原生开源的动漫壁纸与追番一站式应用",
+    "summary": "WaifuX 是一款 macOS 原生开源应用，聚合 Wallhaven、4K Wall、MotionBGs 等多个数据源，支持静态与动态壁纸的多维筛选、一键设置及多显示器独立配置。内置多源解析的动漫视频播放与收藏系统，还可实验性渲染 Wallpaper Engine 动态壁纸（仅限 Apple Silicon）。提供中英日多语言界面，需 macOS 14.0+。",
+    "scenarios": [
+      "为 Mac 换高清动漫壁纸",
+      "浏览并一键设置动态壁纸",
+      "多显示器分别设置壁纸",
+      "Mac 上一站式追番观影",
+      "整理导入本地壁纸收藏"
+    ],
+    "quickStart": "brew tap jipika/waifux\nbrew install --cask waifux",
+    "categories": [
+      "游戏娱乐",
+      "效率工具"
+    ],
+    "tags": [
+      "macOS",
+      "壁纸",
+      "动态壁纸",
+      "动漫",
+      "追番",
+      "SwiftUI"
+    ],
+    "sourceHash": "d585fcfeab164979900d18e20817899b34cfaaf412b4389e329624950fb7b3aa",
+    "translatedAt": "2026-10-21T16:58:13.645Z"
+  },
+  "buoooou/v2ray-clash-clients-download": {
+    "positioning": "全平台代理客户端下载链接与配置教程汇总",
+    "summary": "汇总 Windows、macOS、Android、iOS 各平台代理客户端（Clash Verge Rev、v2rayN、Shadowrocket 等）的官方下载地址，并提供三步上手教程与常见问题解答。下载链接均指向官方 GitHub Release 或应用商店，但仓库内含较多对特定付费代理服务的推广内容，可作参考时注意甄别。",
+    "scenarios": [
+      "查找各平台代理客户端官方下载",
+      "代理工具新手入门配置学习",
+      "查询客户端使用常见问题",
+      "替代停更客户端的选型参考"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "安全隐私",
+      "学习资源"
+    ],
+    "tags": [
+      "代理工具",
+      "Clash",
+      "V2Ray",
+      "客户端下载",
+      "使用教程"
+    ],
+    "sourceHash": "0f41c734bde6c242c1fed04c4d02d238a442babb0b96a7fadf5da0594acd002d",
+    "translatedAt": "2026-10-21T16:58:33.638Z"
+  },
+  "tradecatlabs/vibe-coding-cn": {
+    "positioning": "Vibe Coding 中文工具箱，整合提示词、技能与工作流",
+    "summary": "vibe-coding-cn 是面向非严肃开发的 Vibe Coding 中文工具箱，以 Pi Agent 与 OpenAI GPT 为实现基座。项目将既有资料统一整合为 Context（功法体系、入门教程、研究资料）、Skills 技能库与 Extensions 小工具三类资源，并提供提示词在线表格与外部资源索引。新手可从 Pi CLI 上手指南入手，按需查阅功法体系选择合适的思想、准则与工程方法。",
+    "scenarios": [
+      "AI 辅助编程从零入门学习",
+      "查阅与复用提示词资源",
+      "整理 AI Agent 开发工作流",
+      "为 Claude Code 等工具配技能",
+      "非严肃开发者搭建 AI 编码环境"
+    ],
+    "quickStart": "git submodule update --init --recursive\npi --skill .github/skills",
+    "categories": [
+      "学习资源"
+    ],
+    "tags": [
+      "Vibe Coding",
+      "提示词工程",
+      "AI 编程",
+      "技能库",
+      "工作流",
+      "教程"
+    ],
+    "sourceHash": "7f979469edb4f59a0b767ea5652e4f1b7335629584806428155ff80b5c0dad29",
+    "translatedAt": "2026-10-21T16:58:37.603Z"
+  },
+  "esengine/DeepSeek-Reasonix": {
+    "positioning": "处理复杂软件工程任务的开源终端编码代理",
+    "summary": "Reasonix 是一款开源编码代理，专注于可靠地完成复杂的软件工程任务。它以终端 TUI 形式在本地运行，可自由选择模型，支持工具调用与提示词缓存，并能通过 dsh 插件体系和 ACP 协议扩展能力。除 CLI 版本外还提供 Studio 图形版本，采用 MIT 许可。",
+    "scenarios": [
+      "终端内完成复杂编码任务",
+      "本地运行、自选模型的 AI 编程",
+      "通过 dsh 插件扩展代理能力",
+      "自动化重构与调试代码",
+      "接入 DeepSeek/R1 模型开发"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "CLI工具"
+    ],
+    "tags": [
+      "AI编程",
+      "编码代理",
+      "终端工具",
+      "DeepSeek",
+      "插件扩展",
+      "提示词缓存"
+    ],
+    "sourceHash": "2300b7faefa6cb8dcdeb75ec058475e41d0f9ab3dbbdf6a10a43ad3b9898d69c",
+    "translatedAt": "2026-10-21T16:58:39.456Z"
+  },
+  "helloianneo/ian-handdrawn-ppt": {
+    "positioning": "指导 AI 生成中文手绘风技术配图的 Codex Skill",
+    "summary": "Ian Handdrawn PPT 是一个 Codex Skill，可将文章、课程笔记、提纲等材料整理成中文手绘技术解释风格的整页 PNG 图像，默认输出 21:9 封面与 16:9 正文配图。它先分析材料、规划叙事结构，再统一锁定手绘视觉风格逐页生成图像，并支持多页 contact sheet 快速检查。",
+    "scenarios": [
+      "技术文章封面与配图生成",
+      "课程课件与知识卡片制作",
+      "长文讲稿视觉化呈现",
+      "先规划后生图的 PPT 叙事设计",
+      "统一风格的技术概念解释图"
+    ],
+    "quickStart": "git clone https://github.com/helloianneo/ian-handdrawn-ppt.git\ncd ian-handdrawn-ppt\nmkdir -p \"${CODEX_HOME:-$HOME/.codex}/skills\"\ncp -R ./ian-handdrawn-ppt \"${CODEX_HOME:-$HOME/.codex}/skills/\"",
+    "categories": [
+      "人工智能",
+      "设计资源"
+    ],
+    "tags": [
+      "AI Agent",
+      "Codex Skill",
+      "图像生成",
+      "手绘风格",
+      "PPT配图",
+      "中文"
+    ],
+    "sourceHash": "e391bf7aefb2f5715b8b512c4ee47d8a4549c5f3885aaed3946561503d0b51bf",
+    "translatedAt": "2026-10-21T16:58:52.600Z"
+  },
+  "yikart/AiToEarn": {
+    "positioning": "AI内容营销智能体，一站式创作、发布与变现",
+    "summary": "AiToEarn 是面向一人公司（OPC）、创作者和品牌的 AI 内容营销智能体，通过 AI Agent 自动化完成内容创作、多平台分发与变现。支持抖音、小红书、快手、B站、TikTok、YouTube 等十余个国内外主流平台，提供 Monetize、Publish、Engage、Create 四大核心能力，并可通过 MCP 协议接入 Claude、Cursor 等 AI 工具使用。",
+    "scenarios": [
+      "一键发布视频到多平台",
+      "AI 批量生成图文视频草稿",
+      "个人创作者内容变现运营",
+      "线下商户线上推广获客",
+      "团队私有化部署内容矩阵"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "AI营销",
+      "自动发布",
+      "内容创作",
+      "多平台分发",
+      "MCP",
+      "Electron"
+    ],
+    "sourceHash": "9686c687e248fc2243aaa40145f15b4aaaa08cc38c6e064930cc740a229f310f",
+    "translatedAt": "2026-10-21T16:58:54.951Z"
+  },
+  "Fokkyp/SoftwareCopyright-Skill": {
+    "positioning": "开源软著申请材料生成 Skill，本地自动产出全套可提交文档",
+    "summary": "这是一个面向支持本地 Skill 机制的 coding agent 的技能包，通过阅读本地真实项目源码，自动生成中国软件著作权申请全套材料，包括申请表信息、操作手册 DOCX 和前 30 页/后 30 页代码材料。代码材料只从真实源码抽取，禁止 AI 编造，关键节点均需开发者确认，材料本地生成、可审阅修改，完全免费，无需再购买付费代办服务。",
+    "scenarios": [
+      "开发者自主申报软件著作权",
+      "替代付费代办整理申请材料",
+      "从真实源码生成鉴别材料",
+      "官网填报前集中整理申请表字段"
+    ],
+    "quickStart": "git clone https://github.com/Fokkyp/SoftwareCopyright-Skill.git\ncd SoftwareCopyright-Skill\nAGENT_SKILLS_DIR=\"<你的 coding agent 软件要求的 skill 目录>\"\nmkdir -p \"$AGENT_SKILLS_DIR\"\ncp -R software-copyright-materials \"$AGENT_SKILLS_DIR/\"\ncurl -fsSL https://raw.githubusercontent.com/iOfficeAI/OfficeCLI/main/install.sh | bash",
+    "categories": [
+      "效率工具"
+    ],
+    "tags": [
+      "软件著作权",
+      "Skill",
+      "文档生成",
+      "Python",
+      "开源",
+      "编程助手"
+    ],
+    "sourceHash": "86775f07a74432daba9e11fe3be2f0854a1975525d70ede9ba6236ad88e48f18",
+    "translatedAt": "2026-10-21T16:59:11.383Z"
+  },
+  "tinyhumansai/openhuman": {
+    "positioning": "开源 AI Agent 运行框架，10 美元 VPS 可跑 500+ 智能体",
+    "summary": "OpenHuman 是用 Rust 编写的开源 AI Agent 运行框架，既提供面向普通用户的桌面应用，也提供面向开发者的 Rust 库。它主打高性能与低成本，官方基准显示一台 10 美元的 VPS 即可运行 500 多个智能体。项目采用本地优先架构，支持 MCP 协议，强调隐私保护，可充当个人 AI 与第二大脑，目前处于早期 Beta 阶段。",
+    "scenarios": [
+      "在桌面端运行个人 AI 助手",
+      "低成本 VPS 批量运行智能体",
+      "开发者集成 Rust Agent 库",
+      "打造隐私优先的第二大脑",
+      "基于 MCP 编排 AI 工作流"
+    ],
+    "quickStart": "curl -fsSL https://raw.githubusercontent.com/tinyhumansai/openhuman/main/scripts/install.sh | bash",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "AI智能体",
+      "Rust",
+      "本地优先",
+      "隐私保护",
+      "MCP",
+      "第二大脑"
+    ],
+    "sourceHash": "30b5c7d31f69c4e9356be1f746ebd9904ed325f87cca88cbd106cb1510585c6e",
+    "translatedAt": "2026-10-21T16:59:12.513Z"
+  },
+  "handsomestWei/patent-disclosure-skill": {
+    "positioning": "中国专利 AI 技能：挖掘专利点、写交底书、通俗解读",
+    "summary": "这是一个遵循 AgentSkills 标准的中国专利技能，覆盖发明、实用新型、外观设计三类交底书编写：从项目材料中挖掘可申请的专利点，完成查新、脱敏、成文与多轮迭代，并能自动生成结构线稿与 CAD 投影图。同时可将公开专利解读为通俗笔记并沉淀进 Obsidian 私有知识库，支持多条件检索、专利地图探索、政策解读与审查答复辅助。",
+    "scenarios": [
+      "从项目材料梳理可申请专利点",
+      "编写发明或实用新型交底书",
+      "通俗解读公开专利权要与附图",
+      "用 Obsidian 搭建专利知识库",
+      "辅助撰写审查意见答复"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "专利",
+      "交底书",
+      "Obsidian",
+      "AI技能",
+      "知识产权"
+    ],
+    "sourceHash": "eb976c7c97e89d82333da3f866027417050c018d1058d5ca7e40d99079198da1",
+    "translatedAt": "2026-10-21T16:59:13.652Z"
+  },
+  "wuyoscar/GPT-Image2-Skill": {
+    "positioning": "GPT Image 2/2.5 提示词画廊与图像生成编辑 CLI 及 Agent 技能",
+    "summary": "收录 163 条编号提示词、覆盖 31 个类别的 GPT Image 2/2.5 提示词画廊，并配套两个 Agent 技能和 CLI 工具。支持图像生成、编辑及图像转提示词提取，可接入 Claude Code、Codex 等技能型 Agent 运行时，文档提供中英双语。",
+    "scenarios": [
+      "技术插图与爆炸图绘制",
+      "PPT 图表与版式设计参考",
+      "提示词学习与灵感检索",
+      "为 Claude Code 配置图像技能",
+      "命令行批量生成与编辑图像"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "CLI工具"
+    ],
+    "tags": [
+      "图像生成",
+      "提示词库",
+      "OpenAI",
+      "Agent技能",
+      "命令行工具"
+    ],
+    "sourceHash": "1c72f94e8b36e46c544dab33424e06a1f1d860b1d1657310373c51b34b2ae5c8",
+    "translatedAt": "2026-10-21T16:59:30.439Z"
+  },
+  "saltpi/Aria.X": {
+    "positioning": "专为苹果生态打造的原生 aria2 下载管理器",
+    "summary": "AriaX 是一款面向 macOS 与 iOS 的现代下载管理器，基于 SwiftUI 构建，内置预配置的 aria2 引擎，无需终端配置即可开箱即用。它既支持本地下载，也可通过 JSON-RPC 远程控制 NAS 或服务器上的 aria2，并提供 Safari 扩展一键接管下载任务。项目提供内置引擎的完整版（DMG）和 Mac App Store 上的轻量远程控制版 Lite，界面本地化支持 10 余种语言。",
+    "scenarios": [
+      "macOS 日常多任务下载管理",
+      "远程控制 NAS 上的 aria2",
+      "Safari 一键接管网页下载",
+      "iPhone/iPad 管理下载任务",
+      "第三方应用唤起下载任务"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "效率工具"
+    ],
+    "tags": [
+      "下载管理",
+      "aria2",
+      "macOS",
+      "iOS",
+      "SwiftUI",
+      "Safari扩展"
+    ],
+    "sourceHash": "99635925152ce7e8002a718e20173c6013daf7260faea43121c13246fb1c4f57",
+    "translatedAt": "2026-10-21T16:59:33.434Z"
+  },
+  "stephenyin/Ear2Finger": {
+    "positioning": "本地部署的英语听写平台，导入YouTube逐句精听训练",
+    "summary": "Ear2Finger 是可本地部署的英语听写练习 Web 应用，支持导入带字幕的 YouTube 视频，逐句听写并提供单词级输入与提示，通过仪表盘追踪进度并用播放列表管理课程。内置 AI 教练基于 Qdrant 向量检索与 Gemini API，可分析练习记录并推荐下一步学习内容；也提供无 AI 功能的 lite 部署版本，两者共用同一 SQLite 数据结构。",
+    "scenarios": [
+      "YouTube 视频逐句精听听写",
+      "英语听力与拼写强化训练",
+      "追踪个人学习进度与统计",
+      "用播放列表组织听力课程",
+      "AI 教练推荐学习内容"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "学习资源",
+      "自托管服务"
+    ],
+    "tags": [
+      "英语学习",
+      "听写练习",
+      "听力训练",
+      "YouTube",
+      "AI教练",
+      "本地部署"
+    ],
+    "sourceHash": "cc9c852045c9b9cce358b5748fab0af6fc811ded178bb4af317e80635dcc8773",
+    "translatedAt": "2026-10-21T16:59:43.550Z"
+  },
+  "cosmicstack-labs/mercury-agent": {
+    "positioning": "驻留本地的 AI 智能体，带权限管控与持久记忆",
+    "summary": "Mercury Agent 是开源的个性化 AI 智能体，人格可自行编写，记忆保存在本地磁盘，所有文件、命令、Git 等操作都经过你设定的权限规则检查，并有每日令牌预算控制。它以单一后台进程 24/7 常驻，可从终端、Telegram、Discord、Slack、Signal 等渠道访问，并内置 Mercury Code 结对编程和 Mercury Bots 专家团队功能。",
+    "scenarios": [
+      "终端或聊天软件随时调用助手",
+      "文件与命令的权限化自动执行",
+      "仓库内结对编程与代码交付",
+      "定时自动化研究与写作任务",
+      "多渠道统一入口的私人助理"
+    ],
+    "quickStart": "npm i -g @cosmicstack/mercury-agent",
+    "categories": [
+      "人工智能",
+      "CLI工具"
+    ],
+    "tags": [
+      "AI智能体",
+      "多渠道接入",
+      "权限管控",
+      "本地记忆",
+      "结对编程"
+    ],
+    "sourceHash": "e7ebecbe89219dc97267102f5ee68db92183078769d31968c727b0df389e050c",
+    "translatedAt": "2026-10-21T16:59:50.167Z"
+  },
+  "YaoFANGUK/video-subtitle-remover": {
+    "positioning": "基于AI的本地视频硬字幕与文本水印去除工具",
+    "summary": "video-subtitle-remover（VSR）利用深度学习算法去除视频和图片中的硬字幕及文字水印，并对目标区域进行智能填充，保持原分辨率无损输出。项目完全在本地运行，无需申请第三方API，支持指定字幕区域、全视频自动识别去除以及图片批量去水印。",
+    "scenarios": [
+      "去除下载视频中的硬字幕",
+      "批量清除图片文字水印",
+      "视频素材二次创作前去字幕",
+      "本地离线处理隐私敏感视频",
+      "为视频翻译重制清理原字幕"
+    ],
+    "quickStart": "docker run -it --name vsr --gpus all eritpchy/video-subtitle-remover:1.4.0-cuda11.8 python backend/main.py -i test/test.mp4 -o test/test_no_sub.mp4\ndocker run -it --name vsr --gpus all eritpchy/video-subtitle-remover:1.4.0-cpu python backend/main.py -i test/test.mp4 -o test/test_no_sub.mp4\ndocker cp vsr:/vsr/test/test_no_sub.mp4 ./",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "视频处理",
+      "AI去水印",
+      "字幕去除",
+      "深度学习",
+      "本地运行"
+    ],
+    "sourceHash": "69d3ad001f531dc25c740bd3dddc95c7167a4dfe9d3870e5d037ed7ba894eb07",
+    "translatedAt": "2026-10-21T16:59:54.904Z"
+  },
+  "agents-io/PokeClaw": {
+    "positioning": "端侧 AI 操控 Android 手机，本地运行无需云端",
+    "summary": "PokeClaw 是开源的 Android AI 手机自动化应用，可在设备上本地运行 Gemma 4 模型，让 AI 读取屏幕、选择工具、操作应用并完成真实任务流程。Local 模式无需账号和 API Key，模型执行完全保留在设备内，同时支持按需接入云端模型处理复杂任务，已能实现 WhatsApp 消息监控与上下文感知自动回复等功能。",
+    "scenarios": [
+      "WhatsApp 消息监控与自动回复",
+      "基于屏幕上下文的智能回复",
+      "注重隐私的设备端手机自动化",
+      "离线或无账号环境的手机任务",
+      "让 AI 代替操作日常应用流程"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "移动开发"
+    ],
+    "tags": [
+      "端侧AI",
+      "Android自动化",
+      "本地大模型",
+      "Gemma",
+      "手机智能体",
+      "隐私"
+    ],
+    "sourceHash": "7bf900b181e5ab6e1062f77481295e6cd6c9c233afe6588051de63eda69d032c",
+    "translatedAt": "2026-10-21T17:00:11.359Z"
+  },
+  "kao0312/zai-proxy": {
+    "positioning": "将 Z.ai 网页聊天转换为 OpenAI/Anthropic 兼容 API",
+    "summary": "zai-proxy 是用 Go 编写的代理服务，把 Z.ai 网页聊天转换为 OpenAI 和 Anthropic Messages API 兼容接口，支持流式响应、思考模式、联网搜索、函数调用和多模态图片输入。用户可使用自己的 z.ai token 或 free 匿名令牌调用，Claude 模型名会自动映射到对应 GLM 模型，并支持 Docker 部署与可选 SOCKS5 代理池。",
+    "scenarios": [
+      "让现有 OpenAI 客户端直连 Z.ai",
+      "用 Claude SDK 调用 GLM 模型",
+      "自托管轻量 LLM API 网关",
+      "为第三方工具接入 GLM 模型",
+      "本地开发与调试 AI 应用"
+    ],
+    "quickStart": "docker run -d --name zai-proxy -p 8000:8000 ghcr.io/yurika0211/zai-proxy:latest",
+    "categories": [
+      "人工智能",
+      "自托管服务"
+    ],
+    "tags": [
+      "API代理",
+      "OpenAI兼容",
+      "Anthropic",
+      "GLM",
+      "自托管",
+      "Go"
+    ],
+    "sourceHash": "db8ed0682770aab65406f13a6089f3eaa128aebc9489e2088e8de29efbf13b06",
+    "translatedAt": "2026-10-21T17:00:14.676Z"
+  },
+  "browser-use/browser-harness": {
+    "positioning": "让 AI 编程代理操控你真实登录的 Chrome 浏览器",
+    "summary": "Browser Harness 让 Claude Code、Codex、Cursor 等 AI 编程代理直接驱动你正在使用的 Chrome：打开页面、点击、输入、读取和下载，全程保持你的登录状态。它通过 Chrome DevTools Protocol（CDP）与浏览器通信，粘贴一段提示词即可完成安装；代理在工作中会自动编写可复用的辅助脚本，越用越顺手。项目基于 MIT 协议开源。",
+    "scenarios": [
+      "AI 代理执行网页自动化任务",
+      "抓取需要登录的网页内容",
+      "批量下载社交媒体视频",
+      "自动化填写网页表单",
+      "在 VPS 上运行浏览器代理"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "AI代理",
+      "浏览器自动化",
+      "Chrome",
+      "CDP",
+      "MCP",
+      "编程助手"
+    ],
+    "sourceHash": "fc4feb29457b09fb4f7278c839352129026637a46992520fac13c1495101ebf7",
+    "translatedAt": "2026-10-21T17:00:20.223Z"
+  },
+  "testssl/testssl.sh": {
+    "positioning": "命令行工具，检测任意端口 TLS/SSL 加密与漏洞",
+    "summary": "testssl.sh 是一款免费开源的命令行工具，可检测任意端口上服务的 TLS/SSL 密码套件、协议支持及密码学缺陷，支持 SSL/TLS 和 STARTTLS 服务。输出清晰易读，并提供 CSV、JSON、HTML 等机器可读格式。无需安装任何依赖，开箱即用于 Linux、macOS、BSD、WSL2 等环境，也提供官方 Docker 镜像。",
+    "scenarios": [
+      "网站服务器 TLS 配置审计",
+      "STARTTLS 邮件服务加密检测",
+      "渗透测试中排查加密弱点",
+      "协议与密码套件合规检查",
+      "离线私密的安全扫描评估"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "安全隐私",
+      "CLI工具"
+    ],
+    "tags": [
+      "TLS",
+      "SSL",
+      "安全扫描",
+      "命令行工具",
+      "加密检测",
+      "渗透测试"
+    ],
+    "sourceHash": "0af9f57c940df57f3ae4aaaf752330fca4d63074e0159ea808addca97091d0a5",
+    "translatedAt": "2026-10-21T17:00:33.818Z"
+  },
+  "multica-ai/andrej-karpathy-skills": {
+    "positioning": "单文件 CLAUDE.md，改善 Claude Code 编码行为",
+    "summary": "项目提炼 Andrej Karpathy 对 LLM 编码缺陷的观察，浓缩为四条原则：先思考再编码、简洁优先、外科手术式修改、目标驱动执行。只需在项目中引入一个 CLAUDE.md 文件即可生效，帮助 Claude Code 减少错误假设、过度设计和无关改动，输出更可靠的代码。",
+    "scenarios": [
+      "提升 Claude Code 生成代码质量",
+      "约束 AI 不做无关代码改动",
+      "避免 LLM 过度设计与冗余抽象",
+      "以测试驱动验证 AI 修改结果",
+      "团队统一 AI 编码行为规范"
+    ],
+    "quickStart": "/plugin marketplace add forrestchang/andrej-karpathy-skills\n/plugin install andrej-karpathy-skills@",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "Claude Code",
+      "LLM",
+      "AI编程",
+      "提示工程",
+      "编码规范"
+    ],
+    "sourceHash": "fd4cbb9329a7f1a4a4e734bf05209e1ca2547f49a505c4e2aca725bce6c21839",
+    "translatedAt": "2026-10-21T17:00:47.749Z"
+  },
+  "XTLS/BBS": {
+    "positioning": "XTLS 社区的反审查技术讨论论坛",
+    "summary": "XTLS 项目旗下的交流论坛，基于 GitHub Issues 运行，供专业人士自由讨论反审查技术与前瞻性想法。论坛强调高质量交流，禁止阴阳怪气和人身攻击，同时提醒参与者警惕可能存在的立场干扰。",
+    "scenarios": [
+      "讨论反审查技术方案",
+      "交流前瞻性技术想法",
+      "获取社区内部进展信息",
+      "跟进 XTLS 相关议题"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "其他"
+    ],
+    "tags": [
+      "反审查",
+      "论坛",
+      "XTLS",
+      "社区讨论",
+      "前瞻技术"
+    ],
+    "sourceHash": "96faed2ac133069f2c75bb7867d95ff9e7cb8c01513ffb5085d3efb641b1d65b",
+    "translatedAt": "2026-10-21T17:00:52.208Z"
+  },
+  "VoltAgent/awesome-design-md": {
+    "positioning": "热门品牌设计系统 DESIGN.md 合集，让 AI 生成一致 UI",
+    "summary": "收录 84 份从知名网站提取分析的 DESIGN.md 设计系统文档，涵盖 AI 平台、开发者工具等品牌的设计模式、设计令牌与规则。将文件放入项目根目录，AI 编码智能体或 Google Stitch 即可读取并生成视觉风格一致的 UI，无需 Figma 导出或额外解析工具。",
+    "scenarios": [
+      "用 AI 生成品牌风格统一的页面",
+      "快速搭建高质量落地页",
+      "为 vibe coding 提供设计规范",
+      "参考知名产品设计系统细节",
+      "统一项目的视觉设计语言"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "设计资源",
+      "人工智能"
+    ],
+    "tags": [
+      "设计系统",
+      "设计令牌",
+      "AI编码",
+      "前端设计",
+      "资源合集"
+    ],
+    "sourceHash": "41bf5d5a13a7acd3f938d2635e31ce24cba3d8d4dd2e8081f9e9f187cef486c8",
+    "translatedAt": "2026-10-21T17:00:53.148Z"
+  },
+  "tw93/Kaku": {
+    "positioning": "AI 友好的 macOS 终端，开箱即用免配置",
+    "summary": "Kaku 是基于 WezTerm 的 macOS 终端，预置字体、主题、Shell 集成和 Mac 快捷键，安装后即可使用。它对 AI 编程场景友好，能显示代理工作状态、在 Claude Code 需要时提醒用户，还支持浏览器远程访问本机终端，同时保留完整的 Lua 自定义能力。",
+    "scenarios": [
+      "AI 编程与 Claude Code 协作开发",
+      "macOS 日常命令行开发",
+      "浏览器远程访问本机终端",
+      "终端分屏多任务处理",
+      "替换默认终端免折腾配置"
+    ],
+    "quickStart": "brew install --cask kaku\nkaku init",
+    "categories": [
+      "CLI工具",
+      "效率工具"
+    ],
+    "tags": [
+      "macOS终端",
+      "AI编程",
+      "WezTerm",
+      "Rust",
+      "开箱即用"
+    ],
+    "sourceHash": "ed4a7f12ab73e79e76e363a656af333107ada75da0873c194b1f89fbe46b45a9",
+    "translatedAt": "2026-10-21T17:01:09.615Z"
+  },
+  "blueberrycongee/CursorLens": {
+    "positioning": "免费开源屏幕录制编辑器，Screen Studio 替代方案",
+    "summary": "CursorLens 是一款免费开源的屏幕录制与视频编辑工具，基于 OpenScreen 升级而来，支持全屏或应用窗口录制、摄像头画面叠加与麦克风收音。内置时间线剪辑、缩放、光标特效、标注和字幕生成，支持多种画幅比例导出，无水印且可免费商用，适合制作产品演示与教程视频。",
+    "scenarios": [
+      "制作产品演示视频",
+      "录制软件使用教程",
+      "开发者功能演示录制",
+      "社交媒体竖屏视频制作",
+      "团队培训走查视频"
+    ],
+    "quickStart": "从 GitHub Releases 下载对应平台安装包：https://github.com/blueberrycongee/CursorLens/releases\n\nLinux 运行 AppImage：\nchmod +x CursorLens-Linux-*.AppImage\n./CursorLens-Linux-*.AppImage\n\nmacOS 若被 Gatekeeper 拦截：\nxattr -rd com.apple.quarantine \"/Applications/CursorLens.app\"\n\n本地开发：\nnpm install\nnpm run dev",
+    "categories": [
+      "效率工具"
+    ],
+    "tags": [
+      "屏幕录制",
+      "视频编辑",
+      "macOS",
+      "产品演示",
+      "Screen Studio替代品",
+      "开源软件"
+    ],
+    "sourceHash": "62c584f54c5e3ce2ae2017107141191f5d6178812c2dab276516ba8d0627db83",
+    "translatedAt": "2026-10-21T17:01:10.278Z"
+  },
+  "OpenBMB/ChatDev": {
+    "positioning": "零代码多智能体编排平台，配置即可构建执行智能体系统",
+    "summary": "ChatDev 2.0（DevAll）是由 OpenBMB 推出的零代码多智能体平台，用户无需编写代码，仅通过简单配置即可定义智能体、工作流和任务，快速搭建并运行定制化的多智能体系统。它支持数据可视化、3D 生成、深度研究等复杂场景编排；其前身 ChatDev 1.0 以“虚拟软件公司”模式（CEO、CTO、程序员等角色协作）自动化软件开发全生命周期。",
+    "scenarios": [
+      "零代码搭建多智能体系统",
+      "编排数据可视化任务",
+      "3D 内容自动生成",
+      "深度研究与信息整合",
+      "软件开发流程自动化"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "效率工具"
+    ],
+    "tags": [
+      "多智能体",
+      "大语言模型",
+      "零代码",
+      "智能体编排",
+      "Python"
+    ],
+    "sourceHash": "4e341108514a88a987f780aff349458f898f2560b5c2069274cb9fb18c81451e",
+    "translatedAt": "2026-10-21T17:01:10.443Z"
+  },
+  "lzhgus/Capso": {
+    "positioning": "开源免费的 macOS 截图录屏工具，CleanShot X 平替",
+    "summary": "Capso 是一款开源免费的 macOS 原生截图与录屏应用，基于 Swift 6.0 和 SwiftUI 构建，可替代付费的 CleanShot X。支持区域/全屏/窗口/滚动截图、内联标注、OCR 文字识别，以及 MP4/GIF 录屏、摄像头画中画、系统声音与麦克风采集。核心能力以 CaptureKit、AnnotationKit、OCRKit 等可复用的 SPM 包形式开源，方便集成到自己的应用中。",
+    "scenarios": [
+      "长网页与聊天记录滚动截图",
+      "录制带摄像头画中画的教程",
+      "截图后即时标注与 OCR 识别",
+      "录制 GIF 动图演示操作流程",
+      "替代付费工具节省软件开支"
+    ],
+    "quickStart": "brew install --cask capso",
+    "categories": [
+      "效率工具"
+    ],
+    "tags": [
+      "macOS",
+      "截图",
+      "录屏",
+      "标注",
+      "OCR",
+      "开源"
+    ],
+    "sourceHash": "86d56188d29bb8c3ce40c7e9016d52516ced7fa1b0f8b52edbf99704aa0cbec3",
+    "translatedAt": "2026-10-21T17:01:29.349Z"
+  },
+  "yangzongzhuan/RuoYi": {
+    "positioning": "基于SpringBoot的轻量级开源后台权限管理系统",
+    "summary": "RuoYi（若依）是基于SpringBoot开发的Java快速开发框架，内置用户、部门、角色、菜单等权限管理功能，并提供代码生成、定时任务、服务监控等实用模块。核心技术采用Spring、MyBatis、Shiro，无重度依赖，配置后直接运行即可使用，支持个人及企业免费使用。",
+    "scenarios": [
+      "网站管理后台开发",
+      "企业OA办公系统",
+      "CMS内容管理系统",
+      "CRM客户管理系统",
+      "Java项目脚手架"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "后端框架",
+      "效率工具"
+    ],
+    "tags": [
+      "SpringBoot",
+      "权限管理",
+      "后台管理",
+      "快速开发",
+      "代码生成"
+    ],
+    "sourceHash": "7d4d32d936eeb829177265facfac15cae6327aa923ed60a8a1d7701b0603556a",
+    "translatedAt": "2026-10-21T17:01:30.071Z"
+  },
+  "OpenBMB/VoxCPM": {
+    "positioning": "免分词器开源 TTS 模型，支持多语言合成与声音克隆",
+    "summary": "VoxCPM 是 OpenBMB 开源的无分词器文本转语音系统，基于扩散自回归架构直接生成连续语音表征，合成效果自然且富有表现力。VoxCPM2 为 2B 参数模型，训练数据超 200 万小时，支持 30 种语言输入、通过自然语言描述设计全新音色、短样本可控声音克隆，并可直接输出 48kHz 录音室级音质。",
+    "scenarios": [
+      "有声书与播客配音制作",
+      "多语言语音内容合成",
+      "短样本声音克隆复刻",
+      "用文字描述定制新音色",
+      "视频配音与虚拟主播语音"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能"
+    ],
+    "tags": [
+      "语音合成",
+      "声音克隆",
+      "多语言",
+      "深度学习",
+      "开源模型"
+    ],
+    "sourceHash": "b6109c6350a0489c1faeeadb59228eb5412e96e6c924888e21540a8d66d9dcf3",
+    "translatedAt": "2026-10-21T17:01:33.025Z"
+  },
+  "t42ji2ji/keyfarm": {
+    "positioning": "把键盘变成农场，让日常打字变成种田游戏",
+    "summary": "KeyFarm 是一款桌面应用，将你的键盘映射为等距视角的农场网格，每次按键都会让对应地块的作物生长，从浇水、发芽到结果可点击收获。内置 100 种作物分四个稀有度等级供收集，还提供按键热力图视图展示使用频率，以及害虫、休耕、过劳等趣味农场事件。",
+    "scenarios": [
+      "为日常打字增添乐趣",
+      "激励自己多练习打字",
+      "查看按键使用频率热力图",
+      "工作间隙的轻量收集游戏"
+    ],
+    "quickStart": "npm install\nnpm run tauri dev",
+    "categories": [
+      "游戏娱乐",
+      "效率工具"
+    ],
+    "tags": [
+      "打字游戏",
+      "农场养成",
+      "桌面应用",
+      "键盘热力图",
+      "Tauri",
+      "开源游戏"
+    ],
+    "sourceHash": "68f20b4e9dd176bcaad800bbb48cfa845a0aaf097502c39dea1c66b2e0e5b2c7",
+    "translatedAt": "2026-10-21T17:01:45.162Z"
+  },
+  "PlayerYK/dmcheck": {
+    "positioning": "免费域名可用性检测工具，WHOIS+RDAP 实时流式查询",
+    "summary": "dmcheck 是一个开源的域名可用性批量检测服务，输入关键词即可实时流式返回多个顶级域名的注册状态。它直连注册局 WHOIS 服务器并支持 RDAP 兜底，预置 83 个 TLD、可扩展支持 1000+，还提供注册信息详情、结果图片导出、多语言界面和注册商价格参考。所有静态资源内嵌单二进制，部署简单，也提供在线版 dmcheck.app。",
+    "scenarios": [
+      "为新项目批量筛选可用域名",
+      "查询域名注册日期与注册商",
+      "生成结果图片分享给团队",
+      "自托管私有域名检测服务",
+      "识别注册局保留域名"
+    ],
+    "quickStart": "go run .\ngo build -o dmcheck .\n./dmcheck",
+    "categories": [
+      "自托管服务",
+      "效率工具"
+    ],
+    "tags": [
+      "域名查询",
+      "WHOIS",
+      "RDAP",
+      "自托管",
+      "实时流式"
+    ],
+    "sourceHash": "5bb2819ce13650e7340ffe19c77933a19cffdd263b9447095b45a08dc92d40bb",
+    "translatedAt": "2026-10-21T17:01:48.971Z"
+  },
+  "lhfer/claude-howto-zh-cn": {
+    "positioning": "面向中国小白的 Claude Code 中文上手指南",
+    "summary": "基于 luongnv89/claude-howto 本土化重写的 Claude Code 中文学习指南，覆盖 slash commands、memory、skills、hooks、MCP、subagents 和 plugins 十大模块。不是逐句翻译，而是按学习体验重新组织表达，保留所有可执行命令与配置的兼容性，并提供学习路径自测与本地化校验脚本。",
+    "scenarios": [
+      "Claude Code 新手系统入门学习",
+      "想了解 skills 与 hooks 组合用法",
+      "配置 MCP 与 subagents 自动化",
+      "搭建 code review 与文档生成流程",
+      "排查中国用户安装与网络障碍"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "学习资源",
+      "效率工具"
+    ],
+    "tags": [
+      "Claude Code",
+      "中文文档",
+      "上手指南",
+      "AI编程",
+      "MCP",
+      "本土化"
+    ],
+    "sourceHash": "9174c61e6e7918b204d664690eac14c6a4d987ed0ecbab44cb198f0bee0999dd",
+    "translatedAt": "2026-10-21T17:01:55.698Z"
+  },
+  "beclab/Olares": {
+    "positioning": "开源自托管个人云系统，用自有硬件运行 AI 代理和本地模型",
+    "summary": "Olares 是基于 Kubernetes 的开源个人云操作系统，可将自有设备变为可从浏览器访问的自托管 AI 平台，并支持自然语言管理。它提供应用市场一键部署本地 AI 应用与模型、GPU 资源池化调度、文件存储管理和私有网络访问控制等能力。适合个人用户与小团队在保障数据隐私的前提下，统一管理计算、存储、网络与应用。",
+    "scenarios": [
+      "家庭服务器搭建 AI 平台",
+      "本地运行大语言模型",
+      "个人文件与数据自托管",
+      "隐私敏感数据的本地 AI 处理",
+      "小团队私有化部署应用"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "自托管服务"
+    ],
+    "tags": [
+      "自托管",
+      "个人云",
+      "本地AI",
+      "AI代理",
+      "Kubernetes",
+      "数据隐私"
+    ],
+    "sourceHash": "9eb7b522af7c112c1809302cd5eab470b3f7e477a844ad86c66f9cd209728663",
+    "translatedAt": "2026-10-21T17:02:01.496Z"
+  },
+  "Wei-Shaw/sub2api": {
+    "positioning": "AI 订阅统一转 API 的开源网关，支持拼车分摊成本",
+    "summary": "Sub2API 是基于 Go 的开源 AI API 中转网关，可将 Claude、OpenAI、Gemini、Grok 等订阅账号统一转换为 API 接入。平台支持配额分发与拼车共享，便于团队高效分摊订阅成本，Claude Code、Codex 等原生工具可无缝对接。技术栈采用 Vue 3 + PostgreSQL + Redis，支持 Docker 部署。",
+    "scenarios": [
+      "团队共享 AI 订阅账号",
+      "多人拼车分摊订阅成本",
+      "为 Claude Code 提供 API",
+      "统一管理多家模型订阅",
+      "自建 API 中转网关服务"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "自托管服务"
+    ],
+    "tags": [
+      "API网关",
+      "AI中转",
+      "拼车共享",
+      "Claude",
+      "自托管"
+    ],
+    "sourceHash": "2867259a98ed6751f5f1b2382be63617b33277a4c68360d7e71824d4d148197d",
+    "translatedAt": "2026-10-21T17:02:06.009Z"
+  },
+  "521xueweihan/HelloGitHub": {
+    "positioning": "每月精选分享 GitHub 上有趣、入门级开源项目的月刊",
+    "summary": "HelloGitHub 是一份开源项目月刊，每月 28 号更新，分享 GitHub 上有趣、入门级的开源项目。内容涵盖有趣的开源项目、开源书籍、实战项目、企业级项目等，帮助读者用很短时间感受开源的魅力。支持中英日多语言阅读，可通过官网或公众号获得更好的阅读体验。",
+    "scenarios": [
+      "寻找入门级开源项目练手",
+      "追踪每月热门开源项目",
+      "开源新手入门学习",
+      "发现开源书籍与实战项目"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "学习资源"
+    ],
+    "tags": [
+      "开源月刊",
+      "GitHub",
+      "项目推荐",
+      "入门级",
+      "学习资源"
+    ],
+    "sourceHash": "46d9bf85aec398dd4c2a865471cdb2e1d280ad09c13ea5d01ccc62e8ec6d893e",
+    "translatedAt": "2026-10-21T17:02:08.639Z"
+  },
+  "wechaty/wechaty": {
+    "positioning": "对话式 RPA SDK，一套代码构建多平台聊天机器人",
+    "summary": "Wechaty 是面向聊天机器人开发者的对话式 RPA SDK，为微信、WhatsApp 等多个即时通讯平台提供统一接口。开发者只需编写一次机器人代码，即可运行在任意支持的平台，无需关心各平台底层 API 的差异。项目支持 TypeScript、Python、Go、Java 等多种语言，并拥有活跃的社区。",
+    "scenarios": [
+      "微信智能客服机器人",
+      "WhatsApp 消息自动化处理",
+      "社群运营自动管理",
+      "跨平台消息统一推送",
+      "AI 对话机器人快速接入"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "后端框架"
+    ],
+    "tags": [
+      "聊天机器人",
+      "微信机器人",
+      "RPA",
+      "对话式AI",
+      "TypeScript"
+    ],
+    "sourceHash": "0aa53cb7e548fc961c5fee0b6c76c1a7f8ff31b06c5344463f3fdf33e3579309",
+    "translatedAt": "2026-10-21T17:02:25.011Z"
+  },
+  "lifedever/PasteMemo": {
+    "positioning": "macOS 智能剪贴板管理器，复制一次随处即贴",
+    "summary": "PasteMemo 是一款 macOS 智能剪贴板管理器，实时捕获文本、图片、链接、代码等内容，自动识别类型并提供富预览。它支持把复制的文本粘贴为 .txt 文件、把截图粘贴为图片文件，并可无缝向 AI 终端粘贴图片和文件。另提供全文搜索、按类型或来源筛选、置顶常用片段等功能。注意：本仓库为官网与更新分发渠道，应用源码位于 lifedever/PasteMemo-app。",
+    "scenarios": [
+      "向 AI 终端粘贴图片与文件",
+      "复制文本秒变 txt 文件",
+      "截图快速保存为图片文件",
+      "按类型与来源检索剪贴历史",
+      "置顶常用片段快速粘贴"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "效率工具"
+    ],
+    "tags": [
+      "macOS",
+      "剪贴板",
+      "效率工具",
+      "AI终端",
+      "剪贴历史"
+    ],
+    "sourceHash": "c1c390749f972ec985bbb75b5a1bf60969aae40722477de8bd35965093323962",
+    "translatedAt": "2026-10-21T17:02:30.262Z"
+  },
+  "perkfly/ex-skill": {
+    "positioning": "以",
+    "summary": "",
+    "scenarios": [],
+    "quickStart": "见 README",
+    "categories": [
+      "其他"
+    ],
+    "tags": [],
+    "sourceHash": "cb420b54620484e5f4d1639edffbe292836a67606b1f295d64de381935814c6c",
+    "translatedAt": "2026-10-21T17:02:30.429Z"
+  },
+  "hacksider/Deep-Live-Cam": {
+    "positioning": "仅需一张图片即可实现实时换脸与一键视频深伪",
+    "summary": "Deep-Live-Cam 是一个基于 Python 的实时换脸工具，只需一张人脸图片即可进行直播/摄像头实时换脸，或一键生成视频深伪内容。支持 Windows、Mac Silicon、NVIDIA/AMD GPU 等多平台硬件加速，内置内容安全检查，阻止处理不当媒体。",
+    "scenarios": [
+      "直播与视频会议实时换脸",
+      "短视频创意内容制作",
+      "虚拟角色动画驱动",
+      "AI 生成媒体内容创作"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能"
+    ],
+    "tags": [
+      "换脸",
+      "深度伪造",
+      "实时视频",
+      "摄像头",
+      "AI"
+    ],
+    "sourceHash": "8f2395fa13668022f6c79f62d271a0399d0c6edc2ef7bd86117cf4aa5c70ee95",
+    "translatedAt": "2026-10-21T17:02:42.263Z"
+  },
+  "qiaoshouqing/drive-escape": {
+    "positioning": "输入任意城市，生成驾车时间热力图，看5小时能开多远",
+    "summary": "Drive Escape 是一个交互式驾车时间地图，选择全球任意城市后自动生成区县级驾车时间热力图，用 10 级色阶展示各区车程约与距离。基于 OSRM 获取真实驾车时间并本地缓存，支持日本、欧洲、澳洲等国际区域，移动端友好且提供中英日多语言。默认使用免费 API，可一键部署到 Cloudflare Pages。",
+    "scenarios": [
+      "周末自驾目的地筛选",
+      "规划行程探索周边城市",
+      "搬到新城市后了解周边",
+      "跨国自驾范围评估",
+      "长途出行中途停留选点"
+    ],
+    "quickStart": "git clone https://github.com/benshandebiao/drive-escape.git\ncd drive-escape\npython3 -m http.server 8080\n# open http://localhost:8080",
+    "categories": [
+      "数据可视化",
+      "效率工具"
+    ],
+    "tags": [
+      "地图",
+      "驾车时间",
+      "热力图",
+      "旅行规划",
+      "Leaflet"
+    ],
+    "sourceHash": "bcfd05eee5ea2f10f075c6455b91e2c0720d1921faed1eafef2cd962c05ba93f",
+    "translatedAt": "2026-10-21T17:02:45.550Z"
+  },
+  "AstrBotDevs/AstrBot": {
+    "positioning": "接入多平台与多家大模型的 AI 聊天机器人开发框架",
+    "summary": "AstrBot 是一个开源 AI 助手与开发框架，支持接入 QQ、Telegram、Discord 等多种即时通讯平台，并可对接 OpenAI、Gemini、Llama 等多家大模型。项目提供插件体系和 MCP 支持，便于开发者快速搭建并扩展自定义的 AI 聊天机器人。",
+    "scenarios": [
+      "QQ/Telegram 群聊 AI 助手",
+      "接入自选大模型的聊天机器人",
+      "基于插件扩展自定义 AI 功能",
+      "搭建支持 MCP 工具调用的智能体",
+      "自托管个人 AI 问答服务"
+    ],
+    "quickStart": "见 README",
+    "categories": [
+      "人工智能",
+      "自托管服务"
+    ],
+    "tags": [
+      "AI机器人",
+      "大语言模型",
+      "多平台接入",
+      "插件系统",
+      "MCP",
+      "Python"
+    ],
+    "sourceHash": "cd7efb20519a9c7f706d94fb802a19dfa16654625e2a7bb284fecf5bbb475345",
+    "translatedAt": "2026-10-21T17:02:49.762Z"
+  }
+}
