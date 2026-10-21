@@ -1,0 +1,90 @@
+name: Update & Deploy
+
+on:
+  schedule:
+    - cron: "30 19 * * *" # 每天 UTC 19:30 = 北京时间 03:30
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "data/**"
+      - "web/public/data/**"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+env:
+  GH_PAT: ${{ secrets.GH_PAT }}
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: 抓取 star 数据
+        if: ${{ env.GH_PAT != '' }}
+        env:
+          GITHUB_TOKEN: ${{ env.GH_PAT }}
+        run: node scripts/fetch_stars.mjs
+
+      - name: 翻译（增量，未配 LLM secrets 时自动跳过）
+        if: ${{ env.GH_PAT != '' }}
+        env:
+          GITHUB_TOKEN: ${{ env.GH_PAT }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+        run: node scripts/translate.mjs
+
+      - name: 同步数据到前端
+        if: ${{ env.GH_PAT != '' }}
+        run: node scripts/sync_data.mjs
+
+      - name: 提交数据变更
+        if: ${{ env.GH_PAT != '' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data web/public/data
+          if git diff --cached --quiet; then
+            echo "数据无变化"
+          else
+            git commit -m "chore(data): auto update [skip ci]"
+            git push
+          fi
+
+      - name: 配置 Pages
+        uses: actions/configure-pages@v5
+
+      - name: 构建前端
+        working-directory: web
+        run: |
+          npm ci
+          npm run build
+
+      - name: 上传 Pages 产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

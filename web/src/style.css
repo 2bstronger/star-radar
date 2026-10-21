@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* Tailwind v4：按 .dark 类切换暗色模式（而非跟随系统） */
+@custom-variant dark (&:where(.dark, .dark *));
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-100;
+}
+
+/* 抽屉滑入动画 */
+@keyframes slide-in {
+  from { transform: translateX(24px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+.drawer-enter { animation: slide-in 0.25s ease; }

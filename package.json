@@ -1,0 +1,12 @@
+{
+  "name": "github-star-radar",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "开源项目雷达 —— 把 GitHub starred 仓库做成可筛选、带中文摘要的静态站",
+  "scripts": {
+    "fetch": "node scripts/fetch_stars.mjs",
+    "translate": "node scripts/translate.mjs",
+    "sync": "node scripts/sync_data.mjs"
+  }
+}

@@ -1,0 +1,264 @@
+[
+  {
+    "id": 92405709,
+    "fullName": "sharkdp/bat",
+    "description": "A cat(1) clone with syntax highlighting and Git integration.",
+    "homepageUrl": null,
+    "stars": 51200,
+    "forks": 850,
+    "primaryLanguage": "Rust",
+    "languages": [
+      { "name": "Rust", "size": 186432, "pct": 94.2 },
+      { "name": "Shell", "size": 8200, "pct": 4.1 },
+      { "name": "PowerShell", "size": 3300, "pct": 1.7 }
+    ],
+    "license": "MIT",
+    "createdAt": "2018-02-03T10:00:00Z",
+    "pushedAt": "2026-10-18T08:00:00Z",
+    "starredAt": "2026-10-02T12:00:00Z",
+    "defaultBranch": "master",
+    "topics": ["cli", "terminal", "syntax-highlighting", "rust"],
+    "openIssues": 96,
+    "hotIssue": {
+      "number": 2781,
+      "title": "Support for custom themes via BAT_THEME_PATH",
+      "url": "https://github.com/sharkdp/bat/issues/2781",
+      "comments": 87
+    },
+    "isArchived": false
+  },
+  {
+    "id": 655472730,
+    "fullName": "ollama/ollama",
+    "description": "Get up and running with large language models locally.",
+    "homepageUrl": "https://ollama.com",
+    "stars": 138000,
+    "forks": 11200,
+    "primaryLanguage": "Go",
+    "languages": [
+      { "name": "Go", "size": 982000, "pct": 88.5 },
+      { "name": "TypeScript", "size": 98000, "pct": 8.8 },
+      { "name": "Shell", "size": 29000, "pct": 2.7 }
+    ],
+    "license": "Apache-2.0",
+    "createdAt": "2023-06-20T02:00:00Z",
+    "pushedAt": "2026-10-20T15:30:00Z",
+    "starredAt": "2026-10-05T09:00:00Z",
+    "defaultBranch": "main",
+    "topics": ["llm", "ai", "local", "inference"],
+    "openIssues": 2100,
+    "hotIssue": {
+      "number": 4521,
+      "title": "GPU memory not released after model unload on Windows",
+      "url": "https://github.com/ollama/ollama/issues/4521",
+      "comments": 342
+    },
+    "isArchived": false
+  },
+  {
+    "id": 124931592,
+    "fullName": "shadcn-ui/ui",
+    "description": "Beautifully designed components that you can copy and paste into your apps.",
+    "homepageUrl": "https://ui.shadcn.com",
+    "stars": 82000,
+    "forks": 5600,
+    "primaryLanguage": "TypeScript",
+    "languages": [
+      { "name": "TypeScript", "size": 512000, "pct": 92.3 },
+      { "name": "CSS", "size": 28000, "pct": 5.1 },
+      { "name": "JavaScript", "size": 14000, "pct": 2.6 }
+    ],
+    "license": "MIT",
+    "createdAt": "2023-01-04T08:00:00Z",
+    "pushedAt": "2026-10-19T11:00:00Z",
+    "starredAt": "2026-09-28T14:00:00Z",
+    "defaultBranch": "main",
+    "topics": ["react", "tailwind", "components", "design-system"],
+    "openIssues": 1300,
+    "hotIssue": {
+      "number": 1204,
+      "title": "Dark mode toggle not persisting with Next.js App Router",
+      "url": "https://github.com/shadcn-ui/ui/issues/1204",
+      "comments": 156
+    },
+    "isArchived": false
+  },
+  {
+    "id": 254533173,
+    "fullName": "immich-app/immich",
+    "description": "High performance self-hosted photo and video backup solution.",
+    "homepageUrl": "https://immich.app",
+    "stars": 67500,
+    "forks": 3500,
+    "primaryLanguage": "TypeScript",
+    "languages": [
+      { "name": "TypeScript", "size": 1250000, "pct": 68.4 },
+      { "name": "Svelte", "size": 480000, "pct": 26.3 },
+      { "name": "Dockerfile", "size": 98000, "pct": 5.3 }
+    ],
+    "license": "AGPL-3.0",
+    "createdAt": "2022-02-07T12:00:00Z",
+    "pushedAt": "2026-10-21T02:00:00Z",
+    "starredAt": "2026-10-11T18:00:00Z",
+    "defaultBranch": "main",
+    "topics": ["photos", "self-hosted", "backup", "docker"],
+    "openIssues": 780,
+    "hotIssue": {
+      "number": 3892,
+      "title": "ML face recognition fails on large libraries after v1.120",
+      "url": "https://github.com/immich-app/immich/issues/3892",
+      "comments": 98
+    },
+    "isArchived": false
+  },
+  {
+    "id": 27195764,
+    "fullName": "BurntSushi/ripgrep",
+    "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore.",
+    "homepageUrl": null,
+    "stars": 50300,
+    "forks": 2100,
+    "primaryLanguage": "Rust",
+    "languages": [
+      { "name": "Rust", "size": 1420000, "pct": 97.8 },
+      { "name": "Shell", "size": 32000, "pct": 2.2 }
+    ],
+    "license": "Unlicense",
+    "createdAt": "2014-09-17T00:00:00Z",
+    "pushedAt": "2026-09-30T10:00:00Z",
+    "starredAt": "2026-08-15T07:00:00Z",
+    "defaultBranch": "master",
+    "topics": ["cli", "search", "regex", "grep"],
+    "openIssues": 130,
+    "hotIssue": null,
+    "isArchived": false
+  },
+  {
+    "id": 23461790,
+    "fullName": "mermaid-js/mermaid",
+    "description": "Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown.",
+    "homepageUrl": "https://mermaid.js.org",
+    "stars": 76000,
+    "forks": 6900,
+    "primaryLanguage": "JavaScript",
+    "languages": [
+      { "name": "TypeScript", "size": 980000, "pct": 81.7 },
+      { "name": "JavaScript", "size": 175000, "pct": 14.6 },
+      { "name": "SCSS", "size": 45000, "pct": 3.7 }
+    ],
+    "license": "MIT",
+    "createdAt": "2014-09-04T12:00:00Z",
+    "pushedAt": "2026-10-17T09:00:00Z",
+    "starredAt": "2026-07-20T10:00:00Z",
+    "defaultBranch": "develop",
+    "topics": ["diagram", "markdown", "visualization"],
+    "openIssues": 1100,
+    "hotIssue": {
+      "number": 5210,
+      "title": "Gantt axis labels overlap when using zoom",
+      "url": "https://github.com/mermaid-js/mermaid/issues/5210",
+      "comments": 64
+    },
+    "isArchived": false
+  },
+  {
+    "id": 172545044,
+    "fullName": "n8n-io/n8n",
+    "description": "Fair-code workflow automation tool with native AI capabilities.",
+    "homepageUrl": "https://n8n.io",
+    "stars": 78000,
+    "forks": 10500,
+    "primaryLanguage": "TypeScript",
+    "languages": [
+      { "name": "TypeScript", "size": 3450000, "pct": 91.2 },
+      { "name": "Vue", "size": 210000, "pct": 5.6 },
+      { "name": "SCSS", "size": 124000, "pct": 3.2 }
+    ],
+    "license": null,
+    "createdAt": "2019-02-26T10:00:00Z",
+    "pushedAt": "2026-10-21T06:00:00Z",
+    "starredAt": "2026-10-08T16:00:00Z",
+    "defaultBranch": "master",
+    "topics": ["automation", "workflow", "low-code", "self-hosted"],
+    "openIssues": 520,
+    "hotIssue": {
+      "number": 8765,
+      "title": "HTTP Request node timeout on slow endpoints (v1.70)",
+      "url": "https://github.com/n8n-io/n8n/issues/8765",
+      "comments": 72
+    },
+    "isArchived": false
+  },
+  {
+    "id": 67177219,
+    "fullName": "localstack/localstack",
+    "description": "A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline.",
+    "homepageUrl": "https://localstack.cloud",
+    "stars": 58500,
+    "forks": 4100,
+    "primaryLanguage": "Python",
+    "languages": [
+      { "name": "Python", "size": 2100000, "pct": 90.1 },
+      { "name": "Shell", "size": 130000, "pct": 5.6 },
+      { "name": "Makefile", "size": 102000, "pct": 4.3 }
+    ],
+    "license": "Apache-2.0",
+    "createdAt": "2016-09-01T08:00:00Z",
+    "pushedAt": "2026-10-20T17:00:00Z",
+    "starredAt": "2026-06-30T11:00:00Z",
+    "defaultBranch": "master",
+    "topics": ["aws", "testing", "docker", "development"],
+    "openIssues": 380,
+    "hotIssue": {
+      "number": 9987,
+      "title": "S3 event notifications lost after container restart",
+      "url": "https://github.com/localstack/localstack/issues/9987",
+      "comments": 45
+    },
+    "isArchived": false
+  },
+  {
+    "id": 17223856,
+    "fullName": "request/request",
+    "description": "Simplified HTTP request client. (Deprecated)",
+    "homepageUrl": null,
+    "stars": 25700,
+    "forks": 3200,
+    "primaryLanguage": "JavaScript",
+    "languages": [
+      { "name": "JavaScript", "size": 420000, "pct": 98.1 },
+      { "name": "HTML", "size": 8100, "pct": 1.9 }
+    ],
+    "license": null,
+    "createdAt": "2014-03-06T14:00:00Z",
+    "pushedAt": "2020-02-11T20:00:00Z",
+    "starredAt": "2025-12-10T09:00:00Z",
+    "defaultBranch": "master",
+    "topics": ["http", "http-client", "deprecated"],
+    "openIssues": 39,
+    "hotIssue": null,
+    "isArchived": true
+  },
+  {
+    "id": 663369830,
+    "fullName": "simonw/llm",
+    "description": "Access large language models from the command-line, with support for many providers.",
+    "homepageUrl": "https://llm.datasette.io",
+    "stars": 6200,
+    "forks": 380,
+    "primaryLanguage": "Python",
+    "languages": [
+      { "name": "Python", "size": 185000, "pct": 97.4 },
+      { "name": "Makefile", "size": 4900, "pct": 2.6 }
+    ],
+    "license": "Apache-2.0",
+    "createdAt": "2023-03-15T16:00:00Z",
+    "pushedAt": "2026-10-16T13:00:00Z",
+    "starredAt": "2026-10-19T20:00:00Z",
+    "defaultBranch": "main",
+    "topics": ["llm", "cli", "ai", "python"],
+    "openIssues": 210,
+    "hotIssue": null,
+    "isArchived": false
+  }
+]
