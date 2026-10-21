@@ -6,11 +6,12 @@
  *
  * 环境变量：
  *   GITHUB_TOKEN   可选，用于拉取 README（无则仅凭 description 翻译）
- *   LLM_BASE_URL   OpenAI 兼容接口地址（如 https://open.bigmodel.cn/api/paas/v4）
+ *   LLM_BASE_URL   OpenAI 兼容接口地址
  *   LLM_API_KEY    未配置时优雅跳过（exit 0，不影响 CI）
  *   LLM_MODEL      默认 glm-5.3-flash
  *
- * 产物：data/zh.json（每完成 10 条或队列耗尽即写盘）
+ * README 不截断（模型 1M 上下文随便吃）；输出靠 prompt 约束为简短 JSON。
+ * 产物：data/zh.json（每完成 10 条写盘）
  */
 import { readFileSync, writeFileSync, renameSync, mkdirSync } from 'node:fs'
 import { createHash } from 'node:crypto'
@@ -63,28 +64,38 @@ function saveZh() {
   renameSync(tmp, join(DATA, 'zh.json'))
 }
 
+const sleep = (ms) => new Promise((s) => setTimeout(s, ms))
+
+// README 全文拉取（不截断），带重试；404/403 之外的网络抖动退避重试 3 次
 async function fetchReadme(fullName) {
   if (!GH) return ''
-  try {
-    const res = await fetch(`https://api.github.com/repos/${fullName}/readme`, {
-      headers: {
-        Authorization: `Bearer ${GH}`,
-        Accept: 'application/vnd.github.raw+json',
-        'X-GitHub-Api-Version': '2022-11-28',
-      },
-    })
-    if (!res.ok) return ''
-    return (await res.text()).slice(0, 4000)
-  } catch {
-    return ''
+  for (let i = 0; i < 3; i++) {
+    try {
+      const res = await fetch(`https://api.github.com/repos/${fullName}/readme`, {
+        headers: {
+          Authorization: `Bearer ${GH}`,
+          Accept: 'application/vnd.github.raw+json',
+          'X-GitHub-Api-Version': '2022-11-28',
+        },
+      })
+      if (res.ok) return await res.text()
+      if (res.status >= 500) {
+        await sleep(1000 * 2 ** i)
+        continue
+      }
+      return '' // 404 等情况，直接放弃
+    } catch {
+      if (i < 2) await sleep(1000 * 2 ** i)
+    }
   }
+  return ''
 }
 
 const SYSTEM = `你是开源项目中文技术编辑，为"开源项目雷达"网站编写项目介绍。根据给定信息输出简体中文 JSON：
 - positioning：一句话定位，不超过 30 字，说清"是什么、核心价值"
 - summary：2-3 句简介，概括功能与亮点，避免堆砌形容词
 - scenarios：3-5 条适用场景，每条 6-20 字
-- quickStart：快速上手命令，必须从 README 安装/快速开始段落原文摘录（docker/brew/npm/pip/cargo/go install 等真实命令，多条用换行分隔）；README 没有就写"见 README"，严禁编造
+- quickStart：快速上手命令，必须从 README 安装/快速开始/Getting Started 段落原文摘录（docker/brew/npm/pip/cargo/go install 等真实命令，多条用换行分隔）；README 没有就写"见 README"，严禁编造
 - categories：1-2 个分类，只能从以下列表选：${CATEGORIES.join('、')}
 - tags：3-6 个简体中文标签
 只输出 JSON 对象本身，不要输出其他内容。`
@@ -96,7 +107,7 @@ async function translateOne(r) {
 主要语言：${r.primaryLanguage ?? '未知'}
 主题：${(r.topics ?? []).join(', ') || '（无）'}
 主页：${r.homepageUrl || '（无）'}
-README 摘录：
+README 全文：
 ${readme || '（无）'}`
   const res = await fetch(`${BASE}/chat/completions`, {
     method: 'POST',
@@ -148,7 +159,7 @@ async function worker() {
           failed += 1
           console.error(`  ✖ ${r.fullName}：${e.message}`)
         } else {
-          await new Promise((s) => setTimeout(s, 2000 * 2 ** i))
+          await sleep(2000 * 2 ** i)
         }
       }
     }
@@ -161,6 +172,6 @@ async function worker() {
 }
 
 mkdirSync(DATA, { recursive: true })
-await Promise.all(Array.from({ length: Math.min(3, todo.length) }, worker))
+await Promise.all(Array.from({ length: Math.min(10, todo.length) }, worker))
 saveZh()
 console.log(`✔ 翻译完成：成功 ${done - failed}，失败 ${failed}`)
