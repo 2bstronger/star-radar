@@ -61,7 +61,7 @@ cd web && npm install && npm run dev
 
 在 GitHub 仓库的 **Actions → Update & Deploy → 对应运行 → 翻译**步骤日志中查看每个待翻译仓库、触发原因和成功、失败或待重试状态；日志不包含 README 或模型回复。失败时会输出 warning 和失败数量，并在下次重试。为了保存已完成的进度，部分失败仍会正常退出，因此 Actions 作业成功不代表全部翻译成功。README 返回 404 时会额外检查仓库是否可访问，只有仓库可访问才确认 README 不存在。未配置 GitHub token 和完整 LLM 配置时，翻译会跳过；已配置 LLM 但缺少 token 时会报错。
 
-每次约增加每个收藏仓库一次 README API 请求；大 README 可能需要额外请求，网络错误会重试。加上收藏列表及每仓库语言和 issue 请求，约为每仓库 3 次请求（例如 619 个约 1864 次，未计重试），需留意 token 的 GitHub 限额和其他应用共享的用量。超过 API 对 README 的支持范围时项目会保持待重试，不会误写为空。
+每次约增加每个收藏仓库一次 README API 请求；README 元数据内容不完整或校验不符时，会按 blob SHA 额外请求 Git blob 原文，并验证字节长度和 SHA，失败则保留旧指纹并重试。网络错误会重试。加上收藏列表及每仓库语言和 issue 请求，约为每仓库 3 次请求（例如 619 个约 1864 次，未计重试），需留意 token 的 GitHub 限额和其他应用共享的用量。超过 API 对 README 的支持范围时项目会保持待重试，不会误写为空。
 
 离线回归测试：`node --test test/translate.test.mjs`，使用临时数据和模拟网络，不需要密钥。
 

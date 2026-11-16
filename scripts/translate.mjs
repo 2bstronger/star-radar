@@ -109,16 +109,18 @@ async function fetchReadme(fullName) {
   }
   const data = await res.json()
   if (!data || data.type !== 'file' || !/^[a-f0-9]{40}$/.test(data.sha) || !Number.isSafeInteger(data.size) || data.size < 0) throw new Error('无效的 README 元数据')
+  const valid = (bytes) => bytes.length === data.size &&
+    createHash('sha1').update(`blob ${bytes.length}\0`).update(bytes).digest('hex') === data.sha
   let bytes
   if (data.encoding === 'base64' && typeof data.content === 'string' && /^[A-Za-z0-9+/=\s]*$/.test(data.content)) {
     bytes = Buffer.from(data.content.replace(/\s/g, ''), 'base64')
-  } else if (data.encoding === 'none') {
-    const raw = await ghRequest(url, 'application/vnd.github.raw+json')
+  }
+  if (!bytes || !valid(bytes)) {
+    const raw = await ghRequest(`https://api.github.com/repos/${fullName}/git/blobs/${data.sha}`, 'application/vnd.github.raw+json')
     if (!raw.ok) throw new Error(`README 正文获取失败 ${raw.status}`)
     bytes = Buffer.from(await raw.arrayBuffer())
-  } else throw new Error('无效的 README 内容')
-  const hash = createHash('sha1').update(`blob ${bytes.length}\0`).update(bytes).digest('hex')
-  if (bytes.length !== data.size || hash !== data.sha) throw new Error('README 内容与指纹不一致')
+    if (!valid(bytes)) throw new Error('README 内容与指纹不一致')
+  }
   return { fingerprint: `blob:${data.sha}`, text: bytes.toString('utf8') }
 }
 

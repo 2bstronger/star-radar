@@ -122,6 +122,53 @@ test('README 404 仅在仓库可访问时确认为不存在', () => {
   } finally { rmSync(dir, { recursive: true, force: true }) }
 })
 
+test('大 README 使用完整 blob，失败保留指纹并重试', () => {
+  const dir = mkdtempSync(join(resolve('test'), '.star-translate-'))
+  const file = (name) => join(dir, name)
+  const write = (name, obj) => writeFileSync(file(name), JSON.stringify(obj))
+  const read = (name) => JSON.parse(readFileSync(file(name), 'utf8'))
+  const large = '大README\n' + 'x'.repeat(520000) + '\n完整结尾'
+  const changed = large + '\n更新'
+  const fixture = { readmes: {
+    'a/old': { text: large, metadataText: large.slice(0, 512000) },
+    'a/new': { text: large, encoding: 'none' },
+  } }
+  const run = () => {
+    write('fixture.json', fixture)
+    const result = spawnSync(process.execPath, ['--import', pathToFileURL(resolve('test/mock-translate.mjs')).href, resolve('scripts/translate.mjs')], {
+      env: { SystemRoot: process.env.SystemRoot, TRANSLATE_DATA_DIR: dir, MOCK_FIXTURE: file('fixture.json'), MOCK_CALLS: file('calls'), MOCK_PROMPTS: file('prompts'), GITHUB_TOKEN: 'test', LLM_BASE_URL: 'https://mock', LLM_API_KEY: 'test' }, encoding: 'utf8',
+    })
+    assert.equal(result.status, 0, result.stderr)
+    return result
+  }
+  try {
+    write('stars.json', [{ fullName: 'a/old' }, { fullName: 'a/new' }])
+    write('zh.json', { 'a/old': { summary: 'legacy' } })
+    writeFileSync(file('calls'), ''); writeFileSync(file('prompts'), '')
+    run()
+    assert.deepEqual(readFileSync(file('calls'), 'utf8').trim().split('\n'), ['a/new'])
+    const prompt = JSON.parse(readFileSync(file('prompts'), 'utf8').trim())
+    assert.equal(prompt.name, 'a/new')
+    assert.equal(prompt.content.split('README 全文：\n')[1], large)
+    const before = read('readme-state.json').repos['a/old'].fingerprint
+    assert.ok(before.startsWith('blob:'))
+    assert.equal(read('readme-state.json').repos['a/old'].baselinePending, undefined)
+    fixture.readmes['a/old'] = { text: changed, metadataText: 'truncated', rawStatus: 404 }
+    assert.match(run().stderr, /失败 1/)
+    assert.equal(read('readme-state.json').repos['a/old'].fingerprint, before)
+    fixture.readmes['a/old'] = { text: changed, metadataText: 'truncated', rawText: 'x'.repeat(Buffer.byteLength(changed)) }
+    assert.match(run().stderr, /失败 1/)
+    assert.equal(read('readme-state.json').repos['a/old'].fingerprint, before)
+    assert.equal(readFileSync(file('calls'), 'utf8').trim(), 'a/new')
+    fixture.readmes['a/old'] = { text: changed, metadataText: 'truncated' }
+    run()
+    const prompts = readFileSync(file('prompts'), 'utf8').trim().split('\n').map(JSON.parse)
+    assert.equal(prompts.at(-1).name, 'a/old')
+    assert.equal(prompts.at(-1).content.split('README 全文：\n')[1], changed)
+    assert.notEqual(read('readme-state.json').repos['a/old'].fingerprint, before)
+  } finally { rmSync(dir, { recursive: true, force: true }) }
+})
+
 test('无 token 且未配置 LLM 时离线跳过', () => {
   const dir = mkdtempSync(join(resolve('test'), '.star-translate-'))
   try {
