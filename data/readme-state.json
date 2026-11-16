@@ -4,1868 +4,1868 @@
     "togg53192-cmd/jailbreaks": {
       "active": true,
       "starredAt": "2026-11-13T13:20:16Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7532ca0aff8de5882540b8d3e5e32ec6b7852c31"
     },
     "harshsinghsv/swiftdl": {
       "active": true,
       "starredAt": "2026-11-11T10:46:09Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:fb58984779f74ab77c8e28a294d236fed4289f1f"
     },
     "hummingbot/hummingbot": {
       "active": true,
       "starredAt": "2026-11-11T07:15:50Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:20dadd44364c91a25448716ebb92e142797794da"
     },
     "semaphoreui/semaphore": {
       "active": true,
       "starredAt": "2026-10-31T05:38:22Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:98aa0ee1bef63a3a1fb0818e5a0cf09501eb4764"
     },
     "orionsheep/wordlink": {
       "active": true,
       "starredAt": "2026-10-30T07:05:35Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:aae90466b834a268b6806f38ff0cc0ff6bea4dab"
     },
     "pingdotgg/t3code": {
       "active": true,
       "starredAt": "2026-10-27T09:48:11Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:24dc0f8f7f6669ee439bc13f496e0451239f0e31"
     },
     "mobile-next/mobile-mcp": {
       "active": true,
       "starredAt": "2026-10-26T03:44:25Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:eb8b051370d941a874927b58a79d661b889131e6"
     },
     "plugin87/ux-ui-agent-skills": {
       "active": true,
       "starredAt": "2026-10-21T14:13:46Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:d7e702c8743895212cb0f817949c9a7e495ed42e"
     },
     "ShenSeanChen/waku-agent": {
       "active": true,
       "starredAt": "2026-10-21T09:13:31Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:1bb1c3a0b9ad70aa612b6ac9f8f6f637a0e77cb9"
     },
     "anywhere-labs/dsh-desktop": {
       "active": true,
       "starredAt": "2026-10-21T07:02:56Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e092f65bec2f5f4e0467824173afe5b899234a10"
     },
     "wheresryan22/anatomy": {
       "active": true,
       "starredAt": "2026-10-20T08:01:09Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:fa98bff1a617aa8e5edf1b7b87c866815b6fa1bc"
     },
     "eternity4719/HowToLiveBetter": {
       "active": true,
       "starredAt": "2026-10-09T01:12:38Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:9f0b69735c9f90cf46f085011e2855a2738a6b89"
     },
     "linyqh/NarratoAI": {
       "active": true,
       "starredAt": "2026-10-08T09:07:16Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:dce1411463dfd780142bfc408647cfa40c1bcde9"
     },
     "GuanYixuan/pyCapCut": {
       "active": true,
       "starredAt": "2026-09-25T12:31:51Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:c7f9f9ed78367ac3e167189a23c0b96a5805a895"
     },
     "bradautomates/claude-video": {
       "active": true,
       "starredAt": "2026-09-24T02:24:02Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:c9ca1da30b800d91e64616229fa3501f07d9fb9c"
     },
     "jev-chat/jev-chat-jarvis": {
       "active": true,
       "starredAt": "2026-09-22T06:50:07Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:60042bd5925d56857f44cdffe3bd900906e8324c"
     },
     "browser-use/jev-ultrafast": {
       "active": true,
       "starredAt": "2026-09-18T04:28:58Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7cca5821f577657e98ee208e80cf525d551a054f"
     },
     "qingjian-team/qingjian": {
       "active": true,
       "starredAt": "2026-09-17T02:28:23Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:425c6e0b55b837d595df9240442a0f54ceb7cf1f"
     },
     "linesoft2/TaskMonitor": {
       "active": true,
       "starredAt": "2026-09-17T02:18:00Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:49357bafb3aa945953b1d9f618b9a09ce1343b1f"
     },
     "xuanyustudio/LocalMiniDrama": {
       "active": true,
       "starredAt": "2026-09-15T06:27:09Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:6a576567123a8e31afe7169043eccc49e8527090"
     },
     "hicocos/tg-vault": {
       "active": true,
       "starredAt": "2026-09-15T06:26:57Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7c96377145c2ed5b04679f98d10d092ea3597270"
     },
     "petergyang/no-ai-slop": {
       "active": true,
       "starredAt": "2026-09-12T14:39:58Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:82f8b7af7e02918077afb447f8fc83c2d33483ba"
     },
     "huangbai-AI/sd-2-5-prompt": {
       "active": true,
       "starredAt": "2026-09-11T10:30:34Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:6611b408f962a3f45496463abf40472dd20477cb"
     },
     "EveningStudy/asmr-dubber": {
       "active": true,
       "starredAt": "2026-09-11T03:53:13Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:9585c7dd1af8674f9b19c71c48216d44927fe7e0"
     },
     "nashsu/llm_wiki": {
       "active": true,
       "starredAt": "2026-09-10T13:13:18Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:89d124047f93cb8a9d73adbe1c9a92ffdd71ecea"
     },
     "alsk1992/CloddsBot": {
       "active": true,
       "starredAt": "2026-09-10T13:06:03Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:20eb1567733c169de0d664d92210cb79a836ffa0"
     },
     "Tencent/teamai-cli": {
       "active": true,
       "starredAt": "2026-09-10T13:04:00Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b78504c23382673819290e90e8f3b49e304e9f17"
     },
     "OpenBMB/PilotDeck": {
       "active": true,
       "starredAt": "2026-09-10T08:11:06Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:72b1d35a4100eb47135f092a836266d34decf728"
     },
     "Hypostasis-Cat/HypoMux": {
       "active": true,
       "starredAt": "2026-09-10T07:48:00Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:286004bbb42fedd84243224d7d4a333afbb06543"
     },
     "AdventDevInc/kudu": {
       "active": true,
       "starredAt": "2026-09-10T02:14:44Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:92237405ec271b93e33f2e18d533061eef330b27"
     },
     "Yu9191/wloc": {
       "active": true,
       "starredAt": "2026-09-08T09:40:45Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e86bcf8ef2b17df8e866e718f4db5256c51f3376"
     },
     "neopen/story-shot-agent": {
       "active": true,
       "starredAt": "2026-09-04T11:00:52Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7f49ef403e73c1f3ded9ca8eb899ea1ac5fd6132"
     },
     "LIUFelix2004/God-minmax-H3": {
       "active": true,
       "starredAt": "2026-09-03T21:46:41Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:611fd3b8fb022602e77357d84d21af9179bc64b2"
     },
     "chen2he/orange-cloud": {
       "active": true,
       "starredAt": "2026-09-03T12:50:05Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:5f5782e775aa7fe0d59330604533e31b1dcab0ae"
     },
     "yizhi-chengzi/video-ai-talking": {
       "active": true,
       "starredAt": "2026-09-03T12:48:29Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b496ad6d5bd7eeab32f61a7c58467c0925c9b739"
     },
     "hooosberg/AgentLimb": {
       "active": true,
       "starredAt": "2026-09-02T07:56:40Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:f8b19cc0d0f2391517b0263344e1eea97c946b35"
     },
     "XxMinor/mykvm": {
       "active": true,
       "starredAt": "2026-09-02T07:55:58Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:82d7d89cc9e44baea34d97906a76e8a3966d42d3"
     },
     "OpenBMB/MiniCPM-V": {
       "active": true,
       "starredAt": "2026-09-02T07:54:02Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:d1e702880d89fc751bf598355823d1929e828252"
     },
     "jub0t/Concat": {
       "active": true,
       "starredAt": "2026-09-02T07:38:01Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b3054b50f5758618312bc75c36a23a1e020738a6"
     },
     "daimon3332/address": {
       "active": true,
       "starredAt": "2026-09-02T07:36:52Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:243e63d33cf109b581212c10e505b6d4c0a44531"
     },
     "matthart1983/netwatch": {
       "active": true,
       "starredAt": "2026-08-30T05:28:27Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:040832feef161da5b5b0d8ddb55304ec3fda3c6c"
     },
     "Giammarco-Ferranti/deja": {
       "active": true,
       "starredAt": "2026-08-30T05:28:18Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:8ce60112b7ddf758a003ded00dfc3d265c388f5f"
     },
     "tt-a1i/archify": {
       "active": true,
       "starredAt": "2026-08-29T04:19:38Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:c9efdb48e9c62aaba78088f9b6c2429d4af2dbb9"
     },
     "gauthierpiarrette/highball": {
       "active": true,
       "starredAt": "2026-08-28T08:04:14Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:8f45005785cc16cd326221d9b2f0dae716b1dae4"
     },
     "Shrey113/Android-Dex": {
       "active": true,
       "starredAt": "2026-08-28T06:56:27Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:3c49dc94172bc73b9f16719e5f5a478259fe55e9"
     },
     "34306/vphone-aio": {
       "active": true,
       "starredAt": "2026-08-27T12:48:37Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7bada8a5d34bd4d432bb94ebd5f591035f0e38c4"
     },
     "XiakeMan777/xiakeman-ai-short-drama": {
       "active": true,
       "starredAt": "2026-08-27T12:05:30Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:f2a871038a7dd6036f398f1b6b0eacdc654c59c5"
     },
     "BYTEDz/PCLink": {
       "active": true,
       "starredAt": "2026-08-27T01:57:30Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:dd29b63b84005a2483512d6b31688abdde8fbfd2"
     },
     "Talljack/echo-type": {
       "active": true,
       "starredAt": "2026-08-26T17:24:02Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7dce5216865b8be335721696e79fbe24865120ef"
     },
     "didriksg/Crisp": {
       "active": true,
       "starredAt": "2026-08-26T10:26:41Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:ef0886fa69f6e4efcd45d5a9c073e726471dfb39"
     },
     "pmh1314520/MCTier": {
       "active": true,
       "starredAt": "2026-08-26T07:01:12Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:77eb68661bd6505c20ba5a3281b2b27741bfc741"
     },
     "JimmySadek/video-fetcher-to-markdown": {
       "active": true,
       "starredAt": "2026-08-26T07:00:27Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:244313c152140def6d6ca8cda1cc9076f63c0a93"
     },
     "gobackup/gobackup": {
       "active": true,
       "starredAt": "2026-08-26T03:43:16Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:1abbd6959682eef8b2d627933f35815d39ddcb70"
     },
     "3441293738/creatorhub": {
       "active": true,
       "starredAt": "2026-08-26T02:54:31Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:ff4e0ebda26de4f6bac8a8862ce34fd171016fa7"
     },
     "iAmCorey/Wake": {
       "active": true,
       "starredAt": "2026-08-23T02:36:25Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:2dd670a83ef1aac9017548f3e2cd27d7e6d09ff1"
     },
     "geeklee/srt-whiteboard-animation": {
       "active": true,
       "starredAt": "2026-08-20T16:45:44Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:c0e9989a5acc23137163c175b5b386a0044b88b5"
     },
     "harry0703/AudioNotes": {
       "active": true,
       "starredAt": "2026-08-20T08:59:51Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:3ea42005b8115fd4828c0b22d57c5b345db7a145"
     },
     "fxy2311-youyou/expression-trainer": {
       "active": true,
       "starredAt": "2026-08-19T09:15:25Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:c6f14e1b67f10ef3afbeb8e30fd73adb7d6f146d"
     },
     "Blue-B/WhisperSubTranslate": {
       "active": true,
       "starredAt": "2026-08-19T08:36:53Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:4b289ab39f6d9680215c55ad8d2e1ea09f7c8ecf"
     },
     "sysadminsmedia/homebox": {
       "active": true,
       "starredAt": "2026-08-19T07:18:44Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:8765643b1465a8ef6a15a21ad25567d7f4dd1f7c"
     },
     "DietrichGebert/ponytail": {
       "active": true,
       "starredAt": "2026-08-19T03:28:08Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:ff6a92573ef6412495055d979cff1d7464e1fa65"
     },
     "Jaksay/Linux-Router": {
       "active": true,
       "starredAt": "2026-08-18T03:18:46Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:101a025453402d696b5924cc2d266d364b747aa0"
     },
     "calesthio/Crucix": {
       "active": true,
       "starredAt": "2026-08-18T02:37:24Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a05f962a3d97d610b1229c87fab48147ba590e79"
     },
     "YTwsy/OpenSurge-for-Mac": {
       "active": true,
       "starredAt": "2026-08-18T02:36:04Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:330607c0496ba9ec511f51ef46991df9e61713be"
     },
     "90le/worker-rights-cn": {
       "active": true,
       "starredAt": "2026-08-17T07:24:37Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:477ac63fd80e1abb72bdd21b6e0e71fc43327023"
     },
     "justlovemaki/LumaRescue": {
       "active": true,
       "starredAt": "2026-08-13T08:48:35Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:8be0617dc88140ae235496bb2f5d2dd1cc2598f0"
     },
     "Kami958/WhoShitsonMyC": {
       "active": true,
       "starredAt": "2026-08-13T08:33:39Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:18fa77e3de98eb28a5b99d7ca3a27e70f869a0c2"
     },
     "stardustai/dataset-viewer": {
       "active": true,
       "starredAt": "2026-08-13T08:29:01Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e82461c8a8d63bedc264da6622cddfbecd28f1e8"
     },
     "feigeCode/navop": {
       "active": true,
       "starredAt": "2026-08-13T08:28:34Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:6211ce115d65dbdf59237fc976554508bf7252cd"
     },
     "nullclaw/nullclaw": {
       "active": true,
       "starredAt": "2026-07-31T03:50:34Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e23c4ec2ac6e2b240099f2ebe61743fb6709581f"
     },
     "xiaochong/hi-kid": {
       "active": true,
       "starredAt": "2026-07-29T17:14:19Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a63e1217b81cfdffaf08b0c9dd1dc78a2a58558b"
     },
     "LingyiChen-AI/AIComicBuilder": {
       "active": true,
       "starredAt": "2026-07-29T10:56:19Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:fe0479610d1d7e35468bcd497416a00b22bc9a61"
     },
     "AIsouler/MyClash": {
       "active": true,
       "starredAt": "2026-07-29T02:31:20Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:4001db2bebda5665ba966837c77bd84e6f28a2a2"
     },
     "MDX-Tom/gpt-instruct": {
       "active": true,
       "starredAt": "2026-07-28T03:12:26Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:ca5f0fcce2b0ba46af4aeb3a3914de498d7c9746"
     },
     "shengjidaguai-china/goutoujunshi": {
       "active": true,
       "starredAt": "2026-07-28T02:01:26Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:6dfe600da6be443fc4e21e5378846d9bc089eee4"
     },
     "MartinDelophy/ai-video-editor": {
       "active": true,
       "starredAt": "2026-07-27T23:44:39Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7cbec0ac228be22759cf97a6732ab14527b4f22e"
     },
     "HaujetZhao/SubTap": {
       "active": true,
       "starredAt": "2026-07-27T23:39:24Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:df45b219d4aa6b9bbad8bcc8817f1a9fd6e5f8ee"
     },
     "OpenMinis/OpenMinis": {
       "active": true,
       "starredAt": "2026-07-27T10:06:33Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:c95a543b3c0b9084732b6d0a401296f269ce7980"
     },
     "zjp1997720/wechat-radar": {
       "active": true,
       "starredAt": "2026-07-27T10:01:23Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:d7eb0d54287c421079d98328cf66dff6ee5bba37"
     },
     "jundot/omlx": {
       "active": true,
       "starredAt": "2026-07-16T02:06:39Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:de32a1d28565525cc93511ba53b872257f4074c5"
     },
     "twpayne/chezmoi": {
       "active": true,
       "starredAt": "2026-07-16T02:03:10Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:c6840126e19757d8725a62abecf4f667f062c33f"
     },
     "wavetermdev/waveterm": {
       "active": true,
       "starredAt": "2026-07-16T02:00:15Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a9f406725c07e52e226af8b5b61cb541ab4dc7de"
     },
     "drduh/macOS-Security-and-Privacy-Guide": {
       "active": true,
       "starredAt": "2026-07-16T01:57:53Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:77418b3fe2af82f4478f3937cc3bb9445ec7ce12"
     },
     "manaflow-ai/cmux": {
       "active": true,
       "starredAt": "2026-07-16T01:55:17Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:d18099d9ce87e14c80d4e1af45d6500a40eede59"
     },
     "QuixoticHeart/rule-set": {
       "active": true,
       "starredAt": "2026-07-15T21:17:02Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:9bbb6b5c87df269551f453394f5a4aa981f5d70d"
     },
     "SimonAKing/Gwitter": {
       "active": true,
       "starredAt": "2026-07-15T21:16:04Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:fcb392582888af20ff0af8637a6c4efd8d0a6e54"
     },
     "kangarooking/cangjie-skill": {
       "active": true,
       "starredAt": "2026-07-15T21:15:13Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:f5ccbc3987271be3c00bf0548208aaf1a65ecd00"
     },
     "Zesty0wl/mac-performance-monitor": {
       "active": true,
       "starredAt": "2026-07-14T20:11:18Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:c273a36892a70fd96a1b1f2710e39841df964aa1"
     },
     "tutti-os/tutti": {
       "active": true,
       "starredAt": "2026-07-14T19:57:10Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7b76b167e9b43e5d0879ea1f82b7b7cf8e77a88a"
     },
     "FrizzleM/SideInstaller": {
       "active": true,
       "starredAt": "2026-07-13T15:44:22Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e94b99771e971f52574c4c9cf8e167be8a50c1f8"
     },
     "raojiacui/prompt-lens": {
       "active": true,
       "starredAt": "2026-07-12T06:41:33Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a1231c276697e7cc99ca280b34f812a001491acd"
     },
     "dominostars/playtranslate": {
       "active": true,
       "starredAt": "2026-07-12T06:38:00Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:9567537e5ecacde7b2093f4e74917700a2c6988c"
     },
     "BigDawnGhost/wenyi": {
       "active": true,
       "starredAt": "2026-07-09T14:45:19Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:fddac8e5336d0fe5cb42c34ef3cdb1cfd05a64d6"
     },
     "rokartur/BetterCmdTab": {
       "active": true,
       "starredAt": "2026-07-08T07:05:07Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:c2aa0e6492fe0093daf067a71702607f4254c432"
     },
     "hanliang97/MatrixMedia": {
       "active": true,
       "starredAt": "2026-07-07T07:32:56Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:634db286aa3adcbe957a440b27b8e6d5bb11bd1d"
     },
     "shanraisshan/claude-code-best-practice": {
       "active": true,
       "starredAt": "2026-07-05T14:31:44Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:6d967766ea285d61271491928eb3b7f9e24850e0"
     },
     "Crosstalk-Solutions/project-nomad": {
       "active": true,
       "starredAt": "2026-07-05T14:22:58Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b92ea8c630926164bdbf134481724f30d0ef3363"
     },
     "hyperfield/ai-file-sorter": {
       "active": true,
       "starredAt": "2026-07-05T14:17:32Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e0905fcbbb68a4cd1552d8628c1955d9af05537a"
     },
     "luongnv89/claude-howto": {
       "active": true,
       "starredAt": "2026-06-24T08:12:37Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:0b7f9df07a752d74e6e69583473d7b817ca3e807"
     },
     "helloianneo/ian-xiaohei-scenes": {
       "active": true,
       "starredAt": "2026-06-24T01:51:04Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:913d76affb3ece3e65ee80c03d1d82a2a4563480"
     },
     "AIEraDev/Clypra": {
       "active": true,
       "starredAt": "2026-06-17T07:37:27Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b84e685554d0cf34cc08b1f7a1c29063bd6259b6"
     },
     "SkyBlue997/enableMacosAI": {
       "active": true,
       "starredAt": "2026-06-17T02:51:04Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:232e78cab920907139f9f8d6a744e036e83e2637"
     },
     "caezium/burrow": {
       "active": true,
       "starredAt": "2026-06-07T04:43:19Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7311302fba5c3d9e44b6598c8bd4e52aa502f776"
     },
     "sigoden/dufs": {
       "active": true,
       "starredAt": "2026-06-04T10:59:36Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a2df78b960ab7a1c12847c04797c5ab02c50ec81"
     },
     "LingyiChen-AI/JadeAI": {
       "active": true,
       "starredAt": "2026-06-03T06:19:08Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7bd101e23670c3f045ff907cf291a59771013877"
     },
     "ChatLab/ChatLab": {
       "active": true,
       "starredAt": "2026-06-03T03:38:33Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:4786954d2e56cba9709adca38cae9361ca95828c"
     },
     "hicccc77/WeFlow": {
       "active": true,
       "starredAt": "2026-06-03T03:32:54Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:91a187a41fe29b29bca3f9f3640af5dfc457eb6e"
     },
     "k8sgpt-ai/k8sgpt": {
       "active": true,
       "starredAt": "2026-06-03T03:03:21Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:76171f36f1fc2bb552fbc403db4252c38c881a77"
     },
     "op7418/guizang-social-card-skill": {
       "active": true,
       "starredAt": "2026-06-03T02:19:47Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:4e39055d2107879a209ff718a543ddfa0ca0bbed"
     },
     "helloianneo/ian-xiaohei-illustrations": {
       "active": true,
       "starredAt": "2026-05-29T08:26:24Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:38a87678ac0d9aa64e6e21133feea651db6dfd24"
     },
     "byoungd/up": {
       "active": true,
       "starredAt": "2026-05-28T11:00:27Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:950ba604b83fc59f3a1ebb6574a816074fff2872"
     },
     "jackwener/OpenCLI": {
       "active": true,
       "starredAt": "2026-05-27T09:56:49Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a374b3b6088adc6467bf623958ffc74d58a47c1b"
     },
     "daeuniverse/dae": {
       "active": true,
       "starredAt": "2026-05-27T02:17:50Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:9dbafbbd4f467e7609c88885bf99e33685ceaf74"
     },
     "ianho7/maptoposter-online": {
       "active": true,
       "starredAt": "2026-05-26T09:19:27Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:045fe7c9908b2716110ff84792c5c1222b27be02"
     },
     "BigPizzaV3/CodexPlusPlus": {
       "active": true,
       "starredAt": "2026-05-26T09:18:01Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:6ab26559dd486675acf83dc6ffc806819ee72b83"
     },
     "colbymchenry/codegraph": {
       "active": true,
       "starredAt": "2026-05-26T02:01:29Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:43b1208fe1e932a3aac1d2fa92dbc3252b2b2dc8"
     },
     "Egonex-AI/Understand-Anything": {
       "active": true,
       "starredAt": "2026-05-26T01:01:56Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:67a1a704968105ccf16ec1d6f30565f6f4f7c8e8"
     },
     "UniClipboard/UniClipboard": {
       "active": true,
       "starredAt": "2026-05-25T18:32:29Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e404639b7a09ef9c032858367b7d0cee417ec18e"
     },
     "jipika/WaifuX": {
       "active": true,
       "starredAt": "2026-05-24T01:44:45Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:f9455b677afeeefcd5aa4afea1259437f089a93f"
     },
     "himomohi/AirTranslate": {
       "active": true,
       "starredAt": "2026-05-22T10:06:01Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7cbf0a643abaf49ce2e72ff7a7426adc4ea09505"
     },
     "buoooou/v2ray-clash-clients-download": {
       "active": true,
       "starredAt": "2026-05-18T12:27:00Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:5bcf2c3679c59af30a884b287650b334d89bed1e"
     },
     "esengine/DeepSeek-Reasonix": {
       "active": true,
       "starredAt": "2026-05-16T04:15:01Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:10737fc888d9469d3e6d4430d8f5ce27bdcd2a98"
     },
     "yikart/AiToEarn": {
       "active": true,
       "starredAt": "2026-05-15T02:19:00Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:1733549546c8e0dfc86b26f684506dcd8d09a895"
     },
     "tinyhumansai/openhuman": {
       "active": true,
       "starredAt": "2026-05-14T02:24:13Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:43c8b2f6fde261c11c4a2e64c38277156b5f9bab"
     },
     "helloianneo/ian-handdrawn-ppt": {
       "active": true,
       "starredAt": "2026-05-13T06:32:59Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:25cfb974be54d968cea38fea5a91faa084eaa88e"
     },
     "Fokkyp/SoftwareCopyright-Skill": {
       "active": true,
       "starredAt": "2026-05-12T03:11:41Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:12f44d39f45f6abc9e76fbc6580f7630f20dfbfc"
     },
     "handsomestWei/patent-disclosure-skill": {
       "active": true,
       "starredAt": "2026-05-12T03:11:24Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:cc6a87f2c2b4b34199c9e866062c7c1319dde0b3"
     },
     "wuyoscar/GPT-Image2-Skill": {
       "active": true,
       "starredAt": "2026-05-11T02:05:26Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:492c318d3e86779545ee54129c77806199827c79"
     },
     "stephenyin/Ear2Finger": {
       "active": true,
       "starredAt": "2026-05-07T05:13:20Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:12b18af605de42aa1f4fda906c8f2bfd9a96b8b2"
     },
     "saltpi/Aria.X": {
       "active": true,
       "starredAt": "2026-04-27T22:06:02Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:67631b350dadfba8ed5a26655ff9893c88755fe4"
     },
     "cosmicstack-labs/mercury-agent": {
       "active": true,
       "starredAt": "2026-04-27T22:02:19Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:ce9dd34285af8ea273ae9f3ae940bfa44b330202"
     },
     "YaoFANGUK/video-subtitle-remover": {
       "active": true,
       "starredAt": "2026-04-25T21:28:14Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:5a7fa20e810bdd03d0eaa0929553dc7c1dc1358c"
     },
     "browser-use/browser-harness": {
       "active": true,
       "starredAt": "2026-04-24T13:56:58Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a2864bd04953c61a9d42573da1543558c379d639"
     },
     "kao0312/zai-proxy": {
       "active": true,
       "starredAt": "2026-04-22T08:36:10Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:fdfb6232137b1ad359cc06807764833e6165f888"
     },
     "agents-io/PokeClaw": {
       "active": true,
       "starredAt": "2026-04-22T08:19:43Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a5a2ca07d93af92442ad5d63d9d28a626826366f"
     },
     "testssl/testssl.sh": {
       "active": true,
       "starredAt": "2026-04-21T18:09:27Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:8c95f764eb1c13d371b1336d4a2a605cb8139f4c"
     },
     "multica-ai/andrej-karpathy-skills": {
       "active": true,
       "starredAt": "2026-04-21T07:33:53Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7cf07a786532bebe01c65179c8e2c3a98cc0a09b"
     },
     "VoltAgent/awesome-design-md": {
       "active": true,
       "starredAt": "2026-04-21T07:33:44Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:dbaa687886f117cc665a08502ead71099af783ae"
     },
     "XTLS/BBS": {
       "active": true,
       "starredAt": "2026-04-17T13:04:12Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:c0a9dbae8d8dbc4f8ad4544876c20e124cf2b765"
     },
     "blueberrycongee/CursorLens": {
       "active": true,
       "starredAt": "2026-04-16T06:26:35Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:026090b9a8e0f9209ccdf86316b7c5a7c39e9272"
     },
     "tw93/Kaku": {
       "active": true,
       "starredAt": "2026-04-16T02:18:06Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:6e5d8aafd261e64a753a4bd9bb4dcadc123be444"
     },
     "OpenBMB/ChatDev": {
       "active": true,
       "starredAt": "2026-04-14T07:16:12Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:f10600b131738b13df6fd6d1fdbd6c6df3644d1f"
     },
     "OpenBMB/VoxCPM": {
       "active": true,
       "starredAt": "2026-04-14T07:14:37Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:0ec1bd3d63be30fc69cb00480ec349c8ce2d00c8"
     },
     "yangzongzhuan/RuoYi": {
       "active": true,
       "starredAt": "2026-04-14T07:13:19Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:1ea59c9c212267fb4d7f14f55d3efdbac8df323d"
     },
     "lzhgus/Capso": {
       "active": true,
       "starredAt": "2026-04-14T01:27:38Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:9fbab42273080b80a98853e8057db19c8859c61d"
     },
     "PlayerYK/dmcheck": {
       "active": true,
       "starredAt": "2026-04-13T07:05:44Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:47a7f26b48d01793487e01a0607de862e8bbac45"
     },
     "t42ji2ji/keyfarm": {
       "active": true,
       "starredAt": "2026-04-09T06:46:09Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:cc03cc3064c11c5408c8c2704b3f639a7b9daeb3"
     },
     "beclab/Olares": {
       "active": true,
       "starredAt": "2026-04-08T08:06:54Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7be573e4124f9ab6fb783c40224950c63a94fecb"
     },
     "Wei-Shaw/sub2api": {
       "active": true,
       "starredAt": "2026-04-02T02:49:19Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:2a4c0414e22f50b16a6c17abfe9d4ba7b3f00863"
     },
     "lhfer/claude-howto-zh-cn": {
       "active": true,
       "starredAt": "2026-04-01T02:34:31Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:d041cb7d7eca041edc04da1c5f00db3beb501bd9"
     },
     "521xueweihan/HelloGitHub": {
       "active": true,
       "starredAt": "2026-04-01T02:33:44Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:01e1a939fbb5839d3d8f9b68dc11437b47ba8027"
     },
     "perkfly/ex-skill": {
       "active": true,
       "starredAt": "2026-04-01T01:59:17Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:426914b3c27eb67ee2bca0fac870b48fe665ab44"
     },
     "wechaty/wechaty": {
       "active": true,
       "starredAt": "2026-03-31T09:39:27Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:6b3eb716fcc5f8b38cd8a8c99a05d3c22f85a1f9"
     },
     "lifedever/PasteMemo": {
       "active": true,
       "starredAt": "2026-03-28T21:57:51Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b35b07193db7319cd8fa49b3442957a014715400"
     },
     "hacksider/Deep-Live-Cam": {
       "active": true,
       "starredAt": "2026-03-28T21:47:43Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e60d6ac98f621a8a772ed0061b1d53f733fc0273"
     },
     "AstrBotDevs/AstrBot": {
       "active": true,
       "starredAt": "2026-03-26T14:38:39Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:94ca6aca078c1a9692e28c287f8b2bb328cb1e8c"
     },
     "qiaoshouqing/drive-escape": {
       "active": true,
       "starredAt": "2026-03-24T20:19:01Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e2603967b5170a2a9fae888f43fecb122090510e"
     },
     "nexu-io/nexu": {
       "active": true,
       "starredAt": "2026-03-23T07:18:58Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:9fe1f17a75c44413ca45a111d773171daf634690"
     },
     "ihmily/network-proxy-guide": {
       "active": true,
       "starredAt": "2026-03-21T10:22:39Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:2e1eb298311dab4188b039325d201535563625f3"
     },
     "lifedever/TaskTick": {
       "active": true,
       "starredAt": "2026-03-20T07:48:18Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:59a2a1058e19e0d9d4caa33b5780e815bb7bbde3"
     },
     "xianyu110/awesome-openclaw-tutorial": {
       "active": true,
       "starredAt": "2026-03-20T03:04:52Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:db3b80ff340497e4b42394ea7e863cec46fa17e2"
     },
     "lintsinghua/DeepAudit": {
       "active": true,
       "starredAt": "2026-03-20T03:00:01Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:6277c5dfe383309635e2eac6a70a7c10d0a4abbe"
     },
     "AlexsJones/llmfit": {
       "active": true,
       "starredAt": "2026-03-15T04:40:30Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:9235ffb60753693d9263f6af34fc1a0f3763fcef"
     },
     "ghostwright/ghost-os": {
       "active": true,
       "starredAt": "2026-03-13T03:53:41Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:ab09f02442a162ce17042929f2a8d7dd48205dfd"
     },
     "engigu/baihu-panel": {
       "active": true,
       "starredAt": "2026-03-05T09:20:15Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:8bb268bdda3031ba0b7a8fb5ec012d16087d49c9"
     },
     "hikariming/openkoto": {
       "active": true,
       "starredAt": "2026-03-04T03:43:55Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:3df68e4d5e13a24e91818d9c56126aa0277bc331"
     },
     "Lakr233/AssppWeb": {
       "active": true,
       "starredAt": "2026-03-02T02:05:40Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:3864d545e69a263a50d6bee75a3641665a1c6f52"
     },
     "Lakr233/vphone-cli": {
       "active": true,
       "starredAt": "2026-03-01T15:23:29Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:74988c6bd47339b260a31f64af4fe945de544a69"
     },
     "ResearAI/AutoFigure-Edit": {
       "active": true,
       "starredAt": "2026-03-01T06:49:06Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7e9ceaa9c1866d84adf048cc93194682d7ecb9aa"
     },
     "sunnyyoung/WeChatTweak": {
       "active": true,
       "starredAt": "2026-02-28T15:50:02Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:f1dfee61c42d985134058a0f10179863fee340ad"
     },
     "jamiepine/voicebox": {
       "active": true,
       "starredAt": "2026-02-28T02:33:07Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b4db9a4f611e2d0d33a7dd82471f467837a9ce89"
     },
     "github/gh-aw": {
       "active": true,
       "starredAt": "2026-02-19T16:19:19Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:00678675fe3c6739d64381d0c8c8c02e95b09160"
     },
     "google/langextract": {
       "active": true,
       "starredAt": "2026-02-19T16:18:14Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7fdba9d5d447e20aeabbf58288ed523d8ef5c43b"
     },
     "eggyrooch-blip/XBooster": {
       "active": true,
       "starredAt": "2026-02-14T05:27:25Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:319b6dbd039f07f7fd051c7baa3d17d4e93232c1"
     },
     "microsoft/ai-agents-for-beginners": {
       "active": true,
       "starredAt": "2026-02-13T08:03:47Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:58d295fa647db1c9bc30a9d370ed1e5fb6a6787a"
     },
     "hzpt-inet-club/english-note": {
       "active": true,
       "starredAt": "2026-02-13T08:02:50Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:11e784330a6af15f211682cf660fed00518c5da2"
     },
     "linshenkx/prompt-optimizer": {
       "active": true,
       "starredAt": "2026-02-13T07:53:55Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:744150acbfc86c932df6bec6a1eb6f61d3ff8922"
     },
     "SwanHubX/SwanLab": {
       "active": true,
       "starredAt": "2026-02-13T07:52:12Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e45627801ec220a026b1c518bf16eef0922d32d6"
     },
     "rustfs/rustfs": {
       "active": true,
       "starredAt": "2026-02-13T07:45:03Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:bb8a552a26bc5ead19d53f68b8c01c4968c116c9"
     },
     "hanshuaikang/NBping": {
       "active": true,
       "starredAt": "2026-02-13T07:44:59Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:5200a6b5a59eb52789951d340e8e0276a56d95d8"
     },
     "eythaann/Seelen-UI": {
       "active": true,
       "starredAt": "2026-02-13T07:42:48Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:1be1f019c1d16828ef270faee2b1f889373481a6"
     },
     "dabeaz-course/python-mastery": {
       "active": true,
       "starredAt": "2026-02-13T07:20:57Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:6a7f06d23293417881bed4e47464a1aa415fe567"
     },
     "subframe7536/maple-font": {
       "active": true,
       "starredAt": "2026-02-13T07:07:41Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b3702b2c7f5a7cb80f4ea65a81c35d93462dd7bf"
     },
     "jingyaogong/minimind": {
       "active": true,
       "starredAt": "2026-02-13T07:07:37Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:1b11a450c0e50ba81f7072103020c859cb90ac0e"
     },
     "HuLaSpark/HuLa": {
       "active": true,
       "starredAt": "2026-02-13T07:07:33Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:598062d39434c1574aeaf65816497b1ccfec1856"
     },
     "vikiboss/60s": {
       "active": true,
       "starredAt": "2026-02-13T07:07:28Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a7f4cafa39868ae925af100d3555d4e3d99e7506"
     },
     "readest/readest": {
       "active": true,
       "starredAt": "2026-02-13T07:05:33Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:402d18df6e40dc3df3a47c7e9d77e9c6d25d9417"
     },
     "sipeed/picoclaw": {
       "active": true,
       "starredAt": "2026-02-12T13:39:43Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a351c98d69337febd6d43d552fe1d14071c90532"
     },
     "lyhxx/photography-station": {
       "active": true,
       "starredAt": "2026-02-06T03:17:37Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:f9324323f5e93c0931f1da029fc76cf0c342e355"
     },
     "Decohererk/DecoTV": {
       "active": true,
       "starredAt": "2026-02-06T02:47:44Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:4fd5c0dde3b78091574922a0d224e3e4722d66a1"
     },
     "datawhalechina/self-llm": {
       "active": true,
       "starredAt": "2026-01-30T06:56:59Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:84eaec009eb2e6f72c26344fd151e39a45024d08"
     },
     "pranshuparmar/witr": {
       "active": true,
       "starredAt": "2026-01-29T06:12:33Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7663f97994fae2b3d5fe2ea5013cf34a599d255f"
     },
     "nicejade/gpt-wordbook": {
       "active": true,
       "starredAt": "2026-01-29T06:06:46Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a652d5fdd6e970592e68f833ec61997ccf8516ea"
     },
     "weiyf2/deeppoint-ai": {
       "active": true,
       "starredAt": "2026-01-27T03:32:21Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:be0e9147f38a4949aeafdb86d394ffc2796937f2"
     },
     "hongyuan007/tapword-translator": {
       "active": true,
       "starredAt": "2026-01-27T03:29:44Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:79aab88b2aee08409573e6659bc7758b0f75bda0"
     },
     "topcss/AirScan-QR": {
       "active": true,
       "starredAt": "2026-01-24T22:41:32Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:0fc42f10ebb491c86a200df290f31642d7f4e0f3"
     },
     "slopus/happy": {
       "active": true,
       "starredAt": "2026-01-24T16:56:21Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:4233039fae6fa3d19827afc8d0821756530c971e"
     },
     "remotion-dev/remotion": {
       "active": true,
       "starredAt": "2026-01-24T14:30:02Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:945d57ef9b04fd98fb282059504509fbd603909d"
     },
     "HenryChiao/MIHOMO_YAMLS": {
       "active": true,
       "starredAt": "2026-01-23T02:13:48Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:47a3b65b6c153329e59b51b3b140d099b3b5f75e"
     },
     "ATH-MaaS/Pixelle-Video": {
       "active": true,
       "starredAt": "2026-01-21T08:24:53Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e097c2c0d921813902a203dcd9a3d8ee30a16300"
     },
     "ddlmanus/MacOptimizer": {
       "active": true,
       "starredAt": "2026-01-21T06:07:21Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:5f3166da7712ea2f6ff2387f12a0fa343dfc9975"
     },
     "liyupi/ai-guide": {
       "active": true,
       "starredAt": "2026-01-21T06:04:40Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:6ba4669771238698b4618816746b651e1f830259"
     },
     "iam-veeramalla/a-to-z-of-networking": {
       "active": true,
       "starredAt": "2026-01-21T06:03:37Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:8bf21544c0967ff9bbbd02b84fc5c9862b5e3f0c"
     },
     "yetone/alma-releases": {
       "active": true,
       "starredAt": "2026-01-20T08:19:47Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:78865571efa549e271e6f065d422afafec67df43"
     },
     "egoist/chatwise-releases": {
       "active": true,
       "starredAt": "2026-01-20T08:19:46Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:202566fc85f53f9a510c5b5077e1386432efa3ba"
     },
     "siderolabs/talos": {
       "active": true,
       "starredAt": "2026-01-14T05:29:11Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:9dc971c522b6d514a846203b9cf87de2b4151469"
     },
     "MiroMindAI/MiroThinker": {
       "active": true,
       "starredAt": "2026-01-08T22:25:01Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:64d4deb6ca6fb0b3103dba39768edb122da2db08"
     },
     "browser-use/browser-use": {
       "active": true,
       "starredAt": "2026-01-08T10:33:37Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:467fb30f46b7e83aa991301d9e83693ff273c474"
     },
     "anomalyco/opencode": {
       "active": true,
       "starredAt": "2026-01-07T03:54:37Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:f7be989e80daa7ba7eac859c072583e604267ae4"
     },
     "code-yeongyu/oh-my-openagent": {
       "active": true,
       "starredAt": "2026-01-07T03:54:02Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:290d5ac71787a0f362b253a4426f43da1d04b238"
     },
     "tonyantony300/dashbeam": {
       "active": true,
       "starredAt": "2026-01-06T03:00:56Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:dc818c47c859627dc828e8e18a2ff224487bf7cc"
     },
     "opsre/AutoOps": {
       "active": true,
       "starredAt": "2025-11-06T03:44:52Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:3e79497754d3cfa410ff0c4ce6181c61e5bb18dd"
     },
     "selkies-project/selkies": {
       "active": true,
       "starredAt": "2025-10-28T06:53:07Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:83122b964d619a6b7a4c2c4aea012a46affa6496"
     },
     "nickrunning/wechat-selkies": {
       "active": true,
       "starredAt": "2025-10-28T06:51:55Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:21ceadd1f409adcbbb00d87563c5933ed873f596"
     },
     "agent-infra/sandbox": {
       "active": true,
       "starredAt": "2025-10-15T02:24:39Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:752c34fb1c950459ec3d1ccda080fdf3163db326"
     },
     "loks666/get_jobs": {
       "active": true,
       "starredAt": "2025-10-14T08:27:59Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:67740c3039835e8dca42d863f10b3ca7795fbc82"
     },
     "erebe/wstunnel": {
       "active": true,
       "starredAt": "2025-09-26T08:28:24Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:4c098ab62a1505b28eb3a30b13a62b26e5681207"
     },
     "idosal/git-mcp": {
       "active": true,
       "starredAt": "2025-09-08T09:32:24Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e40e731b0e70f1eef29d362b475ca69c3bd5458a"
     },
     "Maciek-roboblog/Claude-Code-Usage-Monitor": {
       "active": true,
       "starredAt": "2025-09-08T09:32:20Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:270b9dc93445e38aca76b9443e91b1a29a8ecdb4"
     },
     "musistudio/claude-code-router": {
       "active": true,
       "starredAt": "2025-09-08T09:32:17Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7c305d1fd3590bbe5d2ff090c31242ab996bd4f2"
     },
     "hesreallyhim/awesome-claude-code": {
       "active": true,
       "starredAt": "2025-09-08T09:32:10Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:d031a20828cd54d9da855f70123fd285170e6844"
     },
     "winfunc/opcode": {
       "active": true,
       "starredAt": "2025-09-08T09:32:06Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:8c77d672b96290736d7d3ac41c6e1a6962b54d94"
     },
     "SuperClaude-Org/SuperClaude_Framework": {
       "active": true,
       "starredAt": "2025-09-08T09:32:00Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:85f357dd8c17cfb8e2ba8ca3417aa673d9c9cc8d"
     },
     "wshobson/agents": {
       "active": true,
       "starredAt": "2025-09-08T09:31:54Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:52b4542456850a2ec4ffed9b92824c8aa10045bf"
     },
     "9001/copyparty": {
       "active": true,
       "starredAt": "2025-08-31T09:34:55Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:48a9a5c0630398e99df792d35870f0d2431c6211"
     },
     "clemcer/LoggiFly": {
       "active": true,
       "starredAt": "2025-08-29T01:57:33Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b9b278a7ee250c5d82eff0135eac26daea4f4731"
     },
     "EasyTier/EasyTier": {
       "active": true,
       "starredAt": "2025-08-19T11:55:21Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e0d7d4875391f84723402ef663eed899f3189f03"
     },
     "fishjar/kiss-translator": {
       "active": true,
       "starredAt": "2025-08-09T23:46:34Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:ad4262942774c284dac781bb323b9aafa06dfbbb"
     },
     "ccfos/huatuo": {
       "active": true,
       "starredAt": "2025-08-05T09:26:13Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:3a4bdef2af73373f09bfb9424401fbae3a4bcbba"
     },
     "pgsty/pigsty": {
       "active": true,
       "starredAt": "2025-08-05T01:23:37Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:f61d0f6fca6e644ddf351a81b77af67fcf084fc0"
     },
     "TG-Twilight/AWAvenue-Ads-Rule": {
       "active": true,
       "starredAt": "2025-08-03T18:13:25Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b5adf3d0287c44807eb1a99576e7741685c30914"
     },
     "spin311/MicrosoftRewardsWebsite": {
       "active": true,
       "starredAt": "2025-08-02T22:51:33Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:857328f675ab7924e5e8e2a875a03c821c20d273"
     },
     "SwaggyMacro/LottieViewConvert": {
       "active": true,
       "starredAt": "2025-08-02T22:37:11Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:24efb7a43db6b2e8dc4a81bdee9d484d561dc9c9"
     },
     "yunionio/cloudpods": {
       "active": true,
       "starredAt": "2025-08-01T03:46:51Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b44086ac5bac0b8c3cf446c4272849bd1ff86736"
     },
     "moeru-ai/airi": {
       "active": true,
       "starredAt": "2025-07-02T01:43:19Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:db4be392b3d12e8be8dd08062228a393db318ac5"
     },
     "zyronon/TypeWords": {
       "active": true,
       "starredAt": "2025-07-02T01:42:36Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:3face0e482ff3a50d9b6f20861f410cf6848dec7"
     },
     "NodePassProject/Anywhere": {
       "active": true,
       "starredAt": "2025-06-20T15:48:51Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:45b79554b92a0f08753b6191cfe1e01c402cd315"
     },
     "Talisik/Downlodr": {
       "active": true,
       "starredAt": "2025-06-10T02:40:55Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:f2c9c2b0366cd34fc5ad398bac36dceae2144ee0"
     },
     "pipecat-ai/pipecat": {
       "active": true,
       "starredAt": "2025-06-09T08:56:16Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:ffe214d076ecf69d7c84f9aca417cdf4e27ec49a"
     },
     "JefferyHcool/BiliNote": {
       "active": true,
       "starredAt": "2025-06-05T02:37:08Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:033f0bf09f7247478c707f495107e548a610592a"
     },
     "murtaza-nasir/speakr": {
       "active": true,
       "starredAt": "2025-05-27T10:23:00Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:1c5cf455e5ee4b0317392ae22b649ba28a12064f"
     },
     "crossplane/crossplane": {
       "active": true,
       "starredAt": "2025-05-20T09:57:58Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:f109630c029ef8297c894460cf70f203e555bed5"
     },
     "voideditor/void": {
       "active": true,
       "starredAt": "2025-05-15T03:30:05Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:219b1d6b6b480dbd36e39281792c32956f946067"
     },
     "tgbot-collection/SearchGram": {
       "active": true,
       "starredAt": "2025-05-07T08:59:04Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:5c40f1c4b207e71e5391abe9553d92964f83f856"
     },
     "runjuu/InputSourcePro": {
       "active": true,
       "starredAt": "2025-05-05T13:05:02Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:4176f3d965d429f810375756b23a6c79ee82b15e"
     },
     "lihaoyun6/QuickRecorder": {
       "active": true,
       "starredAt": "2025-05-05T13:04:44Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:4b8e953750d198b4e820fb1f44e373c1ae15a6d5"
     },
     "sjqzhang/go-fastdfs": {
       "active": true,
       "starredAt": "2025-04-28T21:36:49Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:aacf10f9649933e68a9f7d62a472985bcbab1c77"
     },
     "boypt/openssh-deb": {
       "active": true,
       "starredAt": "2025-04-08T03:32:36Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e043891f3feda1bdc6e350a965895b4d857e1031"
     },
     "boypt/openssh-rpms": {
       "active": true,
       "starredAt": "2025-04-08T03:32:18Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:c4288e6bc42cb7ae384ada3fe1b54705d4ad6ca5"
     },
     "xykt/NetQuality": {
       "active": true,
       "starredAt": "2025-04-01T04:00:21Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:c8e519deaa96cd37905a53d9b82c959f548b6b14"
     },
     "ViggoZ/hackernews-cn": {
       "active": true,
       "starredAt": "2025-03-25T03:24:19Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:79dbaed23656bbb91c838e28551062656a542ad9"
     },
     "GopeedLab/gopeed": {
       "active": true,
       "starredAt": "2025-03-20T12:42:00Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7bcac313ef1afba85e040590c0a314eae8114ad9"
     },
     "monkeyWie/gopeed-extension-bilibili": {
       "active": true,
       "starredAt": "2025-03-20T12:40:46Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:9c707230b260f44c467e6c781b6ae40d72553b25"
     },
     "passteque/gluetun": {
       "active": true,
       "starredAt": "2025-03-19T02:36:30Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:3422ff92ac128026a9e155bd38dc573d359eb484"
     },
     "winfunc/deepreasoning": {
       "active": true,
       "starredAt": "2025-03-16T12:05:11Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:d8ffe9c27bbf835a611cac31b570bab6ff0643e0"
     },
     "zhanghanyun/backtrace": {
       "active": true,
       "starredAt": "2025-03-14T02:58:18Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:fbbcea18df06984450b032a722ea95e72417fef4"
     },
     "LibreChat-AI/LibreChat": {
       "active": true,
       "starredAt": "2025-03-14T01:49:15Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:dc19b2347e030448991de3737a89c0cb0fa7f993"
     },
     "chatboxai/chatbox": {
       "active": true,
       "starredAt": "2025-03-14T01:48:21Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:4529382dab84ca1555c466fd33b22975377dcc72"
     },
     "containrrr/watchtower": {
       "active": true,
       "starredAt": "2025-03-12T08:27:22Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:3eb84c7b408016a48ae2f05f5dee784065a90885"
     },
     "JOYCEQL/magic-resume": {
       "active": true,
       "starredAt": "2025-03-12T01:25:33Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:4ed6b2228c0751672dc631f4ea2d8d4c1c1883e7"
     },
     "WEIFENG2333/VideoCaptioner": {
       "active": true,
       "starredAt": "2025-02-07T13:46:46Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:161ae3a714bac3258d9f6b88fcf817dd75a9a442"
     },
     "ZingerLittleBee/dockerman.app": {
       "active": true,
       "starredAt": "2025-02-07T13:46:26Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:24d790440382d240b312348d1be68f35320a4be8"
     },
     "lobehub/lobehub": {
       "active": true,
       "starredAt": "2025-02-06T08:51:37Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:1c620a044d8ef6559573dea15f73928b6f675d6a"
     },
     "authelia/authelia": {
       "active": true,
       "starredAt": "2025-02-06T06:15:38Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:22ebdc9969af1b56f2f9580a16e9f805ce3768a0"
     },
     "ZuodaoTech/everyone-can-use-english": {
       "active": true,
       "starredAt": "2025-01-17T09:43:34Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:83e4958af211da8937adc7a787dd1ba05473933c"
     },
     "Arman19941113/dnd-resume": {
       "active": true,
       "starredAt": "2025-01-16T19:24:04Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e9d48ea339cc0fd5494d2e7580676bd86d00794b"
     },
     "jwasham/coding-interview-university": {
       "active": true,
       "starredAt": "2025-01-13T03:53:45Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:09fc8987575796cdbe4c55fee41d7ecb86148d9a"
     },
     "Olshansk/interview": {
       "active": true,
       "starredAt": "2025-01-13T01:22:42Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:dec8faf6616018c3d695ba40ceb34a556f23f452"
     },
     "TermoraDev/termora": {
       "active": true,
       "starredAt": "2025-01-08T03:52:25Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a2b4ca40b0082c5bff16164b85b9d7b70737e9dd"
     },
     "cdleon/awesome-terminals": {
       "active": true,
       "starredAt": "2025-01-07T12:21:15Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:0e920aff12da234014b5edc86c5ac17318ba39e3"
     },
     "louis-e/arnis": {
       "active": true,
       "starredAt": "2025-01-03T01:58:29Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:ef1fcfb0a3118512ea6bc0d3fb29d5f42b15e965"
     },
     "afx-team/petercat": {
       "active": true,
       "starredAt": "2025-01-01T12:20:38Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:d91e9be1f9865566cfcb41cc492f1b589c6eb76b"
     },
     "DenisSergeevitch/chatgpt-custom-instructions": {
       "active": true,
       "starredAt": "2024-12-25T01:10:05Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:d7f4604ad9e0dfd91ac543bd1c797c9d73a1afc9"
     },
     "awesome-android-root/awesome-android-root": {
       "active": true,
       "starredAt": "2024-12-20T04:35:30Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e20bdc4103201543d5207b270a2a86421bbd92c6"
     },
     "zetaloop/keyviz": {
       "active": true,
       "starredAt": "2024-12-20T04:32:33Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:c7b0270116f77319b2633c60f57a7403601edbc7"
     },
     "vzhd1701/gridplayer": {
       "active": true,
       "starredAt": "2024-12-20T03:21:06Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e23d05571bfeea89b98b3bf0b5df90deaf0f5635"
     },
     "dgtlmoon/changedetection.io": {
       "active": true,
       "starredAt": "2024-12-20T03:21:02Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:9134a145b93a83d2f63f298ede53769fdc76a58a"
     },
     "microsoft/markitdown": {
       "active": true,
       "starredAt": "2024-12-20T03:20:36Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:af858038fd380b187e2928cfbb8b9802c4912d5b"
     },
     "jgm/pandoc": {
       "active": true,
       "starredAt": "2024-12-20T03:20:35Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:26ed30922008c150217323f7a14a0ce0315b7aaf"
     },
     "kelseyhightower/kubernetes-the-hard-way": {
       "active": true,
       "starredAt": "2024-12-18T09:41:34Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:2a27a652f068e3c8099f4c41aa87070cac6f2735"
     },
     "ViggoZ/json-translate": {
       "active": true,
       "starredAt": "2024-12-02T07:56:44Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:c5cde2351d20b539b7a6ade2521f8e980741e248"
     },
     "icloud-photos-downloader/icloud_photos_downloader": {
       "active": true,
       "starredAt": "2024-12-02T07:47:16Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:aa1eeb67a39419c386a1db80659687a41c1f6d37"
     },
     "likeflyme/cloudbak": {
       "active": true,
       "starredAt": "2024-12-02T07:45:15Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7cf04bccee9de738f51b39cf57d87bb51293f0c1"
     },
     "newmarcel/KeepingYouAwake": {
       "active": true,
       "starredAt": "2024-11-29T05:29:14Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:db2043e2e5a9b17a9390dc7d5b4cf744c2f7d831"
     },
     "abiosoft/colima": {
       "active": true,
       "starredAt": "2024-11-26T03:19:29Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:9cb961a916e66cfb4e779fda4fe3c0c2d0a40618"
     },
     "lqqyt2423/go-mitmproxy": {
       "active": true,
       "starredAt": "2024-11-17T08:05:39Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a02be9bbf8484b7ff9396489f642daf8e3f7de74"
     },
     "photoview/photoview": {
       "active": true,
       "starredAt": "2024-11-12T18:20:50Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:00a5d0a4c00c582174335d13b61080aae7c31225"
     },
     "bufanyun/hotgo": {
       "active": true,
       "starredAt": "2024-11-06T02:11:13Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:c9ac8def5e92724522900777288571e0ccf99d11"
     },
     "perkfly/reverse-interview-zh": {
       "active": true,
       "starredAt": "2024-10-31T10:23:41Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:8d233b9232c41cf1bafc9455b150e1c3d1c5ea26"
     },
     "alsyundawy/Microsoft-Office-For-MacOS": {
       "active": true,
       "starredAt": "2024-10-27T06:49:09Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a5286373eb477d5f89a8443373156058b17c7a00"
     },
     "libnyanpasu/clash-nyanpasu": {
       "active": true,
       "starredAt": "2024-10-11T10:17:07Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e73bfafeb56b9ac8ddde86a6a4bac504e218dbe2"
     },
     "tindy2013/subconverter": {
       "active": true,
       "starredAt": "2024-10-11T03:16:13Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:cc61f8176d2510bf05e00c37231b1b195822e5e2"
     },
     "CareyWang/sub-web": {
       "active": true,
       "starredAt": "2024-10-11T03:15:53Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:cdaeac117fea65db683b151628530c19f3be91a6"
     },
     "youshandefeiyang/sub-web-modify": {
       "active": true,
       "starredAt": "2024-10-11T02:53:48Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:80e15c70ecb79063ee4c24add521ebc08fba99eb"
     },
     "tsgrgo/windows-update-disabler": {
       "active": true,
       "starredAt": "2024-10-07T09:43:36Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:629b0a2f62c3062752dd07e7170963c52ed66059"
     },
     "Myzel394/Alibi": {
       "active": true,
       "starredAt": "2024-09-28T06:11:36Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:02f682eb25af39b853f4186ed7290a5bc10cd44c"
     },
     "infrost/DeeplxFile": {
       "active": true,
       "starredAt": "2024-09-26T05:47:53Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:c48238f8ae90caee43a35061bad71ec0cdcb9351"
     },
     "acmesh-official/acme.sh": {
       "active": true,
       "starredAt": "2024-09-25T10:00:26Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:19bbc94b74016089808f3b6a31eb34b3be31515f"
     },
     "certimate-go/certimate": {
       "active": true,
       "starredAt": "2024-09-25T10:00:18Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:084f818abaa0b8363b77c37aff2c7c4d8d4864a5"
     },
     "Blinue/Magpie": {
       "active": true,
       "starredAt": "2024-09-18T12:54:43Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:25e8855c9936a1fee4d8818168d09b106beb078d"
     },
     "flytkgl/PDFQFZ": {
       "active": true,
       "starredAt": "2024-09-05T02:32:23Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a3a43bd0e9cc4d85832d6e5514a20e5628661494"
     },
     "AnalogJ/scrutiny": {
       "active": true,
       "starredAt": "2024-09-05T02:22:44Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:f3c10757610826507ca9e90145c460f975526d7b"
     },
     "baihengaead/wlan-sec-test-tool": {
       "active": true,
       "starredAt": "2024-08-30T10:22:46Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:27340091f2a539bc98ef3d081cf8a0b77a7d7d96"
     },
     "Huanshere/VideoLingo": {
       "active": true,
       "starredAt": "2024-08-28T09:58:39Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:d6863449dd66827777ba394e23efdd6cf4f8a726"
     },
     "zhulu111/ComfyUI_Bxb": {
       "active": true,
       "starredAt": "2024-08-16T04:18:02Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:ed27d19a5ddfb3689399ae8d878c5403c87ca561"
     },
     "miantiao-me/BroadcastChannel": {
       "active": true,
       "starredAt": "2024-08-09T14:20:59Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a827dca9b1fa7f1dc02395aaa85a6fcad1f49077"
     },
     "jianchang512/pyvideotrans": {
       "active": true,
       "starredAt": "2024-08-05T08:03:44Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:8ece1ac37a1fccab5651490aa87c8c8f7e057eb0"
     },
     "bin456789/reinstall": {
       "active": true,
       "starredAt": "2024-07-25T09:35:34Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:c75e7e41340eae8538015eace4360e4fa2656021"
     },
     "PKUFlyingPig/cs-self-learning": {
       "active": true,
       "starredAt": "2024-07-24T13:50:53Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:dc90392f9c574093e0d57c5195306db188907b3e"
     },
     "wsdjeg/vim-galore-zh_cn": {
       "active": true,
       "starredAt": "2024-07-24T13:50:45Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:46d376f345cb6f3998ca4dd17ae1088ec3617ec5"
     },
     "PrivateBin/PrivateBin": {
       "active": true,
       "starredAt": "2024-07-24T09:00:02Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e43f02ab7dc56ca570ee2cd73e7ff3b655340db7"
     },
     "mikeroyal/Self-Hosting-Guide": {
       "active": true,
@@ -1876,1622 +1876,1622 @@
     "Lakr233/Asspp": {
       "active": true,
       "starredAt": "2024-07-16T15:50:52Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:872686f22305ce97a56ab8d224dace5741c855f7"
     },
     "FutureUniant/Tailor": {
       "active": true,
       "starredAt": "2024-07-12T19:17:30Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7de26c238bbc5a993d45f9cd4c99c04fa67a13a7"
     },
     "RubyMetric/chsrc": {
       "active": true,
       "starredAt": "2024-07-03T14:46:37Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:57f7aa551e2b9d5841974bbf3303c9ee8862e9c7"
     },
     "mulaRahul/keyviz": {
       "active": true,
       "starredAt": "2024-06-23T13:19:54Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:75ef5264d86dd82a693336a6b063202e52b005ff"
     },
     "maboloshi/github-chinese": {
       "active": true,
       "starredAt": "2024-06-21T01:09:40Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:dca72fd502182d41d9a2bc9b6425a56b46ab3d29"
     },
     "tl-open-source/tl-rtc-file": {
       "active": true,
       "starredAt": "2024-06-17T15:20:53Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:ea361b08230a4522267bb91d9662486ba2b9545e"
     },
     "jackfrued/Python-Core-50-Courses": {
       "active": true,
       "starredAt": "2024-06-16T13:12:53Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a5e4a2e7b1acf12218a55c704cfe1aa99219657d"
     },
     "DaoCloud/crproxy": {
       "active": true,
       "starredAt": "2024-06-07T08:29:12Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:d1aefa2941a966d078bb797f76da434f85d5e4d3"
     },
     "zoriya/Kyoo": {
       "active": true,
       "starredAt": "2024-06-07T07:04:31Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:51f306ceb4aaf1e9a780fb9bf74ac4c2549a5a31"
     },
     "BloopAI/bloop": {
       "active": true,
       "starredAt": "2024-05-28T18:52:13Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:333701698d6131948d5767d4fd07402b51d5dd12"
     },
     "xykt/IPQuality": {
       "active": true,
       "starredAt": "2024-05-26T11:26:54Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7dcd3980f1926fd5c059851f2564f720eec874d5"
     },
     "solidSpoon/DashPlayer": {
       "active": true,
       "starredAt": "2024-05-22T12:44:57Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:5c728439f89c8108cda9200066d1983b06567882"
     },
     "llaoj/gcopy": {
       "active": true,
       "starredAt": "2024-05-21T16:49:29Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:9fa651249a8f840f76ee279599946335332320d7"
     },
     "ngc660sec/NGCBot": {
       "active": true,
       "starredAt": "2024-05-20T12:19:53Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b84c8b1d636abc3aff7d2928f46208bdd5976ddc"
     },
     "slimtoolkit/slim": {
       "active": true,
       "starredAt": "2024-05-15T12:39:42Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:f7c83e9bdc50b44e6bfd9dd65127ec1ebb454fbd"
     },
     "shion-app/shion": {
       "active": true,
       "starredAt": "2024-04-25T02:08:49Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:ddea8fa2b75dac85d7696725f19cbc384997c7b9"
     },
     "m1k1o/neko": {
       "active": true,
       "starredAt": "2024-04-17T10:01:10Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:3e61d0393a977436434388259d63359cd63aed6d"
     },
     "nashsu/FreeAskInternet": {
       "active": true,
       "starredAt": "2024-04-11T15:57:31Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:3304f0112d628d32844ac2321418fa7f1e741741"
     },
     "zhangguanzhang/docker-need-to-know": {
       "active": true,
       "starredAt": "2024-04-06T11:43:18Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a24f514b3eef3d5daa6fd37ee5db2bd4f4965aa8"
     },
     "httpsok/httpsok": {
       "active": true,
       "starredAt": "2024-03-10T14:23:54Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a6079cb51eb6fe66f29a7a1ab5709263b419162d"
     },
     "wanghongenpin/proxypin": {
       "active": true,
       "starredAt": "2024-03-10T04:49:23Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:ba7da463b1d2bf999165423cb65e207390c404de"
     },
     "cooderl/wewe-rss": {
       "active": true,
       "starredAt": "2024-03-01T15:23:18Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e4fd1ca39fc6f0ce1d8719bec421281303796d89"
     },
     "MauriceNino/dashdot": {
       "active": true,
       "starredAt": "2024-02-18T21:50:31Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:d0415cfbb4a8ae665bdb6794565b118e18e5470b"
     },
     "LC044/WeChatMsg": {
       "active": true,
       "starredAt": "2024-02-02T01:32:49Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:5328857b09ac01a296c1da4e7c474232a85d77ab"
     },
     "TriliumNext/Trilium": {
       "active": true,
       "starredAt": "2024-01-27T14:29:34Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e686e04e62c5659dd7e5c19120ee9e5fc1aed87d"
     },
     "clash-verge-rev/clash-verge-rev": {
       "active": true,
       "starredAt": "2024-01-26T16:32:28Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:55199771804cb475c3d02614794cdc4f1aa13c26"
     },
     "lollipopkit/flutter_server_box": {
       "active": true,
       "starredAt": "2024-01-25T09:05:10Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:af568dc169dbf344612140cec28b4cbe80b08e36"
     },
     "mao888/golang-guide": {
       "active": true,
       "starredAt": "2024-01-16T01:40:12Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:4d48c4503309da99b923042909dc53693d17b48b"
     },
     "chatpire/chatgpt-web-share": {
       "active": true,
       "starredAt": "2024-01-09T10:17:08Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:56282c24cb9bbb51f432b01e02b25af759a9211b"
     },
     "usememos/memos": {
       "active": true,
       "starredAt": "2023-12-27T13:42:37Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:69210e53c4d2b84435362adae94997ca3c6db0a0"
     },
     "FluentRead/FluentRead": {
       "active": true,
       "starredAt": "2023-12-25T06:40:14Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:5db6504017bbabbb82879cc798614cf0d6244498"
     },
     "loonggg/DevMoneySharing": {
       "active": true,
       "starredAt": "2023-12-20T02:41:10Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7d7d66c51c62a2f3ce6fa5f91246fe21324d785b"
     },
     "rooktwo/rectg": {
       "active": true,
       "starredAt": "2023-12-18T16:51:21Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:0018167b3e0332fafb556fac0df23c3c7b9b8dcc"
     },
     "pot-app/pot-desktop": {
       "active": true,
       "starredAt": "2023-12-17T04:30:58Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e121321bab0f6903bab477728d69f559720f79cd"
     },
     "inancgumus/learngo": {
       "active": true,
       "starredAt": "2023-12-06T08:08:06Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:f4ead4ace959a78f17928d613cc4254da20c3539"
     },
     "hwholiday/learning_tools": {
       "active": true,
       "starredAt": "2023-12-06T07:31:34Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:53b5dd8dfd73929f49ab35fadd1088539546cb68"
     },
     "shadow1ng/fscan": {
       "active": true,
       "starredAt": "2023-12-06T05:41:19Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:ba3c0ef63563b55cae80bb0e925d6aebe8964a65"
     },
     "blossom-editor/blossom": {
       "active": true,
       "starredAt": "2023-12-06T02:37:03Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:8d666f4df7e2512fb7fce38bc757aed788b446cd"
     },
     "jason5ng32/MyIP": {
       "active": true,
       "starredAt": "2023-11-28T03:05:40Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:40aa830a3e0003f5196f0742eb5683afee94ad49"
     },
     "ronggang/transmission-web-control": {
       "active": true,
       "starredAt": "2023-11-26T07:20:15Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:dbc3410c7b4fb836b2fa9050fbe8f63105a2ed4f"
     },
     "everywall/ladder": {
       "active": true,
       "starredAt": "2023-11-25T22:35:05Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:cc4c72ec46efd1a9813ccbfa5d2fae35034aeb4e"
     },
     "tiny-craft/tiny-rdm": {
       "active": true,
       "starredAt": "2023-11-25T09:33:21Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:6afefde8449f2d5317bfe83bdf653b6b4d866e1e"
     },
     "BuilderIO/gpt-crawler": {
       "active": true,
       "starredAt": "2023-11-24T05:34:23Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:47102ea4316fe58b3385a3bf47c8fec7c0c1108d"
     },
     "yangjian102621/geekai": {
       "active": true,
       "starredAt": "2023-11-22T11:03:09Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:72c0c0087a081bf6241733f37d6cf93dda8864da"
     },
     "songquanpeng/one-api": {
       "active": true,
       "starredAt": "2023-11-22T09:26:55Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:5decf662815136ef121da15617e6e50924ed3ffd"
     },
     "JushBJJ/Mr.-Ranedeer-AI-Tutor": {
       "active": true,
       "starredAt": "2023-11-20T07:34:58Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:6dc76c608bcb76eab9d9c04f5273dceca706596b"
     },
     "co-brew/brew-meet": {
       "active": true,
       "starredAt": "2023-11-19T12:52:29Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:51aece7f77f6436d83505f2a122a99b62c77526f"
     },
     "0xERR0R/blocky": {
       "active": true,
       "starredAt": "2023-11-13T06:45:59Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:ae1d3949a57c16f8bd8186bb6ab61a97a994f0b1"
     },
     "TechnitiumSoftware/DnsServer": {
       "active": true,
       "starredAt": "2023-11-13T03:50:42Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:5924923fc3b78defa115b0d623b925166ce65cc7"
     },
     "IceWhaleTech/CasaOS": {
       "active": true,
       "starredAt": "2023-11-12T04:43:16Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:d357658465d5bddfb80cf5970eb87ddffc678768"
     },
     "seriousm4x/UpSnap": {
       "active": true,
       "starredAt": "2023-11-12T04:40:34Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:507be87e44e244919012117d8e9a6e564cb3cdb5"
     },
     "gravitational/teleport": {
       "active": true,
       "starredAt": "2023-11-08T05:07:29Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:722dc29a79ae4d19c894f1ffbe2a946e0d57b3ca"
     },
     "geekan/HowToLiveLonger": {
       "active": true,
       "starredAt": "2023-11-07T15:42:51Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:331165062b159929d558d97c73dffdea9dc29823"
     },
     "EvilAnne/lzCloudSecurity": {
       "active": true,
       "starredAt": "2023-11-07T15:37:29Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:c870d41a4c5966698fd7625f5d7470b12c3cbc95"
     },
     "ollama/ollama": {
       "active": true,
       "starredAt": "2023-11-07T03:47:52Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:2a7dd787dc04fad1536797c7a64f9c3d85fa0782"
     },
     "moonD4rk/HackBrowserData": {
       "active": true,
       "starredAt": "2023-11-04T16:44:57Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:286bdb0759a7347c40c5d771c7e3993d27622738"
     },
     "lookscanned/lookscanned.io": {
       "active": true,
       "starredAt": "2023-11-04T16:43:59Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:198db5556a7dca53e3698544a7929ee7740ea5e1"
     },
     "DustinWin/dustinwin.github.io": {
       "active": true,
       "starredAt": "2023-11-04T02:35:04Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:adbe3c087347be7a70953cebb7b72b0227420fbd"
     },
     "wasi-master/13ft": {
       "active": true,
       "starredAt": "2023-10-30T07:52:47Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:f9f137b25adc64646ef45d3dd5685f0c1299d4ff"
     },
     "eosphoros-ai/DB-GPT": {
       "active": true,
       "starredAt": "2023-10-25T15:37:41Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a4a293981b29fda78a035d638230327d1176c713"
     },
     "warengonzaga/css-text-portrait-builder": {
       "active": true,
       "starredAt": "2023-10-23T22:17:36Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:dfcf55909dcf2c05dca7d0c566e3ef504e2c8cd6"
     },
     "upscayl/upscayl": {
       "active": true,
       "starredAt": "2023-10-21T17:54:15Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:f102b2d39a5b0aeb9199e1a2823db07dd694fa16"
     },
     "nulla2011/bluearchive-logo": {
       "active": true,
       "starredAt": "2023-10-20T07:24:58Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:3c35990d987d499e0d7abeef2d375fb4cc5778cc"
     },
     "TheWaWaR/simple-http-server": {
       "active": true,
       "starredAt": "2023-10-20T02:16:05Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:f1e3d97273f250ddd3023da25ca23f7403d0f15b"
     },
     "svenstaro/miniserve": {
       "active": true,
       "starredAt": "2023-10-20T02:15:59Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:0f211583c854ec95f87830bce5a160f6ff4a7722"
     },
     "synctv-org/synctv": {
       "active": true,
       "starredAt": "2023-10-19T04:15:02Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:4852a39519b39b4f2dbe6c1baf4ec60501a5c285"
     },
     "CorentinTh/it-tools": {
       "active": true,
       "starredAt": "2023-10-18T01:54:13Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:72cbbd8d93469b91a93d39486dbd1a1b33c8884c"
     },
     "qarmin/czkawka": {
       "active": true,
       "starredAt": "2023-10-11T08:02:30Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:898345bdb4c8709b2e39afe2b377313c7b252f86"
     },
     "facebookresearch/nougat": {
       "active": true,
       "starredAt": "2023-10-06T10:50:57Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:6aa70eda57a354aa1902b5e102c675a561edb515"
     },
     "imDazui/Tvlist-awesome-m3u-m3u8": {
       "active": true,
       "starredAt": "2023-09-29T15:33:55Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:d58764cb244389844153e1ca215799d374a1ad73"
     },
     "lissy93/dashy": {
       "active": true,
       "starredAt": "2023-09-25T15:59:11Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:752c4d062d6394d9102f2872bacab40147fd1e01"
     },
     "webmeshproj/webmesh": {
       "active": true,
       "starredAt": "2023-09-21T07:14:14Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7281487333f295d9adcf7f1e153f50a623f85c4c"
     },
     "ChatAnyTeam/ChatAny": {
       "active": true,
       "starredAt": "2023-09-18T10:59:18Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:74b4987b9ef4668258fb34d04073f463946b005c"
     },
     "milvus-io/milvus": {
       "active": true,
       "starredAt": "2023-09-18T07:20:02Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:fd07f01107c1ddfa1605e1e70b730b909820928a"
     },
     "openinterpreter/openinterpreter": {
       "active": true,
       "starredAt": "2023-09-13T03:18:06Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:6be2f5c02341f3284d97594800672e0d2551d0c2"
     },
     "ignorantshr/person-blog": {
       "active": true,
       "starredAt": "2023-09-07T09:31:08Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:de1f8e7a8246bc3ad52b24283573b0d86d165ce8"
     },
     "squidfunk/mkdocs-material": {
       "active": true,
       "starredAt": "2023-09-07T09:25:46Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e51cf41a92411c620a4df5ef1ce0052a1090758f"
     },
     "woodchen-ink/openai-billing-query": {
       "active": true,
       "starredAt": "2023-09-07T06:37:25Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:26797febf84b75c65e9f3347ca1aac523bd69f5c"
     },
     "atombender/ktail": {
       "active": true,
       "starredAt": "2023-08-28T13:39:30Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:8bc552f148af4e94a61a8b64122fed201d659614"
     },
     "Quiq/registry-ui": {
       "active": true,
       "starredAt": "2023-08-28T08:43:28Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:edae556dc1a09d8dc2491526de052fbeaeba7602"
     },
     "testcontainers/testcontainers-go": {
       "active": true,
       "starredAt": "2023-08-27T13:27:49Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:ea21c63871dc0323d61ce7074e3a3621ee884fe1"
     },
     "composerize/composerize": {
       "active": true,
       "starredAt": "2023-08-26T06:54:57Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:218ba8f68a207fadba06e47a1add91cc4dbdd695"
     },
     "workout-lol/workout-lol": {
       "active": true,
       "starredAt": "2023-08-24T12:50:41Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:60f7db2fffd502dc4831c21daa4a049d0ae8dba3"
     },
     "EstrellaXD/Auto_Bangumi": {
       "active": true,
       "starredAt": "2023-08-21T09:54:35Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:bb4239db2d4720ebee475324b89a1cc03a9b92ad"
     },
     "zauberzeug/nicegui": {
       "active": true,
       "starredAt": "2023-08-05T15:04:25Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:8d6ef2bc91c727941f49c02d80ef117f7fedc730"
     },
     "krahets/hello-algo": {
       "active": true,
       "starredAt": "2023-08-05T14:55:41Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7086aa610c025d3a745fbfbe5e2b1594221b49bc"
     },
     "kevin2li/PDF-Guru": {
       "active": true,
       "starredAt": "2023-08-03T09:14:27Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:6213f51f914544101334393a8a65658717eccc8e"
     },
     "josStorer/RWKV-Runner": {
       "active": true,
       "starredAt": "2023-07-31T06:44:02Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:8ae81e71ffab8b3397eb90a6f355a1bf1fbda762"
     },
     "FoundationAgents/MetaGPT": {
       "active": true,
       "starredAt": "2023-07-29T14:35:48Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:080c02cd99015ca01f5db2c1063473fc22939bec"
     },
     "nginx-proxy/nginx-proxy": {
       "active": true,
       "starredAt": "2023-07-28T19:03:54Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:597bce83face65f623d761a6d630bbd338373bfc"
     },
     "nginx-proxy/acme-companion": {
       "active": true,
       "starredAt": "2023-07-28T19:02:59Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b89ace1301f0816dce1bc1c77153f718fc4960a5"
     },
     "phodal/understand-prompt": {
       "active": true,
       "starredAt": "2023-07-16T13:53:32Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:05199ccc8c39a59bed7d36b814e2f51ba9762b6b"
     },
     "JimmyLv/BibiGPT-v1": {
       "active": true,
       "starredAt": "2023-07-16T13:48:23Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:ba08dbe6604b9585a5f87658ff737982aa6886fd"
     },
     "xiangsx/gpt4free-ts": {
       "active": true,
       "starredAt": "2023-07-16T13:48:10Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:64660fbfc4ee9d00f54d4c295a695a1cba603501"
     },
     "lvwzhen/law-cn-ai": {
       "active": true,
       "starredAt": "2023-07-16T13:45:10Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:3fbfc16c9f77eef99617e26a4a0373df64756a1d"
     },
     "YaoApp/yao": {
       "active": true,
       "starredAt": "2023-07-16T13:27:16Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:dfbfb5712f5c98c6ded74cfcfcf2611f0304c19b"
     },
     "AI4Finance-Foundation/FinGPT": {
       "active": true,
       "starredAt": "2023-07-16T13:23:01Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:6210432880cacb4e8c773d5a2bb155b8f585e5ed"
     },
     "ai-shifu/ChatALL": {
       "active": true,
       "starredAt": "2023-07-16T13:17:42Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:9fd3f14758ae6f9e7282853fe473294dd4ba5ab4"
     },
     "xx025/carrot": {
       "active": true,
       "starredAt": "2023-07-16T12:48:57Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:423e271f6ac1825fa46b77208810ce9090ffbb41"
     },
     "chaitin/SafeLine": {
       "active": true,
       "starredAt": "2023-07-16T09:15:56Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:464cd3a8863bad618bb2f2ec80db21a99996c21f"
     },
     "The-Vibe-Company/quivr": {
       "active": true,
       "starredAt": "2023-07-13T06:43:38Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:6baab61827bce4a5a76e9e3994002d616dd17635"
     },
     "alacritty/alacritty": {
       "active": true,
       "starredAt": "2023-07-06T09:23:31Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:1f7a5390822490a79e881f1fcfdb44f60d0d6580"
     },
     "Eugeny/tabby": {
       "active": true,
       "starredAt": "2023-07-06T09:23:25Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:682f25e7dc14e4ff5b9fd98aff48121d2dbf8503"
     },
     "immich-app/immich": {
       "active": true,
       "starredAt": "2023-07-01T09:25:11Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:79d6e2d4672a1a0fbf39c3bfe30cdecb30a2dc5a"
     },
     "LAION-AI/Open-Assistant": {
       "active": true,
       "starredAt": "2023-06-23T23:42:27Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:f8ed80496f6ab688dd27b724478c983fa72abd9e"
     },
     "zhayujie/CowAgent": {
       "active": true,
       "starredAt": "2023-06-22T21:49:50Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:ed206ab9944a85acd18a0a9af961648871972c19"
     },
     "langbot-app/LangBot": {
       "active": true,
       "starredAt": "2023-06-22T19:06:39Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:78c0bbeaa88c5ba6495ae9f6f1da70cf7f2d6c54"
     },
     "YunYouJun/birthday": {
       "active": true,
       "starredAt": "2023-06-22T18:38:43Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:ff6a354cf681b4689217c0bc0c8282077ca30fdb"
     },
     "tbxark/ChatGPT-Telegram-Workers": {
       "active": true,
       "starredAt": "2023-06-17T05:52:39Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:c9de2d58cdfe5592bbe1a433f77a11ed69a06531"
     },
     "rockbenben/ChatGPT-Shortcut": {
       "active": true,
       "starredAt": "2023-06-17T05:10:44Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:09981a4ffaa50230999b16bb92da1cdf14100a0e"
     },
     "nomic-ai/gpt4all": {
       "active": true,
       "starredAt": "2023-06-08T09:59:56Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:4450198c235f997b59038dd6f9de29a9f0981367"
     },
     "AprilNEA/AChat": {
       "active": true,
       "starredAt": "2023-06-08T09:31:36Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:57df820cf8d7971785ae86987885ad2506688763"
     },
     "webtorrent/wormhole-crypto": {
       "active": true,
       "starredAt": "2023-06-08T08:30:32Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:2a4c4d155330c5602031796413d8d9c104ae9652"
     },
     "jesseduffield/lazygit": {
       "active": true,
       "starredAt": "2023-06-07T04:45:44Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:ef7ac0c4a81806c8389c5995d8d61e945bfd2bd3"
     },
     "spacedriveapp/spacedrive": {
       "active": true,
       "starredAt": "2023-06-07T03:05:45Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:f72c32eb7d0735332b960d84fd467493db5c2cae"
     },
     "danicat/pacgo": {
       "active": true,
       "starredAt": "2023-06-07T02:54:42Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a8dd8fede32312ff93692dfef70aad48738a4442"
     },
     "quii/learn-go-with-tests": {
       "active": true,
       "starredAt": "2023-06-07T02:45:35Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:36e7dbb74cb78dcb57161486476a751d2a0ccd4e"
     },
     "gobyexample-cn/gobyexample": {
       "active": true,
       "starredAt": "2023-06-07T02:34:16Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b644c3ea74a4fffb0432280a1bc7dfc5724f6fa5"
     },
     "kubevela/kubevela": {
       "active": true,
       "starredAt": "2023-06-06T05:22:56Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:dda8c9a7ff8cfdf93f8596405a34e73ab33636b1"
     },
     "BeyondDimension/SteamTools": {
       "active": true,
       "starredAt": "2023-06-05T05:12:46Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b46ec32e730a67a628981402f4e309a1299dda4d"
     },
     "Foundry376/Mailspring": {
       "active": true,
       "starredAt": "2023-06-04T04:05:30Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7a81afd76e64dbc713f526be785d9ee410b76b86"
     },
     "vernesong/OpenClash": {
       "active": true,
       "starredAt": "2023-06-03T04:21:34Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:15684fdfad46c80fa98a4a25d924df50e7f93a5a"
     },
     "owen2000wy/owentv": {
       "active": true,
       "starredAt": "2023-05-29T14:27:35Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:478955858182f71453f68ba35c66ddd90914da3e"
     },
     "Loyalsoldier/clash-rules": {
       "active": true,
       "starredAt": "2023-05-29T10:21:32Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a7f33531b3a504157a92807a9420246157b8ac8b"
     },
     "mack-a/v2ray-agent": {
       "active": true,
       "starredAt": "2023-05-28T04:01:12Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:0db34cb33ea2fbe05602fdd7f5355b47e74eafe4"
     },
     "privacy-protection-tools/anti-AD": {
       "active": true,
       "starredAt": "2023-05-27T10:01:24Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a7d3a4074264fdc257d0d07c78b0d2841f1c17e0"
     },
     "chinese-poetry/chinese-poetry": {
       "active": true,
       "starredAt": "2023-05-26T06:59:32Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:bb1cfb2e9bb416203ba3f8041471cc0779d757ee"
     },
     "blackmatrix7/ios_rule_script": {
       "active": true,
       "starredAt": "2023-05-25T03:35:32Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:ca61b7558a2d500716265e0c3ae076e77ed82524"
     },
     "pengxiao-song/LaWGPT": {
       "active": true,
       "starredAt": "2023-05-21T01:27:11Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7674abe5d1636cfce8119bc8719099da2d8c5966"
     },
     "chathub-dev/chathub": {
       "active": true,
       "starredAt": "2023-05-15T02:57:20Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:d6898a09a81d54a67e38281c5bac38302da5d7bd"
     },
     "Codennnn/vue-color-avatar": {
       "active": true,
       "starredAt": "2023-05-15T02:54:36Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:702982386d456890a47104f325c9dc93497401cb"
     },
     "langgenius/dify": {
       "active": true,
       "starredAt": "2023-05-15T02:40:02Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:1f2414728c9837eb0248680e1d1443c7b94a304d"
     },
     "labring/FastGPT": {
       "active": true,
       "starredAt": "2023-05-15T01:52:28Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e139ef44330485445d23c9d9ae4a2c8aed2c9976"
     },
     "bytebase/bytebase": {
       "active": true,
       "starredAt": "2023-05-14T04:49:00Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:1cebed85115f3a82e5849a0384747278723f15d8"
     },
     "okisdev/ChatChat": {
       "active": true,
       "starredAt": "2023-05-13T09:48:41Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:46b95e80751dd97f7a5c0e4d77b28952288037d6"
     },
     "svenstaro/genact": {
       "active": true,
       "starredAt": "2023-05-12T08:31:40Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:4d117d4132fa0a5f4c0f4c36791bb2ab8de731e7"
     },
     "schollz/croc": {
       "active": true,
       "starredAt": "2023-05-11T02:08:45Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:3833c93f30b26f1347c692246f09dd4f5204d9c9"
     },
     "localsend/localsend": {
       "active": true,
       "starredAt": "2023-05-11T02:06:34Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:c4ba24de40169601e850d9b85021053f52a7d4de"
     },
     "Jagailo/YetAnotherKeyDisplayer": {
       "active": true,
       "starredAt": "2023-04-21T09:54:07Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e7559aa6322b6b834a33b61061dcf6ed881fbd06"
     },
     "KaustubhPatange/Kling": {
       "active": true,
       "starredAt": "2023-04-21T09:53:41Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:5eaed249b6e7a8f2761992d59380bbe7306d8238"
     },
     "Code52/carnac": {
       "active": true,
       "starredAt": "2023-04-21T09:53:03Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:df59e8fbbe95f3385d8dc0d7ce81996983e45be7"
     },
     "Significant-Gravitas/AutoGPT": {
       "active": true,
       "starredAt": "2023-04-21T01:17:15Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:951eda9dfd4c43e0cab092796e67acd9ad0daf34"
     },
     "binary-husky/gpt_academic": {
       "active": true,
       "starredAt": "2023-04-20T08:27:51Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7f4156ccf5b86270d9c3a2d87f5b2b76dcc3bee3"
     },
     "kaixindelele/ChatPaper": {
       "active": true,
       "starredAt": "2023-04-20T08:24:03Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b006429e55928fd1563b79c636e07ec4229cee08"
     },
     "alyssaxuu/screenity": {
       "active": true,
       "starredAt": "2023-04-17T13:59:11Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:24679cda7f86b63cdd0aea1f511ee75a8e375e10"
     },
     "facebookresearch/segment-anything": {
       "active": true,
       "starredAt": "2023-04-14T05:47:21Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:2e58656beedd2d48ea7df680e27646d906f408de"
     },
     "windvalley/gossh": {
       "active": true,
       "starredAt": "2023-04-07T07:45:50Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a5a433a1261e3e43fc474a25a1efcd03d0513a9a"
     },
     "golang-china/gopl-zh": {
       "active": true,
       "starredAt": "2023-04-07T02:44:17Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:423860b051f5db8002a4b592ccbaa255fce76e79"
     },
     "trojanpanel/install-script": {
       "active": true,
       "starredAt": "2023-04-03T10:56:28Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:4b2721b667915ba75caac142847ff8976d57c542"
     },
     "ChatGPTNextWeb/NextChat": {
       "active": true,
       "starredAt": "2023-03-30T07:52:52Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:edfd20a628b01f232f11326d8eb14de72b74edfb"
     },
     "zhayujie/bot-on-anything": {
       "active": true,
       "starredAt": "2023-03-29T19:23:06Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:3306c27cd7bb7dca09ad3d1f01d0e8bbf2220cc3"
     },
     "crazy-max/diun": {
       "active": true,
       "starredAt": "2023-03-29T19:08:10Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:ea733b8d19661f52ee02d3c54876251538861e30"
     },
     "lss233/kirara-ai": {
       "active": true,
       "starredAt": "2023-03-29T19:04:04Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:02bb29b73a5076736d80dc0694124d1c95376aa2"
     },
     "maxence-charriere/lofimusic": {
       "active": true,
       "starredAt": "2023-03-26T07:22:40Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:14c78aa0d95088cc756a6ee10e87342fba21b8a5"
     },
     "XX-net/XX-Net": {
       "active": true,
       "starredAt": "2023-03-26T06:56:44Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:98a9fd513d92503a4e8c72aef043f5923d180ce0"
     },
     "sozercan/kubectl-ai": {
       "active": true,
       "starredAt": "2023-03-23T08:11:22Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:26a69bb125eab654aa9ef24474411869c814aed7"
     },
     "jerrykuku/luci-theme-argon": {
       "active": true,
       "starredAt": "2023-03-19T12:48:42Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:18ebefa15a62515b32253590019f874ff0fa14ce"
     },
     "coolsnowwolf/lede": {
       "active": true,
       "starredAt": "2023-03-16T00:34:59Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:c47fb9cd78611daac47ad3a0384c48d1347207ab"
     },
     "futantan/OpenGpt": {
       "active": true,
       "starredAt": "2023-03-14T14:19:20Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:2a81952b668cdb5cb709d260efb8d3bc7811c7ae"
     },
     "yangchuansheng/DocsGPT": {
       "active": true,
       "starredAt": "2023-03-13T03:44:51Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:8a4dea6e4268a67d12c24d886e145c9ce0df5b15"
     },
     "tiimgreen/github-cheat-sheet": {
       "active": true,
       "starredAt": "2023-03-10T12:46:50Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:6b8c9aed4c80832d9b8ea59a6778b461c911f1e8"
     },
     "yihong0618/bilingual_book_maker": {
       "active": true,
       "starredAt": "2023-03-10T10:29:54Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:019b70c63a1bcdefb02a07653877b92c353acbcf"
     },
     "chenfei-wu/TaskMatrix": {
       "active": true,
       "starredAt": "2023-03-10T08:58:42Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e978277ee1f895d7ec87e0ebddede21b94fdad15"
     },
     "run-llama/llama_index": {
       "active": true,
       "starredAt": "2023-03-04T05:26:23Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:572527a8f5293bcf001366da01e51549280ff2e0"
     },
     "Chanzhaoyu/chatgpt-web": {
       "active": true,
       "starredAt": "2023-03-03T16:41:26Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:45f1fabaa8cb037b64d1ee71ee1857816ae3aeaa"
     },
     "OpenEthan/SMSBoom": {
       "active": true,
       "starredAt": "2023-02-22T13:59:51Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:f07500d74dcf65d943e4cc6c9764af0d4310ecd1"
     },
     "cockpit-project/cockpit": {
       "active": true,
       "starredAt": "2023-02-21T13:36:14Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7022f4b03cf3b2e743de9d420d86b0c58fce5178"
     },
     "lvwzhen/teach-anything": {
       "active": true,
       "starredAt": "2023-02-14T09:50:12Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a6f4c251213e672cbb5d095214fc2c51107bd5b7"
     },
     "shengxinjing/email-helper": {
       "active": true,
       "starredAt": "2023-02-14T09:45:29Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:ad53202cd06f8df19012bc5106c705b6bb4f3a0f"
     },
     "guaguaguaxia/weekly_report": {
       "active": true,
       "starredAt": "2023-02-14T09:44:34Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:184e95c22a10c21f2ebbb83638fae0e6931840f8"
     },
     "Chia-Network/chia-blockchain": {
       "active": true,
       "starredAt": "2023-02-06T03:37:02Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a70a6713e03f7d220e778812459be4e03133de52"
     },
     "std-microblock/chromatic": {
       "active": true,
       "starredAt": "2023-02-03T11:58:40Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:fa61f52765fa864ef8ec46bc67e285cc4421be3c"
     },
     "NAStool/nas-tools": {
       "active": true,
       "starredAt": "2023-02-01T07:58:24Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:5514fe0c19d39f6292f0304e3fb1f6ae546c5b2b"
     },
     "HandBrake/HandBrake": {
       "active": true,
       "starredAt": "2023-01-11T04:49:14Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:880f735211000624ee8f35959d6fcf34b4378f85"
     },
     "lencx/ChatGPT": {
       "active": true,
       "starredAt": "2023-01-09T09:00:03Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:0ff797cd7e0d3c8c0312d5a3ad8fd0563b9a7944"
     },
     "oldj/SwitchHosts": {
       "active": true,
       "starredAt": "2023-01-08T14:34:19Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:34665cae3266e7bd8c394e36b223fe76ff5f1611"
     },
     "521xueweihan/GitHub520": {
       "active": true,
       "starredAt": "2023-01-08T14:34:04Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:fac9cea3d7cf185e43229da32b738f45a96fd131"
     },
     "AdguardTeam/AdGuardHome": {
       "active": true,
       "starredAt": "2023-01-08T14:33:31Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:1dba24d23a305a0a15982fbc88f35c2b0ac9cea1"
     },
     "jeessy2/ddns-go": {
       "active": true,
       "starredAt": "2023-01-06T11:35:07Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a8e478e06e0246631b9a03f930e063f1ffc074f9"
     },
     "MichaelCade/90DaysOfDevOps": {
       "active": true,
       "starredAt": "2022-12-28T01:58:57Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7fbc14f6e4676912b7383bbd86b7fcd8e059fad1"
     },
     "massgravel/Microsoft-Activation-Scripts": {
       "active": true,
       "starredAt": "2022-12-18T19:41:07Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:525993034a28eb72faf6ab7692652890c5699526"
     },
     "YunYouJun/cook": {
       "active": true,
       "starredAt": "2022-12-18T12:29:01Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:4184ae6837dd24751beb02e71ff4b0150b30c5d7"
     },
     "DIYgod/RSSHub": {
       "active": true,
       "starredAt": "2022-12-16T15:40:25Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:2b9abe2ac0c86b38926229e7d2b0b14121052b96"
     },
     "zas023/JdBuyer": {
       "active": true,
       "starredAt": "2022-12-16T15:07:21Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:44a75c8a7c7f79dc12b9f4f7fe5a6e9e59357097"
     },
     "f/prompts.chat": {
       "active": true,
       "starredAt": "2022-12-15T19:21:21Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b4947e85a07daeaf506ed8b1d10f07cce3f75295"
     },
     "tw93/Pake": {
       "active": true,
       "starredAt": "2022-12-15T19:17:03Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e0db2a285fe5649e22051e0d15d2729e0433089b"
     },
     "sonnylazuardi/chat-ai-desktop": {
       "active": true,
       "starredAt": "2022-12-15T19:16:48Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:db176e4183377d7ec0f4f542ac5c8b0bfb6d044e"
     },
     "zu1k/nali": {
       "active": true,
       "starredAt": "2022-12-15T04:04:44Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:4d5fb720a5c601b5f80d281e70c39cd3c2e02415"
     },
     "sourcegraph/sourcegraph-public-snapshot": {
       "active": true,
       "starredAt": "2022-11-29T09:42:33Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:226fa474ebaaae8889405490b96f83e936fd974e"
     },
     "tteck/Proxmox": {
       "active": true,
       "starredAt": "2022-11-27T12:50:02Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e8e02da203d3183d06b4aa6c2b3180f06c7a3770"
     },
     "Atlas-OS/Atlas": {
       "active": true,
       "starredAt": "2022-11-26T05:57:02Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:40ae6d4d72799a31e0f29d535206796ff3cd8bdb"
     },
     "wxext/wxext": {
       "active": true,
       "starredAt": "2022-11-20T04:30:36Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:cb8dd58e461ae64441223aa982256ffedc46598d"
     },
     "wzshiming/bridge": {
       "active": true,
       "starredAt": "2022-11-16T04:42:17Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:2449aa22d1503857798effa816f9964d803161ad"
     },
     "DaoCloud/public-image-mirror": {
       "active": true,
       "starredAt": "2022-11-16T04:42:13Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:63064e5d9d4dae454aeaa1eb1ba600e1b877df42"
     },
     "angristan/wireguard-install": {
       "active": true,
       "starredAt": "2022-11-11T11:20:30Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:3690ff133230ea97743b66079e378cf5f987e79a"
     },
     "wg-easy/wg-easy": {
       "active": true,
       "starredAt": "2022-11-11T10:49:50Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b80abcec5b9c25b6f4786fd588e19e41093b3def"
     },
     "cubxxw/awesome-cs-cloudnative-blockchain": {
       "active": true,
       "starredAt": "2022-11-10T07:58:25Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:c452a8b7d5bda13ab1644743b138b64395a12921"
     },
     "ryanhanwu/How-To-Ask-Questions-The-Smart-Way": {
       "active": true,
       "starredAt": "2022-11-09T07:38:36Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:80b4c047911d3f1d8680e70d1cae05c7fab4ed2b"
     },
     "xifangczy/cat-catch": {
       "active": true,
       "starredAt": "2022-10-24T09:32:00Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a2b03ae540ed9490d385968d2edc76555f8161d3"
     },
     "jackfrued/git-tips": {
       "active": true,
       "starredAt": "2022-10-15T06:33:35Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:33b0b5dfb7f7994537b9714c54031dcdef3d2227"
     },
     "keepassxreboot/keepassxc": {
       "active": true,
       "starredAt": "2022-10-11T03:07:44Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:f7af472f508fd9ddfa4693610a9a14e171e8c237"
     },
     "podman-container-tools/podman": {
       "active": true,
       "starredAt": "2022-09-27T01:15:16Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:cf8f39b8c3381b7a52487c505fdace73a613ec61"
     },
     "minio/minio": {
       "active": true,
       "starredAt": "2022-09-27T01:12:56Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:84e49277432b54d5e84de2a5be59c75950746d37"
     },
     "kingcos/JueJueZiGenerator": {
       "active": true,
       "starredAt": "2022-09-22T09:53:05Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:6fc587625105928abd0e0f2ccdf01f3f36aea529"
     },
     "aykutkardas/regexlearn.com": {
       "active": true,
       "starredAt": "2022-09-06T16:54:29Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b90dd897c222b7ed8ca0ad7ad8c980badb840699"
     },
     "any86/any-rule": {
       "active": true,
       "starredAt": "2022-09-06T16:53:58Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:006a2c6fb8b655abb1e1b7f8437addaf2c7ab41a"
     },
     "ziishaned/learn-regex": {
       "active": true,
       "starredAt": "2022-09-06T16:50:58Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:d27e8387a2f6d196a0b351ae409a5d278940c503"
     },
     "xiaobaiTech/golangFamily": {
       "active": true,
       "starredAt": "2022-08-03T03:40:39Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b85b03be586d45b5faa2299492f7138affaece0a"
     },
     "huiyadanli/RevokeMsgPatcher": {
       "active": true,
       "starredAt": "2022-06-30T07:19:19Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:94aae30b7040bee14ec2fca0a7e08e59e9929b6c"
     },
     "qier222/YesPlayMusic": {
       "active": true,
       "starredAt": "2022-06-30T07:16:52Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:0335abb258291ba3684c090bc4ade115ef42ec4d"
     },
     "TGSAN/CMWTAT_Digital_Edition": {
       "active": true,
       "starredAt": "2022-06-27T11:18:25Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:7fefbfa1ab8ea9c5fbf6e163c0b728842ce595f7"
     },
     "NginxProxyManager/nginx-proxy-manager": {
       "active": true,
       "starredAt": "2022-06-26T11:16:20Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:76a24316b299d1a311a2f831b63d476d97cc3a33"
     },
     "greycodee/wechat-backup": {
       "active": true,
       "starredAt": "2022-06-26T06:06:02Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:1d575f34494a20cd41cbc9a7c509efd54960c1ca"
     },
     "ytdl-org/youtube-dl": {
       "active": true,
       "starredAt": "2022-06-19T17:38:01Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:47e686f845c5b28aced9878debf0eaef19d5d5cc"
     },
     "knadh/dns.toys": {
       "active": true,
       "starredAt": "2022-06-13T10:21:41Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a5e1c8ad31a11e27a74d17f8d249ef2b2ba18c45"
     },
     "syncthing/syncthing": {
       "active": true,
       "starredAt": "2022-06-10T03:46:47Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:3167b1b4d3a85927d7dc4cd6d1fb98e22cd12a66"
     },
     "astaxie/build-web-application-with-golang": {
       "active": true,
       "starredAt": "2022-06-10T03:44:00Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:f7903b67f78efe45eeac6159cffb8c3aa4da38c3"
     },
     "halfrost/LeetCode-Go": {
       "active": true,
       "starredAt": "2022-06-10T03:43:47Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:ff5d588a5d496833725901792b73404765a38311"
     },
     "openimsdk/open-im-server": {
       "active": true,
       "starredAt": "2022-06-10T03:40:52Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:3463e83b2c5a12f38457d4b994d787ed600901ec"
     },
     "unknwon/go-fundamental-programming": {
       "active": true,
       "starredAt": "2022-06-10T03:39:45Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:8cb2694e08eaf5ca0cd477975cfeaf6e66bb440a"
     },
     "skywind3000/awesome-cheatsheets": {
       "active": true,
       "starredAt": "2022-06-10T03:38:21Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:f3f347870df785b3425f2d379845afba3de098ad"
     },
     "talkgo/night": {
       "active": true,
       "starredAt": "2022-06-10T03:30:45Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:4d55c2834d6ab866b5d8930c5f5c7dee28ea435f"
     },
     "talkgo/read": {
       "active": true,
       "starredAt": "2022-06-10T03:29:03Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:c36c149835b81fec94cffcf8ff2c7951593e0b2a"
     },
     "hackstoic/golang-open-source-projects": {
       "active": true,
       "starredAt": "2022-06-10T03:26:13Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a875eec9f936e678fae47568560431ac5e2abd62"
     },
     "geektutu/7days-golang": {
       "active": true,
       "starredAt": "2022-06-10T03:25:00Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:296bff7ab0750e9c4562578f1b85cfd8bed9b40d"
     },
     "halfrost/Halfrost-Field": {
       "active": true,
       "starredAt": "2022-06-10T03:24:23Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:c2aef1c0d3ba9f0e92900c177ead03f41e04bf88"
     },
     "jackfrued/Python-100-Days": {
       "active": true,
       "starredAt": "2022-06-10T03:18:17Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:fb70b9aad51e1ae6217d676f41399215e4473399"
     },
     "locustio/locust": {
       "active": true,
       "starredAt": "2022-06-09T12:48:08Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:9bde2ba9d37e1642f4ea6928e55eafe4c8d2f50c"
     },
     "purocean/yn": {
       "active": true,
       "starredAt": "2022-06-04T11:55:23Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:d3a0034d1f48a77f54d1dd655623055955aeadf2"
     },
     "dbeaver/dbeaver": {
       "active": true,
       "starredAt": "2022-05-20T07:37:28Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:090775fbe59e4be1ff280add77a39bfbc93621e5"
     },
     "feiyu563/PrometheusAlert": {
       "active": true,
       "starredAt": "2022-05-06T08:52:25Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:fe828c14f015c7d9000b5e7ac0918da3977e23c1"
     },
     "easzlab/kubeasz": {
       "active": true,
       "starredAt": "2022-05-05T16:25:38Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a2d1f2ebadf2be62b88bdd41f7099e03da6b0cf4"
     },
     "pibigstar/go-demo": {
       "active": true,
       "starredAt": "2022-04-25T04:59:55Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:66f5152981746abef74519f9d274209c26a9987e"
     },
     "geekcompany/ResumeSample": {
       "active": true,
       "starredAt": "2022-04-24T09:31:55Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b7dfc3f6aa6248432254615f43ee27c0b997d43c"
     },
     "reactive-resume/reactive-resume": {
       "active": true,
       "starredAt": "2022-04-24T09:26:48Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e493dd4f2413b4b3722867f1fbf097438261e373"
     },
     "wangyu-/udp2raw": {
       "active": true,
       "starredAt": "2022-04-17T07:47:49Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:06b2a458892228ab78810e73d575acde5f04a62e"
     },
     "ohmyzsh/ohmyzsh": {
       "active": true,
       "starredAt": "2022-04-13T07:59:46Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a443e1f109e5762f3cdf271fa8c8f6a73c1eef5a"
     },
     "ryanoasis/nerd-fonts": {
       "active": true,
       "starredAt": "2022-04-13T06:21:07Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:29fd8b4a62548ac88c9e5cc92486de2743fe5a50"
     },
     "0voice/kernel_awsome_feature": {
       "active": true,
       "starredAt": "2022-04-13T05:08:59Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:94d4f7ca5b87e83853e2bcfc9c3722f5fffda3a7"
     },
     "xiaozhiliaoo/xiaozhiliaoo.github.io": {
       "active": true,
       "starredAt": "2022-04-13T04:40:28Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "none"
     },
     "JanDeDobbeleer/oh-my-posh": {
       "active": true,
       "starredAt": "2022-04-09T09:05:12Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:462dd51e493248869fbdd955b147e9da01608e89"
     },
     "starship/starship": {
       "active": true,
       "starredAt": "2022-04-08T16:37:37Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:5135dbc14d55e35f6bc0d2df689b58efe3c96d2c"
     },
     "ccfos/nightingale": {
       "active": true,
       "starredAt": "2022-04-07T07:28:53Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:12456d5ccc2fc176413e40803ab9b7df20ed1763"
     },
     "labring/laf": {
       "active": true,
       "starredAt": "2022-04-07T03:38:20Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:6e53398088a211809ba52ebd50b5763dbbe2f629"
     },
     "zbezj/HEU_KMS_Activator": {
       "active": true,
       "starredAt": "2022-04-02T14:07:32Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:9401af51e822c7164661a4de16067613c738bef2"
     },
     "chai2010/advanced-go-programming-book": {
       "active": true,
       "starredAt": "2022-04-01T15:58:53Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:75e7f5ed5f3067585fe495a4ef8ef2caeb6d035a"
     },
     "EbookFoundation/free-programming-books": {
       "active": true,
       "starredAt": "2022-04-01T15:56:54Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:4381df60280381cac21503d7ad91ac0babf17936"
     },
     "justjavac/free-programming-books-zh_CN": {
       "active": true,
       "starredAt": "2022-04-01T15:54:49Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:f4d15e290ddc5d2ba5b5221c4620624c19012f30"
     },
     "dylanaraps/pure-bash-bible": {
       "active": true,
       "starredAt": "2022-04-01T15:54:40Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:4b1d011d0b5d29ca9d90216eb3607b03d5f90d5a"
     },
     "unknwon/the-way-to-go_ZH_CN": {
       "active": true,
       "starredAt": "2022-04-01T15:51:59Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:f2a660073d30d7f4e0c232562d1e08a3fe8c7881"
     },
     "opencmit/pangee-cluster": {
       "active": true,
       "starredAt": "2022-03-31T18:44:28Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:513988fe2799d7de0ecf85dbd6fdd2e961a42392"
     },
     "starsliao/Prometheus": {
       "active": true,
       "starredAt": "2022-03-31T12:10:09Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:bddf22637b58d5e0b8e06d55516452f978c37e01"
     },
     "prometheus-pve/prometheus-pve-exporter": {
       "active": true,
       "starredAt": "2022-03-31T07:20:27Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:6502ca25852b3f109312e40332f72e564588742a"
     },
     "othneildrew/Best-README-Template": {
       "active": true,
       "starredAt": "2022-03-31T06:21:19Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:915e681baf4983d368ab33f4ec694addee7bba27"
     },
     "guodongxiaren/README": {
       "active": true,
       "starredAt": "2022-03-31T06:20:35Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:9b0e910d1da21a512ddb41f0b1ba3476850e1777"
     },
     "librespeed/speedtest": {
       "active": true,
       "starredAt": "2022-03-30T16:21:27Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:31c17bf5efed3f613a0abae2b1e7c93da674f60e"
     },
     "OI-wiki/OI-wiki": {
       "active": true,
       "starredAt": "2022-03-30T15:31:48Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:0713696c055101a6fca0b17bcf760af080d96aa5"
     },
     "hoochanlon/fq-book": {
       "active": true,
       "starredAt": "2022-03-30T08:47:21Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:be5e5dee72bd8479c9db3f0ec25944ffd14778f6"
     },
     "hoochanlon/hamuleite": {
       "active": true,
       "starredAt": "2022-03-30T08:42:19Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:d0fe5036201095539cc4d5c111470d1b376e9a5b"
     },
     "excalidraw/excalidraw": {
       "active": true,
       "starredAt": "2022-03-29T03:18:48Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:48b9d1de9fbb1c74406407e89e2471a01b1f28de"
     },
     "anjia0532/gcr.io_mirror": {
       "active": true,
       "starredAt": "2022-03-25T06:45:23Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:80c260f50957e9c0222da22b03109d5f07407859"
     },
     "influxdata/telegraf": {
       "active": true,
       "starredAt": "2022-03-23T03:59:54Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:c073cd1540ac0fabcf2c4d4f4151e6a3dc56f30d"
     },
     "aardio/Gif123": {
       "active": true,
       "starredAt": "2022-03-20T10:35:03Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:c2b2ca6e47d7bb232ac8659a14f88fb248c53ed5"
     },
     "ginuerzh/gost": {
       "active": true,
       "starredAt": "2022-03-07T03:05:55Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:43c9a865374b31bf7bc7b5b04d57aac67475857f"
     },
     "opensourcewin/opensourcewin.github.io": {
       "active": true,
       "starredAt": "2022-03-01T14:50:08Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:680bc3a04cf2a3531fe1c1dfd0dd271dbe0a86ac"
     },
     "Anduin2017/HowToCook": {
       "active": true,
       "starredAt": "2022-02-19T08:59:14Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:1bfe167b63edf4e2c0eb799ef8dfa546110e3f1d"
     },
     "the1812/Bilibili-Evolved": {
       "active": true,
       "starredAt": "2022-02-09T09:07:13Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b0371111fedce47d905b8a8009194c06a179f35c"
     },
     "nubosoftware/linux-remote-desktop": {
       "active": true,
       "starredAt": "2022-01-05T09:46:18Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b36d206ede30b24b1c299dfb7f16e51f8a7f6346"
     },
     "iawia002/lux": {
       "active": true,
       "starredAt": "2022-01-05T07:12:38Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:098355af63826e427037b5d128a4eea00b34606e"
     },
     "Genymobile/scrcpy": {
       "active": true,
       "starredAt": "2021-12-29T03:23:37Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:58387e0af7d3df463ca4977930df73781d276d48"
     },
     "serhii-londar/open-source-mac-os-apps": {
       "active": true,
@@ -3502,182 +3502,182 @@
     "sealerio/sealer": {
       "active": true,
       "starredAt": "2021-12-27T17:20:05Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:2e262a66c36b758fc404dff23ef5eea192e26f4f"
     },
     "sitaramc/gitolite": {
       "active": true,
       "starredAt": "2021-12-27T04:20:07Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b3a35a150a0f949c17e1de57ed438c0ab2696245"
     },
     "gogs/gogs": {
       "active": true,
       "starredAt": "2021-12-27T04:20:05Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:d06a6501b15a3981b07cdf4adcd7e223fdeb81e9"
     },
     "go-gitea/gitea": {
       "active": true,
       "starredAt": "2021-12-27T04:20:03Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:d11344cbf5e99f6d7d2b93f18ebf7da242b42b4e"
     },
     "whyour/qinglong": {
       "active": true,
       "starredAt": "2021-12-25T06:30:26Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b6d34f949b63385c505f842ddd99ffdb094722a0"
     },
     "MulticsYin/MulticsKubernetes": {
       "active": true,
       "starredAt": "2021-12-22T09:25:26Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:27ae4aa3e0cd713fca35865b9d4d8e5a8525ff16"
     },
     "hadoop-sandbox/hadoop-sandbox": {
       "active": true,
       "starredAt": "2021-12-20T02:45:44Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:371d61278e9ef317df1b9e78b584a87e4a28265c"
     },
     "jaywcjlove/mysql-tutorial": {
       "active": true,
       "starredAt": "2021-12-09T02:41:58Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:03d960ced88cf3dd6bb67f4266aa14239c18b082"
     },
     "zze326/ansible-deploy-kubernetes": {
       "active": true,
       "starredAt": "2021-12-03T06:23:29Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:652556460b1d265d4ec4ac716d7db8ab296d41b1"
     },
     "tangyibo/hadoop-autoinstall": {
       "active": true,
       "starredAt": "2021-12-01T09:30:13Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b0629d6d3457751f77b7dad53eb14620698f7f40"
     },
     "heibaiying/BigData-Notes": {
       "active": true,
       "starredAt": "2021-11-29T07:31:09Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:9c2bc60157fa2b790a8e0ae97394614e17864c43"
     },
     "teddysun/across": {
       "active": true,
       "starredAt": "2021-11-28T16:34:01Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b5635992e01682721751c68384375dab3df0f492"
     },
     "rootsongjc/kubernetes-handbook": {
       "active": true,
       "starredAt": "2021-11-23T02:42:16Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b83540d11c8465678026237d3a3757ef5441a441"
     },
     "yangwenmai/learning-golang": {
       "active": true,
       "starredAt": "2021-11-11T07:09:11Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:1396714a7a11fda10aa3c73955ce737768cfc01f"
     },
     "0voice/Introduction-to-Golang": {
       "active": true,
       "starredAt": "2021-11-11T07:09:02Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:40024aabaaba48025f6c885dbd047b5b32d031ef"
     },
     "polaris1119/The-Golang-Standard-Library-by-Example": {
       "active": true,
       "starredAt": "2021-11-11T07:08:50Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a9a1fbba981b786a6046f8f383ed57c0f2908ee4"
     },
     "kubeguide/K8sDefinitiveGuide-V5-Sourcecode": {
       "active": true,
       "starredAt": "2021-10-29T04:33:04Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:ca648e0a79363a3557e56855dbd63f2c9586dea2"
     },
     "OpenFunction/OpenFunction": {
       "active": true,
       "starredAt": "2021-10-28T07:59:33Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:99227f11553fa8f3dea73a3a9c188abc13a7e072"
     },
     "kubesphere/kubesphere": {
       "active": true,
       "starredAt": "2021-10-28T07:59:27Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:0d1ac957d2b8558342007ed9fa2bc13b1ee3cade"
     },
     "harness/harness": {
       "active": true,
       "starredAt": "2021-10-28T01:32:06Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:43f09714b35603aad45d249171d8aeb52696604c"
     },
     "KubeOperator/KubeOperator": {
       "active": true,
       "starredAt": "2021-10-27T10:34:16Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:bc3dc4930dc824adb252db14aabe0b039da72a6b"
     },
     "velero-io/velero": {
       "active": true,
       "starredAt": "2021-10-26T06:48:02Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:2b3fb2929efc62718522aecef34b5b60ddc20427"
     },
     "russelltao/geektime-nginx": {
       "active": true,
       "starredAt": "2021-10-22T07:13:56Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e190843c274ee7b7ebabd2ee8223506a2a31c0e7"
     },
     "DocsHome/nginx-docs": {
       "active": true,
       "starredAt": "2021-10-22T07:06:12Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:e9e81e63c68a37707fef987607d3b2755b35b1cc"
     },
     "dunwu/linux-tutorial": {
       "active": true,
       "starredAt": "2021-10-09T08:56:45Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:b5e9a3ded82ed0302d0f7043cfc71cdd0c41bf03"
     },
     "yunlzheng/prometheus-book": {
       "active": true,
       "starredAt": "2021-10-09T05:21:41Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:68dad26993bd9b9e81873002b5aa2fa4633feb2e"
     },
     "me115/linuxtools_rst": {
       "active": true,
       "starredAt": "2021-10-09T05:10:21Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:0a036f6af80b5fdac48aac03b7fe8e5557fe4668"
     },
     "jumpserver/jumpserver": {
       "active": true,
       "starredAt": "2021-09-23T01:00:10Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:42b445570ef13aa40ee9797867e76a720116c933"
     },
     "nicolargo/glances": {
       "active": true,
       "starredAt": "2021-09-23T00:57:51Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:9dcf12dec5cf782abf94c3677e46d585e90fd38f"
     },
     "jlevy/the-art-of-command-line": {
       "active": true,
       "starredAt": "2021-08-24T15:02:28Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:a1109d580fdbe3ce583c9d5a599aaeac62f9792b"
     }
   }
 }
