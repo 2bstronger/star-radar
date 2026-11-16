@@ -1870,8 +1870,8 @@
     "mikeroyal/Self-Hosting-Guide": {
       "active": true,
       "starredAt": "2024-07-17T03:40:19Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:d33fba17ee047647080d41668f47eabb31b37043"
     },
     "Lakr233/Asspp": {
       "active": true,
@@ -3496,8 +3496,8 @@
     "serhii-londar/open-source-mac-os-apps": {
       "active": true,
       "starredAt": "2021-12-29T03:23:14Z",
-      "baselinePending": true,
-      "newPending": false
+      "newPending": false,
+      "fingerprint": "blob:2bf66e1737481017eec8121699f6cfb9f19228b7"
     },
     "sealerio/sealer": {
       "active": true,

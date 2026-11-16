@@ -4,7 +4,7 @@
     "fullName": "togg53192-cmd/jailbreaks",
     "description": "LIST OF ALL MY JAILBREAKS",
     "homepageUrl": null,
-    "stars": 17412,
+    "stars": 17415,
     "forks": 2995,
     "primaryLanguage": null,
     "languages": [],
@@ -333,8 +333,8 @@
     "fullName": "pingdotgg/t3code",
     "description": "The best way to control Claude Code, Codex and more from any computer or phone",
     "homepageUrl": "https://t3.codes",
-    "stars": 61741,
-    "forks": 11052,
+    "stars": 61746,
+    "forks": 11055,
     "primaryLanguage": "TypeScript",
     "languages": [
       {
@@ -400,7 +400,7 @@
     ],
     "license": "MIT",
     "createdAt": "2026-02-08T23:46:22Z",
-    "pushedAt": "2026-11-16T04:22:17Z",
+    "pushedAt": "2026-11-16T04:25:23Z",
     "starredAt": "2026-10-27T09:48:11Z",
     "defaultBranch": "main",
     "topics": [
@@ -686,7 +686,7 @@
       "dsh-plugin",
       "dsh-plugin-desktop"
     ],
-    "openIssues": 418,
+    "openIssues": 417,
     "hotIssue": {
       "number": 681,
       "title": "mac版最小化后会默认自动打开到前台并占据焦点",
@@ -883,7 +883,7 @@
     "fullName": "bradautomates/claude-video",
     "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
     "homepageUrl": null,
-    "stars": 20920,
+    "stars": 20921,
     "forks": 2224,
     "primaryLanguage": "Python",
     "languages": [
@@ -2281,7 +2281,7 @@
     "fullName": "jub0t/Concat",
     "description": "Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API & MCP.",
     "homepageUrl": "https://concat.standalones.org",
-    "stars": 17893,
+    "stars": 17895,
     "forks": 2199,
     "primaryLanguage": "Rust",
     "languages": [
@@ -2552,7 +2552,7 @@
     "fullName": "tt-a1i/archify",
     "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
     "homepageUrl": "https://archify.si",
-    "stars": 96875,
+    "stars": 96878,
     "forks": 6619,
     "primaryLanguage": "JavaScript",
     "languages": [
@@ -2629,7 +2629,7 @@
       "system-design",
       "visualization"
     ],
-    "openIssues": 360,
+    "openIssues": 359,
     "hotIssue": null,
     "isArchived": false
   },
@@ -3289,7 +3289,7 @@
     "fullName": "3441293738/creatorhub",
     "description": "多平台内容监控·采集·搬运 一个 Web 面板管起抖音 / 小红书 / 快手 / 视频号 / TikTok",
     "homepageUrl": "https://3441293738.github.io/creatorhub/",
-    "stars": 3433,
+    "stars": 3434,
     "forks": 673,
     "primaryLanguage": "Python",
     "languages": [
@@ -3336,7 +3336,7 @@
     ],
     "license": null,
     "createdAt": "2026-07-03T08:43:10Z",
-    "pushedAt": "2026-11-16T04:20:21Z",
+    "pushedAt": "2026-11-16T04:25:54Z",
     "starredAt": "2026-08-26T02:54:31Z",
     "defaultBranch": "main",
     "topics": [
@@ -3697,7 +3697,7 @@
     "fullName": "DietrichGebert/ponytail",
     "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
     "homepageUrl": "https://ponytail.dev",
-    "stars": 191548,
+    "stars": 191547,
     "forks": 10725,
     "primaryLanguage": "JavaScript",
     "languages": [
@@ -3804,7 +3804,7 @@
     "description": "Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes.",
     "homepageUrl": "https://crucix.live",
     "stars": 12229,
-    "forks": 1860,
+    "forks": 1861,
     "primaryLanguage": "JavaScript",
     "languages": [
       {
@@ -4461,7 +4461,7 @@
     "fullName": "shengjidaguai-china/goutoujunshi",
     "description": "一个先接住情绪、再分析关系并给出可执行策略的 Codex 恋爱军师，内置心理、法律、社会、人文、哲学、婚姻家庭与性学知识库，支持多元关系。",
     "homepageUrl": null,
-    "stars": 9709,
+    "stars": 9710,
     "forks": 998,
     "primaryLanguage": "Python",
     "languages": [
@@ -5126,7 +5126,7 @@
     ],
     "license": null,
     "createdAt": "2026-01-28T10:03:24Z",
-    "pushedAt": "2026-11-16T04:23:35Z",
+    "pushedAt": "2026-11-16T04:30:04Z",
     "starredAt": "2026-07-16T01:55:17Z",
     "defaultBranch": "main",
     "topics": [
@@ -5149,7 +5149,7 @@
       "tmux",
       "workspace-manager"
     ],
-    "openIssues": 7082,
+    "openIssues": 7083,
     "hotIssue": {
       "number": 13742,
       "title": "Design and product calls (gallery: #15427), plus CI admin",
@@ -6120,7 +6120,7 @@
     "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
     "homepageUrl": "http://luongnv.com/claude-howto/",
     "stars": 47267,
-    "forks": 5756,
+    "forks": 5757,
     "primaryLanguage": "Python",
     "languages": [
       {
@@ -6565,8 +6565,8 @@
     "fullName": "ChatLab/ChatLab",
     "description": "Local-first chat history analyzer with AI. | 本地优先的 AI 聊天记录分析工具",
     "homepageUrl": "https://chatlab.fun",
-    "stars": 7655,
-    "forks": 1545,
+    "stars": 7656,
+    "forks": 1546,
     "primaryLanguage": "TypeScript",
     "languages": [
       {
@@ -7134,7 +7134,7 @@
     "starredAt": "2026-05-26T09:18:01Z",
     "defaultBranch": "main",
     "topics": [],
-    "openIssues": 66,
+    "openIssues": 67,
     "hotIssue": {
       "number": 3001,
       "title": "[Question]: 新的会话找不到供应商的模型  但是旧的会话可以继续选择供应商的模型",
@@ -7573,7 +7573,7 @@
     "description": "A reliable coding agent for complex software engineering tasks.",
     "homepageUrl": "http://reasonix.io/",
     "stars": 36121,
-    "forks": 2567,
+    "forks": 2568,
     "primaryLanguage": "Go",
     "languages": [
       {
@@ -8278,7 +8278,7 @@
     ],
     "license": "MIT",
     "createdAt": "2026-04-17T01:56:15Z",
-    "pushedAt": "2026-11-16T04:23:23Z",
+    "pushedAt": "2026-11-16T04:29:33Z",
     "starredAt": "2026-04-24T13:56:58Z",
     "defaultBranch": "main",
     "topics": [
@@ -8303,7 +8303,7 @@
       "vps-agent",
       "web-automation"
     ],
-    "openIssues": 473,
+    "openIssues": 474,
     "hotIssue": null,
     "isArchived": false
   },
@@ -9088,7 +9088,7 @@
     ],
     "license": "AGPL-3.0",
     "createdAt": "2024-04-29T05:43:58Z",
-    "pushedAt": "2026-11-16T04:14:49Z",
+    "pushedAt": "2026-11-16T04:23:53Z",
     "starredAt": "2026-04-08T08:06:54Z",
     "defaultBranch": "main",
     "topics": [
@@ -9105,7 +9105,7 @@
       "personal-cloud",
       "self-hosted"
     ],
-    "openIssues": 158,
+    "openIssues": 157,
     "hotIssue": {
       "number": 742,
       "title": "DietPi OS cannot install",
@@ -9412,7 +9412,7 @@
     "description": "real time face swap and one-click video deepfake with only a single image",
     "homepageUrl": "https://deeplivecam.net/",
     "stars": 98157,
-    "forks": 14325,
+    "forks": 14326,
     "primaryLanguage": "Python",
     "languages": [
       {
@@ -10593,7 +10593,7 @@
       "gh-extension",
       "github-actions"
     ],
-    "openIssues": 497,
+    "openIssues": 498,
     "hotIssue": {
       "number": 71166,
       "title": "[aw] No-Op Runs",
@@ -10706,7 +10706,7 @@
     "description": "18 Lessons to Get Started Building AI Agents",
     "homepageUrl": "https://aka.ms/ai-agents-beginners",
     "stars": 79754,
-    "forks": 26100,
+    "forks": 26101,
     "primaryLanguage": "Jupyter Notebook",
     "languages": [
       {
@@ -10794,7 +10794,7 @@
     "fullName": "linshenkx/prompt-optimizer",
     "description": "An AI prompt optimizer for writing better prompts and getting better AI results.",
     "homepageUrl": "https://prompt.always200.com",
-    "stars": 41660,
+    "stars": 41661,
     "forks": 4679,
     "primaryLanguage": "TypeScript",
     "languages": [
@@ -10989,7 +10989,7 @@
     ],
     "license": "Apache-2.0",
     "createdAt": "2023-11-23T13:45:10Z",
-    "pushedAt": "2026-11-16T04:16:13Z",
+    "pushedAt": "2026-11-16T04:25:45Z",
     "starredAt": "2026-02-13T07:45:03Z",
     "defaultBranch": "main",
     "topics": [
@@ -11640,7 +11640,7 @@
     "fullName": "datawhalechina/self-llm",
     "description": "《开源大模型食用指南》针对中国宝宝量身打造的基于Linux环境快速微调（全参数/Lora）、部署国内外开源大模型（LLM）/多模态大模型（MLLM）教程",
     "homepageUrl": null,
-    "stars": 32787,
+    "stars": 32788,
     "forks": 3159,
     "primaryLanguage": "Jupyter Notebook",
     "languages": [
@@ -12078,8 +12078,8 @@
     "fullName": "remotion-dev/remotion",
     "description": "🎥      Make videos programmatically with React",
     "homepageUrl": "https://remotion.dev",
-    "stars": 73478,
-    "forks": 6185,
+    "stars": 73479,
+    "forks": 6186,
     "primaryLanguage": "TypeScript",
     "languages": [
       {
@@ -12405,7 +12405,7 @@
     "languages": [],
     "license": null,
     "createdAt": "2025-12-03T09:13:40Z",
-    "pushedAt": "2026-11-16T01:28:48Z",
+    "pushedAt": "2026-11-16T04:24:41Z",
     "starredAt": "2026-01-20T08:19:47Z",
     "defaultBranch": "main",
     "topics": [],
@@ -12611,7 +12611,7 @@
     ],
     "license": "MIT",
     "createdAt": "2024-10-31T16:00:56Z",
-    "pushedAt": "2026-11-16T04:19:14Z",
+    "pushedAt": "2026-11-16T04:29:54Z",
     "starredAt": "2026-01-08T10:33:37Z",
     "defaultBranch": "main",
     "topics": [
@@ -12633,7 +12633,7 @@
       "web-automation",
       "web-scraping"
     ],
-    "openIssues": 588,
+    "openIssues": 589,
     "hotIssue": null,
     "isArchived": false
   },
@@ -12642,7 +12642,7 @@
     "fullName": "anomalyco/opencode",
     "description": "The open source coding agent.",
     "homepageUrl": "https://opencode.ai",
-    "stars": 227091,
+    "stars": 227093,
     "forks": 30763,
     "primaryLanguage": "TypeScript",
     "languages": [
@@ -12708,7 +12708,7 @@
     "starredAt": "2026-01-07T03:54:37Z",
     "defaultBranch": "dev",
     "topics": [],
-    "openIssues": 4023,
+    "openIssues": 4022,
     "hotIssue": {
       "number": 59387,
       "title": "Free tier issues: read this first, then post your report here",
@@ -13058,7 +13058,7 @@
     ],
     "license": "MPL-2.0",
     "createdAt": "2021-09-20T02:40:04Z",
-    "pushedAt": "2026-11-16T03:42:18Z",
+    "pushedAt": "2026-11-16T04:27:07Z",
     "starredAt": "2025-10-28T06:53:07Z",
     "defaultBranch": "main",
     "topics": [
@@ -13437,13 +13437,13 @@
     "languages": [
       {
         "name": "TypeScript",
-        "size": 6491758,
-        "pct": 71.5
+        "size": 6507087,
+        "pct": 71.4
       },
       {
         "name": "JavaScript",
-        "size": 2523745,
-        "pct": 27.8
+        "size": 2547126,
+        "pct": 27.9
       },
       {
         "name": "CSS",
@@ -13457,7 +13457,7 @@
       },
       {
         "name": "Shell",
-        "size": 6849,
+        "size": 6799,
         "pct": 0.1
       },
       {
@@ -13662,7 +13662,7 @@
     "fullName": "wshobson/agents",
     "description": "Plugins, agents, skills, and commands for Claude Code, Codex CLI, Cursor, OpenCode, Antigravity CLI, GitHub Copilot, and Pi, written once in Markdown and adapted to each tool by generators with validation and evals.",
     "homepageUrl": "https://sethhobson.com",
-    "stars": 42560,
+    "stars": 42561,
     "forks": 4499,
     "primaryLanguage": "Python",
     "languages": [
@@ -13867,7 +13867,7 @@
     "fullName": "EasyTier/EasyTier",
     "description": "A simple, decentralized mesh VPN with WireGuard support.",
     "homepageUrl": "https://easytier.cn",
-    "stars": 14773,
+    "stars": 14774,
     "forks": 1524,
     "primaryLanguage": "Rust",
     "languages": [
@@ -13986,7 +13986,7 @@
     ],
     "license": "GPL-3.0",
     "createdAt": "2023-07-18T07:20:49Z",
-    "pushedAt": "2026-11-15T17:41:28Z",
+    "pushedAt": "2026-11-16T04:27:44Z",
     "starredAt": "2025-08-09T23:46:34Z",
     "defaultBranch": "dev",
     "topics": [
@@ -16079,7 +16079,7 @@
     ],
     "license": null,
     "createdAt": "2023-05-21T07:19:12Z",
-    "pushedAt": "2026-11-16T04:09:00Z",
+    "pushedAt": "2026-11-16T04:27:29Z",
     "starredAt": "2025-02-06T08:51:37Z",
     "defaultBranch": "canary",
     "topics": [
@@ -16094,7 +16094,7 @@
       "super-agent",
       "task-management"
     ],
-    "openIssues": 1351,
+    "openIssues": 1352,
     "hotIssue": null,
     "isArchived": false
   },
@@ -16194,7 +16194,7 @@
     "fullName": "ZuodaoTech/everyone-can-use-english",
     "description": "人人都能用英语",
     "homepageUrl": "https://1000h.org",
-    "stars": 39697,
+    "stars": 39698,
     "forks": 5374,
     "primaryLanguage": "TypeScript",
     "languages": [
@@ -16880,7 +16880,7 @@
     "fullName": "microsoft/markitdown",
     "description": "Python tool for converting files and office documents to Markdown.",
     "homepageUrl": null,
-    "stars": 195586,
+    "stars": 195587,
     "forks": 14785,
     "primaryLanguage": "Python",
     "languages": [
@@ -17929,7 +17929,7 @@
     "fullName": "acmesh-official/acme.sh",
     "description": "A pure Unix shell script ACME client for SSL / TLS certificate automation",
     "homepageUrl": "https://acme.sh",
-    "stars": 47960,
+    "stars": 47961,
     "forks": 5713,
     "primaryLanguage": "Shell",
     "languages": [
@@ -20008,7 +20008,7 @@
     "description": null,
     "homepageUrl": null,
     "stars": 42361,
-    "forks": 5427,
+    "forks": 5428,
     "primaryLanguage": null,
     "languages": [],
     "license": null,
@@ -20136,7 +20136,7 @@
     "fullName": "clash-verge-rev/clash-verge-rev",
     "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
     "homepageUrl": "https://www.clashverge.dev",
-    "stars": 158620,
+    "stars": 158621,
     "forks": 11421,
     "primaryLanguage": "Rust",
     "languages": [
@@ -20587,7 +20587,7 @@
     "fullName": "rooktwo/rectg",
     "description": "Telegram频道群组推荐",
     "homepageUrl": "https://www.rectg.com",
-    "stars": 9394,
+    "stars": 9395,
     "forks": 559,
     "primaryLanguage": "Python",
     "languages": [
@@ -21649,7 +21649,7 @@
       "privacy",
       "technitium-dns-server"
     ],
-    "openIssues": 188,
+    "openIssues": 189,
     "hotIssue": {
       "number": 265,
       "title": "[Feature Request] Support DHCPv6",
@@ -22746,7 +22746,7 @@
     "fullName": "qarmin/czkawka",
     "description": "Multi functional app to find duplicates, empty folders, similar images etc.",
     "homepageUrl": null,
-    "stars": 35233,
+    "stars": 35234,
     "forks": 1267,
     "primaryLanguage": "Fluent",
     "languages": [
@@ -23084,7 +23084,7 @@
     "languages": [
       {
         "name": "Go",
-        "size": 62258398,
+        "size": 62273794,
         "pct": 61.4
       },
       {
@@ -23788,7 +23788,7 @@
     "fullName": "krahets/hello-algo",
     "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现",
     "homepageUrl": "https://www.hello-algo.com",
-    "stars": 132348,
+    "stars": 132347,
     "forks": 15621,
     "primaryLanguage": "Python",
     "languages": [
@@ -25706,7 +25706,7 @@
     "fullName": "jesseduffield/lazygit",
     "description": "simple terminal UI for git commands",
     "homepageUrl": null,
-    "stars": 83915,
+    "stars": 83916,
     "forks": 3258,
     "primaryLanguage": "Go",
     "languages": [
@@ -26773,7 +26773,7 @@
     ],
     "license": null,
     "createdAt": "2023-04-12T07:40:24Z",
-    "pushedAt": "2026-11-16T04:23:12Z",
+    "pushedAt": "2026-11-16T04:24:13Z",
     "starredAt": "2023-05-15T02:40:02Z",
     "defaultBranch": "main",
     "topics": [
@@ -26797,7 +26797,7 @@
       "skills",
       "workflow"
     ],
-    "openIssues": 1395,
+    "openIssues": 1394,
     "hotIssue": null,
     "isArchived": false
   },
@@ -28362,7 +28362,7 @@
     "fullName": "coolsnowwolf/lede",
     "description": "Lean's LEDE source",
     "homepageUrl": null,
-    "stars": 31625,
+    "stars": 31626,
     "forks": 19033,
     "primaryLanguage": "C",
     "languages": [
@@ -29678,7 +29678,7 @@
     "fullName": "massgravel/Microsoft-Activation-Scripts",
     "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
     "homepageUrl": "https://massgrave.dev",
-    "stars": 199565,
+    "stars": 199566,
     "forks": 18873,
     "primaryLanguage": "Batchfile",
     "languages": [
@@ -29820,7 +29820,7 @@
     "languages": [
       {
         "name": "TypeScript",
-        "size": 17638628,
+        "size": 17664702,
         "pct": 99.6
       },
       {
@@ -30767,7 +30767,7 @@
     "description": "KeePassXC is a cross-platform community-driven port of the Windows application “KeePass Password Safe”.",
     "homepageUrl": "https://keepassxc.org/",
     "stars": 30008,
-    "forks": 2043,
+    "forks": 2044,
     "primaryLanguage": "C++",
     "languages": [
       {
@@ -30830,7 +30830,7 @@
       "windows",
       "yubikey"
     ],
-    "openIssues": 1016,
+    "openIssues": 1017,
     "hotIssue": {
       "number": 10374,
       "title": "Passkeys not working on certain sites",
@@ -31354,7 +31354,7 @@
     "fullName": "NginxProxyManager/nginx-proxy-manager",
     "description": "Docker container for managing Nginx proxy hosts with a simple, powerful interface",
     "homepageUrl": "https://nginxproxymanager.com",
-    "stars": 34731,
+    "stars": 34732,
     "forks": 3976,
     "primaryLanguage": "JavaScript",
     "languages": [
@@ -32737,7 +32737,7 @@
     "fullName": "reactive-resume/reactive-resume",
     "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
     "homepageUrl": "https://rxresu.me",
-    "stars": 45794,
+    "stars": 45795,
     "forks": 4960,
     "primaryLanguage": "TypeScript",
     "languages": [
@@ -34407,8 +34407,8 @@
     "fullName": "Anduin2017/HowToCook",
     "description": "Programmer's guide about how to cook at home.",
     "homepageUrl": "https://howtocook.aiursoft.com",
-    "stars": 103976,
-    "forks": 11224,
+    "stars": 103977,
+    "forks": 11225,
     "primaryLanguage": null,
     "languages": [],
     "license": "Unlicense",
@@ -34661,7 +34661,7 @@
     "fullName": "serhii-londar/open-source-mac-os-apps",
     "description": "🚀 Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosapps",
     "homepageUrl": "https://serhii-londar.github.io/open-source-mac-os-apps/",
-    "stars": 51392,
+    "stars": 51393,
     "forks": 3368,
     "primaryLanguage": null,
     "languages": [],
@@ -34810,28 +34810,28 @@
     "languages": [
       {
         "name": "Go",
-        "size": 2294951,
-        "pct": 66.1
+        "size": 2338914,
+        "pct": 65.6
       },
       {
         "name": "TypeScript",
-        "size": 962841,
-        "pct": 27.7
+        "size": 1014398,
+        "pct": 28.4
       },
       {
         "name": "Go Template",
-        "size": 83828,
-        "pct": 2.4
+        "size": 82397,
+        "pct": 2.3
       },
       {
         "name": "Less",
         "size": 62372,
-        "pct": 1.8
+        "pct": 1.7
       },
       {
         "name": "JavaScript",
         "size": 26182,
-        "pct": 0.8
+        "pct": 0.7
       },
       {
         "name": "Shell",
@@ -34840,7 +34840,7 @@
       },
       {
         "name": "CSS",
-        "size": 13633,
+        "size": 13316,
         "pct": 0.4
       },
       {
@@ -34861,7 +34861,7 @@
     ],
     "license": "MIT",
     "createdAt": "2014-02-12T01:57:08Z",
-    "pushedAt": "2026-11-16T04:23:37Z",
+    "pushedAt": "2026-11-16T04:29:37Z",
     "starredAt": "2021-12-27T04:20:05Z",
     "defaultBranch": "main",
     "topics": [
@@ -34877,7 +34877,7 @@
       "sqlite3",
       "version-control"
     ],
-    "openIssues": 852,
+    "openIssues": 853,
     "hotIssue": {
       "number": 13,
       "title": "Repository/user search (Code and Issues)",
