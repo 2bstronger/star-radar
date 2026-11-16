@@ -80,7 +80,7 @@ async function main() {
   let login = null
   for (let page = 1; ; page++) {
     const data = await ghGet(`/user/starred?per_page=100&page=${page}`, 'application/vnd.github.star+json')
-    if (!Array.isArray(data)) break
+    if (!Array.isArray(data)) throw new Error('star 列表获取失败或响应无效，停止更新')
     if (!data.length) break
     for (const e of data) repos.push(mapRepo(e))
     console.log(`  列表第 ${page} 页，累计 ${repos.length}`)

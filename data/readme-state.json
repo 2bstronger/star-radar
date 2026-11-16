@@ -1,0 +1,3683 @@
+{
+  "version": 1,
+  "repos": {
+    "togg53192-cmd/jailbreaks": {
+      "active": true,
+      "starredAt": "2026-11-13T13:20:16Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "harshsinghsv/swiftdl": {
+      "active": true,
+      "starredAt": "2026-11-11T10:46:09Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "hummingbot/hummingbot": {
+      "active": true,
+      "starredAt": "2026-11-11T07:15:50Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "semaphoreui/semaphore": {
+      "active": true,
+      "starredAt": "2026-10-31T05:38:22Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "orionsheep/wordlink": {
+      "active": true,
+      "starredAt": "2026-10-30T07:05:35Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "pingdotgg/t3code": {
+      "active": true,
+      "starredAt": "2026-10-27T09:48:11Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "mobile-next/mobile-mcp": {
+      "active": true,
+      "starredAt": "2026-10-26T03:44:25Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "plugin87/ux-ui-agent-skills": {
+      "active": true,
+      "starredAt": "2026-10-21T14:13:46Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "ShenSeanChen/waku-agent": {
+      "active": true,
+      "starredAt": "2026-10-21T09:13:31Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "anywhere-labs/dsh-desktop": {
+      "active": true,
+      "starredAt": "2026-10-21T07:02:56Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "wheresryan22/anatomy": {
+      "active": true,
+      "starredAt": "2026-10-20T08:01:09Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "eternity4719/HowToLiveBetter": {
+      "active": true,
+      "starredAt": "2026-10-09T01:12:38Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "linyqh/NarratoAI": {
+      "active": true,
+      "starredAt": "2026-10-08T09:07:16Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "GuanYixuan/pyCapCut": {
+      "active": true,
+      "starredAt": "2026-09-25T12:31:51Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "bradautomates/claude-video": {
+      "active": true,
+      "starredAt": "2026-09-24T02:24:02Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "jev-chat/jev-chat-jarvis": {
+      "active": true,
+      "starredAt": "2026-09-22T06:50:07Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "browser-use/jev-ultrafast": {
+      "active": true,
+      "starredAt": "2026-09-18T04:28:58Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "qingjian-team/qingjian": {
+      "active": true,
+      "starredAt": "2026-09-17T02:28:23Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "linesoft2/TaskMonitor": {
+      "active": true,
+      "starredAt": "2026-09-17T02:18:00Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "xuanyustudio/LocalMiniDrama": {
+      "active": true,
+      "starredAt": "2026-09-15T06:27:09Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "hicocos/tg-vault": {
+      "active": true,
+      "starredAt": "2026-09-15T06:26:57Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "petergyang/no-ai-slop": {
+      "active": true,
+      "starredAt": "2026-09-12T14:39:58Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "huangbai-AI/sd-2-5-prompt": {
+      "active": true,
+      "starredAt": "2026-09-11T10:30:34Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "EveningStudy/asmr-dubber": {
+      "active": true,
+      "starredAt": "2026-09-11T03:53:13Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "nashsu/llm_wiki": {
+      "active": true,
+      "starredAt": "2026-09-10T13:13:18Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "alsk1992/CloddsBot": {
+      "active": true,
+      "starredAt": "2026-09-10T13:06:03Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Tencent/teamai-cli": {
+      "active": true,
+      "starredAt": "2026-09-10T13:04:00Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "OpenBMB/PilotDeck": {
+      "active": true,
+      "starredAt": "2026-09-10T08:11:06Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Hypostasis-Cat/HypoMux": {
+      "active": true,
+      "starredAt": "2026-09-10T07:48:00Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "AdventDevInc/kudu": {
+      "active": true,
+      "starredAt": "2026-09-10T02:14:44Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Yu9191/wloc": {
+      "active": true,
+      "starredAt": "2026-09-08T09:40:45Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "neopen/story-shot-agent": {
+      "active": true,
+      "starredAt": "2026-09-04T11:00:52Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "LIUFelix2004/God-minmax-H3": {
+      "active": true,
+      "starredAt": "2026-09-03T21:46:41Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "chen2he/orange-cloud": {
+      "active": true,
+      "starredAt": "2026-09-03T12:50:05Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "yizhi-chengzi/video-ai-talking": {
+      "active": true,
+      "starredAt": "2026-09-03T12:48:29Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "hooosberg/AgentLimb": {
+      "active": true,
+      "starredAt": "2026-09-02T07:56:40Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "XxMinor/mykvm": {
+      "active": true,
+      "starredAt": "2026-09-02T07:55:58Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "OpenBMB/MiniCPM-V": {
+      "active": true,
+      "starredAt": "2026-09-02T07:54:02Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "jub0t/Concat": {
+      "active": true,
+      "starredAt": "2026-09-02T07:38:01Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "daimon3332/address": {
+      "active": true,
+      "starredAt": "2026-09-02T07:36:52Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "matthart1983/netwatch": {
+      "active": true,
+      "starredAt": "2026-08-30T05:28:27Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Giammarco-Ferranti/deja": {
+      "active": true,
+      "starredAt": "2026-08-30T05:28:18Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "tt-a1i/archify": {
+      "active": true,
+      "starredAt": "2026-08-29T04:19:38Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "gauthierpiarrette/highball": {
+      "active": true,
+      "starredAt": "2026-08-28T08:04:14Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Shrey113/Android-Dex": {
+      "active": true,
+      "starredAt": "2026-08-28T06:56:27Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "34306/vphone-aio": {
+      "active": true,
+      "starredAt": "2026-08-27T12:48:37Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "XiakeMan777/xiakeman-ai-short-drama": {
+      "active": true,
+      "starredAt": "2026-08-27T12:05:30Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "BYTEDz/PCLink": {
+      "active": true,
+      "starredAt": "2026-08-27T01:57:30Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Talljack/echo-type": {
+      "active": true,
+      "starredAt": "2026-08-26T17:24:02Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "didriksg/Crisp": {
+      "active": true,
+      "starredAt": "2026-08-26T10:26:41Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "pmh1314520/MCTier": {
+      "active": true,
+      "starredAt": "2026-08-26T07:01:12Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "JimmySadek/video-fetcher-to-markdown": {
+      "active": true,
+      "starredAt": "2026-08-26T07:00:27Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "gobackup/gobackup": {
+      "active": true,
+      "starredAt": "2026-08-26T03:43:16Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "3441293738/creatorhub": {
+      "active": true,
+      "starredAt": "2026-08-26T02:54:31Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "iAmCorey/Wake": {
+      "active": true,
+      "starredAt": "2026-08-23T02:36:25Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "geeklee/srt-whiteboard-animation": {
+      "active": true,
+      "starredAt": "2026-08-20T16:45:44Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "harry0703/AudioNotes": {
+      "active": true,
+      "starredAt": "2026-08-20T08:59:51Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "fxy2311-youyou/expression-trainer": {
+      "active": true,
+      "starredAt": "2026-08-19T09:15:25Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Blue-B/WhisperSubTranslate": {
+      "active": true,
+      "starredAt": "2026-08-19T08:36:53Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "sysadminsmedia/homebox": {
+      "active": true,
+      "starredAt": "2026-08-19T07:18:44Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "DietrichGebert/ponytail": {
+      "active": true,
+      "starredAt": "2026-08-19T03:28:08Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Jaksay/Linux-Router": {
+      "active": true,
+      "starredAt": "2026-08-18T03:18:46Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "calesthio/Crucix": {
+      "active": true,
+      "starredAt": "2026-08-18T02:37:24Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "YTwsy/OpenSurge-for-Mac": {
+      "active": true,
+      "starredAt": "2026-08-18T02:36:04Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "90le/worker-rights-cn": {
+      "active": true,
+      "starredAt": "2026-08-17T07:24:37Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "justlovemaki/LumaRescue": {
+      "active": true,
+      "starredAt": "2026-08-13T08:48:35Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Kami958/WhoShitsonMyC": {
+      "active": true,
+      "starredAt": "2026-08-13T08:33:39Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "stardustai/dataset-viewer": {
+      "active": true,
+      "starredAt": "2026-08-13T08:29:01Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "feigeCode/navop": {
+      "active": true,
+      "starredAt": "2026-08-13T08:28:34Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "nullclaw/nullclaw": {
+      "active": true,
+      "starredAt": "2026-07-31T03:50:34Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "xiaochong/hi-kid": {
+      "active": true,
+      "starredAt": "2026-07-29T17:14:19Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "LingyiChen-AI/AIComicBuilder": {
+      "active": true,
+      "starredAt": "2026-07-29T10:56:19Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "AIsouler/MyClash": {
+      "active": true,
+      "starredAt": "2026-07-29T02:31:20Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "MDX-Tom/gpt-instruct": {
+      "active": true,
+      "starredAt": "2026-07-28T03:12:26Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "shengjidaguai-china/goutoujunshi": {
+      "active": true,
+      "starredAt": "2026-07-28T02:01:26Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "MartinDelophy/ai-video-editor": {
+      "active": true,
+      "starredAt": "2026-07-27T23:44:39Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "HaujetZhao/SubTap": {
+      "active": true,
+      "starredAt": "2026-07-27T23:39:24Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "OpenMinis/OpenMinis": {
+      "active": true,
+      "starredAt": "2026-07-27T10:06:33Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "zjp1997720/wechat-radar": {
+      "active": true,
+      "starredAt": "2026-07-27T10:01:23Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "jundot/omlx": {
+      "active": true,
+      "starredAt": "2026-07-16T02:06:39Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "twpayne/chezmoi": {
+      "active": true,
+      "starredAt": "2026-07-16T02:03:10Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "wavetermdev/waveterm": {
+      "active": true,
+      "starredAt": "2026-07-16T02:00:15Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "drduh/macOS-Security-and-Privacy-Guide": {
+      "active": true,
+      "starredAt": "2026-07-16T01:57:53Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "manaflow-ai/cmux": {
+      "active": true,
+      "starredAt": "2026-07-16T01:55:17Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "QuixoticHeart/rule-set": {
+      "active": true,
+      "starredAt": "2026-07-15T21:17:02Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "SimonAKing/Gwitter": {
+      "active": true,
+      "starredAt": "2026-07-15T21:16:04Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "kangarooking/cangjie-skill": {
+      "active": true,
+      "starredAt": "2026-07-15T21:15:13Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Zesty0wl/mac-performance-monitor": {
+      "active": true,
+      "starredAt": "2026-07-14T20:11:18Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "tutti-os/tutti": {
+      "active": true,
+      "starredAt": "2026-07-14T19:57:10Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "FrizzleM/SideInstaller": {
+      "active": true,
+      "starredAt": "2026-07-13T15:44:22Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "raojiacui/prompt-lens": {
+      "active": true,
+      "starredAt": "2026-07-12T06:41:33Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "dominostars/playtranslate": {
+      "active": true,
+      "starredAt": "2026-07-12T06:38:00Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "BigDawnGhost/wenyi": {
+      "active": true,
+      "starredAt": "2026-07-09T14:45:19Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "rokartur/BetterCmdTab": {
+      "active": true,
+      "starredAt": "2026-07-08T07:05:07Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "hanliang97/MatrixMedia": {
+      "active": true,
+      "starredAt": "2026-07-07T07:32:56Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "shanraisshan/claude-code-best-practice": {
+      "active": true,
+      "starredAt": "2026-07-05T14:31:44Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Crosstalk-Solutions/project-nomad": {
+      "active": true,
+      "starredAt": "2026-07-05T14:22:58Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "hyperfield/ai-file-sorter": {
+      "active": true,
+      "starredAt": "2026-07-05T14:17:32Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "luongnv89/claude-howto": {
+      "active": true,
+      "starredAt": "2026-06-24T08:12:37Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "helloianneo/ian-xiaohei-scenes": {
+      "active": true,
+      "starredAt": "2026-06-24T01:51:04Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "AIEraDev/Clypra": {
+      "active": true,
+      "starredAt": "2026-06-17T07:37:27Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "SkyBlue997/enableMacosAI": {
+      "active": true,
+      "starredAt": "2026-06-17T02:51:04Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "caezium/burrow": {
+      "active": true,
+      "starredAt": "2026-06-07T04:43:19Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "sigoden/dufs": {
+      "active": true,
+      "starredAt": "2026-06-04T10:59:36Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "LingyiChen-AI/JadeAI": {
+      "active": true,
+      "starredAt": "2026-06-03T06:19:08Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "ChatLab/ChatLab": {
+      "active": true,
+      "starredAt": "2026-06-03T03:38:33Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "hicccc77/WeFlow": {
+      "active": true,
+      "starredAt": "2026-06-03T03:32:54Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "k8sgpt-ai/k8sgpt": {
+      "active": true,
+      "starredAt": "2026-06-03T03:03:21Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "op7418/guizang-social-card-skill": {
+      "active": true,
+      "starredAt": "2026-06-03T02:19:47Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "helloianneo/ian-xiaohei-illustrations": {
+      "active": true,
+      "starredAt": "2026-05-29T08:26:24Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "byoungd/up": {
+      "active": true,
+      "starredAt": "2026-05-28T11:00:27Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "jackwener/OpenCLI": {
+      "active": true,
+      "starredAt": "2026-05-27T09:56:49Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "daeuniverse/dae": {
+      "active": true,
+      "starredAt": "2026-05-27T02:17:50Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "ianho7/maptoposter-online": {
+      "active": true,
+      "starredAt": "2026-05-26T09:19:27Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "BigPizzaV3/CodexPlusPlus": {
+      "active": true,
+      "starredAt": "2026-05-26T09:18:01Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "colbymchenry/codegraph": {
+      "active": true,
+      "starredAt": "2026-05-26T02:01:29Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Egonex-AI/Understand-Anything": {
+      "active": true,
+      "starredAt": "2026-05-26T01:01:56Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "UniClipboard/UniClipboard": {
+      "active": true,
+      "starredAt": "2026-05-25T18:32:29Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "jipika/WaifuX": {
+      "active": true,
+      "starredAt": "2026-05-24T01:44:45Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "himomohi/AirTranslate": {
+      "active": true,
+      "starredAt": "2026-05-22T10:06:01Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "buoooou/v2ray-clash-clients-download": {
+      "active": true,
+      "starredAt": "2026-05-18T12:27:00Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "esengine/DeepSeek-Reasonix": {
+      "active": true,
+      "starredAt": "2026-05-16T04:15:01Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "yikart/AiToEarn": {
+      "active": true,
+      "starredAt": "2026-05-15T02:19:00Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "tinyhumansai/openhuman": {
+      "active": true,
+      "starredAt": "2026-05-14T02:24:13Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "helloianneo/ian-handdrawn-ppt": {
+      "active": true,
+      "starredAt": "2026-05-13T06:32:59Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Fokkyp/SoftwareCopyright-Skill": {
+      "active": true,
+      "starredAt": "2026-05-12T03:11:41Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "handsomestWei/patent-disclosure-skill": {
+      "active": true,
+      "starredAt": "2026-05-12T03:11:24Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "wuyoscar/GPT-Image2-Skill": {
+      "active": true,
+      "starredAt": "2026-05-11T02:05:26Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "stephenyin/Ear2Finger": {
+      "active": true,
+      "starredAt": "2026-05-07T05:13:20Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "saltpi/Aria.X": {
+      "active": true,
+      "starredAt": "2026-04-27T22:06:02Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "cosmicstack-labs/mercury-agent": {
+      "active": true,
+      "starredAt": "2026-04-27T22:02:19Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "YaoFANGUK/video-subtitle-remover": {
+      "active": true,
+      "starredAt": "2026-04-25T21:28:14Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "browser-use/browser-harness": {
+      "active": true,
+      "starredAt": "2026-04-24T13:56:58Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "kao0312/zai-proxy": {
+      "active": true,
+      "starredAt": "2026-04-22T08:36:10Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "agents-io/PokeClaw": {
+      "active": true,
+      "starredAt": "2026-04-22T08:19:43Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "testssl/testssl.sh": {
+      "active": true,
+      "starredAt": "2026-04-21T18:09:27Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "multica-ai/andrej-karpathy-skills": {
+      "active": true,
+      "starredAt": "2026-04-21T07:33:53Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "VoltAgent/awesome-design-md": {
+      "active": true,
+      "starredAt": "2026-04-21T07:33:44Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "XTLS/BBS": {
+      "active": true,
+      "starredAt": "2026-04-17T13:04:12Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "blueberrycongee/CursorLens": {
+      "active": true,
+      "starredAt": "2026-04-16T06:26:35Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "tw93/Kaku": {
+      "active": true,
+      "starredAt": "2026-04-16T02:18:06Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "OpenBMB/ChatDev": {
+      "active": true,
+      "starredAt": "2026-04-14T07:16:12Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "OpenBMB/VoxCPM": {
+      "active": true,
+      "starredAt": "2026-04-14T07:14:37Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "yangzongzhuan/RuoYi": {
+      "active": true,
+      "starredAt": "2026-04-14T07:13:19Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "lzhgus/Capso": {
+      "active": true,
+      "starredAt": "2026-04-14T01:27:38Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "PlayerYK/dmcheck": {
+      "active": true,
+      "starredAt": "2026-04-13T07:05:44Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "t42ji2ji/keyfarm": {
+      "active": true,
+      "starredAt": "2026-04-09T06:46:09Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "beclab/Olares": {
+      "active": true,
+      "starredAt": "2026-04-08T08:06:54Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Wei-Shaw/sub2api": {
+      "active": true,
+      "starredAt": "2026-04-02T02:49:19Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "lhfer/claude-howto-zh-cn": {
+      "active": true,
+      "starredAt": "2026-04-01T02:34:31Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "521xueweihan/HelloGitHub": {
+      "active": true,
+      "starredAt": "2026-04-01T02:33:44Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "perkfly/ex-skill": {
+      "active": true,
+      "starredAt": "2026-04-01T01:59:17Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "wechaty/wechaty": {
+      "active": true,
+      "starredAt": "2026-03-31T09:39:27Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "lifedever/PasteMemo": {
+      "active": true,
+      "starredAt": "2026-03-28T21:57:51Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "hacksider/Deep-Live-Cam": {
+      "active": true,
+      "starredAt": "2026-03-28T21:47:43Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "AstrBotDevs/AstrBot": {
+      "active": true,
+      "starredAt": "2026-03-26T14:38:39Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "qiaoshouqing/drive-escape": {
+      "active": true,
+      "starredAt": "2026-03-24T20:19:01Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "nexu-io/nexu": {
+      "active": true,
+      "starredAt": "2026-03-23T07:18:58Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "ihmily/network-proxy-guide": {
+      "active": true,
+      "starredAt": "2026-03-21T10:22:39Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "lifedever/TaskTick": {
+      "active": true,
+      "starredAt": "2026-03-20T07:48:18Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "xianyu110/awesome-openclaw-tutorial": {
+      "active": true,
+      "starredAt": "2026-03-20T03:04:52Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "lintsinghua/DeepAudit": {
+      "active": true,
+      "starredAt": "2026-03-20T03:00:01Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "AlexsJones/llmfit": {
+      "active": true,
+      "starredAt": "2026-03-15T04:40:30Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "ghostwright/ghost-os": {
+      "active": true,
+      "starredAt": "2026-03-13T03:53:41Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "engigu/baihu-panel": {
+      "active": true,
+      "starredAt": "2026-03-05T09:20:15Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "hikariming/openkoto": {
+      "active": true,
+      "starredAt": "2026-03-04T03:43:55Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Lakr233/AssppWeb": {
+      "active": true,
+      "starredAt": "2026-03-02T02:05:40Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Lakr233/vphone-cli": {
+      "active": true,
+      "starredAt": "2026-03-01T15:23:29Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "ResearAI/AutoFigure-Edit": {
+      "active": true,
+      "starredAt": "2026-03-01T06:49:06Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "sunnyyoung/WeChatTweak": {
+      "active": true,
+      "starredAt": "2026-02-28T15:50:02Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "jamiepine/voicebox": {
+      "active": true,
+      "starredAt": "2026-02-28T02:33:07Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "github/gh-aw": {
+      "active": true,
+      "starredAt": "2026-02-19T16:19:19Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "google/langextract": {
+      "active": true,
+      "starredAt": "2026-02-19T16:18:14Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "eggyrooch-blip/XBooster": {
+      "active": true,
+      "starredAt": "2026-02-14T05:27:25Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "microsoft/ai-agents-for-beginners": {
+      "active": true,
+      "starredAt": "2026-02-13T08:03:47Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "hzpt-inet-club/english-note": {
+      "active": true,
+      "starredAt": "2026-02-13T08:02:50Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "linshenkx/prompt-optimizer": {
+      "active": true,
+      "starredAt": "2026-02-13T07:53:55Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "SwanHubX/SwanLab": {
+      "active": true,
+      "starredAt": "2026-02-13T07:52:12Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "rustfs/rustfs": {
+      "active": true,
+      "starredAt": "2026-02-13T07:45:03Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "hanshuaikang/NBping": {
+      "active": true,
+      "starredAt": "2026-02-13T07:44:59Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "eythaann/Seelen-UI": {
+      "active": true,
+      "starredAt": "2026-02-13T07:42:48Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "dabeaz-course/python-mastery": {
+      "active": true,
+      "starredAt": "2026-02-13T07:20:57Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "subframe7536/maple-font": {
+      "active": true,
+      "starredAt": "2026-02-13T07:07:41Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "jingyaogong/minimind": {
+      "active": true,
+      "starredAt": "2026-02-13T07:07:37Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "HuLaSpark/HuLa": {
+      "active": true,
+      "starredAt": "2026-02-13T07:07:33Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "vikiboss/60s": {
+      "active": true,
+      "starredAt": "2026-02-13T07:07:28Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "readest/readest": {
+      "active": true,
+      "starredAt": "2026-02-13T07:05:33Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "sipeed/picoclaw": {
+      "active": true,
+      "starredAt": "2026-02-12T13:39:43Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "lyhxx/photography-station": {
+      "active": true,
+      "starredAt": "2026-02-06T03:17:37Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Decohererk/DecoTV": {
+      "active": true,
+      "starredAt": "2026-02-06T02:47:44Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "datawhalechina/self-llm": {
+      "active": true,
+      "starredAt": "2026-01-30T06:56:59Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "pranshuparmar/witr": {
+      "active": true,
+      "starredAt": "2026-01-29T06:12:33Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "nicejade/gpt-wordbook": {
+      "active": true,
+      "starredAt": "2026-01-29T06:06:46Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "weiyf2/deeppoint-ai": {
+      "active": true,
+      "starredAt": "2026-01-27T03:32:21Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "hongyuan007/tapword-translator": {
+      "active": true,
+      "starredAt": "2026-01-27T03:29:44Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "topcss/AirScan-QR": {
+      "active": true,
+      "starredAt": "2026-01-24T22:41:32Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "slopus/happy": {
+      "active": true,
+      "starredAt": "2026-01-24T16:56:21Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "remotion-dev/remotion": {
+      "active": true,
+      "starredAt": "2026-01-24T14:30:02Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "HenryChiao/MIHOMO_YAMLS": {
+      "active": true,
+      "starredAt": "2026-01-23T02:13:48Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "ATH-MaaS/Pixelle-Video": {
+      "active": true,
+      "starredAt": "2026-01-21T08:24:53Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "ddlmanus/MacOptimizer": {
+      "active": true,
+      "starredAt": "2026-01-21T06:07:21Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "liyupi/ai-guide": {
+      "active": true,
+      "starredAt": "2026-01-21T06:04:40Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "iam-veeramalla/a-to-z-of-networking": {
+      "active": true,
+      "starredAt": "2026-01-21T06:03:37Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "yetone/alma-releases": {
+      "active": true,
+      "starredAt": "2026-01-20T08:19:47Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "egoist/chatwise-releases": {
+      "active": true,
+      "starredAt": "2026-01-20T08:19:46Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "siderolabs/talos": {
+      "active": true,
+      "starredAt": "2026-01-14T05:29:11Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "MiroMindAI/MiroThinker": {
+      "active": true,
+      "starredAt": "2026-01-08T22:25:01Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "browser-use/browser-use": {
+      "active": true,
+      "starredAt": "2026-01-08T10:33:37Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "anomalyco/opencode": {
+      "active": true,
+      "starredAt": "2026-01-07T03:54:37Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "code-yeongyu/oh-my-openagent": {
+      "active": true,
+      "starredAt": "2026-01-07T03:54:02Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "tonyantony300/dashbeam": {
+      "active": true,
+      "starredAt": "2026-01-06T03:00:56Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "opsre/AutoOps": {
+      "active": true,
+      "starredAt": "2025-11-06T03:44:52Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "selkies-project/selkies": {
+      "active": true,
+      "starredAt": "2025-10-28T06:53:07Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "nickrunning/wechat-selkies": {
+      "active": true,
+      "starredAt": "2025-10-28T06:51:55Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "agent-infra/sandbox": {
+      "active": true,
+      "starredAt": "2025-10-15T02:24:39Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "loks666/get_jobs": {
+      "active": true,
+      "starredAt": "2025-10-14T08:27:59Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "erebe/wstunnel": {
+      "active": true,
+      "starredAt": "2025-09-26T08:28:24Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "idosal/git-mcp": {
+      "active": true,
+      "starredAt": "2025-09-08T09:32:24Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Maciek-roboblog/Claude-Code-Usage-Monitor": {
+      "active": true,
+      "starredAt": "2025-09-08T09:32:20Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "musistudio/claude-code-router": {
+      "active": true,
+      "starredAt": "2025-09-08T09:32:17Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "hesreallyhim/awesome-claude-code": {
+      "active": true,
+      "starredAt": "2025-09-08T09:32:10Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "winfunc/opcode": {
+      "active": true,
+      "starredAt": "2025-09-08T09:32:06Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "SuperClaude-Org/SuperClaude_Framework": {
+      "active": true,
+      "starredAt": "2025-09-08T09:32:00Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "wshobson/agents": {
+      "active": true,
+      "starredAt": "2025-09-08T09:31:54Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "9001/copyparty": {
+      "active": true,
+      "starredAt": "2025-08-31T09:34:55Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "clemcer/LoggiFly": {
+      "active": true,
+      "starredAt": "2025-08-29T01:57:33Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "EasyTier/EasyTier": {
+      "active": true,
+      "starredAt": "2025-08-19T11:55:21Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "fishjar/kiss-translator": {
+      "active": true,
+      "starredAt": "2025-08-09T23:46:34Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "ccfos/huatuo": {
+      "active": true,
+      "starredAt": "2025-08-05T09:26:13Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "pgsty/pigsty": {
+      "active": true,
+      "starredAt": "2025-08-05T01:23:37Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "TG-Twilight/AWAvenue-Ads-Rule": {
+      "active": true,
+      "starredAt": "2025-08-03T18:13:25Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "spin311/MicrosoftRewardsWebsite": {
+      "active": true,
+      "starredAt": "2025-08-02T22:51:33Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "SwaggyMacro/LottieViewConvert": {
+      "active": true,
+      "starredAt": "2025-08-02T22:37:11Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "yunionio/cloudpods": {
+      "active": true,
+      "starredAt": "2025-08-01T03:46:51Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "moeru-ai/airi": {
+      "active": true,
+      "starredAt": "2025-07-02T01:43:19Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "zyronon/TypeWords": {
+      "active": true,
+      "starredAt": "2025-07-02T01:42:36Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "NodePassProject/Anywhere": {
+      "active": true,
+      "starredAt": "2025-06-20T15:48:51Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Talisik/Downlodr": {
+      "active": true,
+      "starredAt": "2025-06-10T02:40:55Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "pipecat-ai/pipecat": {
+      "active": true,
+      "starredAt": "2025-06-09T08:56:16Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "JefferyHcool/BiliNote": {
+      "active": true,
+      "starredAt": "2025-06-05T02:37:08Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "murtaza-nasir/speakr": {
+      "active": true,
+      "starredAt": "2025-05-27T10:23:00Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "crossplane/crossplane": {
+      "active": true,
+      "starredAt": "2025-05-20T09:57:58Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "voideditor/void": {
+      "active": true,
+      "starredAt": "2025-05-15T03:30:05Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "tgbot-collection/SearchGram": {
+      "active": true,
+      "starredAt": "2025-05-07T08:59:04Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "runjuu/InputSourcePro": {
+      "active": true,
+      "starredAt": "2025-05-05T13:05:02Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "lihaoyun6/QuickRecorder": {
+      "active": true,
+      "starredAt": "2025-05-05T13:04:44Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "sjqzhang/go-fastdfs": {
+      "active": true,
+      "starredAt": "2025-04-28T21:36:49Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "boypt/openssh-deb": {
+      "active": true,
+      "starredAt": "2025-04-08T03:32:36Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "boypt/openssh-rpms": {
+      "active": true,
+      "starredAt": "2025-04-08T03:32:18Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "xykt/NetQuality": {
+      "active": true,
+      "starredAt": "2025-04-01T04:00:21Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "ViggoZ/hackernews-cn": {
+      "active": true,
+      "starredAt": "2025-03-25T03:24:19Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "GopeedLab/gopeed": {
+      "active": true,
+      "starredAt": "2025-03-20T12:42:00Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "monkeyWie/gopeed-extension-bilibili": {
+      "active": true,
+      "starredAt": "2025-03-20T12:40:46Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "passteque/gluetun": {
+      "active": true,
+      "starredAt": "2025-03-19T02:36:30Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "winfunc/deepreasoning": {
+      "active": true,
+      "starredAt": "2025-03-16T12:05:11Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "zhanghanyun/backtrace": {
+      "active": true,
+      "starredAt": "2025-03-14T02:58:18Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "LibreChat-AI/LibreChat": {
+      "active": true,
+      "starredAt": "2025-03-14T01:49:15Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "chatboxai/chatbox": {
+      "active": true,
+      "starredAt": "2025-03-14T01:48:21Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "containrrr/watchtower": {
+      "active": true,
+      "starredAt": "2025-03-12T08:27:22Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "JOYCEQL/magic-resume": {
+      "active": true,
+      "starredAt": "2025-03-12T01:25:33Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "WEIFENG2333/VideoCaptioner": {
+      "active": true,
+      "starredAt": "2025-02-07T13:46:46Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "ZingerLittleBee/dockerman.app": {
+      "active": true,
+      "starredAt": "2025-02-07T13:46:26Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "lobehub/lobehub": {
+      "active": true,
+      "starredAt": "2025-02-06T08:51:37Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "authelia/authelia": {
+      "active": true,
+      "starredAt": "2025-02-06T06:15:38Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "ZuodaoTech/everyone-can-use-english": {
+      "active": true,
+      "starredAt": "2025-01-17T09:43:34Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Arman19941113/dnd-resume": {
+      "active": true,
+      "starredAt": "2025-01-16T19:24:04Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "jwasham/coding-interview-university": {
+      "active": true,
+      "starredAt": "2025-01-13T03:53:45Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Olshansk/interview": {
+      "active": true,
+      "starredAt": "2025-01-13T01:22:42Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "TermoraDev/termora": {
+      "active": true,
+      "starredAt": "2025-01-08T03:52:25Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "cdleon/awesome-terminals": {
+      "active": true,
+      "starredAt": "2025-01-07T12:21:15Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "louis-e/arnis": {
+      "active": true,
+      "starredAt": "2025-01-03T01:58:29Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "afx-team/petercat": {
+      "active": true,
+      "starredAt": "2025-01-01T12:20:38Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "DenisSergeevitch/chatgpt-custom-instructions": {
+      "active": true,
+      "starredAt": "2024-12-25T01:10:05Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "awesome-android-root/awesome-android-root": {
+      "active": true,
+      "starredAt": "2024-12-20T04:35:30Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "zetaloop/keyviz": {
+      "active": true,
+      "starredAt": "2024-12-20T04:32:33Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "vzhd1701/gridplayer": {
+      "active": true,
+      "starredAt": "2024-12-20T03:21:06Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "dgtlmoon/changedetection.io": {
+      "active": true,
+      "starredAt": "2024-12-20T03:21:02Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "microsoft/markitdown": {
+      "active": true,
+      "starredAt": "2024-12-20T03:20:36Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "jgm/pandoc": {
+      "active": true,
+      "starredAt": "2024-12-20T03:20:35Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "kelseyhightower/kubernetes-the-hard-way": {
+      "active": true,
+      "starredAt": "2024-12-18T09:41:34Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "ViggoZ/json-translate": {
+      "active": true,
+      "starredAt": "2024-12-02T07:56:44Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "icloud-photos-downloader/icloud_photos_downloader": {
+      "active": true,
+      "starredAt": "2024-12-02T07:47:16Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "likeflyme/cloudbak": {
+      "active": true,
+      "starredAt": "2024-12-02T07:45:15Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "newmarcel/KeepingYouAwake": {
+      "active": true,
+      "starredAt": "2024-11-29T05:29:14Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "abiosoft/colima": {
+      "active": true,
+      "starredAt": "2024-11-26T03:19:29Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "lqqyt2423/go-mitmproxy": {
+      "active": true,
+      "starredAt": "2024-11-17T08:05:39Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "photoview/photoview": {
+      "active": true,
+      "starredAt": "2024-11-12T18:20:50Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "bufanyun/hotgo": {
+      "active": true,
+      "starredAt": "2024-11-06T02:11:13Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "perkfly/reverse-interview-zh": {
+      "active": true,
+      "starredAt": "2024-10-31T10:23:41Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "alsyundawy/Microsoft-Office-For-MacOS": {
+      "active": true,
+      "starredAt": "2024-10-27T06:49:09Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "libnyanpasu/clash-nyanpasu": {
+      "active": true,
+      "starredAt": "2024-10-11T10:17:07Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "tindy2013/subconverter": {
+      "active": true,
+      "starredAt": "2024-10-11T03:16:13Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "CareyWang/sub-web": {
+      "active": true,
+      "starredAt": "2024-10-11T03:15:53Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "youshandefeiyang/sub-web-modify": {
+      "active": true,
+      "starredAt": "2024-10-11T02:53:48Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "tsgrgo/windows-update-disabler": {
+      "active": true,
+      "starredAt": "2024-10-07T09:43:36Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Myzel394/Alibi": {
+      "active": true,
+      "starredAt": "2024-09-28T06:11:36Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "infrost/DeeplxFile": {
+      "active": true,
+      "starredAt": "2024-09-26T05:47:53Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "acmesh-official/acme.sh": {
+      "active": true,
+      "starredAt": "2024-09-25T10:00:26Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "certimate-go/certimate": {
+      "active": true,
+      "starredAt": "2024-09-25T10:00:18Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Blinue/Magpie": {
+      "active": true,
+      "starredAt": "2024-09-18T12:54:43Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "flytkgl/PDFQFZ": {
+      "active": true,
+      "starredAt": "2024-09-05T02:32:23Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "AnalogJ/scrutiny": {
+      "active": true,
+      "starredAt": "2024-09-05T02:22:44Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "baihengaead/wlan-sec-test-tool": {
+      "active": true,
+      "starredAt": "2024-08-30T10:22:46Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Huanshere/VideoLingo": {
+      "active": true,
+      "starredAt": "2024-08-28T09:58:39Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "zhulu111/ComfyUI_Bxb": {
+      "active": true,
+      "starredAt": "2024-08-16T04:18:02Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "miantiao-me/BroadcastChannel": {
+      "active": true,
+      "starredAt": "2024-08-09T14:20:59Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "jianchang512/pyvideotrans": {
+      "active": true,
+      "starredAt": "2024-08-05T08:03:44Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "bin456789/reinstall": {
+      "active": true,
+      "starredAt": "2024-07-25T09:35:34Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "PKUFlyingPig/cs-self-learning": {
+      "active": true,
+      "starredAt": "2024-07-24T13:50:53Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "wsdjeg/vim-galore-zh_cn": {
+      "active": true,
+      "starredAt": "2024-07-24T13:50:45Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "PrivateBin/PrivateBin": {
+      "active": true,
+      "starredAt": "2024-07-24T09:00:02Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "mikeroyal/Self-Hosting-Guide": {
+      "active": true,
+      "starredAt": "2024-07-17T03:40:19Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Lakr233/Asspp": {
+      "active": true,
+      "starredAt": "2024-07-16T15:50:52Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "FutureUniant/Tailor": {
+      "active": true,
+      "starredAt": "2024-07-12T19:17:30Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "RubyMetric/chsrc": {
+      "active": true,
+      "starredAt": "2024-07-03T14:46:37Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "mulaRahul/keyviz": {
+      "active": true,
+      "starredAt": "2024-06-23T13:19:54Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "maboloshi/github-chinese": {
+      "active": true,
+      "starredAt": "2024-06-21T01:09:40Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "tl-open-source/tl-rtc-file": {
+      "active": true,
+      "starredAt": "2024-06-17T15:20:53Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "jackfrued/Python-Core-50-Courses": {
+      "active": true,
+      "starredAt": "2024-06-16T13:12:53Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "DaoCloud/crproxy": {
+      "active": true,
+      "starredAt": "2024-06-07T08:29:12Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "zoriya/Kyoo": {
+      "active": true,
+      "starredAt": "2024-06-07T07:04:31Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "BloopAI/bloop": {
+      "active": true,
+      "starredAt": "2024-05-28T18:52:13Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "xykt/IPQuality": {
+      "active": true,
+      "starredAt": "2024-05-26T11:26:54Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "solidSpoon/DashPlayer": {
+      "active": true,
+      "starredAt": "2024-05-22T12:44:57Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "llaoj/gcopy": {
+      "active": true,
+      "starredAt": "2024-05-21T16:49:29Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "ngc660sec/NGCBot": {
+      "active": true,
+      "starredAt": "2024-05-20T12:19:53Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "slimtoolkit/slim": {
+      "active": true,
+      "starredAt": "2024-05-15T12:39:42Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "shion-app/shion": {
+      "active": true,
+      "starredAt": "2024-04-25T02:08:49Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "m1k1o/neko": {
+      "active": true,
+      "starredAt": "2024-04-17T10:01:10Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "nashsu/FreeAskInternet": {
+      "active": true,
+      "starredAt": "2024-04-11T15:57:31Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "zhangguanzhang/docker-need-to-know": {
+      "active": true,
+      "starredAt": "2024-04-06T11:43:18Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "httpsok/httpsok": {
+      "active": true,
+      "starredAt": "2024-03-10T14:23:54Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "wanghongenpin/proxypin": {
+      "active": true,
+      "starredAt": "2024-03-10T04:49:23Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "cooderl/wewe-rss": {
+      "active": true,
+      "starredAt": "2024-03-01T15:23:18Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "MauriceNino/dashdot": {
+      "active": true,
+      "starredAt": "2024-02-18T21:50:31Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "LC044/WeChatMsg": {
+      "active": true,
+      "starredAt": "2024-02-02T01:32:49Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "TriliumNext/Trilium": {
+      "active": true,
+      "starredAt": "2024-01-27T14:29:34Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "clash-verge-rev/clash-verge-rev": {
+      "active": true,
+      "starredAt": "2024-01-26T16:32:28Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "lollipopkit/flutter_server_box": {
+      "active": true,
+      "starredAt": "2024-01-25T09:05:10Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "mao888/golang-guide": {
+      "active": true,
+      "starredAt": "2024-01-16T01:40:12Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "chatpire/chatgpt-web-share": {
+      "active": true,
+      "starredAt": "2024-01-09T10:17:08Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "usememos/memos": {
+      "active": true,
+      "starredAt": "2023-12-27T13:42:37Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "FluentRead/FluentRead": {
+      "active": true,
+      "starredAt": "2023-12-25T06:40:14Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "loonggg/DevMoneySharing": {
+      "active": true,
+      "starredAt": "2023-12-20T02:41:10Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "rooktwo/rectg": {
+      "active": true,
+      "starredAt": "2023-12-18T16:51:21Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "pot-app/pot-desktop": {
+      "active": true,
+      "starredAt": "2023-12-17T04:30:58Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "inancgumus/learngo": {
+      "active": true,
+      "starredAt": "2023-12-06T08:08:06Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "hwholiday/learning_tools": {
+      "active": true,
+      "starredAt": "2023-12-06T07:31:34Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "shadow1ng/fscan": {
+      "active": true,
+      "starredAt": "2023-12-06T05:41:19Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "blossom-editor/blossom": {
+      "active": true,
+      "starredAt": "2023-12-06T02:37:03Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "jason5ng32/MyIP": {
+      "active": true,
+      "starredAt": "2023-11-28T03:05:40Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "ronggang/transmission-web-control": {
+      "active": true,
+      "starredAt": "2023-11-26T07:20:15Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "everywall/ladder": {
+      "active": true,
+      "starredAt": "2023-11-25T22:35:05Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "tiny-craft/tiny-rdm": {
+      "active": true,
+      "starredAt": "2023-11-25T09:33:21Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "BuilderIO/gpt-crawler": {
+      "active": true,
+      "starredAt": "2023-11-24T05:34:23Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "yangjian102621/geekai": {
+      "active": true,
+      "starredAt": "2023-11-22T11:03:09Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "songquanpeng/one-api": {
+      "active": true,
+      "starredAt": "2023-11-22T09:26:55Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "JushBJJ/Mr.-Ranedeer-AI-Tutor": {
+      "active": true,
+      "starredAt": "2023-11-20T07:34:58Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "co-brew/brew-meet": {
+      "active": true,
+      "starredAt": "2023-11-19T12:52:29Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "0xERR0R/blocky": {
+      "active": true,
+      "starredAt": "2023-11-13T06:45:59Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "TechnitiumSoftware/DnsServer": {
+      "active": true,
+      "starredAt": "2023-11-13T03:50:42Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "IceWhaleTech/CasaOS": {
+      "active": true,
+      "starredAt": "2023-11-12T04:43:16Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "seriousm4x/UpSnap": {
+      "active": true,
+      "starredAt": "2023-11-12T04:40:34Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "gravitational/teleport": {
+      "active": true,
+      "starredAt": "2023-11-08T05:07:29Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "geekan/HowToLiveLonger": {
+      "active": true,
+      "starredAt": "2023-11-07T15:42:51Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "EvilAnne/lzCloudSecurity": {
+      "active": true,
+      "starredAt": "2023-11-07T15:37:29Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "ollama/ollama": {
+      "active": true,
+      "starredAt": "2023-11-07T03:47:52Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "moonD4rk/HackBrowserData": {
+      "active": true,
+      "starredAt": "2023-11-04T16:44:57Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "lookscanned/lookscanned.io": {
+      "active": true,
+      "starredAt": "2023-11-04T16:43:59Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "DustinWin/dustinwin.github.io": {
+      "active": true,
+      "starredAt": "2023-11-04T02:35:04Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "wasi-master/13ft": {
+      "active": true,
+      "starredAt": "2023-10-30T07:52:47Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "eosphoros-ai/DB-GPT": {
+      "active": true,
+      "starredAt": "2023-10-25T15:37:41Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "warengonzaga/css-text-portrait-builder": {
+      "active": true,
+      "starredAt": "2023-10-23T22:17:36Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "upscayl/upscayl": {
+      "active": true,
+      "starredAt": "2023-10-21T17:54:15Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "nulla2011/bluearchive-logo": {
+      "active": true,
+      "starredAt": "2023-10-20T07:24:58Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "TheWaWaR/simple-http-server": {
+      "active": true,
+      "starredAt": "2023-10-20T02:16:05Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "svenstaro/miniserve": {
+      "active": true,
+      "starredAt": "2023-10-20T02:15:59Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "synctv-org/synctv": {
+      "active": true,
+      "starredAt": "2023-10-19T04:15:02Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "CorentinTh/it-tools": {
+      "active": true,
+      "starredAt": "2023-10-18T01:54:13Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "qarmin/czkawka": {
+      "active": true,
+      "starredAt": "2023-10-11T08:02:30Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "facebookresearch/nougat": {
+      "active": true,
+      "starredAt": "2023-10-06T10:50:57Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "imDazui/Tvlist-awesome-m3u-m3u8": {
+      "active": true,
+      "starredAt": "2023-09-29T15:33:55Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "lissy93/dashy": {
+      "active": true,
+      "starredAt": "2023-09-25T15:59:11Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "webmeshproj/webmesh": {
+      "active": true,
+      "starredAt": "2023-09-21T07:14:14Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "ChatAnyTeam/ChatAny": {
+      "active": true,
+      "starredAt": "2023-09-18T10:59:18Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "milvus-io/milvus": {
+      "active": true,
+      "starredAt": "2023-09-18T07:20:02Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "openinterpreter/openinterpreter": {
+      "active": true,
+      "starredAt": "2023-09-13T03:18:06Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "ignorantshr/person-blog": {
+      "active": true,
+      "starredAt": "2023-09-07T09:31:08Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "squidfunk/mkdocs-material": {
+      "active": true,
+      "starredAt": "2023-09-07T09:25:46Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "woodchen-ink/openai-billing-query": {
+      "active": true,
+      "starredAt": "2023-09-07T06:37:25Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "atombender/ktail": {
+      "active": true,
+      "starredAt": "2023-08-28T13:39:30Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Quiq/registry-ui": {
+      "active": true,
+      "starredAt": "2023-08-28T08:43:28Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "testcontainers/testcontainers-go": {
+      "active": true,
+      "starredAt": "2023-08-27T13:27:49Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "composerize/composerize": {
+      "active": true,
+      "starredAt": "2023-08-26T06:54:57Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "workout-lol/workout-lol": {
+      "active": true,
+      "starredAt": "2023-08-24T12:50:41Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "EstrellaXD/Auto_Bangumi": {
+      "active": true,
+      "starredAt": "2023-08-21T09:54:35Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "zauberzeug/nicegui": {
+      "active": true,
+      "starredAt": "2023-08-05T15:04:25Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "krahets/hello-algo": {
+      "active": true,
+      "starredAt": "2023-08-05T14:55:41Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "kevin2li/PDF-Guru": {
+      "active": true,
+      "starredAt": "2023-08-03T09:14:27Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "josStorer/RWKV-Runner": {
+      "active": true,
+      "starredAt": "2023-07-31T06:44:02Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "FoundationAgents/MetaGPT": {
+      "active": true,
+      "starredAt": "2023-07-29T14:35:48Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "nginx-proxy/nginx-proxy": {
+      "active": true,
+      "starredAt": "2023-07-28T19:03:54Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "nginx-proxy/acme-companion": {
+      "active": true,
+      "starredAt": "2023-07-28T19:02:59Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "phodal/understand-prompt": {
+      "active": true,
+      "starredAt": "2023-07-16T13:53:32Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "JimmyLv/BibiGPT-v1": {
+      "active": true,
+      "starredAt": "2023-07-16T13:48:23Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "xiangsx/gpt4free-ts": {
+      "active": true,
+      "starredAt": "2023-07-16T13:48:10Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "lvwzhen/law-cn-ai": {
+      "active": true,
+      "starredAt": "2023-07-16T13:45:10Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "YaoApp/yao": {
+      "active": true,
+      "starredAt": "2023-07-16T13:27:16Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "AI4Finance-Foundation/FinGPT": {
+      "active": true,
+      "starredAt": "2023-07-16T13:23:01Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "ai-shifu/ChatALL": {
+      "active": true,
+      "starredAt": "2023-07-16T13:17:42Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "xx025/carrot": {
+      "active": true,
+      "starredAt": "2023-07-16T12:48:57Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "chaitin/SafeLine": {
+      "active": true,
+      "starredAt": "2023-07-16T09:15:56Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "The-Vibe-Company/quivr": {
+      "active": true,
+      "starredAt": "2023-07-13T06:43:38Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "alacritty/alacritty": {
+      "active": true,
+      "starredAt": "2023-07-06T09:23:31Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Eugeny/tabby": {
+      "active": true,
+      "starredAt": "2023-07-06T09:23:25Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "immich-app/immich": {
+      "active": true,
+      "starredAt": "2023-07-01T09:25:11Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "LAION-AI/Open-Assistant": {
+      "active": true,
+      "starredAt": "2023-06-23T23:42:27Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "zhayujie/CowAgent": {
+      "active": true,
+      "starredAt": "2023-06-22T21:49:50Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "langbot-app/LangBot": {
+      "active": true,
+      "starredAt": "2023-06-22T19:06:39Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "YunYouJun/birthday": {
+      "active": true,
+      "starredAt": "2023-06-22T18:38:43Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "tbxark/ChatGPT-Telegram-Workers": {
+      "active": true,
+      "starredAt": "2023-06-17T05:52:39Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "rockbenben/ChatGPT-Shortcut": {
+      "active": true,
+      "starredAt": "2023-06-17T05:10:44Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "nomic-ai/gpt4all": {
+      "active": true,
+      "starredAt": "2023-06-08T09:59:56Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "AprilNEA/AChat": {
+      "active": true,
+      "starredAt": "2023-06-08T09:31:36Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "webtorrent/wormhole-crypto": {
+      "active": true,
+      "starredAt": "2023-06-08T08:30:32Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "jesseduffield/lazygit": {
+      "active": true,
+      "starredAt": "2023-06-07T04:45:44Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "spacedriveapp/spacedrive": {
+      "active": true,
+      "starredAt": "2023-06-07T03:05:45Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "danicat/pacgo": {
+      "active": true,
+      "starredAt": "2023-06-07T02:54:42Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "quii/learn-go-with-tests": {
+      "active": true,
+      "starredAt": "2023-06-07T02:45:35Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "gobyexample-cn/gobyexample": {
+      "active": true,
+      "starredAt": "2023-06-07T02:34:16Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "kubevela/kubevela": {
+      "active": true,
+      "starredAt": "2023-06-06T05:22:56Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "BeyondDimension/SteamTools": {
+      "active": true,
+      "starredAt": "2023-06-05T05:12:46Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Foundry376/Mailspring": {
+      "active": true,
+      "starredAt": "2023-06-04T04:05:30Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "vernesong/OpenClash": {
+      "active": true,
+      "starredAt": "2023-06-03T04:21:34Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "owen2000wy/owentv": {
+      "active": true,
+      "starredAt": "2023-05-29T14:27:35Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Loyalsoldier/clash-rules": {
+      "active": true,
+      "starredAt": "2023-05-29T10:21:32Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "mack-a/v2ray-agent": {
+      "active": true,
+      "starredAt": "2023-05-28T04:01:12Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "privacy-protection-tools/anti-AD": {
+      "active": true,
+      "starredAt": "2023-05-27T10:01:24Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "chinese-poetry/chinese-poetry": {
+      "active": true,
+      "starredAt": "2023-05-26T06:59:32Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "blackmatrix7/ios_rule_script": {
+      "active": true,
+      "starredAt": "2023-05-25T03:35:32Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "pengxiao-song/LaWGPT": {
+      "active": true,
+      "starredAt": "2023-05-21T01:27:11Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "chathub-dev/chathub": {
+      "active": true,
+      "starredAt": "2023-05-15T02:57:20Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Codennnn/vue-color-avatar": {
+      "active": true,
+      "starredAt": "2023-05-15T02:54:36Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "langgenius/dify": {
+      "active": true,
+      "starredAt": "2023-05-15T02:40:02Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "labring/FastGPT": {
+      "active": true,
+      "starredAt": "2023-05-15T01:52:28Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "bytebase/bytebase": {
+      "active": true,
+      "starredAt": "2023-05-14T04:49:00Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "okisdev/ChatChat": {
+      "active": true,
+      "starredAt": "2023-05-13T09:48:41Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "svenstaro/genact": {
+      "active": true,
+      "starredAt": "2023-05-12T08:31:40Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "schollz/croc": {
+      "active": true,
+      "starredAt": "2023-05-11T02:08:45Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "localsend/localsend": {
+      "active": true,
+      "starredAt": "2023-05-11T02:06:34Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Jagailo/YetAnotherKeyDisplayer": {
+      "active": true,
+      "starredAt": "2023-04-21T09:54:07Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "KaustubhPatange/Kling": {
+      "active": true,
+      "starredAt": "2023-04-21T09:53:41Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Code52/carnac": {
+      "active": true,
+      "starredAt": "2023-04-21T09:53:03Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Significant-Gravitas/AutoGPT": {
+      "active": true,
+      "starredAt": "2023-04-21T01:17:15Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "binary-husky/gpt_academic": {
+      "active": true,
+      "starredAt": "2023-04-20T08:27:51Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "kaixindelele/ChatPaper": {
+      "active": true,
+      "starredAt": "2023-04-20T08:24:03Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "alyssaxuu/screenity": {
+      "active": true,
+      "starredAt": "2023-04-17T13:59:11Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "facebookresearch/segment-anything": {
+      "active": true,
+      "starredAt": "2023-04-14T05:47:21Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "windvalley/gossh": {
+      "active": true,
+      "starredAt": "2023-04-07T07:45:50Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "golang-china/gopl-zh": {
+      "active": true,
+      "starredAt": "2023-04-07T02:44:17Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "trojanpanel/install-script": {
+      "active": true,
+      "starredAt": "2023-04-03T10:56:28Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "ChatGPTNextWeb/NextChat": {
+      "active": true,
+      "starredAt": "2023-03-30T07:52:52Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "zhayujie/bot-on-anything": {
+      "active": true,
+      "starredAt": "2023-03-29T19:23:06Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "crazy-max/diun": {
+      "active": true,
+      "starredAt": "2023-03-29T19:08:10Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "lss233/kirara-ai": {
+      "active": true,
+      "starredAt": "2023-03-29T19:04:04Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "maxence-charriere/lofimusic": {
+      "active": true,
+      "starredAt": "2023-03-26T07:22:40Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "XX-net/XX-Net": {
+      "active": true,
+      "starredAt": "2023-03-26T06:56:44Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "sozercan/kubectl-ai": {
+      "active": true,
+      "starredAt": "2023-03-23T08:11:22Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "jerrykuku/luci-theme-argon": {
+      "active": true,
+      "starredAt": "2023-03-19T12:48:42Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "coolsnowwolf/lede": {
+      "active": true,
+      "starredAt": "2023-03-16T00:34:59Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "futantan/OpenGpt": {
+      "active": true,
+      "starredAt": "2023-03-14T14:19:20Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "yangchuansheng/DocsGPT": {
+      "active": true,
+      "starredAt": "2023-03-13T03:44:51Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "tiimgreen/github-cheat-sheet": {
+      "active": true,
+      "starredAt": "2023-03-10T12:46:50Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "yihong0618/bilingual_book_maker": {
+      "active": true,
+      "starredAt": "2023-03-10T10:29:54Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "chenfei-wu/TaskMatrix": {
+      "active": true,
+      "starredAt": "2023-03-10T08:58:42Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "run-llama/llama_index": {
+      "active": true,
+      "starredAt": "2023-03-04T05:26:23Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Chanzhaoyu/chatgpt-web": {
+      "active": true,
+      "starredAt": "2023-03-03T16:41:26Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "OpenEthan/SMSBoom": {
+      "active": true,
+      "starredAt": "2023-02-22T13:59:51Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "cockpit-project/cockpit": {
+      "active": true,
+      "starredAt": "2023-02-21T13:36:14Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "lvwzhen/teach-anything": {
+      "active": true,
+      "starredAt": "2023-02-14T09:50:12Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "shengxinjing/email-helper": {
+      "active": true,
+      "starredAt": "2023-02-14T09:45:29Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "guaguaguaxia/weekly_report": {
+      "active": true,
+      "starredAt": "2023-02-14T09:44:34Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Chia-Network/chia-blockchain": {
+      "active": true,
+      "starredAt": "2023-02-06T03:37:02Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "std-microblock/chromatic": {
+      "active": true,
+      "starredAt": "2023-02-03T11:58:40Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "NAStool/nas-tools": {
+      "active": true,
+      "starredAt": "2023-02-01T07:58:24Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "HandBrake/HandBrake": {
+      "active": true,
+      "starredAt": "2023-01-11T04:49:14Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "lencx/ChatGPT": {
+      "active": true,
+      "starredAt": "2023-01-09T09:00:03Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "oldj/SwitchHosts": {
+      "active": true,
+      "starredAt": "2023-01-08T14:34:19Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "521xueweihan/GitHub520": {
+      "active": true,
+      "starredAt": "2023-01-08T14:34:04Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "AdguardTeam/AdGuardHome": {
+      "active": true,
+      "starredAt": "2023-01-08T14:33:31Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "jeessy2/ddns-go": {
+      "active": true,
+      "starredAt": "2023-01-06T11:35:07Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "MichaelCade/90DaysOfDevOps": {
+      "active": true,
+      "starredAt": "2022-12-28T01:58:57Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "massgravel/Microsoft-Activation-Scripts": {
+      "active": true,
+      "starredAt": "2022-12-18T19:41:07Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "YunYouJun/cook": {
+      "active": true,
+      "starredAt": "2022-12-18T12:29:01Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "DIYgod/RSSHub": {
+      "active": true,
+      "starredAt": "2022-12-16T15:40:25Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "zas023/JdBuyer": {
+      "active": true,
+      "starredAt": "2022-12-16T15:07:21Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "f/prompts.chat": {
+      "active": true,
+      "starredAt": "2022-12-15T19:21:21Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "tw93/Pake": {
+      "active": true,
+      "starredAt": "2022-12-15T19:17:03Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "sonnylazuardi/chat-ai-desktop": {
+      "active": true,
+      "starredAt": "2022-12-15T19:16:48Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "zu1k/nali": {
+      "active": true,
+      "starredAt": "2022-12-15T04:04:44Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "sourcegraph/sourcegraph-public-snapshot": {
+      "active": true,
+      "starredAt": "2022-11-29T09:42:33Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "tteck/Proxmox": {
+      "active": true,
+      "starredAt": "2022-11-27T12:50:02Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Atlas-OS/Atlas": {
+      "active": true,
+      "starredAt": "2022-11-26T05:57:02Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "wxext/wxext": {
+      "active": true,
+      "starredAt": "2022-11-20T04:30:36Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "wzshiming/bridge": {
+      "active": true,
+      "starredAt": "2022-11-16T04:42:17Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "DaoCloud/public-image-mirror": {
+      "active": true,
+      "starredAt": "2022-11-16T04:42:13Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "angristan/wireguard-install": {
+      "active": true,
+      "starredAt": "2022-11-11T11:20:30Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "wg-easy/wg-easy": {
+      "active": true,
+      "starredAt": "2022-11-11T10:49:50Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "cubxxw/awesome-cs-cloudnative-blockchain": {
+      "active": true,
+      "starredAt": "2022-11-10T07:58:25Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "ryanhanwu/How-To-Ask-Questions-The-Smart-Way": {
+      "active": true,
+      "starredAt": "2022-11-09T07:38:36Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "xifangczy/cat-catch": {
+      "active": true,
+      "starredAt": "2022-10-24T09:32:00Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "jackfrued/git-tips": {
+      "active": true,
+      "starredAt": "2022-10-15T06:33:35Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "keepassxreboot/keepassxc": {
+      "active": true,
+      "starredAt": "2022-10-11T03:07:44Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "podman-container-tools/podman": {
+      "active": true,
+      "starredAt": "2022-09-27T01:15:16Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "minio/minio": {
+      "active": true,
+      "starredAt": "2022-09-27T01:12:56Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "kingcos/JueJueZiGenerator": {
+      "active": true,
+      "starredAt": "2022-09-22T09:53:05Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "aykutkardas/regexlearn.com": {
+      "active": true,
+      "starredAt": "2022-09-06T16:54:29Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "any86/any-rule": {
+      "active": true,
+      "starredAt": "2022-09-06T16:53:58Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "ziishaned/learn-regex": {
+      "active": true,
+      "starredAt": "2022-09-06T16:50:58Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "xiaobaiTech/golangFamily": {
+      "active": true,
+      "starredAt": "2022-08-03T03:40:39Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "huiyadanli/RevokeMsgPatcher": {
+      "active": true,
+      "starredAt": "2022-06-30T07:19:19Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "qier222/YesPlayMusic": {
+      "active": true,
+      "starredAt": "2022-06-30T07:16:52Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "TGSAN/CMWTAT_Digital_Edition": {
+      "active": true,
+      "starredAt": "2022-06-27T11:18:25Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "NginxProxyManager/nginx-proxy-manager": {
+      "active": true,
+      "starredAt": "2022-06-26T11:16:20Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "greycodee/wechat-backup": {
+      "active": true,
+      "starredAt": "2022-06-26T06:06:02Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "ytdl-org/youtube-dl": {
+      "active": true,
+      "starredAt": "2022-06-19T17:38:01Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "knadh/dns.toys": {
+      "active": true,
+      "starredAt": "2022-06-13T10:21:41Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "syncthing/syncthing": {
+      "active": true,
+      "starredAt": "2022-06-10T03:46:47Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "astaxie/build-web-application-with-golang": {
+      "active": true,
+      "starredAt": "2022-06-10T03:44:00Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "halfrost/LeetCode-Go": {
+      "active": true,
+      "starredAt": "2022-06-10T03:43:47Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "openimsdk/open-im-server": {
+      "active": true,
+      "starredAt": "2022-06-10T03:40:52Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "unknwon/go-fundamental-programming": {
+      "active": true,
+      "starredAt": "2022-06-10T03:39:45Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "skywind3000/awesome-cheatsheets": {
+      "active": true,
+      "starredAt": "2022-06-10T03:38:21Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "talkgo/night": {
+      "active": true,
+      "starredAt": "2022-06-10T03:30:45Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "talkgo/read": {
+      "active": true,
+      "starredAt": "2022-06-10T03:29:03Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "hackstoic/golang-open-source-projects": {
+      "active": true,
+      "starredAt": "2022-06-10T03:26:13Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "geektutu/7days-golang": {
+      "active": true,
+      "starredAt": "2022-06-10T03:25:00Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "halfrost/Halfrost-Field": {
+      "active": true,
+      "starredAt": "2022-06-10T03:24:23Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "jackfrued/Python-100-Days": {
+      "active": true,
+      "starredAt": "2022-06-10T03:18:17Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "locustio/locust": {
+      "active": true,
+      "starredAt": "2022-06-09T12:48:08Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "purocean/yn": {
+      "active": true,
+      "starredAt": "2022-06-04T11:55:23Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "dbeaver/dbeaver": {
+      "active": true,
+      "starredAt": "2022-05-20T07:37:28Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "feiyu563/PrometheusAlert": {
+      "active": true,
+      "starredAt": "2022-05-06T08:52:25Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "easzlab/kubeasz": {
+      "active": true,
+      "starredAt": "2022-05-05T16:25:38Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "pibigstar/go-demo": {
+      "active": true,
+      "starredAt": "2022-04-25T04:59:55Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "geekcompany/ResumeSample": {
+      "active": true,
+      "starredAt": "2022-04-24T09:31:55Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "reactive-resume/reactive-resume": {
+      "active": true,
+      "starredAt": "2022-04-24T09:26:48Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "wangyu-/udp2raw": {
+      "active": true,
+      "starredAt": "2022-04-17T07:47:49Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "ohmyzsh/ohmyzsh": {
+      "active": true,
+      "starredAt": "2022-04-13T07:59:46Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "ryanoasis/nerd-fonts": {
+      "active": true,
+      "starredAt": "2022-04-13T06:21:07Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "0voice/kernel_awsome_feature": {
+      "active": true,
+      "starredAt": "2022-04-13T05:08:59Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "xiaozhiliaoo/xiaozhiliaoo.github.io": {
+      "active": true,
+      "starredAt": "2022-04-13T04:40:28Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "JanDeDobbeleer/oh-my-posh": {
+      "active": true,
+      "starredAt": "2022-04-09T09:05:12Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "starship/starship": {
+      "active": true,
+      "starredAt": "2022-04-08T16:37:37Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "ccfos/nightingale": {
+      "active": true,
+      "starredAt": "2022-04-07T07:28:53Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "labring/laf": {
+      "active": true,
+      "starredAt": "2022-04-07T03:38:20Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "zbezj/HEU_KMS_Activator": {
+      "active": true,
+      "starredAt": "2022-04-02T14:07:32Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "chai2010/advanced-go-programming-book": {
+      "active": true,
+      "starredAt": "2022-04-01T15:58:53Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "EbookFoundation/free-programming-books": {
+      "active": true,
+      "starredAt": "2022-04-01T15:56:54Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "justjavac/free-programming-books-zh_CN": {
+      "active": true,
+      "starredAt": "2022-04-01T15:54:49Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "dylanaraps/pure-bash-bible": {
+      "active": true,
+      "starredAt": "2022-04-01T15:54:40Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "unknwon/the-way-to-go_ZH_CN": {
+      "active": true,
+      "starredAt": "2022-04-01T15:51:59Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "opencmit/pangee-cluster": {
+      "active": true,
+      "starredAt": "2022-03-31T18:44:28Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "starsliao/Prometheus": {
+      "active": true,
+      "starredAt": "2022-03-31T12:10:09Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "prometheus-pve/prometheus-pve-exporter": {
+      "active": true,
+      "starredAt": "2022-03-31T07:20:27Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "othneildrew/Best-README-Template": {
+      "active": true,
+      "starredAt": "2022-03-31T06:21:19Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "guodongxiaren/README": {
+      "active": true,
+      "starredAt": "2022-03-31T06:20:35Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "librespeed/speedtest": {
+      "active": true,
+      "starredAt": "2022-03-30T16:21:27Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "OI-wiki/OI-wiki": {
+      "active": true,
+      "starredAt": "2022-03-30T15:31:48Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "hoochanlon/fq-book": {
+      "active": true,
+      "starredAt": "2022-03-30T08:47:21Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "hoochanlon/hamuleite": {
+      "active": true,
+      "starredAt": "2022-03-30T08:42:19Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "excalidraw/excalidraw": {
+      "active": true,
+      "starredAt": "2022-03-29T03:18:48Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "anjia0532/gcr.io_mirror": {
+      "active": true,
+      "starredAt": "2022-03-25T06:45:23Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "influxdata/telegraf": {
+      "active": true,
+      "starredAt": "2022-03-23T03:59:54Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "aardio/Gif123": {
+      "active": true,
+      "starredAt": "2022-03-20T10:35:03Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "ginuerzh/gost": {
+      "active": true,
+      "starredAt": "2022-03-07T03:05:55Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "opensourcewin/opensourcewin.github.io": {
+      "active": true,
+      "starredAt": "2022-03-01T14:50:08Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Anduin2017/HowToCook": {
+      "active": true,
+      "starredAt": "2022-02-19T08:59:14Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "the1812/Bilibili-Evolved": {
+      "active": true,
+      "starredAt": "2022-02-09T09:07:13Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "nubosoftware/linux-remote-desktop": {
+      "active": true,
+      "starredAt": "2022-01-05T09:46:18Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "iawia002/lux": {
+      "active": true,
+      "starredAt": "2022-01-05T07:12:38Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "Genymobile/scrcpy": {
+      "active": true,
+      "starredAt": "2021-12-29T03:23:37Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "serhii-londar/open-source-mac-os-apps": {
+      "active": true,
+      "starredAt": "2021-12-29T03:23:14Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "sealerio/sealer": {
+      "active": true,
+      "starredAt": "2021-12-27T17:20:05Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "sitaramc/gitolite": {
+      "active": true,
+      "starredAt": "2021-12-27T04:20:07Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "gogs/gogs": {
+      "active": true,
+      "starredAt": "2021-12-27T04:20:05Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "go-gitea/gitea": {
+      "active": true,
+      "starredAt": "2021-12-27T04:20:03Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "whyour/qinglong": {
+      "active": true,
+      "starredAt": "2021-12-25T06:30:26Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "MulticsYin/MulticsKubernetes": {
+      "active": true,
+      "starredAt": "2021-12-22T09:25:26Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "hadoop-sandbox/hadoop-sandbox": {
+      "active": true,
+      "starredAt": "2021-12-20T02:45:44Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "jaywcjlove/mysql-tutorial": {
+      "active": true,
+      "starredAt": "2021-12-09T02:41:58Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "zze326/ansible-deploy-kubernetes": {
+      "active": true,
+      "starredAt": "2021-12-03T06:23:29Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "tangyibo/hadoop-autoinstall": {
+      "active": true,
+      "starredAt": "2021-12-01T09:30:13Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "heibaiying/BigData-Notes": {
+      "active": true,
+      "starredAt": "2021-11-29T07:31:09Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "teddysun/across": {
+      "active": true,
+      "starredAt": "2021-11-28T16:34:01Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "rootsongjc/kubernetes-handbook": {
+      "active": true,
+      "starredAt": "2021-11-23T02:42:16Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "yangwenmai/learning-golang": {
+      "active": true,
+      "starredAt": "2021-11-11T07:09:11Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "0voice/Introduction-to-Golang": {
+      "active": true,
+      "starredAt": "2021-11-11T07:09:02Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "polaris1119/The-Golang-Standard-Library-by-Example": {
+      "active": true,
+      "starredAt": "2021-11-11T07:08:50Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "kubeguide/K8sDefinitiveGuide-V5-Sourcecode": {
+      "active": true,
+      "starredAt": "2021-10-29T04:33:04Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "OpenFunction/OpenFunction": {
+      "active": true,
+      "starredAt": "2021-10-28T07:59:33Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "kubesphere/kubesphere": {
+      "active": true,
+      "starredAt": "2021-10-28T07:59:27Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "harness/harness": {
+      "active": true,
+      "starredAt": "2021-10-28T01:32:06Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "KubeOperator/KubeOperator": {
+      "active": true,
+      "starredAt": "2021-10-27T10:34:16Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "velero-io/velero": {
+      "active": true,
+      "starredAt": "2021-10-26T06:48:02Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "russelltao/geektime-nginx": {
+      "active": true,
+      "starredAt": "2021-10-22T07:13:56Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "DocsHome/nginx-docs": {
+      "active": true,
+      "starredAt": "2021-10-22T07:06:12Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "dunwu/linux-tutorial": {
+      "active": true,
+      "starredAt": "2021-10-09T08:56:45Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "yunlzheng/prometheus-book": {
+      "active": true,
+      "starredAt": "2021-10-09T05:21:41Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "me115/linuxtools_rst": {
+      "active": true,
+      "starredAt": "2021-10-09T05:10:21Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "jumpserver/jumpserver": {
+      "active": true,
+      "starredAt": "2021-09-23T01:00:10Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "nicolargo/glances": {
+      "active": true,
+      "starredAt": "2021-09-23T00:57:51Z",
+      "baselinePending": true,
+      "newPending": false
+    },
+    "jlevy/the-art-of-command-line": {
+      "active": true,
+      "starredAt": "2021-08-24T15:02:28Z",
+      "baselinePending": true,
+      "newPending": false
+    }
+  }
+}

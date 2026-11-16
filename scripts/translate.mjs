@@ -5,90 +5,121 @@
  * 用法：node --env-file=.env scripts/translate.mjs
  *
  * 环境变量：
- *   GITHUB_TOKEN   可选，用于拉取 README（无则仅凭 description 翻译）
+ *   GITHUB_TOKEN   必需，用于安全检查 README
  *   LLM_BASE_URL   OpenAI 兼容接口地址
  *   LLM_API_KEY    未配置时优雅跳过（exit 0，不影响 CI）
  *   LLM_MODEL      默认 glm-5.3-flash
  *
- * README 不截断（模型 1M 上下文随便吃）；输出靠 prompt 约束为简短 JSON。
- * 产物：data/zh.json（每完成 10 条写盘）
+ * README 全文输入，输出由 prompt 约束。
+ * 产物：data/zh.json、data/readme-state.json（逐项落盘）
  */
 import { readFileSync, writeFileSync, renameSync, mkdirSync } from 'node:fs'
 import { createHash } from 'node:crypto'
+import { existsSync } from 'node:fs'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { CATEGORIES } from './lib/taxonomy.mjs'
 
-const DATA = fileURLToPath(new URL('../data', import.meta.url))
-const readJson = (f, fallback) => {
-  try {
-    return JSON.parse(readFileSync(join(DATA, f), 'utf8'))
-  } catch {
-    return fallback
-  }
-}
-
-const stars = readJson('stars.json', [])
-if (!stars.length) {
-  console.log('⏭ data/stars.json 为空，请先运行 npm run fetch')
-  process.exit(0)
-}
-let zh = readJson('zh.json', {})
-if (typeof zh !== 'object' || zh === null || Array.isArray(zh)) zh = {}
-
-const sha = (s) => createHash('sha256').update(s).digest('hex')
-const srcHash = (r) => sha(`${r.fullName}|${r.pushedAt ?? ''}|${r.description ?? ''}`)
-
-const todo = stars.filter((r) => {
-  const z = zh[r.fullName]
-  return !z || z.sourceHash !== srcHash(r)
-})
-console.log(`共 ${stars.length} 个项目，待翻译 ${todo.length} 个`)
-if (!todo.length) {
-  console.log('✔ 全部为最新，无需翻译')
-  process.exit(0)
-}
-
 const BASE = (process.env.LLM_BASE_URL ?? '').replace(/\/+$/, '')
 const KEY = process.env.LLM_API_KEY
 const MODEL = process.env.LLM_MODEL || 'glm-5.3-flash'
-if (!KEY || !BASE) {
-  console.log(`⏭ 未配置 LLM_API_KEY / LLM_BASE_URL，跳过翻译（${todo.length} 条待翻译）`)
-  process.exit(0)
-}
 const GH = process.env.GITHUB_TOKEN
-
-function saveZh() {
-  const tmp = join(DATA, `.zh.${process.pid}.tmp`)
-  writeFileSync(tmp, JSON.stringify(zh, null, 2) + '\n')
-  renameSync(tmp, join(DATA, 'zh.json'))
+if (!GH) {
+  if (!KEY || !BASE) {
+    console.log('⏭ 未配置 GITHUB_TOKEN 和完整 LLM 配置，跳过翻译')
+    process.exit(0)
+  }
+  throw new Error('缺少 GITHUB_TOKEN，无法安全检查 README')
 }
 
+const DATA = process.env.TRANSLATE_DATA_DIR || fileURLToPath(new URL('../data', import.meta.url))
+const readJson = (f, fallback) => {
+  const path = join(DATA, f)
+  return existsSync(path) ? JSON.parse(readFileSync(path, 'utf8')) : fallback
+}
+const stars = readJson('stars.json', [])
+if (!Array.isArray(stars)) throw new Error('无效的 stars.json')
+const zh = readJson('zh.json', {})
+if (!zh || typeof zh !== 'object' || Array.isArray(zh)) throw new Error('无效的 zh.json')
+const statePath = join(DATA, 'readme-state.json')
+let state = readJson('readme-state.json', null)
+if (state !== null && (state.version !== 1 || !state.repos || typeof state.repos !== 'object' || Array.isArray(state.repos))) {
+  throw new Error('无效的 README 指纹状态')
+}
+
+function saveJson(name, value) {
+  mkdirSync(DATA, { recursive: true })
+  const tmp = join(DATA, `.${name}.${process.pid}.tmp`)
+  writeFileSync(tmp, JSON.stringify(value, null, 2) + '\n')
+  renameSync(tmp, join(DATA, name))
+}
+const saveState = () => saveJson('readme-state.json', state)
+const saveZh = () => saveJson('zh.json', zh)
+
+// 首次运行先持久化完整迁移名单；部分失败或中断后仍保留逐项基线资格。
+if (!state) {
+  state = { version: 1, repos: {} }
+  for (const r of stars) state.repos[r.fullName] = {
+    active: true, starredAt: r.starredAt ?? null, baselinePending: Boolean(zh[r.fullName]), newPending: !zh[r.fullName],
+  }
+  saveState()
+}
+const current = new Set(stars.map((r) => r.fullName))
+for (const [name, entry] of Object.entries(state.repos)) {
+  if (!current.has(name)) entry.active = false
+}
+for (const r of stars) {
+  let entry = state.repos[r.fullName]
+  if (!entry) entry = state.repos[r.fullName] = { active: true, starredAt: r.starredAt ?? null, newPending: true }
+  else if (!entry.active || (entry.starredAt && r.starredAt && entry.starredAt !== r.starredAt)) {
+    entry.active = true
+    entry.starredAt = r.starredAt ?? null
+    entry.newPending = true
+    delete entry.baselinePending
+  }
+  // 修复旧版本留下的无指纹、无待处理标记条目。
+  if (!entry.fingerprint && !entry.baselinePending && !entry.newPending) entry.newPending = true
+}
+saveState()
 const sleep = (ms) => new Promise((s) => setTimeout(s, ms))
 
-// README 全文拉取（不截断），带重试；404/403 之外的网络抖动退避重试 3 次
-async function fetchReadme(fullName) {
-  if (!GH) return ''
+async function ghRequest(url, accept) {
   for (let i = 0; i < 3; i++) {
     try {
-      const res = await fetch(`https://api.github.com/repos/${fullName}/readme`, {
-        headers: {
-          Authorization: `Bearer ${GH}`,
-          Accept: 'application/vnd.github.raw+json',
-          'X-GitHub-Api-Version': '2022-11-28',
-        },
-      })
-      if (res.ok) return await res.text()
-      if (res.status >= 500) {
-        await sleep(1000 * 2 ** i)
-        continue
-      }
-      return '' // 404 等情况，直接放弃
-    } catch {
-      if (i < 2) await sleep(1000 * 2 ** i)
+      const res = await fetch(url, { headers: {
+        Authorization: `Bearer ${GH}`, Accept: accept, 'X-GitHub-Api-Version': '2022-11-28',
+      } })
+      if (res.status === 404 || res.ok) return res
+      if (res.status < 500 || i === 2) throw new Error(`GitHub ${res.status}`)
+    } catch (e) {
+      if (i === 2 || /^GitHub /.test(e.message)) throw e
     }
+    await sleep(1000 * 2 ** i)
   }
-  return ''
+}
+
+// 校验 blob SHA，确保翻译内容与记录的指纹一致（包括大文件的 raw 回退）。
+async function fetchReadme(fullName) {
+  const url = `https://api.github.com/repos/${fullName}/readme`
+  const res = await ghRequest(url, 'application/vnd.github+json')
+  if (res.status === 404) {
+    const repo = await ghRequest(`https://api.github.com/repos/${fullName}`, 'application/vnd.github+json')
+    if (!repo.ok) throw new Error(`仓库不可访问 ${repo.status}`)
+    return { fingerprint: 'none', text: '' }
+  }
+  const data = await res.json()
+  if (!data || data.type !== 'file' || !/^[a-f0-9]{40}$/.test(data.sha) || !Number.isSafeInteger(data.size) || data.size < 0) throw new Error('无效的 README 元数据')
+  let bytes
+  if (data.encoding === 'base64' && typeof data.content === 'string' && /^[A-Za-z0-9+/=\s]*$/.test(data.content)) {
+    bytes = Buffer.from(data.content.replace(/\s/g, ''), 'base64')
+  } else if (data.encoding === 'none') {
+    const raw = await ghRequest(url, 'application/vnd.github.raw+json')
+    if (!raw.ok) throw new Error(`README 正文获取失败 ${raw.status}`)
+    bytes = Buffer.from(await raw.arrayBuffer())
+  } else throw new Error('无效的 README 内容')
+  const hash = createHash('sha1').update(`blob ${bytes.length}\0`).update(bytes).digest('hex')
+  if (bytes.length !== data.size || hash !== data.sha) throw new Error('README 内容与指纹不一致')
+  return { fingerprint: `blob:${data.sha}`, text: bytes.toString('utf8') }
 }
 
 const SYSTEM = `你是开源项目中文技术编辑，为"开源项目雷达"网站编写项目介绍。根据给定信息输出简体中文 JSON：
@@ -100,8 +131,7 @@ const SYSTEM = `你是开源项目中文技术编辑，为"开源项目雷达"�
 - tags：3-6 个简体中文标签
 只输出 JSON 对象本身，不要输出其他内容。`
 
-async function translateOne(r) {
-  const readme = await fetchReadme(r.fullName)
+async function translateOne(r, readme) {
   const user = `项目：${r.fullName}
 描述：${r.description ?? '（无）'}
 主要语言：${r.primaryLanguage ?? '未知'}
@@ -122,56 +152,88 @@ ${readme || '（无）'}`
       ],
     }),
   })
-  if (!res.ok) throw new Error(`LLM ${res.status}：${(await res.text()).slice(0, 200)}`)
+  if (!res.ok) throw new Error(`LLM ${res.status}`)
   const data = await res.json()
   let content = data.choices?.[0]?.message?.content ?? ''
   content = content.trim().replace(/^```(?:json)?\s*/i, '').replace(/```\s*$/, '').trim()
   const p = JSON.parse(content)
+  if (!p || typeof p !== 'object' || Array.isArray(p) || typeof p.summary !== 'string' || !p.summary.trim()) {
+    throw new Error('无效的翻译结果')
+  }
   const cats = (Array.isArray(p.categories) ? p.categories : [p.categories]).filter(
     (c) => typeof c === 'string' && CATEGORIES.includes(c),
   )
   return {
-    positioning: String(p.positioning ?? '').slice(0, 60),
+    positioning: String(p.positioning ?? ''),
     summary: String(p.summary ?? ''),
-    scenarios: (Array.isArray(p.scenarios) ? p.scenarios : []).map(String).filter(Boolean).slice(0, 5),
+    scenarios: (Array.isArray(p.scenarios) ? p.scenarios : []).map(String).filter(Boolean),
     quickStart: String(p.quickStart || '见 README'),
-    categories: cats.length ? cats.slice(0, 2) : ['其他'],
-    tags: (Array.isArray(p.tags) ? p.tags : []).map(String).filter(Boolean).slice(0, 6),
-    sourceHash: srcHash(r),
+    categories: cats.length ? cats : ['其他'],
+    tags: (Array.isArray(p.tags) ? p.tags : []).map(String).filter(Boolean),
     translatedAt: new Date().toISOString(),
   }
 }
 
-const queue = [...todo]
-let done = 0
+const queue = [...stars]
+let translated = 0
 let failed = 0
-
 async function worker() {
   while (queue.length) {
     const r = queue.shift()
-    let ok = false
-    for (let i = 0; i < 3 && !ok; i++) {
+    const entry = state.repos[r.fullName]
+    let readme
+    try {
+      readme = await fetchReadme(r.fullName)
+    } catch {
+      failed++
+      console.error(`✖ ${r.fullName}：README 获取失败，将重试`)
+      continue
+    }
+    const reasons = []
+    if (!zh[r.fullName]) reasons.push('缺少中文翻译')
+    if (entry.newPending) reasons.push('新收藏或重新收藏')
+    if (!entry.baselinePending && entry.fingerprint && entry.fingerprint !== readme.fingerprint) reasons.push('README 内容变化')
+    if (!reasons.length) {
+      if (entry.baselinePending) {
+        entry.fingerprint = readme.fingerprint
+        delete entry.baselinePending
+        saveState()
+      }
+      continue
+    }
+    const reason = reasons.join('、')
+    console.log(`待翻译 ${r.fullName}：${reason}`)
+    if (!KEY || !BASE) {
+      console.log(`⏭ ${r.fullName}：${reason}；未配置 LLM，等待重试`)
+      continue
+    }
+    let result
+    for (let i = 0; i < 3; i++) {
       try {
-        zh[r.fullName] = await translateOne(r)
-        ok = true
-      } catch (e) {
-        if (i === 2) {
-          failed += 1
-          console.error(`  ✖ ${r.fullName}：${e.message}`)
-        } else {
-          await sleep(2000 * 2 ** i)
-        }
+        result = await translateOne(r, readme.text)
+        break
+      } catch {
+        if (i < 2) await sleep(2000 * 2 ** i)
       }
     }
-    done += 1
-    if (done % 10 === 0 || done === todo.length) {
-      console.log(`  进度 ${done}/${todo.length}`)
-      saveZh()
+    if (!result) {
+      failed++
+      console.error(`✖ ${r.fullName}：${reason}；翻译失败，将重试`)
+      continue
     }
+    zh[r.fullName] = result
+    // 先保存翻译，再保存指纹；中断时最多重复翻译，不会漏翻。
+    saveZh()
+    entry.fingerprint = readme.fingerprint
+    delete entry.baselinePending
+    delete entry.newPending
+    saveState()
+    translated++
+    console.log(`✔ ${r.fullName}：${reason}；翻译成功`)
   }
 }
-
-mkdirSync(DATA, { recursive: true })
-await Promise.all(Array.from({ length: Math.min(10, todo.length) }, worker))
-saveZh()
-console.log(`✔ 翻译完成：成功 ${done - failed}，失败 ${failed}`)
+await Promise.all(Array.from({ length: Math.min(10, queue.length) }, worker))
+if (failed) {
+  console.error(`::warning::README 检查或翻译失败 ${failed} 项，将在下次运行重试`)
+  console.log(`⚠ README 检查结束：翻译成功 ${translated}，失败 ${failed}`)
+} else console.log(`✔ README 检查完成：翻译成功 ${translated}，失败 0`)
