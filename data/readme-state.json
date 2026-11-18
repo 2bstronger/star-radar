@@ -22,7 +22,7 @@
     "semaphoreui/semaphore": {
       "active": true,
       "starredAt": "2026-10-31T05:38:22Z",
-      "fingerprint": "blob:22cdf86b070459ce4c3c9f9d86546e60fa97c2a9"
+      "fingerprint": "blob:17596bae3b919b1ff5e997d4c0fa3a57f2d2ab84"
     },
     "orionsheep/wordlink": {
       "active": true,
@@ -569,7 +569,7 @@
     "shanraisshan/claude-code-best-practice": {
       "active": true,
       "starredAt": "2026-07-05T14:31:44Z",
-      "fingerprint": "blob:6b7cfdd18a39aad1f9f06d399abb710f64aa1e99"
+      "fingerprint": "blob:44a49e65f319ea6a39b2e1707649eaf883ae4b2c"
     },
     "Crosstalk-Solutions/project-nomad": {
       "active": true,
@@ -688,8 +688,7 @@
     "colbymchenry/codegraph": {
       "active": true,
       "starredAt": "2026-05-26T02:01:29Z",
-      "newPending": false,
-      "fingerprint": "blob:43b1208fe1e932a3aac1d2fa92dbc3252b2b2dc8"
+      "fingerprint": "blob:a59149abcc4a9eb7c59bbceea593b02a2b2c6cb0"
     },
     "Egonex-AI/Understand-Anything": {
       "active": true,
@@ -807,8 +806,7 @@
     "testssl/testssl.sh": {
       "active": true,
       "starredAt": "2026-04-21T18:09:27Z",
-      "newPending": false,
-      "fingerprint": "blob:8c95f764eb1c13d371b1336d4a2a605cb8139f4c"
+      "fingerprint": "blob:46132b6651ce151ececcc169512718c54d5ec653"
     },
     "multica-ai/andrej-karpathy-skills": {
       "active": true,
@@ -1235,8 +1233,7 @@
     "browser-use/browser-use": {
       "active": true,
       "starredAt": "2026-01-08T10:33:37Z",
-      "newPending": false,
-      "fingerprint": "blob:467fb30f46b7e83aa991301d9e83693ff273c474"
+      "fingerprint": "blob:acc12bb49cbabe0e3f406c4779390fb16f37d5fa"
     },
     "anomalyco/opencode": {
       "active": true,
@@ -1265,8 +1262,7 @@
     "selkies-project/selkies": {
       "active": true,
       "starredAt": "2025-10-28T06:53:07Z",
-      "newPending": false,
-      "fingerprint": "blob:83122b964d619a6b7a4c2c4aea012a46affa6496"
+      "fingerprint": "blob:5a1d5cd467f94a4300e711b0d66f0531d0907279"
     },
     "nickrunning/wechat-selkies": {
       "active": true,
@@ -1431,7 +1427,7 @@
     "murtaza-nasir/speakr": {
       "active": true,
       "starredAt": "2025-05-27T10:23:00Z",
-      "fingerprint": "blob:b8dc2fc15aa0cd57f841926804b7e2f5bd90ddf8"
+      "fingerprint": "blob:d4b92e7e1f26400e1febfc471c68bbf7bd97086a"
     },
     "crossplane/crossplane": {
       "active": true,
@@ -1525,8 +1521,7 @@
     "LibreChat-AI/LibreChat": {
       "active": true,
       "starredAt": "2025-03-14T01:49:15Z",
-      "newPending": false,
-      "fingerprint": "blob:dc19b2347e030448991de3737a89c0cb0fa7f993"
+      "fingerprint": "blob:30ea086e024aa4c3ebb35f7156d556ceb9824de7"
     },
     "chatboxai/chatbox": {
       "active": true,
@@ -1674,8 +1669,7 @@
     "icloud-photos-downloader/icloud_photos_downloader": {
       "active": true,
       "starredAt": "2024-12-02T07:47:16Z",
-      "newPending": false,
-      "fingerprint": "blob:aa1eeb67a39419c386a1db80659687a41c1f6d37"
+      "fingerprint": "blob:571929e36a13e2ba33417dc9bbd9450a04132bed"
     },
     "likeflyme/cloudbak": {
       "active": true,
@@ -1917,8 +1911,7 @@
     "xykt/IPQuality": {
       "active": true,
       "starredAt": "2024-05-26T11:26:54Z",
-      "newPending": false,
-      "fingerprint": "blob:7dcd3980f1926fd5c059851f2564f720eec874d5"
+      "fingerprint": "blob:6966727ae7334b95e1fb3bede820f3fae9f61fb7"
     },
     "solidSpoon/DashPlayer": {
       "active": true,
@@ -2048,7 +2041,7 @@
     "rooktwo/rectg": {
       "active": true,
       "starredAt": "2023-12-18T16:51:21Z",
-      "fingerprint": "blob:3c9d0bef05b664c9584da411ce5c1a4b4706e13b"
+      "fingerprint": "blob:24b205f8d4f82975eaaf055800aa47a0f43eb1b9"
     },
     "pot-app/pot-desktop": {
       "active": true,
@@ -2083,7 +2076,7 @@
     "jason5ng32/MyIP": {
       "active": true,
       "starredAt": "2023-11-28T03:05:40Z",
-      "fingerprint": "blob:a1f91aa4738e1b3dee7d3f158efee9a15ce018fc"
+      "fingerprint": "blob:554c34657a63636d240b83d3ab40880d7e46e8c6"
     },
     "ronggang/transmission-web-control": {
       "active": true,
@@ -2136,8 +2129,7 @@
     "0xERR0R/blocky": {
       "active": true,
       "starredAt": "2023-11-13T06:45:59Z",
-      "newPending": false,
-      "fingerprint": "blob:ae1d3949a57c16f8bd8186bb6ab61a97a994f0b1"
+      "fingerprint": "blob:87abf790ecd464b77a5704857dd67ef286463183"
     },
     "TechnitiumSoftware/DnsServer": {
       "active": true,
@@ -2490,8 +2482,7 @@
     "langbot-app/LangBot": {
       "active": true,
       "starredAt": "2023-06-22T19:06:39Z",
-      "newPending": false,
-      "fingerprint": "blob:78c0bbeaa88c5ba6495ae9f6f1da70cf7f2d6c54"
+      "fingerprint": "blob:f53dc0b7749006ebe911ae58f1598866ce4df117"
     },
     "YunYouJun/birthday": {
       "active": true,
@@ -2794,8 +2785,7 @@
     "coolsnowwolf/lede": {
       "active": true,
       "starredAt": "2023-03-16T00:34:59Z",
-      "newPending": false,
-      "fingerprint": "blob:c47fb9cd78611daac47ad3a0384c48d1347207ab"
+      "fingerprint": "blob:a99342d12a5a8cc6948590d79fb2959ed4d379be"
     },
     "futantan/OpenGpt": {
       "active": true,
@@ -2908,7 +2898,7 @@
     "521xueweihan/GitHub520": {
       "active": true,
       "starredAt": "2023-01-08T14:34:04Z",
-      "fingerprint": "blob:0740dcbfb8fea50fe9f382cdbadda51e528d390d"
+      "fingerprint": "blob:1572f75b14b282ca1c678dbcb3fe32afb04c8604"
     },
     "AdguardTeam/AdGuardHome": {
       "active": true,
@@ -2937,8 +2927,7 @@
     "YunYouJun/cook": {
       "active": true,
       "starredAt": "2022-12-18T12:29:01Z",
-      "newPending": false,
-      "fingerprint": "blob:4184ae6837dd24751beb02e71ff4b0150b30c5d7"
+      "fingerprint": "blob:5d60fb3d6d4aba7d1889d542485aa637d05a656b"
     },
     "DIYgod/RSSHub": {
       "active": true,
@@ -3099,8 +3088,7 @@
     "huiyadanli/RevokeMsgPatcher": {
       "active": true,
       "starredAt": "2022-06-30T07:19:19Z",
-      "newPending": false,
-      "fingerprint": "blob:94aae30b7040bee14ec2fca0a7e08e59e9929b6c"
+      "fingerprint": "blob:b9052810d326108dbe517106420cce068c7c8b8f"
     },
     "qier222/YesPlayMusic": {
       "active": true,
@@ -3302,7 +3290,7 @@
     "ccfos/nightingale": {
       "active": true,
       "starredAt": "2022-04-07T07:28:53Z",
-      "fingerprint": "blob:7e7421a2147eb2e93d956998ebdd8b03e38afcb4"
+      "fingerprint": "blob:de4bfe3b80a85cacbda85f1d9e0492c16c6cba54"
     },
     "labring/laf": {
       "active": true,
@@ -3439,8 +3427,7 @@
     "Anduin2017/HowToCook": {
       "active": true,
       "starredAt": "2022-02-19T08:59:14Z",
-      "newPending": false,
-      "fingerprint": "blob:1bfe167b63edf4e2c0eb799ef8dfa546110e3f1d"
+      "fingerprint": "blob:2e1f1032cf2941f84dcc3f462e298b1b37f47bf2"
     },
     "the1812/Bilibili-Evolved": {
       "active": true,
@@ -3650,6 +3637,11 @@
       "starredAt": "2021-08-24T15:02:28Z",
       "newPending": false,
       "fingerprint": "blob:a1109d580fdbe3ce583c9d5a599aaeac62f9792b"
+    },
+    "Noniv/abyssal-garden": {
+      "active": true,
+      "starredAt": "2026-11-17T06:55:56Z",
+      "fingerprint": "blob:f6147e4420d773bfdcad183761ed50b60fa6093b"
     }
   }
 }
