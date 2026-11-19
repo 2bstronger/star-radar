@@ -39,20 +39,17 @@
     "mobile-next/mobile-mcp": {
       "active": true,
       "starredAt": "2026-10-26T03:44:25Z",
-      "newPending": false,
-      "fingerprint": "blob:eb8b051370d941a874927b58a79d661b889131e6"
+      "fingerprint": "blob:413ae0323df899a27136d5e085f5236cbbb9fbe3"
     },
     "plugin87/ux-ui-agent-skills": {
       "active": true,
       "starredAt": "2026-10-21T14:13:46Z",
-      "newPending": false,
-      "fingerprint": "blob:d7e702c8743895212cb0f817949c9a7e495ed42e"
+      "fingerprint": "blob:0317734792bf0fda7cbc2c5b290016f8f7d98e6a"
     },
     "ShenSeanChen/waku-agent": {
       "active": true,
       "starredAt": "2026-10-21T09:13:31Z",
-      "newPending": false,
-      "fingerprint": "blob:1bb1c3a0b9ad70aa612b6ac9f8f6f637a0e77cb9"
+      "fingerprint": "blob:2569d390a98d0c5894c11abd42fca65c0b34e6cb"
     },
     "anywhere-labs/dsh-desktop": {
       "active": true,
@@ -230,8 +227,7 @@
     "jub0t/Concat": {
       "active": true,
       "starredAt": "2026-09-02T07:38:01Z",
-      "newPending": false,
-      "fingerprint": "blob:b3054b50f5758618312bc75c36a23a1e020738a6"
+      "fingerprint": "blob:2f1bd37968097822955d65f11281f34847e4cf84"
     },
     "daimon3332/address": {
       "active": true,
@@ -320,8 +316,7 @@
     "3441293738/creatorhub": {
       "active": true,
       "starredAt": "2026-08-26T02:54:31Z",
-      "newPending": false,
-      "fingerprint": "blob:ff4e0ebda26de4f6bac8a8862ce34fd171016fa7"
+      "fingerprint": "blob:321cee78427bc7cc7aff2c7ea8dd8d7a74e50d11"
     },
     "iAmCorey/Wake": {
       "active": true,
@@ -569,7 +564,7 @@
     "shanraisshan/claude-code-best-practice": {
       "active": true,
       "starredAt": "2026-07-05T14:31:44Z",
-      "fingerprint": "blob:44a49e65f319ea6a39b2e1707649eaf883ae4b2c"
+      "fingerprint": "blob:bdc14fd5df8a0abc3baeefa4555cb1fd80f93b03"
     },
     "Crosstalk-Solutions/project-nomad": {
       "active": true,
@@ -682,13 +677,12 @@
     "BigPizzaV3/CodexPlusPlus": {
       "active": true,
       "starredAt": "2026-05-26T09:18:01Z",
-      "newPending": false,
-      "fingerprint": "blob:6ab26559dd486675acf83dc6ffc806819ee72b83"
+      "fingerprint": "blob:f3c5b76480c6696dd8014749fbdb0acfe8c6b161"
     },
     "colbymchenry/codegraph": {
       "active": true,
       "starredAt": "2026-05-26T02:01:29Z",
-      "fingerprint": "blob:a59149abcc4a9eb7c59bbceea593b02a2b2c6cb0"
+      "fingerprint": "blob:eb7c17bd1c28384344d6907f913d6cc7b9d32dd1"
     },
     "Egonex-AI/Understand-Anything": {
       "active": true,
@@ -705,8 +699,7 @@
     "jipika/WaifuX": {
       "active": true,
       "starredAt": "2026-05-24T01:44:45Z",
-      "newPending": false,
-      "fingerprint": "blob:f9455b677afeeefcd5aa4afea1259437f089a93f"
+      "fingerprint": "blob:deac07c16003cab117e5b9f6831132da91c7636b"
     },
     "himomohi/AirTranslate": {
       "active": true,
@@ -877,8 +870,7 @@
     "beclab/Olares": {
       "active": true,
       "starredAt": "2026-04-08T08:06:54Z",
-      "newPending": false,
-      "fingerprint": "blob:7be573e4124f9ab6fb783c40224950c63a94fecb"
+      "fingerprint": "blob:4d1719542cb899d75d6609e474c9b1c6ea0c38ab"
     },
     "Wei-Shaw/sub2api": {
       "active": true,
@@ -1048,14 +1040,12 @@
     "linshenkx/prompt-optimizer": {
       "active": true,
       "starredAt": "2026-02-13T07:53:55Z",
-      "newPending": false,
-      "fingerprint": "blob:744150acbfc86c932df6bec6a1eb6f61d3ff8922"
+      "fingerprint": "blob:b7c81f781349b8efd8564d830bdd6bfa0b5c5b10"
     },
     "SwanHubX/SwanLab": {
       "active": true,
       "starredAt": "2026-02-13T07:52:12Z",
-      "newPending": false,
-      "fingerprint": "blob:e45627801ec220a026b1c518bf16eef0922d32d6"
+      "fingerprint": "blob:d1032f2e806479557ef9bb2dc5063247cf1aecd7"
     },
     "rustfs/rustfs": {
       "active": true,
@@ -1233,7 +1223,7 @@
     "browser-use/browser-use": {
       "active": true,
       "starredAt": "2026-01-08T10:33:37Z",
-      "fingerprint": "blob:acc12bb49cbabe0e3f406c4779390fb16f37d5fa"
+      "fingerprint": "blob:611aef4b030a77f8ee3bd4d338e41922dcf2c5b2"
     },
     "anomalyco/opencode": {
       "active": true,
@@ -1262,7 +1252,7 @@
     "selkies-project/selkies": {
       "active": true,
       "starredAt": "2025-10-28T06:53:07Z",
-      "fingerprint": "blob:5a1d5cd467f94a4300e711b0d66f0531d0907279"
+      "fingerprint": "blob:5ac3dfca435e72caadab9f2d1661cdae891853f3"
     },
     "nickrunning/wechat-selkies": {
       "active": true,
@@ -1326,8 +1316,7 @@
     "wshobson/agents": {
       "active": true,
       "starredAt": "2025-09-08T09:31:54Z",
-      "newPending": false,
-      "fingerprint": "blob:52b4542456850a2ec4ffed9b92824c8aa10045bf"
+      "fingerprint": "blob:f220449579d22c87ac1d91190aa64fc1df7ed87a"
     },
     "9001/copyparty": {
       "active": true,
@@ -1415,8 +1404,7 @@
     "pipecat-ai/pipecat": {
       "active": true,
       "starredAt": "2025-06-09T08:56:16Z",
-      "newPending": false,
-      "fingerprint": "blob:ffe214d076ecf69d7c84f9aca417cdf4e27ec49a"
+      "fingerprint": "blob:3abb7d153b3c5b10dc9117e1bc204cdefede6c71"
     },
     "JefferyHcool/BiliNote": {
       "active": true,
@@ -1473,8 +1461,7 @@
     "boypt/openssh-rpms": {
       "active": true,
       "starredAt": "2025-04-08T03:32:18Z",
-      "newPending": false,
-      "fingerprint": "blob:c4288e6bc42cb7ae384ada3fe1b54705d4ad6ca5"
+      "fingerprint": "blob:4edd0b810474752ee040092016f3abb2ded0ba39"
     },
     "xykt/NetQuality": {
       "active": true,
@@ -1503,8 +1490,7 @@
     "passteque/gluetun": {
       "active": true,
       "starredAt": "2025-03-19T02:36:30Z",
-      "newPending": false,
-      "fingerprint": "blob:3422ff92ac128026a9e155bd38dc573d359eb484"
+      "fingerprint": "blob:b23afb65dbb814becffb118d151e873f413bcf83"
     },
     "winfunc/deepreasoning": {
       "active": true,
@@ -1538,8 +1524,7 @@
     "JOYCEQL/magic-resume": {
       "active": true,
       "starredAt": "2025-03-12T01:25:33Z",
-      "newPending": false,
-      "fingerprint": "blob:4ed6b2228c0751672dc631f4ea2d8d4c1c1883e7"
+      "fingerprint": "blob:3239a34c3c10c8857fa3843c920408e440f0a5e4"
     },
     "WEIFENG2333/VideoCaptioner": {
       "active": true,
@@ -1634,7 +1619,7 @@
     "vzhd1701/gridplayer": {
       "active": true,
       "starredAt": "2024-12-20T03:21:06Z",
-      "fingerprint": "blob:64075afab8861ccb2f946def009929f2e6bb5919"
+      "fingerprint": "blob:1491323367a5734eb5522b84f8fcfd75e05a92e4"
     },
     "dgtlmoon/changedetection.io": {
       "active": true,
@@ -2041,7 +2026,7 @@
     "rooktwo/rectg": {
       "active": true,
       "starredAt": "2023-12-18T16:51:21Z",
-      "fingerprint": "blob:24b205f8d4f82975eaaf055800aa47a0f43eb1b9"
+      "fingerprint": "blob:d366a0dfa260b7cfc7e6bf250b026bb1bcb34c86"
     },
     "pot-app/pot-desktop": {
       "active": true,
@@ -2434,8 +2419,7 @@
     "xx025/carrot": {
       "active": true,
       "starredAt": "2023-07-16T12:48:57Z",
-      "newPending": false,
-      "fingerprint": "blob:423e271f6ac1825fa46b77208810ce9090ffbb41"
+      "fingerprint": "blob:942e8c4e8e4de8ecd4b12995ea99fc3dcd01da47"
     },
     "chaitin/SafeLine": {
       "active": true,
@@ -2898,7 +2882,7 @@
     "521xueweihan/GitHub520": {
       "active": true,
       "starredAt": "2023-01-08T14:34:04Z",
-      "fingerprint": "blob:1572f75b14b282ca1c678dbcb3fe32afb04c8604"
+      "fingerprint": "blob:d24b22b4cef96146afe966cdabf57ac1c9b3bb14"
     },
     "AdguardTeam/AdGuardHome": {
       "active": true,
@@ -3379,8 +3363,7 @@
     "hoochanlon/fq-book": {
       "active": true,
       "starredAt": "2022-03-30T08:47:21Z",
-      "newPending": false,
-      "fingerprint": "blob:be5e5dee72bd8479c9db3f0ec25944ffd14778f6"
+      "fingerprint": "blob:3d10622a480978f76a2f7dbdaa0160398d1c090b"
     },
     "hoochanlon/hamuleite": {
       "active": true,
@@ -3473,8 +3456,7 @@
     "gogs/gogs": {
       "active": true,
       "starredAt": "2021-12-27T04:20:05Z",
-      "newPending": false,
-      "fingerprint": "blob:d06a6501b15a3981b07cdf4adcd7e223fdeb81e9"
+      "fingerprint": "blob:661f96be1615b200d25b5bc1c6fe90c465ae7dd1"
     },
     "go-gitea/gitea": {
       "active": true,
@@ -3642,6 +3624,11 @@
       "active": true,
       "starredAt": "2026-11-17T06:55:56Z",
       "fingerprint": "blob:f6147e4420d773bfdcad183761ed50b60fa6093b"
+    },
+    "hypit-ai/hypit": {
+      "active": true,
+      "starredAt": "2026-11-18T08:49:08Z",
+      "fingerprint": "blob:e1c6a36a448b48687b4a77a39080bc2b3b536bed"
     }
   }
 }
