@@ -137,7 +137,7 @@
     "EveningStudy/asmr-dubber": {
       "active": true,
       "starredAt": "2026-09-11T03:53:13Z",
-      "fingerprint": "blob:b490adc2331269579955beaf4466b44f7a077609"
+      "fingerprint": "blob:2d0d924c4c3e5311cf7820edba4c470ced831c37"
     },
     "nashsu/llm_wiki": {
       "active": true,
@@ -184,14 +184,12 @@
     "neopen/story-shot-agent": {
       "active": true,
       "starredAt": "2026-09-04T11:00:52Z",
-      "newPending": false,
-      "fingerprint": "blob:7f49ef403e73c1f3ded9ca8eb899ea1ac5fd6132"
+      "fingerprint": "blob:033c525b8b9caea1b96d30ed00cd90ade5e661ef"
     },
     "LIUFelix2004/God-minmax-H3": {
       "active": true,
       "starredAt": "2026-09-03T21:46:41Z",
-      "newPending": false,
-      "fingerprint": "blob:611fd3b8fb022602e77357d84d21af9179bc64b2"
+      "fingerprint": "blob:c5587eee6263963a69e7034a79f5c96e0247d463"
     },
     "chen2he/orange-cloud": {
       "active": true,
@@ -315,7 +313,7 @@
     "3441293738/creatorhub": {
       "active": true,
       "starredAt": "2026-08-26T02:54:31Z",
-      "fingerprint": "blob:2581aee418c3bc89f33389736c79b3b47c9685b0"
+      "fingerprint": "blob:6c07951201ff9d92f4ff14f5b617211aee0fab76"
     },
     "iAmCorey/Wake": {
       "active": true,
@@ -432,8 +430,7 @@
     "MDX-Tom/gpt-instruct": {
       "active": true,
       "starredAt": "2026-07-28T03:12:26Z",
-      "newPending": false,
-      "fingerprint": "blob:ca5f0fcce2b0ba46af4aeb3a3914de498d7c9746"
+      "fingerprint": "blob:10d6259324f58903c59c67d9d1b12082af4ccb90"
     },
     "shengjidaguai-china/goutoujunshi": {
       "active": true,
@@ -485,8 +482,7 @@
     "drduh/macOS-Security-and-Privacy-Guide": {
       "active": true,
       "starredAt": "2026-07-16T01:57:53Z",
-      "newPending": false,
-      "fingerprint": "blob:77418b3fe2af82f4478f3937cc3bb9445ec7ce12"
+      "fingerprint": "blob:b282dedce1f0d1635f2c811951ec95080bc35a6a"
     },
     "manaflow-ai/cmux": {
       "active": true,
@@ -532,7 +528,7 @@
     "raojiacui/prompt-lens": {
       "active": true,
       "starredAt": "2026-07-12T06:41:33Z",
-      "fingerprint": "blob:b489bfc6117264163fae0d3c29e99a6be7028e95"
+      "fingerprint": "blob:a57316170805f785768bb4606e6dac994261eb2a"
     },
     "dominostars/playtranslate": {
       "active": true,
@@ -543,8 +539,7 @@
     "BigDawnGhost/wenyi": {
       "active": true,
       "starredAt": "2026-07-09T14:45:19Z",
-      "newPending": false,
-      "fingerprint": "blob:fddac8e5336d0fe5cb42c34ef3cdb1cfd05a64d6"
+      "fingerprint": "blob:466c6b5d4c471ed68dbdbe940bce8dfd87529cc1"
     },
     "rokartur/BetterCmdTab": {
       "active": true,
@@ -561,7 +556,7 @@
     "shanraisshan/claude-code-best-practice": {
       "active": true,
       "starredAt": "2026-07-05T14:31:44Z",
-      "fingerprint": "blob:b95939f5712e2a820f0a476fae24aece09ad0b36"
+      "fingerprint": "blob:f0ba735a0588ff1f224befe76069a45bf3318ea8"
     },
     "Crosstalk-Solutions/project-nomad": {
       "active": true,
@@ -572,7 +567,7 @@
     "hyperfield/ai-file-sorter": {
       "active": true,
       "starredAt": "2026-07-05T14:17:32Z",
-      "fingerprint": "blob:5ce3e8f4e0390752769a29dd4b03e6ff1f1af3da"
+      "fingerprint": "blob:8c182329d3649812a8c2f38fe494790bc6651b64"
     },
     "luongnv89/claude-howto": {
       "active": true,
@@ -673,12 +668,12 @@
     "BigPizzaV3/CodexPlusPlus": {
       "active": true,
       "starredAt": "2026-05-26T09:18:01Z",
-      "fingerprint": "blob:11925e7120c4daeb21d1a1953e3bcd3bdd08f597"
+      "fingerprint": "blob:f79a09dbf0091129503174c2c1b392fdedf56291"
     },
     "colbymchenry/codegraph": {
       "active": true,
       "starredAt": "2026-05-26T02:01:29Z",
-      "fingerprint": "blob:e8c175fb7346d621d0fbdc4bc9ec1c947015618c"
+      "fingerprint": "blob:76913933e5641e1575fa0fe6466b840889c84bce"
     },
     "Egonex-AI/Understand-Anything": {
       "active": true,
@@ -1081,8 +1076,7 @@
     "HuLaSpark/HuLa": {
       "active": true,
       "starredAt": "2026-02-13T07:07:33Z",
-      "newPending": false,
-      "fingerprint": "blob:598062d39434c1574aeaf65816497b1ccfec1856"
+      "fingerprint": "blob:c2a19d1618e76ed43b8e6a36afd5db80aca75eee"
     },
     "vikiboss/60s": {
       "active": true,
@@ -1219,7 +1213,7 @@
     "browser-use/browser-use": {
       "active": true,
       "starredAt": "2026-01-08T10:33:37Z",
-      "fingerprint": "blob:611aef4b030a77f8ee3bd4d338e41922dcf2c5b2"
+      "fingerprint": "blob:af10fe22f45d0b117c1c3b88429e0eb2080ef40f"
     },
     "anomalyco/opencode": {
       "active": true,
@@ -1230,8 +1224,7 @@
     "code-yeongyu/oh-my-openagent": {
       "active": true,
       "starredAt": "2026-01-07T03:54:02Z",
-      "newPending": false,
-      "fingerprint": "blob:290d5ac71787a0f362b253a4426f43da1d04b238"
+      "fingerprint": "blob:3db037bb599b4e2ea1b5e4236dd097a93d3c464c"
     },
     "tonyantony300/dashbeam": {
       "active": true,
@@ -1433,8 +1426,7 @@
     "runjuu/InputSourcePro": {
       "active": true,
       "starredAt": "2025-05-05T13:05:02Z",
-      "newPending": false,
-      "fingerprint": "blob:4176f3d965d429f810375756b23a6c79ee82b15e"
+      "fingerprint": "blob:9f201f87265c99d347648447147599cc93d2424d"
     },
     "lihaoyun6/QuickRecorder": {
       "active": true,
@@ -1484,7 +1476,7 @@
     "passteque/gluetun": {
       "active": true,
       "starredAt": "2025-03-19T02:36:30Z",
-      "fingerprint": "blob:b23afb65dbb814becffb118d151e873f413bcf83"
+      "fingerprint": "blob:2871f06686e9fe2a4e4c0d1a951fab7ff1d03724"
     },
     "winfunc/deepreasoning": {
       "active": true,
@@ -1613,7 +1605,7 @@
     "vzhd1701/gridplayer": {
       "active": true,
       "starredAt": "2024-12-20T03:21:06Z",
-      "fingerprint": "blob:6bbd01180beedb8aee353733f0a929abe854c50a"
+      "fingerprint": "blob:1990645b219f118b480f95d1a829cc5aac3d308f"
     },
     "dgtlmoon/changedetection.io": {
       "active": true,
@@ -1648,7 +1640,7 @@
     "icloud-photos-downloader/icloud_photos_downloader": {
       "active": true,
       "starredAt": "2024-12-02T07:47:16Z",
-      "fingerprint": "blob:61a69bb825513ea406ffa1d804d1f233d2a5bf8e"
+      "fingerprint": "blob:33ebfb7bfb82c09516386498103b80eb1864fe63"
     },
     "likeflyme/cloudbak": {
       "active": true,
@@ -2020,7 +2012,7 @@
     "rooktwo/rectg": {
       "active": true,
       "starredAt": "2023-12-18T16:51:21Z",
-      "fingerprint": "blob:ceb5698f5a22e79bec632ef0c458ad2ef9c5ef04"
+      "fingerprint": "blob:afc20dc1899f65f170583713f5ea8c73926435ef"
     },
     "pot-app/pot-desktop": {
       "active": true,
@@ -2453,7 +2445,7 @@
     "zhayujie/CowAgent": {
       "active": true,
       "starredAt": "2023-06-22T21:49:50Z",
-      "fingerprint": "blob:ac8e61c264df03f31427cdb2cdae4fd974ffe03f"
+      "fingerprint": "blob:e0d507dcf5502fac69ac3627746f831f8df75261"
     },
     "langbot-app/LangBot": {
       "active": true,
@@ -2760,7 +2752,7 @@
     "coolsnowwolf/lede": {
       "active": true,
       "starredAt": "2023-03-16T00:34:59Z",
-      "fingerprint": "blob:a04805c743b3eb90d58ba4b94ee1f871a3a49058"
+      "fingerprint": "blob:3f07c2b690e4b057ad37bfc851a5a074d8dacc93"
     },
     "futantan/OpenGpt": {
       "active": true,
@@ -2873,7 +2865,7 @@
     "521xueweihan/GitHub520": {
       "active": true,
       "starredAt": "2023-01-08T14:34:04Z",
-      "fingerprint": "blob:28a3d64bb3d3337d1743486f3c73b29192cc67b1"
+      "fingerprint": "blob:8151b0138c8e7b6f2c317d4fbd2dc1c49ff9f084"
     },
     "AdguardTeam/AdGuardHome": {
       "active": true,
@@ -3186,8 +3178,7 @@
     "dbeaver/dbeaver": {
       "active": true,
       "starredAt": "2022-05-20T07:37:28Z",
-      "newPending": false,
-      "fingerprint": "blob:090775fbe59e4be1ff280add77a39bfbc93621e5"
+      "fingerprint": "blob:9635e301d13409e2a9fe934cb38e3a0b4fb4f5e2"
     },
     "feiyu563/PrometheusAlert": {
       "active": true,
@@ -3623,6 +3614,11 @@
       "active": true,
       "starredAt": "2026-11-19T04:24:03Z",
       "fingerprint": "blob:13a3503b410d48b181e7103fb3a93fa006b1d928"
+    },
+    "sqlpxc/airhand": {
+      "active": true,
+      "starredAt": "2026-11-20T09:31:45Z",
+      "fingerprint": "blob:0a279bed61650150c4a147e6bb51e99ccda34f27"
     }
   }
 }
