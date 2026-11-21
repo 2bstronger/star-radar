@@ -49,7 +49,7 @@
     "ShenSeanChen/waku-agent": {
       "active": true,
       "starredAt": "2026-10-21T09:13:31Z",
-      "fingerprint": "blob:55b928199be989e7b71c1b432a31dd2eef345d9a"
+      "fingerprint": "blob:e016974cb6843c97a447bbadfb575b45827d3d3d"
     },
     "anywhere-labs/dsh-desktop": {
       "active": true,
@@ -137,7 +137,7 @@
     "EveningStudy/asmr-dubber": {
       "active": true,
       "starredAt": "2026-09-11T03:53:13Z",
-      "fingerprint": "blob:2d0d924c4c3e5311cf7820edba4c470ced831c37"
+      "fingerprint": "blob:231fe26024843b2cb6d1c12b4bcf4e78454d75d3"
     },
     "nashsu/llm_wiki": {
       "active": true,
@@ -313,7 +313,7 @@
     "3441293738/creatorhub": {
       "active": true,
       "starredAt": "2026-08-26T02:54:31Z",
-      "fingerprint": "blob:6c07951201ff9d92f4ff14f5b617211aee0fab76"
+      "fingerprint": "blob:ae069734866c2f6f6babff125c26ce06c94140c8"
     },
     "iAmCorey/Wake": {
       "active": true,
@@ -354,8 +354,7 @@
     "DietrichGebert/ponytail": {
       "active": true,
       "starredAt": "2026-08-19T03:28:08Z",
-      "newPending": false,
-      "fingerprint": "blob:ff6a92573ef6412495055d979cff1d7464e1fa65"
+      "fingerprint": "blob:a7cedde0f1e3898cd498046fb2695b0989a65f52"
     },
     "Jaksay/Linux-Router": {
       "active": true,
@@ -430,7 +429,7 @@
     "MDX-Tom/gpt-instruct": {
       "active": true,
       "starredAt": "2026-07-28T03:12:26Z",
-      "fingerprint": "blob:10d6259324f58903c59c67d9d1b12082af4ccb90"
+      "fingerprint": "blob:9a04bcabf9e1d595e995e5ee61e5a2ea7e4ace77"
     },
     "shengjidaguai-china/goutoujunshi": {
       "active": true,
@@ -523,12 +522,12 @@
     "FrizzleM/SideInstaller": {
       "active": true,
       "starredAt": "2026-07-13T15:44:22Z",
-      "fingerprint": "blob:72f99931f0f665b6e60bccdf6bb868358cb9ef92"
+      "fingerprint": "blob:deb74ad1ec02f26a5fdb8e4542bfdbeec63dea47"
     },
     "raojiacui/prompt-lens": {
       "active": true,
       "starredAt": "2026-07-12T06:41:33Z",
-      "fingerprint": "blob:a57316170805f785768bb4606e6dac994261eb2a"
+      "fingerprint": "blob:5ae1caf636fa602b10a82d7ec1e314261f7fd390"
     },
     "dominostars/playtranslate": {
       "active": true,
@@ -550,13 +549,12 @@
     "hanliang97/MatrixMedia": {
       "active": true,
       "starredAt": "2026-07-07T07:32:56Z",
-      "newPending": false,
-      "fingerprint": "blob:634db286aa3adcbe957a440b27b8e6d5bb11bd1d"
+      "fingerprint": "blob:c68a04a60b42481a93395d2920d7e4d9f1926ba6"
     },
     "shanraisshan/claude-code-best-practice": {
       "active": true,
       "starredAt": "2026-07-05T14:31:44Z",
-      "fingerprint": "blob:f0ba735a0588ff1f224befe76069a45bf3318ea8"
+      "fingerprint": "blob:12cd9b60e982464c2ff4a5bc0f23b2952295ac2e"
     },
     "Crosstalk-Solutions/project-nomad": {
       "active": true,
@@ -620,8 +618,7 @@
     "hicccc77/WeFlow": {
       "active": true,
       "starredAt": "2026-06-03T03:32:54Z",
-      "newPending": false,
-      "fingerprint": "blob:91a187a41fe29b29bca3f9f3640af5dfc457eb6e"
+      "fingerprint": "blob:2789264fee1276dc75bf465323ff92d3e48e1a97"
     },
     "k8sgpt-ai/k8sgpt": {
       "active": true,
@@ -695,8 +692,7 @@
     "himomohi/AirTranslate": {
       "active": true,
       "starredAt": "2026-05-22T10:06:01Z",
-      "newPending": false,
-      "fingerprint": "blob:7cbf0a643abaf49ce2e72ff7a7426adc4ea09505"
+      "fingerprint": "blob:6a675d2f6b22c891958aa21f694dbcbe982a82d7"
     },
     "buoooou/v2ray-clash-clients-download": {
       "active": true,
@@ -1117,8 +1113,7 @@
     "pranshuparmar/witr": {
       "active": true,
       "starredAt": "2026-01-29T06:12:33Z",
-      "newPending": false,
-      "fingerprint": "blob:7663f97994fae2b3d5fe2ea5013cf34a599d255f"
+      "fingerprint": "blob:8072d53f8e79e89cb37b98b56757017fbd19cc57"
     },
     "nicejade/gpt-wordbook": {
       "active": true,
@@ -1281,7 +1276,7 @@
     "musistudio/claude-code-router": {
       "active": true,
       "starredAt": "2025-09-08T09:32:17Z",
-      "fingerprint": "blob:84d10ddebbd32eaa35659d11de3e8652b334f83f"
+      "fingerprint": "blob:73060bddd8e75f33eeefb5ffb7d1289b2da77a2d"
     },
     "hesreallyhim/awesome-claude-code": {
       "active": true,
@@ -1403,7 +1398,7 @@
     "murtaza-nasir/speakr": {
       "active": true,
       "starredAt": "2025-05-27T10:23:00Z",
-      "fingerprint": "blob:d4b92e7e1f26400e1febfc471c68bbf7bd97086a"
+      "fingerprint": "blob:b8ca93e1f2e4d063abfa3ef41afc3565e79f9a17"
     },
     "crossplane/crossplane": {
       "active": true,
@@ -1593,8 +1588,7 @@
     "awesome-android-root/awesome-android-root": {
       "active": true,
       "starredAt": "2024-12-20T04:35:30Z",
-      "newPending": false,
-      "fingerprint": "blob:e20bdc4103201543d5207b270a2a86421bbd92c6"
+      "fingerprint": "blob:50f5acddaf94f1d48c9fe49014168512321f5401"
     },
     "zetaloop/keyviz": {
       "active": true,
@@ -1640,7 +1634,7 @@
     "icloud-photos-downloader/icloud_photos_downloader": {
       "active": true,
       "starredAt": "2024-12-02T07:47:16Z",
-      "fingerprint": "blob:33ebfb7bfb82c09516386498103b80eb1864fe63"
+      "fingerprint": "blob:e549ad2f2c912092e8e1d90d3ac10cf357062e47"
     },
     "likeflyme/cloudbak": {
       "active": true,
@@ -2001,7 +1995,7 @@
     "FluentRead/FluentRead": {
       "active": true,
       "starredAt": "2023-12-25T06:40:14Z",
-      "fingerprint": "blob:8b6d3f428794c4d8af731a62b1f0fce5758eb31f"
+      "fingerprint": "blob:5435e24ff7bac7e73956debaded9507b3f36f20b"
     },
     "loonggg/DevMoneySharing": {
       "active": true,
@@ -2012,7 +2006,7 @@
     "rooktwo/rectg": {
       "active": true,
       "starredAt": "2023-12-18T16:51:21Z",
-      "fingerprint": "blob:afc20dc1899f65f170583713f5ea8c73926435ef"
+      "fingerprint": "blob:938eb925378362094c29bb7cbfbe38b2f46fdb6a"
     },
     "pot-app/pot-desktop": {
       "active": true,
@@ -2404,7 +2398,7 @@
     "xx025/carrot": {
       "active": true,
       "starredAt": "2023-07-16T12:48:57Z",
-      "fingerprint": "blob:942e8c4e8e4de8ecd4b12995ea99fc3dcd01da47"
+      "fingerprint": "blob:306b6b82ef4e49f67e7e5b04f00fef7686af0296"
     },
     "chaitin/SafeLine": {
       "active": true,
@@ -2497,8 +2491,7 @@
     "spacedriveapp/spacedrive": {
       "active": true,
       "starredAt": "2023-06-07T03:05:45Z",
-      "newPending": false,
-      "fingerprint": "blob:f72c32eb7d0735332b960d84fd467493db5c2cae"
+      "fingerprint": "blob:64b9428490efddfc00cbbdbd5cf797545245c318"
     },
     "danicat/pacgo": {
       "active": true,
@@ -2526,8 +2519,7 @@
     "BeyondDimension/SteamTools": {
       "active": true,
       "starredAt": "2023-06-05T05:12:46Z",
-      "newPending": false,
-      "fingerprint": "blob:b46ec32e730a67a628981402f4e309a1299dda4d"
+      "fingerprint": "blob:0a52e7a0ba4fd87c0ca85b5e804f1c0cbdf15da5"
     },
     "Foundry376/Mailspring": {
       "active": true,
@@ -2865,7 +2857,7 @@
     "521xueweihan/GitHub520": {
       "active": true,
       "starredAt": "2023-01-08T14:34:04Z",
-      "fingerprint": "blob:8151b0138c8e7b6f2c317d4fbd2dc1c49ff9f084"
+      "fingerprint": "blob:9d938e1394edbbb714e330214e41fc8cbeb46549"
     },
     "AdguardTeam/AdGuardHome": {
       "active": true,
@@ -2983,8 +2975,7 @@
     "cubxxw/awesome-cs-cloudnative-blockchain": {
       "active": true,
       "starredAt": "2022-11-10T07:58:25Z",
-      "newPending": false,
-      "fingerprint": "blob:c452a8b7d5bda13ab1644743b138b64395a12921"
+      "fingerprint": "blob:62872a36641abced631f78903fa486e06444a6a7"
     },
     "ryanhanwu/How-To-Ask-Questions-The-Smart-Way": {
       "active": true,
@@ -3437,7 +3428,7 @@
     "gogs/gogs": {
       "active": true,
       "starredAt": "2021-12-27T04:20:05Z",
-      "fingerprint": "blob:661f96be1615b200d25b5bc1c6fe90c465ae7dd1"
+      "fingerprint": "blob:d3a37dbc4f3323942e122cc51e1fa6608c538615"
     },
     "go-gitea/gitea": {
       "active": true,
@@ -3618,7 +3609,7 @@
     "sqlpxc/airhand": {
       "active": true,
       "starredAt": "2026-11-20T09:31:45Z",
-      "fingerprint": "blob:0a279bed61650150c4a147e6bb51e99ccda34f27"
+      "fingerprint": "blob:329d5d852fe45b8ded3c9fbbf88c622027320882"
     }
   }
 }
