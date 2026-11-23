@@ -39,7 +39,7 @@
     "mobile-next/mobile-mcp": {
       "active": true,
       "starredAt": "2026-10-26T03:44:25Z",
-      "fingerprint": "blob:413ae0323df899a27136d5e085f5236cbbb9fbe3"
+      "fingerprint": "blob:8ab29ae8632a0eaac2c26f8eb38de42ba41dc14c"
     },
     "plugin87/ux-ui-agent-skills": {
       "active": true,
@@ -137,7 +137,7 @@
     "EveningStudy/asmr-dubber": {
       "active": true,
       "starredAt": "2026-09-11T03:53:13Z",
-      "fingerprint": "blob:231fe26024843b2cb6d1c12b4bcf4e78454d75d3"
+      "fingerprint": "blob:1c8771559dbda11e2d672ddd585ccc9e1ef652fc"
     },
     "nashsu/llm_wiki": {
       "active": true,
@@ -224,7 +224,7 @@
     "jub0t/Concat": {
       "active": true,
       "starredAt": "2026-09-02T07:38:01Z",
-      "fingerprint": "blob:55dacbd5749db1bbe56ca2b5529b4c203b200c14"
+      "fingerprint": "blob:80dd06f0d24f22b6de0b70e5061d7360b0256498"
     },
     "daimon3332/address": {
       "active": true,
@@ -247,8 +247,7 @@
     "tt-a1i/archify": {
       "active": true,
       "starredAt": "2026-08-29T04:19:38Z",
-      "newPending": false,
-      "fingerprint": "blob:c9efdb48e9c62aaba78088f9b6c2429d4af2dbb9"
+      "fingerprint": "blob:4ec1e535976b4227f5948b3631e47b2ede494358"
     },
     "gauthierpiarrette/highball": {
       "active": true,
@@ -429,7 +428,7 @@
     "MDX-Tom/gpt-instruct": {
       "active": true,
       "starredAt": "2026-07-28T03:12:26Z",
-      "fingerprint": "blob:9a04bcabf9e1d595e995e5ee61e5a2ea7e4ace77"
+      "fingerprint": "blob:08fa7b4877353c51456ca46fece746b85540ce0e"
     },
     "shengjidaguai-china/goutoujunshi": {
       "active": true,
@@ -440,8 +439,7 @@
     "MartinDelophy/ai-video-editor": {
       "active": true,
       "starredAt": "2026-07-27T23:44:39Z",
-      "newPending": false,
-      "fingerprint": "blob:7cbec0ac228be22759cf97a6732ab14527b4f22e"
+      "fingerprint": "blob:eb9aa8b715c8c12b17b648ffc297e42c9b13aae5"
     },
     "HaujetZhao/SubTap": {
       "active": true,
@@ -554,7 +552,7 @@
     "shanraisshan/claude-code-best-practice": {
       "active": true,
       "starredAt": "2026-07-05T14:31:44Z",
-      "fingerprint": "blob:12cd9b60e982464c2ff4a5bc0f23b2952295ac2e"
+      "fingerprint": "blob:6f9b7089e0de946570807a82978540fd7339b70e"
     },
     "Crosstalk-Solutions/project-nomad": {
       "active": true,
@@ -681,8 +679,7 @@
     "UniClipboard/UniClipboard": {
       "active": true,
       "starredAt": "2026-05-25T18:32:29Z",
-      "newPending": false,
-      "fingerprint": "blob:e404639b7a09ef9c032858367b7d0cee417ec18e"
+      "fingerprint": "blob:b1b1646c44b9e3c323fd79158931cc678cc69f49"
     },
     "jipika/WaifuX": {
       "active": true,
@@ -692,7 +689,7 @@
     "himomohi/AirTranslate": {
       "active": true,
       "starredAt": "2026-05-22T10:06:01Z",
-      "fingerprint": "blob:6a675d2f6b22c891958aa21f694dbcbe982a82d7"
+      "fingerprint": "blob:96232404dda9abb28faea19613e066255a23f468"
     },
     "buoooou/v2ray-clash-clients-download": {
       "active": true,
@@ -885,8 +882,7 @@
     "wechaty/wechaty": {
       "active": true,
       "starredAt": "2026-03-31T09:39:27Z",
-      "newPending": false,
-      "fingerprint": "blob:6b3eb716fcc5f8b38cd8a8c99a05d3c22f85a1f9"
+      "fingerprint": "blob:a73f72f2e8df25ba528235dff715bf934a2ab08e"
     },
     "lifedever/PasteMemo": {
       "active": true,
@@ -1060,14 +1056,12 @@
     "subframe7536/maple-font": {
       "active": true,
       "starredAt": "2026-02-13T07:07:41Z",
-      "newPending": false,
-      "fingerprint": "blob:b3702b2c7f5a7cb80f4ea65a81c35d93462dd7bf"
+      "fingerprint": "blob:5ccb21586ebe166b847bf7b4c15b022c076bf3c6"
     },
     "jingyaogong/minimind": {
       "active": true,
       "starredAt": "2026-02-13T07:07:37Z",
-      "newPending": false,
-      "fingerprint": "blob:1b11a450c0e50ba81f7072103020c859cb90ac0e"
+      "fingerprint": "blob:d75169c010f200c50707b0e99eb242a2d7d10bc3"
     },
     "HuLaSpark/HuLa": {
       "active": true,
@@ -1208,7 +1202,7 @@
     "browser-use/browser-use": {
       "active": true,
       "starredAt": "2026-01-08T10:33:37Z",
-      "fingerprint": "blob:af10fe22f45d0b117c1c3b88429e0eb2080ef40f"
+      "fingerprint": "blob:c008578af5b4b60406097d1c3b41633212c9d401"
     },
     "anomalyco/opencode": {
       "active": true,
@@ -1299,7 +1293,7 @@
     "wshobson/agents": {
       "active": true,
       "starredAt": "2025-09-08T09:31:54Z",
-      "fingerprint": "blob:f220449579d22c87ac1d91190aa64fc1df7ed87a"
+      "fingerprint": "blob:7528ca6f3096e38af62283df8029dca7c104e2f0"
     },
     "9001/copyparty": {
       "active": true,
@@ -1516,8 +1510,7 @@
     "ZingerLittleBee/dockerman.app": {
       "active": true,
       "starredAt": "2025-02-07T13:46:26Z",
-      "newPending": false,
-      "fingerprint": "blob:24d790440382d240b312348d1be68f35320a4be8"
+      "fingerprint": "blob:84cdf28e3fe7cfc5dde96094099b51308952e12b"
     },
     "lobehub/lobehub": {
       "active": true,
@@ -1887,8 +1880,7 @@
     "llaoj/gcopy": {
       "active": true,
       "starredAt": "2024-05-21T16:49:29Z",
-      "newPending": false,
-      "fingerprint": "blob:9fa651249a8f840f76ee279599946335332320d7"
+      "fingerprint": "blob:4ec6e67ee4745d1022731f70170a224f8f1d3862"
     },
     "ngc660sec/NGCBot": {
       "active": true,
@@ -2006,7 +1998,7 @@
     "rooktwo/rectg": {
       "active": true,
       "starredAt": "2023-12-18T16:51:21Z",
-      "fingerprint": "blob:938eb925378362094c29bb7cbfbe38b2f46fdb6a"
+      "fingerprint": "blob:cc5f0e50c3dd84e698fc1a320961ccfb744d2521"
     },
     "pot-app/pot-desktop": {
       "active": true,
@@ -2017,8 +2009,7 @@
     "inancgumus/learngo": {
       "active": true,
       "starredAt": "2023-12-06T08:08:06Z",
-      "newPending": false,
-      "fingerprint": "blob:f4ead4ace959a78f17928d613cc4254da20c3539"
+      "fingerprint": "blob:9bb90e701ef4dfffc87e3f3677d3be17a5232ee0"
     },
     "hwholiday/learning_tools": {
       "active": true,
@@ -2625,7 +2616,7 @@
     "localsend/localsend": {
       "active": true,
       "starredAt": "2023-05-11T02:06:34Z",
-      "fingerprint": "blob:b708bc275ade0005c95a0b754d1d083c79b35a43"
+      "fingerprint": "blob:386e60b4600ddef63a0a0ad04fd43836515c9bd7"
     },
     "Jagailo/YetAnotherKeyDisplayer": {
       "active": true,
@@ -2857,7 +2848,7 @@
     "521xueweihan/GitHub520": {
       "active": true,
       "starredAt": "2023-01-08T14:34:04Z",
-      "fingerprint": "blob:9d938e1394edbbb714e330214e41fc8cbeb46549"
+      "fingerprint": "blob:913ef068475b9fac8090a1d3c4653cd91e4de1d2"
     },
     "AdguardTeam/AdGuardHome": {
       "active": true,
@@ -2939,8 +2930,7 @@
     "Atlas-OS/Atlas": {
       "active": true,
       "starredAt": "2022-11-26T05:57:02Z",
-      "newPending": false,
-      "fingerprint": "blob:40ae6d4d72799a31e0f29d535206796ff3cd8bdb"
+      "fingerprint": "blob:3fd532de1f801f5223c25dd5d0319a9810f60466"
     },
     "wxext/wxext": {
       "active": true,
@@ -3410,8 +3400,7 @@
     "serhii-londar/open-source-mac-os-apps": {
       "active": true,
       "starredAt": "2021-12-29T03:23:14Z",
-      "newPending": false,
-      "fingerprint": "blob:2bf66e1737481017eec8121699f6cfb9f19228b7"
+      "fingerprint": "blob:b5847b181cfb8db599ff0593a78b7174526f9fa6"
     },
     "sealerio/sealer": {
       "active": true,
@@ -3428,7 +3417,7 @@
     "gogs/gogs": {
       "active": true,
       "starredAt": "2021-12-27T04:20:05Z",
-      "fingerprint": "blob:d3a37dbc4f3323942e122cc51e1fa6608c538615"
+      "fingerprint": "blob:70a34c2319e9705456ff177b0821ec0c3fd664a0"
     },
     "go-gitea/gitea": {
       "active": true,
@@ -3609,7 +3598,7 @@
     "sqlpxc/airhand": {
       "active": true,
       "starredAt": "2026-11-20T09:31:45Z",
-      "fingerprint": "blob:329d5d852fe45b8ded3c9fbbf88c622027320882"
+      "fingerprint": "blob:31cc8716a8027a54ead2963d0aae76c0a8052230"
     }
   }
 }
