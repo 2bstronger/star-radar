@@ -246,30 +246,29 @@
     "translatedAt": "2026-11-08T23:02:52.926Z"
   },
   "eosphoros-ai/DB-GPT": {
-    "positioning": "开源智能体AI数据助手，自然语言驱动SQL与数据分析",
-    "summary": "DB-GPT 是一个开源的智能体化 AI 数据助手，支持连接数据库、CSV/Excel、知识库等多源数据，用自然语言提问即可自动生成并执行 SQL 和 Python 代码。它内置任务规划、工具调用、可复用技能和沙箱化安全执行，支持 DeepSeek、Qwen、Llama 等多种模型私有化部署，最终输出图表、看板和分析报告。同时它也是构建 AI 原生数据智能体、工作流和应用的平台。",
+    "positioning": "开源可控数据智能体平台，从提问到可验证查询与报告",
+    "summary": "DB-GPT 是一个开源的可控数据智能体平台，将自然语言问题转化为可验证的 SQL 查询、分析报告和可复用的仪表盘。它整合了数据连接、语义中心、专家技能插件、工作流编排等模块，支持 MySQL、PostgreSQL、ClickHouse 等 27 种数据源。平台强调对模型执行边界和关键操作的人工审查与控制。",
     "scenarios": [
-      "自然语言查询数据库自动生成SQL",
-      "分析CSV/Excel生成可视化报告",
-      "搭建企业私有化AI数据分析助手",
-      "金融报表分析与代码解读",
-      "构建基于RAG的知识库问答"
+      "自然语言查询数据库",
+      "生成数据分析报告",
+      "搭建可编辑数据看板",
+      "SQL 优化与执行计划审查",
+      "企业指标语义与版本管理"
     ],
-    "quickStart": "curl -fsSL https://raw.githubusercontent.com/eosphoros-ai/DB-GPT/main/scripts/install/install.sh | bash\nuv pip install dbgpt-app\ndbgpt start",
+    "quickStart": "curl -fsSL https://raw.githubusercontent.com/eosphoros-ai/DB-GPT/main/scripts/install/install.sh -o install.sh\nbash install.sh\ncd ~/.dbgpt/DB-GPT\nuv run dbgpt start webserver --profile <profile>\n\npip install dbgpt-app\ndbgpt start",
     "categories": [
       "人工智能",
       "数据库"
     ],
     "tags": [
-      "Text2SQL",
-      "AI智能体",
-      "数据分析",
-      "RAG",
+      "数据智能体",
+      "Text-to-SQL",
       "大模型",
-      "私有化部署"
+      "RAG",
+      "私有化部署",
+      "数据可视化"
     ],
-    "sourceHash": "900a698c40b2d8592c0c88dcc4f0ebf78d4f470f3073323a5cfb99b5ada46fdd",
-    "translatedAt": "2026-11-15T23:30:17.925Z"
+    "translatedAt": "2026-11-24T14:16:03.273Z"
   },
   "gravitational/teleport": {
     "positioning": "基础设施统一安全访问平台，用短时证书替代长期密钥",
@@ -3694,30 +3693,29 @@
     "translatedAt": "2026-10-21T17:40:40.602Z"
   },
   "tutti-os/tutti": {
-    "positioning": "多智能体实时共享工作空间，告别在 AI 智能体间传话",
-    "summary": "Tutti 是一款开源桌面应用，为 Claude Code、Codex 等多个 AI 智能体提供实时共享工作空间，让上下文、文件、任务和应用互通，智能体可直接接续彼此的工作而无需人工搬运信息。它内置图片生成、UI 设计、文档、PPT 等应用生态，支持 Big @ 引用历史内容、目标自动拆解为子任务、控制中心统一管理，并复用你已有的智能体订阅。开源版面向个人多智能体协作，VM 版（早期访问）支持多人与多设备同房间实时协作。",
+    "positioning": "多 AI 智能体实时共享协作工作空间",
+    "summary": "Tutti 是开源的实时共享工作空间，将 Claude Code、Codex 等多个 AI 智能体连接在同一环境中，共享上下文、文件、任务与应用输出，智能体可直接接手彼此的工作而无需人工搬运信息。它内置图像生成、UI 设计、文档、PPT 等应用中心，人和智能体均可调用，并支持目标自动拆解为子任务、控制中心统一管理。直接复用已有的智能体订阅，无需额外付费。",
     "scenarios": [
-      "多个 AI 编码智能体接力开发",
-      "从设计稿到前端的无缝交付",
-      "目标自动拆解并分派给智能体",
-      "团队跨设备实时共享协作",
-      "内容创作多工具串联提效"
+      "多智能体接力开发，免重复讲解上下文",
+      "设计稿生成后直接交给智能体写代码",
+      "描述目标自动拆解并分派子任务",
+      "一人管理多个智能体并行工作",
+      "无终端 GUI 使用 AI 编程智能体"
     ],
-    "quickStart": "https://tutti.sh/desktop/download?platform=macos&arch=universal&format=dmg\nhttps://tutti.sh/desktop/download?platform=windows&arch=x64&format=exe\nhttps://tutti.sh/en?tc=25q#versions",
+    "quickStart": "https://tutti.sh/desktop/download?platform=macos&arch=universal&format=dmg\nhttps://tutti.sh/desktop/download?platform=windows&arch=x64&format=exe",
     "categories": [
       "人工智能",
       "效率工具"
     ],
     "tags": [
-      "AI智能体",
-      "多智能体协作",
-      "实时共享工作空间",
-      "桌面应用",
-      "任务编排",
-      "编码智能体"
+      "多智能体",
+      "共享工作空间",
+      "AI协作",
+      "Claude Code",
+      "本地优先",
+      "桌面应用"
     ],
-    "sourceHash": "55bc2d85a670956c2b511df76ae0006ddb309ab9d8bc1fac44b82e5ff6292266",
-    "translatedAt": "2026-10-21T17:40:44.180Z"
+    "translatedAt": "2026-11-24T14:16:06.821Z"
   },
   "Zesty0wl/mac-performance-monitor": {
     "positioning": "macOS 菜单栏性能监控与历史诊断工具，无遥测",
@@ -7384,29 +7382,28 @@
     "translatedAt": "2026-11-07T00:23:13.214Z"
   },
   "ccfos/huatuo": {
-    "positioning": "基于 eBPF 的 Linux 内核级云原生可观测性平台",
-    "summary": "HUATUO 是滴滴开源的云原生操作系统可观测性项目，融合 kprobes、tracepoints、ftrace 与 eBPF 等内核追踪技术，提供内核全栈指标、运行时上下文自动捕获与 AutoTracing 智能追踪。性能开销低于 1%，覆盖内存、调度、网络、块 I/O 及 GPU/NPU 等异构硬件，已入选 CNCF Landscape，并与 Prometheus、Grafana、Pyroscope、Elasticsearch 等主流栈集成。",
+    "positioning": "基于 eBPF 的 Linux 内核级可观测性平台",
+    "summary": "滴滴开源、已入选 CNCF Landscape 的云原生操作系统可观测性项目。综合运用 kprobes、tracepoints、ftrace 和 eBPF 等内核动态追踪技术，以低于 1% 的性能开销提供内存、CPU 调度、网络、块 I/O 等内核子系统的细粒度指标与运行时上下文自动捕获，并支持 GPU、NPU 等异构算力硬件监控。可与 Prometheus、Grafana、Pyroscope、Elasticsearch 等主流观测栈集成，自动关联 Kubernetes 容器标签。",
     "scenarios": [
-      "云原生系统故障排查",
-      "AI 基础设施性能分析",
-      "性能抖动自动追踪定位",
-      "内核级持续性能剖析",
-      "K8s 容器指标监控"
+      "云原生基础设施性能抖动排查",
+      "AI 算力集群内核级监控",
+      "操作系统持续性能剖析",
+      "Kubernetes 容器可观测性建设",
+      "生产环境系统故障根因诊断"
     ],
-    "quickStart": "docker run --privileged --pid=host --cgroupns=host --network=host -v /sys:/sys -v /run:/run huatuo/huatuo-bamai:latest\ncurl -s localhost:19704/metrics\ndocker compose --project-directory ./build/docker up",
+    "quickStart": "docker run --privileged --pid=host --cgroupns=host --network=host -v /sys:/sys -v /run:/run huatuo/huatuo-bamai:latest\ncurl -s localhost:19704/metrics\nmake compose-dev-up",
     "categories": [
-      "DevOps运维"
+      "DevOps运维",
+      "人工智能"
     ],
     "tags": [
       "eBPF",
       "可观测性",
       "Linux内核",
-      "持续剖析",
-      "云原生",
+      "性能剖析",
       "Kubernetes"
     ],
-    "sourceHash": "e11e3d5719f40a7a1e88ca0f7673a76c3d7a7d537758c82392165d66416edc27",
-    "translatedAt": "2026-11-14T23:15:01.802Z"
+    "translatedAt": "2026-11-24T14:15:58.612Z"
   },
   "moeru-ai/airi": {
     "positioning": "开源自托管 AI 虚拟伙伴，实时语音聊天还能陪你玩游戏",
@@ -10067,19 +10064,18 @@
     "translatedAt": "2026-11-15T23:30:01.101Z"
   },
   "clash-verge-rev/clash-verge-rev": {
-    "positioning": "基于 Tauri 的跨平台 Clash Meta 代理图形客户端",
-    "summary": "Clash Verge Rev 是原 Clash Verge 的延续项目，基于 Rust 与 Tauri 2 构建，内置 Clash.Meta（mihomo）内核，支持 Windows、macOS 和 Linux。它提供系统代理与守卫、TUN 虚拟网卡模式、可视化节点与规则编辑、配置文件 Merge/Script 增强，以及 WebDAV 配置备份同步，不收集任何用户数据。",
+    "positioning": "基于 Tauri 的 Clash Meta 跨平台桌面代理客户端",
+    "summary": "Clash Verge Rev 是 Clash Verge 的延续项目，基于 Rust 与 Tauri 2 构建的 Clash Meta（mihomo）图形客户端，支持 Windows、macOS 和 Linux。内置 mihomo 内核并可切换 Alpha 版本，支持系统代理与守卫、TUN 虚拟网卡模式、配置文件 Merge/Script 增强、可视化节点与规则编辑，以及 WebDav 配置备份同步。不收集任何用户数据，配置与日志仅保存在本地。",
     "scenarios": [
-      "桌面端图形化管理代理内核",
-      "需要系统代理或 TUN 模式接管",
-      "可视化编辑节点与分流规则",
-      "多设备配置 WebDAV 备份同步",
-      "自定义主题与托盘图标外观"
+      "Windows/macOS/Linux 桌面代理管理",
+      "TUN 模式全局接管网络流量",
+      "可视化编辑代理节点与分流规则",
+      "WebDav 多设备配置备份同步",
+      "日常轻量级代理客户端使用"
     ],
-    "quickStart": "见 README",
+    "quickStart": "见 README（安装需到 GitHub Releases 页面下载对应平台安装包，支持 Windows x64/x86、Linux x64/arm64 和 macOS 11+）",
     "categories": [
-      "安全隐私",
-      "效率工具"
+      "安全隐私"
     ],
     "tags": [
       "代理客户端",
@@ -10087,10 +10083,9 @@
       "mihomo",
       "Tauri",
       "跨平台",
-      "Rust"
+      "桌面应用"
     ],
-    "sourceHash": "1fbcbb4ccfaed0b4d182caba73500f7bf5f37b64b06393daf3aaa681e2d6decf",
-    "translatedAt": "2026-11-15T23:30:06.050Z"
+    "translatedAt": "2026-11-24T14:16:11.480Z"
   },
   "inancgumus/learngo": {
     "positioning": "1000+ 手工编写的 Go 示例、练习与测验，边做边学 Go",
@@ -11669,29 +11664,29 @@
     "translatedAt": "2026-10-21T17:53:05.438Z"
   },
   "jerrykuku/luci-theme-argon": {
-    "positioning": "OpenWrt LuCI 主题，可自定义登录页与深浅色模式",
-    "summary": "Argon 是一款简洁美观的 OpenWrt LuCI 界面主题，v3 起主题与配置功能合为一体，内置 Argon Config 设置面板。它支持以图片或视频自定义登录背景，提供经典侧边栏与居中卡片两种登录布局，并可跟随系统或手动切换深浅色模式，同时对主流第三方 LuCI 应用做了桌面端与移动端的布局适配。",
+    "positioning": "简洁美观的 OpenWrt LuCI 主题，支持自定义登录背景与深浅色切换",
+    "summary": "Argon 是一款界面简洁清爽的 OpenWrt LuCI 主题，3.0 版本起内置 Argon Config 配置面板，无需单独插件即可管理主题设置。支持用图片或视频自定义登录界面，提供经典侧边栏与居中卡片两种登录布局，浅色/深色模式可手动或跟随系统自动切换。对主流第三方 LuCI 应用做了布局适配，桌面端与移动端均为响应式设计。",
     "scenarios": [
       "美化 OpenWrt 路由器管理界面",
-      "自定义路由器登录页背景与样式",
+      "自定义路由器登录页背景",
+      "夜间深色模式下管理路由器",
       "适配第三方 LuCI 插件界面",
-      "跟随系统自动切换深浅色模式",
-      "固件构建时集成默认主题"
+      "移动端响应式管理路由器"
     ],
-    "quickStart": "opkg update\nopkg install ./luci-theme-argon_*.ipk\napk update\napk add --allow-untrusted ./luci-theme-argon-*.apk",
+    "quickStart": "opkg install ./luci-theme-argon_*.ipk\napk add --allow-untrusted ./luci-theme-argon-*.apk",
     "categories": [
       "自托管服务",
-      "前端开发"
+      "设计资源"
     ],
     "tags": [
       "OpenWrt",
-      "LuCI主题",
+      "LuCI",
+      "主题",
       "路由器",
-      "界面美化",
-      "深浅色模式"
+      "深色模式",
+      "界面美化"
     ],
-    "sourceHash": "38e2ec00b8291be5cc290a8665030e440f86332a5f31b026c0f8615dd5e9dc5a",
-    "translatedAt": "2026-11-14T00:28:55.188Z"
+    "translatedAt": "2026-11-24T14:16:12.579Z"
   },
   "tiimgreen/github-cheat-sheet": {
     "positioning": "Git 与 GitHub 实用技巧与隐藏功能速查表",
@@ -14316,15 +14311,16 @@
     "translatedAt": "2026-10-21T17:56:45.000Z"
   },
   "the1812/Bilibili-Evolved": {
-    "positioning": "哔哩哔哩功能增强脚本，组件化按需扩展B站体验",
-    "summary": "面向哔哩哔哩的综合性用户脚本，基于组件化架构提供页面自定义与功能增强能力。脚本本体不预装任何功能，用户可在功能库中按需安装组件和插件，自由管理开关与选项。支持 Tampermonkey 和 Violentmonkey，用户数据全部在本地处理，完全匿名。",
+    "positioning": "哔哩哔哩综合增强脚本，功能以组件按需扩展",
+    "summary": "运行于 Tampermonkey / Violentmonkey 的 B 站增强脚本，采用组件化设计，安装后可在功能库中按需安装组件和插件，自定义功能与设置。脚本及组件完全在本地处理用户数据，不上传任何服务器，支持 Chrome、Firefox 等现代浏览器。",
     "scenarios": [
-      "自定义B站界面样式与布局",
-      "增强视频观看与下载体验",
-      "按需安装组件扩展功能",
-      "深度优化B站日常浏览体验"
+      "按需安装组件扩展 B 站功能",
+      "自定义脚本与组件设置",
+      "导入迁移 v1 旧版脚本设置",
+      "导入导出备份脚本配置",
+      "本地处理数据保护隐私"
     ],
-    "quickStart": "见 README",
+    "quickStart": "需先在浏览器安装 Tampermonkey 或 Violentmonkey 插件，然后从下方链接安装脚本（正式版 jsDelivr 源）：\nhttps://cdn.jsdelivr.net/gh/the1812/Bilibili-Evolved@master-cdn/dist/bilibili-evolved.user.js\n（正式版 GitHub 源）\nhttps://raw.githubusercontent.com/the1812/Bilibili-Evolved/master/dist/bilibili-evolved.user.js",
     "categories": [
       "效率工具"
     ],
@@ -14333,10 +14329,9 @@
       "油猴脚本",
       "用户脚本",
       "浏览器增强",
-      "B站",
-      "组件化"
+      "TypeScript"
     ],
-    "translatedAt": "2026-11-17T02:34:58.482Z"
+    "translatedAt": "2026-11-24T14:16:31.307Z"
   },
   "gogs/gogs": {
     "positioning": "轻量易部署的自托管 Git 代码托管服务",
@@ -15479,5 +15474,29 @@
       "Rust"
     ],
     "translatedAt": "2026-11-24T04:22:38.181Z"
+  },
+  "geo-fer/deja": {
+    "positioning": "基于历史学习的 zsh 智能行内命令预测补全工具",
+    "summary": "deja 是 zsh 的预测性行内补全工具，可作为 zsh-autosuggestions 的升级替代。它能学习命令序列（如 make build 后建议 make test），并支持模糊匹配、目录感知和按使用频率排序。命令历史存储在本地 SQLite 中，通过共享守护进程为所有终端窗口提供幽灵文本建议，数据不出本机。",
+    "scenarios": [
+      "提升终端命令输入效率",
+      "在项目目录快速召回常用命令",
+      "模糊匹配减少长命令敲击",
+      "替代 zsh-autosuggestions 插件",
+      "本地管理命令历史记录"
+    ],
+    "quickStart": "brew install deja\ndejа import\nexec zsh",
+    "categories": [
+      "CLI工具",
+      "效率工具"
+    ],
+    "tags": [
+      "zsh",
+      "自动补全",
+      "命令行",
+      "开发工具",
+      "Shell"
+    ],
+    "translatedAt": "2026-11-24T14:15:51.128Z"
   }
 }

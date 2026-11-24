@@ -238,7 +238,7 @@
       "fingerprint": "blob:040832feef161da5b5b0d8ddb55304ec3fda3c6c"
     },
     "Giammarco-Ferranti/deja": {
-      "active": true,
+      "active": false,
       "starredAt": "2026-08-30T05:28:18Z",
       "newPending": false,
       "fingerprint": "blob:8ce60112b7ddf758a003ded00dfc3d265c388f5f"
@@ -512,8 +512,8 @@
     "tutti-os/tutti": {
       "active": true,
       "starredAt": "2026-07-14T19:57:10Z",
-      "newPending": false,
-      "fingerprint": "blob:7b76b167e9b43e5d0879ea1f82b7b7cf8e77a88a"
+      "fingerprint": "blob:b1a4bb66e2ab6ad97f01256deae329133ba6f6b7",
+      "lastAttemptAt": "2026-11-24T14:15:38.480Z"
     },
     "FrizzleM/SideInstaller": {
       "active": true,
@@ -1316,8 +1316,8 @@
     "ccfos/huatuo": {
       "active": true,
       "starredAt": "2025-08-05T09:26:13Z",
-      "newPending": false,
-      "fingerprint": "blob:3a4bdef2af73373f09bfb9424401fbae3a4bcbba"
+      "fingerprint": "blob:e5de5a8b8e3720ea3410b58933eb7e0a925b4114",
+      "lastAttemptAt": "2026-11-24T14:15:43.750Z"
     },
     "pgsty/pigsty": {
       "active": true,
@@ -1950,8 +1950,8 @@
     "clash-verge-rev/clash-verge-rev": {
       "active": true,
       "starredAt": "2024-01-26T16:32:28Z",
-      "newPending": false,
-      "fingerprint": "blob:55199771804cb475c3d02614794cdc4f1aa13c26"
+      "fingerprint": "blob:5907b861ed5ea62330ccd03dcdfdbfb792586cea",
+      "lastAttemptAt": "2026-11-24T14:15:48.014Z"
     },
     "lollipopkit/flutter_server_box": {
       "active": true,
@@ -2148,8 +2148,8 @@
     "eosphoros-ai/DB-GPT": {
       "active": true,
       "starredAt": "2023-10-25T15:37:41Z",
-      "newPending": false,
-      "fingerprint": "blob:a4a293981b29fda78a035d638230327d1176c713"
+      "fingerprint": "blob:dbb7ef9d2b02f87295a206934b60384964cdabac",
+      "lastAttemptAt": "2026-11-24T14:15:49.623Z"
     },
     "warengonzaga/css-text-portrait-builder": {
       "active": true,
@@ -2718,8 +2718,8 @@
     "jerrykuku/luci-theme-argon": {
       "active": true,
       "starredAt": "2023-03-19T12:48:42Z",
-      "newPending": false,
-      "fingerprint": "blob:18ebefa15a62515b32253590019f874ff0fa14ce"
+      "fingerprint": "blob:92a574ccf2f5cbcba26492ad93d0e10bb0c334a7",
+      "lastAttemptAt": "2026-11-24T14:15:54.251Z"
     },
     "coolsnowwolf/lede": {
       "active": true,
@@ -3363,7 +3363,8 @@
     "the1812/Bilibili-Evolved": {
       "active": true,
       "starredAt": "2022-02-09T09:07:13Z",
-      "fingerprint": "blob:f74dd133b10c74e84da347fb7cd41775c91ec85a"
+      "fingerprint": "blob:882c8bbbd5835a335e873985873d6b53849015ac",
+      "lastAttemptAt": "2026-11-24T14:16:00.240Z"
     },
     "nubosoftware/linux-remote-desktop": {
       "active": true,
@@ -3585,6 +3586,12 @@
       "active": true,
       "starredAt": "2026-11-20T09:31:45Z",
       "fingerprint": "blob:67333671c8eeccd9aa0e02cb2291eab1c8bd36a1"
+    },
+    "geo-fer/deja": {
+      "active": true,
+      "starredAt": "2026-08-30T05:28:18Z",
+      "lastAttemptAt": "2026-11-24T14:15:36.841Z",
+      "fingerprint": "blob:8ce60112b7ddf758a003ded00dfc3d265c388f5f"
     }
   }
 }
