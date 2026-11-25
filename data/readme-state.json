@@ -1390,8 +1390,8 @@
     "crossplane/crossplane": {
       "active": true,
       "starredAt": "2025-05-20T09:57:58Z",
-      "newPending": false,
-      "fingerprint": "blob:f109630c029ef8297c894460cf70f203e555bed5"
+      "fingerprint": "blob:d844179d45816fcffba27c0147f587a148573d1f",
+      "lastAttemptAt": "2026-11-25T03:07:05.867Z"
     },
     "voideditor/void": {
       "active": true,
@@ -1956,8 +1956,8 @@
     "lollipopkit/flutter_server_box": {
       "active": true,
       "starredAt": "2024-01-25T09:05:10Z",
-      "newPending": false,
-      "fingerprint": "blob:af568dc169dbf344612140cec28b4cbe80b08e36"
+      "fingerprint": "blob:112bf6b8f5568802b0a5da380ff0e2e64e401662",
+      "lastAttemptAt": "2026-11-25T03:07:08.637Z"
     },
     "mao888/golang-guide": {
       "active": true,
@@ -3186,8 +3186,8 @@
     "ohmyzsh/ohmyzsh": {
       "active": true,
       "starredAt": "2022-04-13T07:59:46Z",
-      "newPending": false,
-      "fingerprint": "blob:a443e1f109e5762f3cdf271fa8c8f6a73c1eef5a"
+      "fingerprint": "blob:a0545bfe0068692826d771fdff700a763e4daa69",
+      "lastAttemptAt": "2026-11-25T03:07:15.064Z"
     },
     "ryanoasis/nerd-fonts": {
       "active": true,
@@ -3222,7 +3222,8 @@
     "ccfos/nightingale": {
       "active": true,
       "starredAt": "2022-04-07T07:28:53Z",
-      "fingerprint": "blob:de4bfe3b80a85cacbda85f1d9e0492c16c6cba54"
+      "fingerprint": "blob:1f7460a570bb86caa73c8f6090fd2d57a4ba5e1b",
+      "lastAttemptAt": "2026-11-25T03:07:15.310Z"
     },
     "labring/laf": {
       "active": true,

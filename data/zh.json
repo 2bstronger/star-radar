@@ -7529,29 +7529,29 @@
     "translatedAt": "2026-10-21T17:46:52.002Z"
   },
   "crossplane/crossplane": {
-    "positioning": "无需写代码构建云原生控制平面的开源框架",
-    "summary": "Crossplane 是 CNCF 项目，让开发者无需编写代码即可构建云原生控制平面。它提供高度可扩展的后端，可编排任意平台上运行的应用与基础设施；前端高度可配置，支持自定义声明式 API 的模式，适用于多云环境下的资源管理。",
+    "positioning": "无需写代码即可构建云原生控制平面的开源框架",
+    "summary": "Crossplane 是一个用于构建云原生控制平面的框架，可在不编写代码的情况下编排任意位置运行的应用与基础设施。它拥有高度可扩展的后端和高度可配置的前端，允许用户自定义声明式 API 的 schema。该项目是 CNCF 旗下项目，采用 Apache 2.0 许可证。",
     "scenarios": [
-      "统一编排多云基础设施资源",
-      "构建内部开发者平台即服务",
-      "以声明式 API 管理云资源",
-      "封装基础设施供开发自助使用"
+      "多云基础设施统一编排",
+      "构建内部开发者平台",
+      "Kubernetes 声明式资源管理",
+      "基础设施即代码落地实践",
+      "自建专属云服务控制平面"
     ],
     "quickStart": "见 README",
     "categories": [
       "DevOps运维",
-      "后端框架"
+      "自托管服务"
     ],
     "tags": [
+      "云原生",
       "Kubernetes",
       "基础设施即代码",
-      "云原生",
       "多云管理",
       "控制平面",
       "CNCF"
     ],
-    "sourceHash": "8e5cc32e1a1397313b20b02eb4f2ea0981b72ef331d01bf5cc8bd24cf6bf45fe",
-    "translatedAt": "2026-11-15T23:29:20.402Z"
+    "translatedAt": "2026-11-25T03:07:23.247Z"
   },
   "tgbot-collection/SearchGram": {
     "positioning": "Telegram 中文聊天记录搜索机器人，支持模糊容错搜索",
@@ -10160,29 +10160,29 @@
     "translatedAt": "2026-11-24T04:23:23.939Z"
   },
   "lollipopkit/flutter_server_box": {
-    "positioning": "跨平台服务器管理工具箱，监控与 SSH 运维一站式搞定",
-    "summary": "基于 Flutter 与 Rust 打造的开源服务器管理应用，覆盖 iOS、Android、macOS、Linux 和 Windows。通过 SSH 或 Monitor 探针连接服务器，提供 CPU、内存、磁盘、网络等实时与历史图表，并内置终端、SFTP 文件管理、Docker/Podman 容器、systemd 服务及 Proxmox 虚拟化管理等功能。还支持 AI Agent、主题商店、生物识别锁与 iCloud/WebDAV 加密备份。",
+    "positioning": "跨平台服务器状态监控与远程管理工具箱",
+    "summary": "基于 Flutter 和 Rust 构建的开源服务器管理应用，覆盖 iOS、Android、macOS、Linux 和 Windows。支持 SSH 终端、SFTP 文件管理、Docker/Podman 容器管理、CPU 内存磁盘网络实时图表，还内置 AI Agent、Proxmox VE 虚拟化管理、推送告警与桌面小组件。",
     "scenarios": [
-      "手机远程管理 VPS 服务器",
-      "实时监控多台服务器资源",
-      "移动端 SFTP 传输编辑文件",
-      "管理 Docker 与虚拟机",
-      "SSH 终端快速运维排障"
+      "用手机远程管理 VPS 服务器",
+      "实时监控 CPU 内存磁盘状态",
+      "手机端管理 Docker 容器",
+      "SFTP 传输编辑服务器文件",
+      "管理虚拟机与容器集群"
     ],
-    "quickStart": "brew install --cask server-box",
+    "quickStart": "brew install --cask server-box\nwinget install lollipopkit.serverbox",
     "categories": [
-      "DevOps运维"
+      "DevOps运维",
+      "效率工具"
     ],
     "tags": [
-      "SSH",
-      "服务器监控",
-      "Docker",
-      "SFTP",
+      "服务器管理",
+      "SSH终端",
+      "Docker容器",
       "跨平台",
-      "虚拟化"
+      "运维监控",
+      "Flutter"
     ],
-    "sourceHash": "03716902a77040a1db53fb8df8866d404b69a97efeb644099c39c0555ae19c67",
-    "translatedAt": "2026-11-15T23:30:21.293Z"
+    "translatedAt": "2026-11-25T03:07:24.587Z"
   },
   "chatpire/chatgpt-web-share": {
     "positioning": "共享 ChatGPT Plus 账号给多人使用的自托管方案",
@@ -13395,16 +13395,15 @@
     "translatedAt": "2026-10-21T17:55:22.494Z"
   },
   "ohmyzsh/ohmyzsh": {
-    "positioning": "社区驱动的 zsh 配置管理框架，内置大量插件与主题",
-    "summary": "Oh My Zsh 是一个开源的 zsh 配置管理框架，由 2500 多位贡献者共同维护。它提供 300 多个可选插件（涵盖 git、docker、node、python 等常用工具）、140 多个主题，以及自动更新工具，帮助开发者大幅提升命令行使用效率。",
+    "positioning": "zsh 配置管理框架，内置海量插件与主题",
+    "summary": "Oh My Zsh 是社区驱动的 zsh 配置管理框架，拥有 2500+ 贡献者。内置 300+ 插件（git、docker、python 等）和 140+ 主题，并支持自动更新，一行命令即可安装。",
     "scenarios": [
-      "日常终端效率提升",
-      "Git 操作快捷命令",
-      "Docker 等工具补全",
-      "macOS 开发环境配置",
-      "个性化终端主题定制"
+      "macOS 与 Linux 终端环境美化",
+      "提升 git 等常用命令操作效率",
+      "开发者个人 shell 配置管理",
+      "快速定制个性化终端提示符"
     ],
-    "quickStart": "sh -c \"$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\"\nsh -c \"$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\"",
+    "quickStart": "sh -c \"$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\"\nsh -c \"$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\"\nsh -c \"$(curl -fsSL https://install.ohmyz.sh/)\"",
     "categories": [
       "CLI工具",
       "效率工具"
@@ -13412,13 +13411,11 @@
     "tags": [
       "zsh",
       "终端",
-      "Shell",
-      "插件",
-      "主题",
-      "命令行"
+      "Shell配置",
+      "插件框架",
+      "主题"
     ],
-    "sourceHash": "73d6ccebd1270d544ccedf26e58bb198c827304260011cbb127149c1d1e75cb7",
-    "translatedAt": "2026-11-15T23:31:05.437Z"
+    "translatedAt": "2026-11-25T03:07:26.183Z"
   },
   "pibigstar/go-demo": {
     "positioning": "Go 语言实例教程，从基础到进阶覆盖设计模式与面试题",
@@ -13624,29 +13621,29 @@
     "translatedAt": "2026-10-21T17:55:44.201Z"
   },
   "ccfos/nightingale": {
-    "positioning": "开源自托管告警平台，统一管理指标与日志告警",
-    "summary": "Nightingale（夜莺）是开源自托管告警平台，将告警规则、事件处理和通知路由集中管理，可直接对接 Prometheus、VictoriaMetrics、Elasticsearch、Loki、ClickHouse 等现有数据源，无需更换采集器或迁移数据。支持 Slack、PagerDuty、邮件等多渠道通知，支持业务分组权限和分布式规则评估，并可导入 Prometheus 告警规则。内置 AI 助手与 MCP 服务器，可通过对话排查告警、生成规则与仪表盘配置。",
+    "positioning": "自托管统一告警平台，支持多数据源并内置AI助手",
+    "summary": "Nightingale（夜莺）是开源自托管告警平台，将告警规则、事件处理和通知路由集中到一处，可直接查询 Prometheus、VictoriaMetrics、Elasticsearch、Loki、ClickHouse 等既有数据源，无需迁移现有采集与存储。内置 AI 助手可通过对话排查告警、生成规则与看板，并提供 MCP 服务器供外部智能体调用，同时支持业务分组权限与分布式规则评估。",
     "scenarios": [
-      "统一管理多数据源监控告警",
-      "替代 Alertmanager 集中告警路由",
-      "通过 AI 助手排查告警与生成配置",
-      "多团队告警规则与权限分组管理",
-      "指标与日志混合告警场景"
+      "统一管理多数据源告警规则",
+      "集中路由告警通知到多渠道",
+      "多团队分组权限告警治理",
+      "AI辅助排查告警根因",
+      "导入Prometheus规则平滑迁移"
     ],
     "quickStart": "git clone https://github.com/ccfos/nightingale.git\ncd nightingale/docker/compose-bridge\ndocker compose up -d",
     "categories": [
       "DevOps运维",
-      "人工智能"
+      "自托管服务"
     ],
     "tags": [
-      "监控告警",
+      "告警",
+      "监控",
       "可观测性",
       "AIOps",
-      "MCP服务器",
       "自托管",
       "Prometheus"
     ],
-    "translatedAt": "2026-11-18T01:46:17.673Z"
+    "translatedAt": "2026-11-25T03:07:39.388Z"
   },
   "chai2010/advanced-go-programming-book": {
     "positioning": "《Go语言高级编程》开源图书，深入CGO与分布式等高阶主题",
