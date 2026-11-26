@@ -4,8 +4,8 @@
     "togg53192-cmd/jailbreaks": {
       "active": true,
       "starredAt": "2026-11-13T13:20:16Z",
-      "newPending": false,
-      "fingerprint": "blob:7532ca0aff8de5882540b8d3e5e32ec6b7852c31"
+      "fingerprint": "blob:cf3de98a5cc628b817357fc2046bb5aae0f27ec9",
+      "lastAttemptAt": "2026-11-26T02:20:33.462Z"
     },
     "harshsinghsv/swiftdl": {
       "active": true,
@@ -931,8 +931,8 @@
     "lintsinghua/DeepAudit": {
       "active": true,
       "starredAt": "2026-03-20T03:00:01Z",
-      "newPending": false,
-      "fingerprint": "blob:6277c5dfe383309635e2eac6a70a7c10d0a4abbe"
+      "fingerprint": "blob:31f6e77d1e953423bc9fb59cd931531f1fc0fdb6",
+      "lastAttemptAt": "2026-11-26T02:20:37.876Z"
     },
     "AlexsJones/llmfit": {
       "active": true,
@@ -989,8 +989,8 @@
     "github/gh-aw": {
       "active": true,
       "starredAt": "2026-02-19T16:19:19Z",
-      "newPending": false,
-      "fingerprint": "blob:00678675fe3c6739d64381d0c8c8c02e95b09160"
+      "fingerprint": "blob:df214d5fa2dccaf196a244585167c9c21298d030",
+      "lastAttemptAt": "2026-11-26T02:20:38.193Z"
     },
     "google/langextract": {
       "active": true,
@@ -1018,7 +1018,8 @@
     "linshenkx/prompt-optimizer": {
       "active": true,
       "starredAt": "2026-02-13T07:53:55Z",
-      "fingerprint": "blob:b7c81f781349b8efd8564d830bdd6bfa0b5c5b10"
+      "fingerprint": "blob:a8f1b677464221dea997579d50b8c19b415b248a",
+      "lastAttemptAt": "2026-11-26T02:20:38.317Z"
     },
     "SwanHubX/SwanLab": {
       "active": true,
@@ -1446,8 +1447,8 @@
     "GopeedLab/gopeed": {
       "active": true,
       "starredAt": "2025-03-20T12:42:00Z",
-      "newPending": false,
-      "fingerprint": "blob:7bcac313ef1afba85e040590c0a314eae8114ad9"
+      "fingerprint": "blob:b68fbd0d931afb5ea43bde8cd16fb3a9361580f2",
+      "lastAttemptAt": "2026-11-26T02:20:41.410Z"
     },
     "monkeyWie/gopeed-extension-bilibili": {
       "active": true,

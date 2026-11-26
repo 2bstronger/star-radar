@@ -5618,30 +5618,28 @@
     "translatedAt": "2026-10-21T17:44:10.069Z"
   },
   "lintsinghua/DeepAudit": {
-    "positioning": "Multi-Agent 协作的 AI 代码安全审计平台，沙箱验证漏洞",
-    "summary": "DeepAudit 通过编排、侦察、分析、验证四个智能体自主协作，模拟安全专家思维进行深度代码审计，并在 Docker 沙箱中自动生成 PoC 验证漏洞真实性，有效降低传统 SAST 工具的误报率。支持 Ollama 本地部署与 API 中转，代码可不出内网，审计报告一键导出 PDF/Markdown/JSON。其闭源版本已累计获得 49 个 CVE 编号，覆盖 17 个知名开源项目。",
+    "positioning": "多智能体协作的 AI 代码审计平台，自动挖掘并验证漏洞",
+    "summary": "DeepAudit 是基于 Multi-Agent 协作架构的代码安全审计平台，由编排、侦察、分析、验证四类智能体模拟安全专家工作流，实现深度漏洞挖掘与自动化沙箱 PoC 验证，有效降低传统 SAST 的误报。支持 Ollama 本地私有部署、多家 LLM 平台及 API 中转，可一键导出 PDF/Markdown/JSON 审计报告。其闭源版本已在 17 个开源项目中累计获得 49 个 CVE 编号。",
     "scenarios": [
-      "开源项目上线前漏洞排查",
-      "企业代码安全合规审计",
-      "内网私有化代码审计",
-      "外包交付代码安全验收",
-      "安全研究漏洞挖掘辅助"
+      "项目上线前安全审计",
+      "开源项目漏洞挖掘研究",
+      "外包代码交付验收检查",
+      "安全教学与攻防演练",
+      "代码片段快速安全分析"
     ],
-    "quickStart": "curl -fsSL https://raw.githubusercontent.com/lintsinghua/DeepAudit/v3.0.0/docker-compose.prod.yml | docker compose -f - up -d\ngit clone https://github.com/lintsinghua/DeepAudit.git && cd DeepAudit\ncp backend/env.example backend/.env\ndocker compose up -d",
+    "quickStart": "curl -fsSL https://raw.githubusercontent.com/lintsinghua/DeepAudit/v3.0.0/docker-compose.prod.yml | docker compose -f - up -d\n\ngit clone https://github.com/lintsinghua/DeepAudit.git && cd DeepAudit\ncp backend/env.example backend/.env\ndocker compose up -d",
     "categories": [
-      "安全隐私",
-      "人工智能"
+      "人工智能",
+      "安全隐私"
     ],
     "tags": [
       "代码审计",
-      "漏洞扫描",
-      "Multi-Agent",
+      "漏洞挖掘",
+      "AI智能体",
       "沙箱验证",
-      "Ollama",
-      "DevSecOps"
+      "安全扫描"
     ],
-    "sourceHash": "c92e011cf3e78c5a948826df344a7a705d7e024ab66b822e2207d0d50a711145",
-    "translatedAt": "2026-11-01T22:59:15.089Z"
+    "translatedAt": "2026-11-26T02:21:50.826Z"
   },
   "ghostwright/ghost-os": {
     "positioning": "让 AI 代理操控 Mac 上任意应用的 MCP 工具",
@@ -5772,13 +5770,13 @@
     "translatedAt": "2026-10-21T17:44:18.514Z"
   },
   "github/gh-aw": {
-    "positioning": "用 Markdown 定义 AI 代理工作流，安全运行在 GitHub Actions",
-    "summary": "gh-aw 是 GitHub 官方的 CLI 扩展，让开发者用 Markdown 加 YAML frontmatter 编写 AI 驱动的仓库自动化，并编译为标准 GitHub Actions 工作流执行。内置支持 Copilot、Claude Code、Codex、Gemini 等多种 AI 引擎，代理任务默认只读并在沙箱中运行，写操作需经 safe-outputs 校验后以最小权限应用，与现有 CI/CD 互补而非替代。",
+    "positioning": "用 Markdown 定义 AI 代理工作流并在 GitHub Actions 安全运行",
+    "summary": "gh-aw 是 GitHub 官方的 CLI 扩展，开发者用 Markdown 加 YAML frontmatter 即可声明 AI 驱动的仓库自动化流程，编译为标准 GitHub Actions 工作流执行。内置支持 GitHub Copilot、Claude Code、OpenAI Codex、Google Gemini 等 AI 引擎，代理任务默认只读沙箱运行，写操作通过安全输出机制以最小权限应用。它是对现有 CI/CD 的补充，适合需要推理判断的任务而非替代确定性构建。",
     "scenarios": [
-      "Issue 自动分类与分诊",
-      "拉取请求 AI 审查",
-      "CI 失败原因调查",
-      "文档自动维护更新",
+      "Issue 自动分诊分类",
+      "Pull Request 智能审查",
+      "CI 失败原因调查分析",
+      "文档维护与自动更新",
       "依赖分析与仓库报告"
     ],
     "quickStart": "gh extension install github/gh-aw",
@@ -5787,15 +5785,13 @@
       "人工智能"
     ],
     "tags": [
+      "AI代理",
       "GitHub Actions",
-      "AI 代理",
-      "仓库自动化",
-      "CLI 扩展",
+      "工作流自动化",
       "CI/CD",
-      "安全沙箱"
+      "CLI扩展"
     ],
-    "sourceHash": "b0e51daf13b492ef4c49fa547fe1c5eab41a0afd42f011f4833aa18736d5b917",
-    "translatedAt": "2026-11-15T23:28:47.880Z"
+    "translatedAt": "2026-11-26T02:21:05.039Z"
   },
   "hzpt-inet-club/english-note": {
     "positioning": "面向程序员从零开始的英语语法开源学习笔记",
@@ -5847,16 +5843,16 @@
     "translatedAt": "2026-10-21T17:44:29.434Z"
   },
   "linshenkx/prompt-optimizer": {
-    "positioning": "AI 提示词优化工具，一键优化提示词提升模型输出质量",
-    "summary": "Prompt Optimizer 是一款 AI 提示词优化工具，支持系统提示词、用户提示词、变量模板等多种优化模式，并提供优化前后对比评测与多模型竞技场测试。集成 OpenAI、Gemini、DeepSeek 等主流模型，支持图像生成与 MCP 协议，可通过 Web、桌面端、Chrome 扩展和 Docker 多种方式使用。",
+    "positioning": "AI 提示词优化工具，一键优化提示词提升 AI 输出质量",
+    "summary": "Prompt Optimizer 是一款开源 AI 提示词优化工具，支持一键优化、多轮迭代、模型竞技场对比与评估，并提供变量模板和多轮对话测试。它集成 OpenAI、Gemini、DeepSeek 等主流模型，还支持文生图优化和 MCP 协议接入 Claude Desktop 等应用。可通过网页、桌面应用、Chrome 扩展和 Docker 四种方式使用，数据默认本地存储。",
     "scenarios": [
-      "优化 AI 对话与系统提示词",
-      "多模型效果对比测试",
-      "管理可复用提示词资产",
-      "自托管提示词优化服务",
-      "接入 Claude 等 MCP 应用"
+      "优化提示词提升 AI 输出质量",
+      "多模型对比测试提示词效果",
+      "沉淀管理可复用提示词资产",
+      "文生图提示词生成与优化",
+      "通过 MCP 接入 AI 桌面应用"
     ],
-    "quickStart": "docker run -d -p 8081:80 --restart unless-stopped --name prompt-optimizer linshen/prompt-optimizer\ngit clone https://github.com/linshenkx/prompt-optimizer.git\ncd prompt-optimizer\npnpm install\npnpm dev",
+    "quickStart": "docker run -d -p 8081:80 --restart unless-stopped --name prompt-optimizer linshen/prompt-optimizer",
     "categories": [
       "人工智能",
       "效率工具"
@@ -5865,10 +5861,11 @@
       "提示词优化",
       "提示词工程",
       "AI工具",
-      "多模型接入",
-      "MCP"
+      "LLM",
+      "MCP",
+      "多模型"
     ],
-    "translatedAt": "2026-11-19T01:21:07.134Z"
+    "translatedAt": "2026-11-26T02:21:15.793Z"
   },
   "ResearAI/AutoFigure-Edit": {
     "positioning": "将论文方法文本自动转为可编辑SVG科研插图的AI工具",
@@ -7865,30 +7862,27 @@
     "translatedAt": "2026-11-17T02:34:10.463Z"
   },
   "GopeedLab/gopeed": {
-    "positioning": "Go+Flutter 打造的开源高速下载器，支持 BT、磁力等多协议",
-    "summary": "Gopeed（Go Speed）是一款用 Go 和 Flutter 构建的自由开源下载管理器，支持 HTTP/HTTPS、BitTorrent、磁力链接和 ed2k 协议，覆盖 Windows、macOS、Linux、Android、iOS 和网页端。界面采用 Flutter 原生渲染而非 Electron，资源占用更小；同时提供浏览器扩展、JavaScript 插件、REST API、CLI 和自托管 Web 界面，并支持通过 MCP 接入 AI 代理以自然语言管理下载任务。",
+    "positioning": "基于 Go 与 Flutter 的多协议高速下载器，全平台可用",
+    "summary": "Gopeed 是一款开源高速下载器，支持 HTTP/HTTPS、FTP、HLS、BitTorrent、磁力链接和 ed2k 等多种协议，具备 DHT、选择性下载、做种限制等完整 BT 功能。界面由 Flutter 原生渲染，无 Electron 依赖，覆盖 Windows、macOS、Linux、Android、iOS 与网页端。支持 JavaScript 扩展、浏览器接管、REST API/CLI 自动化，并可通过 MCP 接口让 AI 助手用自然语言管理下载任务。",
     "scenarios": [
       "BT 种子与磁力链接下载",
       "HTTP 大文件多线程下载",
-      "自托管远程下载服务",
-      "浏览器一键接管下载",
-      "接入 REST API 自动化下载"
+      "m3u8 视频下载与合并",
+      "浏览器一键接管下载任务",
+      "自托管网页端下载服务"
     ],
     "quickStart": "go install github.com/GopeedLab/gopeed/cmd/gopeed@latest",
     "categories": [
-      "效率工具",
-      "自托管服务"
+      "效率工具"
     ],
     "tags": [
       "下载器",
-      "BitTorrent",
-      "磁力链接",
+      "多协议",
       "跨平台",
-      "Flutter",
-      "Golang"
+      "BT下载",
+      "Flutter"
     ],
-    "sourceHash": "ac511c2eed34e077f526aa7c00e9806374c2ac574c4bc39ff82d2ef18df8a4a4",
-    "translatedAt": "2026-11-15T23:29:26.265Z"
+    "translatedAt": "2026-11-26T02:20:53.467Z"
   },
   "sjqzhang/go-fastdfs": {
     "positioning": "基于HTTP的分布式文件系统，免维护、易扩展",
@@ -15350,14 +15344,14 @@
     "translatedAt": "2026-11-14T00:25:21.852Z"
   },
   "togg53192-cmd/jailbreaks": {
-    "positioning": "AI模型提示词样本集合，收录26+模型的越狱与系统提示词",
-    "summary": "该项目整理了32条针对26个以上AI模型的完整提示词，包括系统提示词、人格定义、AGENTS.md 文件、工作区策略和 Ollama Modelfile，覆盖 Claude、Gemini、Grok、GLM、DeepSeek、Kimi、Qwen 等开源与闭源模型。项目声明仅供研究与教育用途，用于记录指令层级、人格框架和策略覆盖如何影响模型行为，也可帮助开发者理解并加固系统以抵御提示词注入与指令操纵。",
+    "positioning": "面向主流大模型的越狱提示词与系统提示词研究合集",
+    "summary": "收录 32 个针对 26+ 模型的完整提示词，覆盖 GLM、DeepSeek、Kimi、Qwen、Claude、Gemini、Grok 等开源与闭源模型，类型包括系统提示词、角色锁定、工作区策略、AGENTS.md 与 Ollama Modelfile。所有文件均为完整可直接粘贴的版本，定位为研究与教育用途，可用于研究提示词注入防御与指令层级机制。",
     "scenarios": [
-      "研究提示词注入攻防",
-      "测试模型指令鲁棒性",
-      "改进AI安全防护策略",
-      "学习提示词工程与配置",
-      "编写AGENTS.md项目指令"
+      "研究提示词注入防御",
+      "分析模型指令层级机制",
+      "参考系统提示词写法",
+      "学习AGENTS.md配置规范",
+      "测试模型安全加固方案"
     ],
     "quickStart": "ollama create gemma4-jb -f gemma4.md",
     "categories": [
@@ -15365,14 +15359,13 @@
       "安全隐私"
     ],
     "tags": [
-      "人工智能",
       "大模型",
       "提示词",
-      "安全研究",
-      "LLM"
+      "AI安全",
+      "系统提示词",
+      "越狱研究"
     ],
-    "sourceHash": "0017f765834a43bff7206d44f2a9fd70484f5616dd95c650afe4e7d07a0924aa",
-    "translatedAt": "2026-11-14T00:25:15.658Z"
+    "translatedAt": "2026-11-26T02:20:43.634Z"
   },
   "Noniv/abyssal-garden": {
     "positioning": "纯代码生成的浏览器海底世界，可自由潜游探索",
