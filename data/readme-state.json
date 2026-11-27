@@ -10,8 +10,8 @@
     "harshsinghsv/swiftdl": {
       "active": true,
       "starredAt": "2026-11-11T10:46:09Z",
-      "newPending": false,
-      "fingerprint": "blob:fb58984779f74ab77c8e28a294d236fed4289f1f"
+      "fingerprint": "blob:15abe8e04c8103f150afe351ae58c669cc67ff3c",
+      "lastAttemptAt": "2026-11-27T02:20:51.696Z"
     },
     "hummingbot/hummingbot": {
       "active": true,
@@ -112,8 +112,8 @@
     "xuanyustudio/LocalMiniDrama": {
       "active": true,
       "starredAt": "2026-09-15T06:27:09Z",
-      "newPending": false,
-      "fingerprint": "blob:6a576567123a8e31afe7169043eccc49e8527090"
+      "fingerprint": "blob:614f450a66d1061b4656b0cb2e15911cb7804422",
+      "lastAttemptAt": "2026-11-27T02:20:52.081Z"
     },
     "hicocos/tg-vault": {
       "active": true,
@@ -726,8 +726,8 @@
     "handsomestWei/patent-disclosure-skill": {
       "active": true,
       "starredAt": "2026-05-12T03:11:24Z",
-      "newPending": false,
-      "fingerprint": "blob:cc6a87f2c2b4b34199c9e866062c7c1319dde0b3"
+      "fingerprint": "blob:bdecba8f4910ba6fce7170abdf2b04747f81a4d1",
+      "lastAttemptAt": "2026-11-27T02:20:55.334Z"
     },
     "wuyoscar/GPT-Image2-Skill": {
       "active": true,
@@ -1229,8 +1229,8 @@
     "nickrunning/wechat-selkies": {
       "active": true,
       "starredAt": "2025-10-28T06:51:55Z",
-      "newPending": false,
-      "fingerprint": "blob:21ceadd1f409adcbbb00d87563c5933ed873f596"
+      "fingerprint": "blob:4a2a5a9bf707b9f1e73775f0ccacbd3a1c68b6be",
+      "lastAttemptAt": "2026-11-27T02:20:58.200Z"
     },
     "agent-infra/sandbox": {
       "active": true,
@@ -1851,8 +1851,8 @@
     "zoriya/Kyoo": {
       "active": true,
       "starredAt": "2024-06-07T07:04:31Z",
-      "newPending": false,
-      "fingerprint": "blob:51f306ceb4aaf1e9a780fb9bf74ac4c2549a5a31"
+      "fingerprint": "blob:f06054a2c752931671f9e17e79c2d8d35c3d085f",
+      "lastAttemptAt": "2026-11-27T02:21:02.540Z"
     },
     "BloopAI/bloop": {
       "active": true,
@@ -2392,8 +2392,8 @@
     "The-Vibe-Company/quivr": {
       "active": true,
       "starredAt": "2023-07-13T06:43:38Z",
-      "newPending": false,
-      "fingerprint": "blob:6baab61827bce4a5a76e9e3994002d616dd17635"
+      "fingerprint": "blob:2e2a676575992a02f39b51449e5de72857554460",
+      "lastAttemptAt": "2026-11-27T02:21:06.816Z"
     },
     "alacritty/alacritty": {
       "active": true,
@@ -2577,7 +2577,8 @@
     "labring/FastGPT": {
       "active": true,
       "starredAt": "2023-05-15T01:52:28Z",
-      "fingerprint": "blob:4706bdbab04fad41664d939ccfe5a701d83e450f"
+      "fingerprint": "blob:7e6a9143e281b6a109ce260f25aaa09840c7ac49",
+      "lastAttemptAt": "2026-11-27T02:21:08.194Z"
     },
     "bytebase/bytebase": {
       "active": true,
@@ -3011,8 +3012,8 @@
     "ziishaned/learn-regex": {
       "active": true,
       "starredAt": "2022-09-06T16:50:58Z",
-      "newPending": false,
-      "fingerprint": "blob:d27e8387a2f6d196a0b351ae409a5d278940c503"
+      "fingerprint": "blob:a11814542e48b190af79786b946fae695e8033b1",
+      "lastAttemptAt": "2026-11-27T02:21:11.452Z"
     },
     "xiaobaiTech/golangFamily": {
       "active": true,

@@ -1420,30 +1420,29 @@
     "translatedAt": "2026-11-21T23:54:04.169Z"
   },
   "The-Vibe-Company/quivr": {
-    "positioning": "将持续内容流转为搜索与监控的开源引擎",
-    "summary": "Quivr 是一个面向持续到达内容的开源引擎，可从 RSS、Microsoft 365 邮箱等来源定时采集文档，保留每个版本并使其在数秒内可检索。它支持关键词、语义及混合搜索，结果可精确引用到原文段落；还可保存告警规则，自动记录匹配的新文档并通过签名 Webhook 推送。文件格式、来源、嵌入模型、排序与告警规则均为可替换的插件，提供 MCP 接口供 AI 代理调用。",
+    "positioning": "开源内容流检索引擎，支持混合搜索与主题监控",
+    "summary": "Quivr 是一个开源引擎，将持续到达的内容流（文章、邮件、RSS、PDF 等）转化为可搜索、可监控的数据，通过 HTTP API 提供服务。它支持关键词与语义混合搜索、主题告警和文档版本管理，文件解析、嵌入模型、告警规则等环节均可用任意语言的插件替换。所有已确认文档持久存储且可随时重建索引，适合作为 AI 应用的 RAG 检索后端。",
     "scenarios": [
-      "新闻舆情持续监控与告警",
-      "企业文档知识库语义检索",
-      "邮件与订阅内容聚合搜索",
-      "AI 代理检索外部知识",
-      "内容版本管理与历史追溯"
+      "舆情监控与主题追踪",
+      "企业知识库语义搜索",
+      "AI 应用的 RAG 检索后端",
+      "新闻邮件 RSS 内容聚合",
+      "文档版本管理与审计"
     ],
     "quickStart": "git clone https://github.com/The-Vibe-Company/quivr.git && cd quivr\nmake dev\neval \"$(make -s env)\"",
     "categories": [
-      "人工智能",
-      "自托管服务"
+      "自托管服务",
+      "人工智能"
     ],
     "tags": [
       "RAG",
       "语义搜索",
       "内容监控",
-      "向量检索",
-      "Go",
+      "自托管",
+      "PostgreSQL",
       "插件化"
     ],
-    "sourceHash": "df2e3475a7bbed30df3ebf136e72dd1120e8e14522cf0b6ebac8bd324fb9a59a",
-    "translatedAt": "2026-11-10T02:25:09.065Z"
+    "translatedAt": "2026-11-27T02:21:15.064Z"
   },
   "immich-app/immich": {
     "positioning": "高性能自托管照片视频管理方案，Google 相册替代品",
@@ -2072,30 +2071,28 @@
     "translatedAt": "2026-10-21T17:37:33.167Z"
   },
   "xuanyustudio/LocalMiniDrama": {
-    "positioning": "本地离线的 AI 短剧生成工具，从故事到成片一站式完成",
-    "summary": "LocalMiniDrama 是一款完全本地化运行的 AI 短剧与漫剧生成工具，覆盖故事生成、剧本编辑、角色/场景/道具生成、分镜制作到视频合成的完整流程。支持接入通义、火山 Seedance 2.0、可灵、Gemini 等多家 AI 服务商，数据存储在本机 SQLite 与本地文件中，素材不上云。提供列表精细编辑与画布流水线双视图，支持一键自动生成、失败重试与工程导入导出。",
+    "positioning": "本地 AI 短剧生成工具，故事到成片一站式搞定",
+    "summary": "本地 AI 短剧与漫剧生成工具，从故事梗概自动生成多集剧本、角色与场景图、分镜，再到视频合成，全流程离线完成。数据存于本地 SQLite，支持通义、火山 Seedance、可灵、Gemini 等多家 AI 服务商，提供列表与画布双视图编辑，Windows 版下载即用。",
     "scenarios": [
-      "批量生产 AI 短剧、漫剧内容",
-      "剧本素材需保密的隐私敏感创作",
-      "低成本体验 AI 视频制作全流程",
-      "小说长文改编为短剧视频",
-      "二次开发接入新 AI 服务商"
+      "批量生产 AI 短剧与漫剧",
+      "隐私敏感的本地创作",
+      "开发者二次开发接入新模型",
+      "低成本体验 AI 视频全流程",
+      "分镜可视化与工作流管理"
     ],
-    "quickStart": "git clone https://github.com/xuanyustudio/LocalMiniDrama.git\ncd LocalMiniDrama\ncd backend-node && npm install\ncp configs/config.example.yaml configs/config.yaml\nnpm run migrate && npm start\ncd frontweb && npm install && npm run dev",
+    "quickStart": "方式一：前往 Releases 下载 exe 双击运行\n方式二：源码运行（Node.js ≥ 18）\ngit clone https://github.com/xuanyustudio/LocalMiniDrama.git\ncd LocalMiniDrama\ncd backend-node && npm install\ncp configs/config.example.yaml configs/config.yaml\nnpm run migrate && npm start\ncd frontweb && npm install && npm run dev",
     "categories": [
-      "人工智能",
-      "效率工具"
+      "人工智能"
     ],
     "tags": [
       "AI短剧",
       "视频生成",
-      "离线运行",
-      "分镜制作",
+      "分镜",
+      "本地优先",
       "Electron",
       "开源"
     ],
-    "sourceHash": "e0d181cf3574627d5df7a171b787150e4fef9a311644988f28680d9a4a9de933",
-    "translatedAt": "2026-11-15T23:27:44.063Z"
+    "translatedAt": "2026-11-27T02:21:06.206Z"
   },
   "hicocos/tg-vault": {
     "positioning": "自托管的 Telegram 多账号转存与多云归档平台",
@@ -4761,14 +4758,14 @@
     "translatedAt": "2026-10-21T17:42:39.900Z"
   },
   "handsomestWei/patent-disclosure-skill": {
-    "positioning": "中国专利 AI 技能：挖掘专利点、编写交底书、通俗解读专利",
-    "summary": "面向中国专利场景的 Agent 技能，覆盖发明、实用新型、外观设计的专利点挖掘、查新与交底书编写，并支持从交底生成申请文件、辅助审查意见答复。还能将公开专利解读为通俗笔记与图谱，沉淀到 Obsidian 形成私有专利知识库，配合专利地图、著录检索与审查政策简报等子技能使用。",
+    "positioning": "中国专利 AI 技能集：挖专利点、写交底书、解读与审查答复",
+    "summary": "一套遵循 AgentSkills 标准的中国专利技能集，覆盖发明、实用新型、外观三类交底书与申请文件编写，支持从项目材料挖掘可申请点、生成框图线稿并迭代留存修改记录。同时可将公开专利转为通俗笔记并沉淀进 Obsidian 私有知识库，提供专利地图、著录检索、政策简报与审查意见答复辅助。",
     "scenarios": [
       "研发人员撰写专利交底书",
-      "从项目材料挖掘可申请专利点",
-      "公开专利通俗解读并入库 Obsidian",
-      "审查意见答复起草辅助",
-      "在先技术检索与查新"
+      "通俗解读公开专利文献",
+      "搭建个人专利知识库",
+      "辅助撰写审查意见答复",
+      "追踪国知局审查政策动向"
     ],
     "quickStart": "见 README",
     "categories": [
@@ -4777,14 +4774,12 @@
     ],
     "tags": [
       "专利",
+      "知识产权",
       "交底书",
-      "专利解读",
       "审查答复",
-      "Obsidian",
-      "AI技能"
+      "Obsidian"
     ],
-    "sourceHash": "a72be1ecdc374f3c931bfdae0687e7dec098efe77afc8f169e2b5aff1f7b191b",
-    "translatedAt": "2026-11-15T23:28:34.900Z"
+    "translatedAt": "2026-11-27T02:21:12.111Z"
   },
   "saltpi/Aria.X": {
     "positioning": "面向苹果生态的原生下载管理器，内置 aria2 引擎",
@@ -6898,16 +6893,16 @@
     "translatedAt": "2026-10-21T17:46:01.011Z"
   },
   "nickrunning/wechat-selkies": {
-    "positioning": "Docker封装微信/QQ，浏览器直接访问使用",
-    "summary": "将官方微信/QQ Linux客户端封装在Docker容器中，通过Selkies WebRTC技术在浏览器中直接使用，无需本地安装客户端。支持本地中文输入法、聊天记录持久化、文件传输与图片复制，兼容AMD64和ARM64架构，还可通过proot-apps安装Telegram等第三方应用。",
+    "positioning": "基于 Selkies 的网页版微信/QQ，可由 AI Agent 操作",
+    "summary": "该项目将官方微信/QQ Linux 客户端封装进 Docker 容器，通过 Selkies WebRTC 技术实现浏览器直接使用，无需本地安装客户端，支持本地中文输入法、数据持久化以及 AMD64/ARM64 双架构。同时提供 API 供 AI Agent 读取和发送微信消息，并附带可安装的 Agent Skill。适合服务器部署、远程办公等场景。",
     "scenarios": [
-      "服务器部署远程办公",
-      "NAS私有化部署聊天工具",
-      "设备无法安装官方客户端",
-      "浏览器多端访问微信QQ",
-      "ARM设备运行微信"
+      "服务器上自托管微信/QQ",
+      "远程办公访问聊天客户端",
+      "NAS 浏览器中使用微信",
+      "AI Agent 自动读写微信消息",
+      "非 Linux 桌面运行微信"
     ],
-    "quickStart": "docker run -it -p 3001:3001 -v ./config:/config --device /dev/dri:/dev/dri ghcr.io/nickrunning/wechat-selkies:latest",
+    "quickStart": "docker run -it --env-file .env -p 3001:3001 -v ./config:/config nickrunning/wechat-selkies:latest\ndocker compose up -d",
     "categories": [
       "自托管服务",
       "效率工具"
@@ -6916,12 +6911,11 @@
       "微信",
       "QQ",
       "Docker",
-      "WebRTC",
-      "自托管",
-      "Telegram"
+      "远程桌面",
+      "AI Agent",
+      "浏览器访问"
     ],
-    "sourceHash": "da9c1511405eb3f6fef4c536de79dcf158200062d4cd0699a6890fc1ddd66810",
-    "translatedAt": "2026-10-21T17:46:01.269Z"
+    "translatedAt": "2026-11-27T02:21:14.315Z"
   },
   "loks666/get_jobs": {
     "positioning": "AI 驱动的多平台自动投简历求职工具",
@@ -9429,14 +9423,14 @@
     "translatedAt": "2026-10-21T17:50:09.829Z"
   },
   "zoriya/Kyoo": {
-    "positioning": "自托管视频媒体服务器，免整理、低维护的 Plex 替代品",
-    "summary": "Kyoo 是一个自托管的视频媒体服务器，支持电影、剧集和动漫，定位为 Jellyfin/Plex 的替代方案。它无需规范的文件夹结构和手动元数据编辑，乱命名的文件也能自动识别刮削；内置动态转码（支持 ABR 自适应画质）、片头片尾检测、PGS/ASS 字幕渲染和 OIDC 登录。提供 Web、Android、Android TV 和 Chromecast 客户端，并可通过官方 Helm Chart 部署到 Kubernetes。",
+    "positioning": "自托管影视媒体服务器，Jellyfin/Plex 的免维护替代方案",
+    "summary": "Kyoo 是一个专注于视频内容的自托管媒体服务器，支持电影、剧集和动漫，可替代 Jellyfin 或 Plex。它主打低维护成本，无需规整文件夹结构、无需手动编辑元数据，命名混乱的媒体也能自动识别刮削。内置动态转码、片头片尾自动检测、离线下载与进度同步、PGS/ASS 等字幕格式支持，并提供 Web、Android、Android TV 及 Chromecast 客户端。",
     "scenarios": [
-      "家庭影音媒体中心",
-      "NAS 自建影视库",
-      "替代 Plex/Jellyfin",
-      "Kubernetes 部署流媒体",
-      "乱命名视频自动刮削识别"
+      "家庭 NAS 影音库搭建",
+      "替代 Jellyfin/Plex 自建影音服务",
+      "命名混乱媒体自动刮削整理",
+      "多设备离线追剧与进度同步",
+      "Kubernetes 集群部署媒体服务"
     ],
     "quickStart": "见 README",
     "categories": [
@@ -9445,12 +9439,11 @@
     "tags": [
       "媒体服务器",
       "自托管",
-      "视频转码",
-      "影视库",
-      "Docker"
+      "影音库",
+      "动态转码",
+      "Jellyfin替代"
     ],
-    "sourceHash": "60b5992088bf8e739fa71a5682afa1604175751646d542162a3d7b27616ba031",
-    "translatedAt": "2026-11-15T23:30:04.871Z"
+    "translatedAt": "2026-11-27T02:21:14.450Z"
   },
   "jackfrued/Python-Core-50-Courses": {
     "positioning": "对初学者友好的Python语言基础教程，50课从零上手",
@@ -10901,28 +10894,29 @@
     "translatedAt": "2026-11-15T23:30:36.172Z"
   },
   "labring/FastGPT": {
-    "positioning": "开箱即用的 AI Agent 构建平台，支持可视化工作流编排与知识库",
-    "summary": "FastGPT 是一个基于大语言模型的开源 AI Agent 构建平台，提供数据处理、RAG 检索、模型调用等开箱即用的能力。通过 Flow 可视化界面即可编排对话工作流与插件，无需复杂配置就能搭建问答系统。支持多格式文档导入知识库，并具备混合检索与重排、完整调用链路日志、应用调试评测等能力。",
+    "positioning": "基于大模型的知识库问答与 AI 工作流编排平台",
+    "summary": "FastGPT 是一个 AI Agent 构建平台，提供开箱即用的数据处理、模型调用和 RAG 检索能力。通过 Flow 可视化编排对话与插件工作流，支持知识库多库复用、混合检索与重排，可快速搭建和部署复杂问答系统，并支持云服务、自托管等多种使用方式。",
     "scenarios": [
-      "搭建企业私有知识库问答系统",
-      "构建智能客服与对话机器人",
-      "可视化编排复杂 AI 工作流",
-      "文档处理与 RAG 检索增强",
-      "一键嵌入 AI 助手到自有网站"
+      "搭建企业知识库问答系统",
+      "快速构建智能客服机器人",
+      "私有化部署 AI 助手服务",
+      "可视化编排 AI 工作流",
+      "文档检索增强生成问答"
     ],
-    "quickStart": "# 输入命令拉取配置文件\nbash <(curl -fsSL https://doc.fastgpt.io/deploy/install.sh)\n# 启动\ndocker compose up -d",
+    "quickStart": "bash <(curl -fsSL https://doc.fastgpt.io/deploy/install.sh)\ndocker compose up -d",
     "categories": [
       "人工智能",
       "自托管服务"
     ],
     "tags": [
-      "AI Agent",
-      "知识库问答",
+      "AI智能体",
+      "知识库",
       "RAG",
-      "可视化工作流",
-      "大模型应用"
+      "工作流编排",
+      "大模型",
+      "私有化部署"
     ],
-    "translatedAt": "2026-11-17T02:34:24.530Z"
+    "translatedAt": "2026-11-27T02:21:13.842Z"
   },
   "Loyalsoldier/clash-rules": {
     "positioning": "面向 Clash Premium 内核的每日自动更新分流规则集",
@@ -12724,14 +12718,14 @@
     "translatedAt": "2026-10-21T17:54:30.224Z"
   },
   "ziishaned/learn-regex": {
-    "positioning": "以示例驱动的正则表达式入门教程",
-    "summary": "learn-regex 是一份广受欢迎的开源正则表达式教程，从基础匹配器、元字符讲到捕获分组、前后向断言、匹配标志与贪婪/懒惰匹配，每个知识点都配有可在 regex101 在线验证的实例。教程已被翻译成中文、日语、德语等 16 种语言，并提供 PDF 版本下载。",
+    "positioning": "通俗易懂的正则表达式入门教程",
+    "summary": "learn-regex 是一份广受欢迎的正则表达式学习指南，从基础匹配讲到元字符、捕获组、环视、标志位、贪婪与懒惰匹配及反向引用。每个示例都附有 regex101 在线测试链接，即学即练，并提供包括中文在内的十多种语言翻译版本。",
     "scenarios": [
-      "正则表达式零基础入门学习",
-      "编写前快速查阅语法要点",
-      "学习前后向断言等进阶用法",
-      "作为团队正则培训教材",
-      "配合 regex101 在线练习验证"
+      "正则表达式零基础入门",
+      "表单校验规则编写参考",
+      "文本匹配替换日常速查",
+      "面试或复习知识点梳理",
+      "数据提取模式设计学习"
     ],
     "quickStart": "见 README",
     "categories": [
@@ -12739,13 +12733,12 @@
     ],
     "tags": [
       "正则表达式",
-      "入门教程",
-      "语法速查",
-      "开源文档",
-      "编程基础"
+      "教程",
+      "编程基础",
+      "文本处理",
+      "速查手册"
     ],
-    "sourceHash": "7d1d473b9904cd07b65cdb1d3ff3846067ccbaed951f3e17c89ecf1d3f5f849d",
-    "translatedAt": "2026-10-21T17:54:31.240Z"
+    "translatedAt": "2026-11-27T02:21:18.293Z"
   },
   "kingcos/JueJueZiGenerator": {
     "positioning": "网页版热梗文案生成器，一键生成绝绝子风格小作文",
@@ -15294,14 +15287,14 @@
     "translatedAt": "2026-11-07T22:53:42.711Z"
   },
   "harshsinghsv/swiftdl": {
-    "positioning": "多连接并发下载管理器，断点续传不重来",
-    "summary": "SwiftDL 是基于 Rust 与 Tauri 的开源下载管理器，支持 Windows、macOS 和 Linux。它将单个文件拆分为最多 32 个连接并发下载，每秒保存进度，崩溃或断网后可即时续传，在限速服务器上可成倍提速。配合浏览器扩展可携带 Cookie 接管浏览器下载，还支持种子与磁力链接、视频网站选画质下载，且不收集任何数据。",
+    "positioning": "开源多连接下载管理器，浏览器一键接管，断点续传极速下载",
+    "summary": "SwiftDL 是用 Rust + Tauri 构建的开源下载管理器，支持 Windows、macOS 和 Linux。它可将文件拆分到最多 32 个连接并行下载，动态分段重平衡，并直接写入最终文件、无需合并步骤。配合浏览器扩展可接管浏览器下载（保留登录态 Cookie），还支持视频站点与播放列表、种子/磁力链接、SHA-256 校验、队列限速以及 aria2 兼容的远程控制 API。",
     "scenarios": [
-      "大文件多连接提速下载",
-      "接管浏览器下载任务",
-      "视频网站按画质下载",
-      "BT 种子与磁力链下载",
-      "断网崩溃后即时续传"
+      "大文件多连接加速下载",
+      "浏览器下载接管与增强",
+      "视频网站与播放列表下载",
+      "断网崩溃后续传下载",
+      "批量链接与镜像加速"
     ],
     "quickStart": "git clone https://github.com/harshsinghsv/swiftdl\ncd swiftdl\ncargo install tauri-cli --version \"^2\" --locked\ncd app/src-tauri && cargo tauri dev",
     "categories": [
@@ -15309,13 +15302,13 @@
     ],
     "tags": [
       "下载管理器",
-      "断点续传",
       "多线程下载",
+      "断点续传",
       "浏览器扩展",
+      "Rust",
       "视频下载"
     ],
-    "sourceHash": "4194cad212d57f9d1c6ddbdaadb6e414e81cd7e2d43aa3e24342d74dffbab4ee",
-    "translatedAt": "2026-11-14T00:25:33.424Z"
+    "translatedAt": "2026-11-27T02:21:05.713Z"
   },
   "hummingbot/hummingbot": {
     "positioning": "开源加密货币高频交易机器人框架，支持140+交易所",
