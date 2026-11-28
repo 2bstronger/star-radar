@@ -183,7 +183,8 @@
     "neopen/story-shot-agent": {
       "active": true,
       "starredAt": "2026-09-04T11:00:52Z",
-      "fingerprint": "blob:033c525b8b9caea1b96d30ed00cd90ade5e661ef"
+      "fingerprint": "blob:8d0c00c77c0d65c24e650bf580bb76e6eb818f35",
+      "lastAttemptAt": "2026-11-28T02:04:40.423Z"
     },
     "LIUFelix2004/God-minmax-H3": {
       "active": true,
@@ -398,7 +399,8 @@
     "feigeCode/navop": {
       "active": true,
       "starredAt": "2026-08-13T08:28:34Z",
-      "fingerprint": "blob:5cfe36d7d2cd85339421608bd53611a1cf714260"
+      "fingerprint": "blob:a584d1a73d9f6bcd3ebe9faffc30624e4241f5af",
+      "lastAttemptAt": "2026-11-28T02:04:41.189Z"
     },
     "nullclaw/nullclaw": {
       "active": true,
@@ -703,7 +705,8 @@
     "yikart/AiToEarn": {
       "active": true,
       "starredAt": "2026-05-15T02:19:00Z",
-      "fingerprint": "blob:a3c91f3589e1ea2aa1e4c720791f28f791973d31"
+      "fingerprint": "blob:355301a332d54a0d8c2e9096d670dd1852cac3e2",
+      "lastAttemptAt": "2026-11-28T02:04:42.602Z"
     },
     "tinyhumansai/openhuman": {
       "active": true,
@@ -780,7 +783,8 @@
     "testssl/testssl.sh": {
       "active": true,
       "starredAt": "2026-04-21T18:09:27Z",
-      "fingerprint": "blob:46132b6651ce151ececcc169512718c54d5ec653"
+      "fingerprint": "blob:30a3187c22c42fa44cad7aabebbfc3c5e2addd59",
+      "lastAttemptAt": "2026-11-28T02:04:43.137Z"
     },
     "multica-ai/andrej-karpathy-skills": {
       "active": true,
@@ -1282,8 +1286,8 @@
     "SuperClaude-Org/SuperClaude_Framework": {
       "active": true,
       "starredAt": "2025-09-08T09:32:00Z",
-      "newPending": false,
-      "fingerprint": "blob:85f357dd8c17cfb8e2ba8ca3417aa673d9c9cc8d"
+      "fingerprint": "blob:47475adebcffb42f4a32863a18321a94a51c41e9",
+      "lastAttemptAt": "2026-11-28T02:04:46.171Z"
     },
     "wshobson/agents": {
       "active": true,
@@ -1586,7 +1590,8 @@
     "vzhd1701/gridplayer": {
       "active": true,
       "starredAt": "2024-12-20T03:21:06Z",
-      "fingerprint": "blob:1990645b219f118b480f95d1a829cc5aac3d308f"
+      "fingerprint": "blob:50520d0593e48a895575bfb0209a275d5e9ae1f2",
+      "lastAttemptAt": "2026-11-28T02:04:48.618Z"
     },
     "dgtlmoon/changedetection.io": {
       "active": true,
@@ -1769,7 +1774,8 @@
     "jianchang512/pyvideotrans": {
       "active": true,
       "starredAt": "2024-08-05T08:03:44Z",
-      "fingerprint": "blob:58ceb28fd27d1c4665392ee261c95136589f0967"
+      "fingerprint": "blob:85e99363a032634449aa0f1ec325a7e39dc470f0",
+      "lastAttemptAt": "2026-11-28T02:04:50.080Z"
     },
     "bin456789/reinstall": {
       "active": true,
@@ -1863,7 +1869,8 @@
     "xykt/IPQuality": {
       "active": true,
       "starredAt": "2024-05-26T11:26:54Z",
-      "fingerprint": "blob:be5af8b5301b2e0e5b56e9733004e7d82ad7f4ed"
+      "fingerprint": "blob:94a4187e1dc2867b80649107b759d7b549d6f2d2",
+      "lastAttemptAt": "2026-11-28T02:04:51.052Z"
     },
     "solidSpoon/DashPlayer": {
       "active": true,
@@ -2420,7 +2427,8 @@
     "zhayujie/CowAgent": {
       "active": true,
       "starredAt": "2023-06-22T21:49:50Z",
-      "fingerprint": "blob:e0d507dcf5502fac69ac3627746f831f8df75261"
+      "fingerprint": "blob:ed6d7475f5175b3caa75d4957522fea092f38df9",
+      "lastAttemptAt": "2026-11-28T02:04:55.019Z"
     },
     "langbot-app/LangBot": {
       "active": true,
@@ -2601,8 +2609,8 @@
     "schollz/croc": {
       "active": true,
       "starredAt": "2023-05-11T02:08:45Z",
-      "newPending": false,
-      "fingerprint": "blob:3833c93f30b26f1347c692246f09dd4f5204d9c9"
+      "fingerprint": "blob:447690986aa7d0c6c5c680ae8a53baef6f056869",
+      "lastAttemptAt": "2026-11-28T02:04:56.285Z"
     },
     "localsend/localsend": {
       "active": true,
@@ -3325,8 +3333,8 @@
     "excalidraw/excalidraw": {
       "active": true,
       "starredAt": "2022-03-29T03:18:48Z",
-      "newPending": false,
-      "fingerprint": "blob:48b9d1de9fbb1c74406407e89e2471a01b1f28de"
+      "fingerprint": "blob:962d5ca7756b83f69221083bd30a933fc5410886",
+      "lastAttemptAt": "2026-11-28T02:05:01.493Z"
     },
     "anjia0532/gcr.io_mirror": {
       "active": true,

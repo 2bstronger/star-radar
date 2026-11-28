@@ -1468,14 +1468,14 @@
     "translatedAt": "2026-11-24T04:23:15.908Z"
   },
   "zhayujie/CowAgent": {
-    "positioning": "开源个人 AI 助理与 Agent 框架，多模型多渠道接入",
-    "summary": "CowAgent（原 chatgpt-on-wechat）是开源的个人 AI 助理与 Agent Harness，能主动规划任务、调用工具与技能，并通过三层长期记忆、知识库和自我进化持续了解用户。支持多 Agent 协作、主流大模型一键切换，以及 Web、微信、飞书、Telegram 等多渠道接入，一行命令即可部署。",
+    "positioning": "开源个人 AI 助手与 Agent 框架，支持规划任务、调用工具并自我进化",
+    "summary": "CowAgent（前身为 chatgpt-on-wechat）是开源的个人 AI 助手与 Agent Harness，可规划复杂任务、调用内置工具和技能、原生集成 MCP，并通过三层长期记忆与知识库在日常使用中自我进化。它支持多模型接入（Claude、GPT、DeepSeek 等）、多渠道部署（微信、飞书、Telegram 等）与多 Agent 协作，提供一键安装脚本、桌面客户端和移动端应用。",
     "scenarios": [
-      "搭建个人专属 AI 助理",
-      "接入微信飞书等 IM 机器人",
-      "个人知识与长期记忆管理",
-      "多 Agent 协作处理复杂任务",
-      "技能市场扩展自动化工作流"
+      "搭建个人专属 AI 助手",
+      "在微信等 IM 接入智能助手",
+      "构建多 Agent 协作团队",
+      "管理个人记忆与知识库",
+      "私有化部署 24/7 智能助理"
     ],
     "quickStart": "bash <(curl -fsSL https://cdn.link-ai.tech/code/cow/run.sh)\nirm https://cdn.link-ai.tech/code/cow/run.ps1 | iex\ncurl -O https://cdn.link-ai.tech/code/cow/docker-compose.yml\ndocker compose up -d",
     "categories": [
@@ -1483,14 +1483,14 @@
       "自托管服务"
     ],
     "tags": [
-      "AI助理",
+      "AI助手",
       "Agent框架",
       "多模型",
       "多渠道",
-      "长期记忆",
-      "MCP"
+      "MCP",
+      "记忆进化"
     ],
-    "translatedAt": "2026-11-21T00:55:23.696Z"
+    "translatedAt": "2026-11-28T02:05:04.448Z"
   },
   "LAION-AI/Open-Assistant": {
     "positioning": "开源对话式大语言模型助手与 RLHF 数据集项目",
@@ -2223,28 +2223,29 @@
     "translatedAt": "2026-11-14T23:13:27.576Z"
   },
   "neopen/story-shot-agent": {
-    "positioning": "剧本转分镜智能体，自动生成连贯的AI视频提示词",
-    "summary": "PenShot 基于 LangGraph 多智能体协作与 RAG 记忆机制，将电影、短剧、动漫、小说等任意格式剧本自动解析为镜头级分镜片段，生成 Sora、Veo、Runway、可灵等模型可直接使用的文生视频提示词。通过三级记忆与 Chroma 向量检索保障角色、场景、剧情跨片段一致，并提供 Python SDK、REST API、MCP、A2A 等多种集成方式。",
+    "positioning": "剧本转分镜与视频提示词的 LLM 智能体，保障跨镜头一致性",
+    "summary": "基于 LangGraph 多智能体协作，将电影、动漫、短剧、小说等任意格式剧本自动解析为镜头级分镜，生成 Sora、Veo、Runway、可灵等模型可直接使用的文生视频提示词。通过三级记忆、RAG 知识库与向量检索保障角色、场景与剧情跨片段一致，输出中英双语画面描述、负面提示词与音频提示词。提供 Python SDK、MCP、REST API、Function Calling、A2A 等多种集成方式。",
     "scenarios": [
-      "长剧本转AI视频分镜",
-      "短剧批量生成分镜脚本",
-      "小说动漫视觉化改编",
-      "文生视频流水线集成",
-      "视频提示词工程辅助"
+      "短剧、动漫的批量分镜制作",
+      "AI 视频生成的提示词编写",
+      "小说改编剧本的视觉化预演",
+      "集成到自动化视频生产流水线",
+      "作为 LangGraph 分镜节点接入"
     ],
-    "quickStart": "pip install penshot\ncp .env.example .env\ndocker pull neotems/penshot",
+    "quickStart": "pip install penshot\ndocker pull neotems/penshot",
     "categories": [
-      "人工智能"
+      "人工智能",
+      "效率工具"
     ],
     "tags": [
-      "分镜生成",
-      "文生视频",
-      "提示词工程",
-      "LangGraph",
+      "AI视频生成",
+      "分镜",
       "剧本解析",
-      "角色一致性"
+      "LLM智能体",
+      "提示词工程",
+      "LangGraph"
     ],
-    "translatedAt": "2026-11-21T00:54:41.957Z"
+    "translatedAt": "2026-11-28T02:04:52.671Z"
   },
   "Tencent/teamai-cli": {
     "positioning": "用 Git 管理团队 AI 资源，一次初始化全员自动同步",
@@ -3236,29 +3237,29 @@
     "translatedAt": "2026-10-21T17:39:53.807Z"
   },
   "feigeCode/navop": {
-    "positioning": "Rust 原生桌面工作台，集数据库、SSH 与 AI 于一体",
-    "summary": "Navop 是用 Rust 和 GPUI 构建的原生桌面工作台，无 WebView、无 Electron，采用 GPU 加速渲染。它将 MySQL、PostgreSQL、Redis、MongoDB 等数据库客户端、SSH/SFTP、终端、远程桌面与 AI 代理整合进同一窗口，并提供聚焦 Shell 与 Data 两个精简版本。",
+    "positioning": "Rust 原生桌面工作台，一站式管理数据库、服务器与 AI",
+    "summary": "Navop 使用 Rust 与 GPUI 构建，不依赖 WebView 和 Electron，通过 GPU 加速渲染保证大表格、终端和图表流畅运行。它将 MySQL、PostgreSQL、Redis、MongoDB 等数据库客户端，SSH/SFTP 与终端、远程桌面，以及 AI 智能体和 MCP 服务整合在同一窗口中。同一代码库还提供专注 SSH 终端的 Navop Shell 与专注数据管理的 Navop Data 精简版。",
     "scenarios": [
-      "多种数据库开发与管理",
-      "服务器运维与远程连接",
-      "SFTP 文件传输与远程编辑",
-      "AI 辅助 SQL 生成与分析",
-      "端口转发与远程桌面访问"
+      "多类型数据库统一管理与 SQL 开发",
+      "服务器远程运维与多窗格终端操作",
+      "SFTP 远程文件管理与在线编辑",
+      "AI 辅助生成和分析 SQL 与图表",
+      "通过 MCP 让智能体调用本机工具"
     ],
-    "quickStart": "scoop install navop\n./script/bootstrap\ncargo run -p navop",
+    "quickStart": "scoop install navop\ncargo run -p navop",
     "categories": [
       "数据库",
-      "DevOps运维"
+      "效率工具"
     ],
     "tags": [
       "数据库客户端",
       "SSH终端",
       "远程桌面",
-      "AI代理",
-      "Rust",
-      "桌面应用"
+      "AI智能体",
+      "MCP",
+      "Rust"
     ],
-    "translatedAt": "2026-11-20T01:23:29.325Z"
+    "translatedAt": "2026-11-28T02:05:00.879Z"
   },
   "LingyiChen-AI/AIComicBuilder": {
     "positioning": "AI 驱动的漫剧生成器，剧本一键转动画视频",
@@ -4606,29 +4607,29 @@
     "translatedAt": "2026-10-27T23:04:13.172Z"
   },
   "yikart/AiToEarn": {
-    "positioning": "一人公司的 AI 内容营销智能体，自动创作发布并变现",
-    "summary": "AiToEarn 是面向一人公司、创作者与品牌的 AI 内容变现平台，提供 Monetize、Publish、Engage、Create 四大 Agent 能力，覆盖创作、剪辑、发布、互动到变现全链路。支持一键分发内容至抖音、小红书、快手、TikTok、YouTube 等 14+ 国内外平台，并提供统一日历排期、AI 智能评论回复和 CPS/CPE/CPM 结算模式。可通过网页直接使用、以 MCP 协议接入 Claude、Cursor 等 AI 助手，也支持 Docker 私有化部署。",
+    "positioning": "面向一人公司的 AI 内容创作、发布与变现智能体",
+    "summary": "AiToEarn 是一个 AI 内容营销智能体，覆盖内容创作、多平台分发、互动运营到变现结算的全链路。它支持一键发布到抖音、小红书、TikTok、YouTube 等 14+ 国内外主流平台，提供 CPS/CPE/CPM 三种变现模式，并可通过 MCP 协议接入 Claude、Cursor 等任意 AI 助手使用。",
     "scenarios": [
-      "多平台一键同步发布内容",
-      "AI 批量生成图文与视频",
-      "矩阵账号自动化运营",
-      "接推广任务内容变现",
-      "自动回复评论挖掘商机"
+      "一键分发内容到多平台",
+      "AI 自动生成图文视频内容",
+      "自动回复评论与互动运营",
+      "接商家推广任务内容变现",
+      "矩阵账号批量生产内容"
     ],
-    "quickStart": "git clone https://github.com/yikart/AiToEarn.git\ncd AiToEarn\n# 启动前按 DOCKER_DEPLOYMENT_CN.md 配置必填认证密钥，并导出 JWT_SECRET。\ndocker compose up -d",
+    "quickStart": "git clone https://github.com/yikart/AiToEarn.git\ncd AiToEarn\ndocker compose up -d",
     "categories": [
       "人工智能",
       "效率工具"
     ],
     "tags": [
-      "AI营销",
-      "内容创作",
+      "AI智能体",
+      "内容营销",
       "多平台发布",
-      "自动变现",
-      "MCP",
-      "自媒体运营"
+      "小红书",
+      "抖音",
+      "MCP"
     ],
-    "translatedAt": "2026-11-17T02:33:33.347Z"
+    "translatedAt": "2026-11-28T02:04:50.318Z"
   },
   "esengine/DeepSeek-Reasonix": {
     "positioning": "开源 AI 编程智能体，在终端读写代码并运行测试",
@@ -4884,14 +4885,14 @@
     "translatedAt": "2026-10-21T17:42:54.480Z"
   },
   "testssl/testssl.sh": {
-    "positioning": "命令行 TLS/SSL 加密检测工具，可测任意端口",
-    "summary": "testssl.sh 是一款免费开源的命令行工具，可检测任意端口上服务的 TLS/SSL 密码套件、协议、密钥交换及各类加密漏洞。输出清晰易读，支持 CSV、JSON、HTML 等格式，无需安装额外依赖，开箱即用。支持 Linux、macOS、BSD 和 Windows（WSL2/Cygwin），并测试结果仅自己可见，注重隐私。",
+    "positioning": "命令行 TLS/SSL 加密与漏洞检测工具",
+    "summary": "testssl.sh 是一款免费开源的命令行工具，可检测任意端口上服务的 TLS/SSL 密码套件、协议、密钥交换及常见加密缺陷。输出清晰直观，支持 CSV、JSON、HTML 等机器可读格式，无需安装任何依赖即可在 Linux、macOS、BSD 及 Windows（WSL2/Cygwin）上开箱即用。",
     "scenarios": [
-      "Web 服务器 HTTPS 安全检测",
-      "邮件等 STARTTLS 服务测试",
-      "渗透测试前的加密配置评估",
-      "安全审计与漏洞排查",
-      "CI/CD 流程中集成 TLS 检测"
+      "Web 服务器 TLS 配置审计",
+      "检测任意端口服务加密强度",
+      "渗透测试前的加密探测",
+      "运维巡检与漏洞排查",
+      "批量扫描自动化集成"
     ],
     "quickStart": "git clone --depth 1 https://github.com/testssl/testssl.sh.git --branch 3.3dev\ndocker run --rm -it ghcr.io/testssl/testssl.sh <your_cmd_line>",
     "categories": [
@@ -4901,11 +4902,12 @@
     "tags": [
       "TLS",
       "SSL",
-      "安全扫描",
+      "安全检测",
       "命令行工具",
-      "加密检测"
+      "加密",
+      "渗透测试"
     ],
-    "translatedAt": "2026-11-18T01:45:18.084Z"
+    "translatedAt": "2026-11-28T02:04:51.599Z"
   },
   "multica-ai/andrej-karpathy-skills": {
     "positioning": "一份 CLAUDE.md 规则，纠正 AI 编码常见坏习惯",
@@ -7071,29 +7073,28 @@
     "translatedAt": "2026-11-15T23:29:20.459Z"
   },
   "SuperClaude-Org/SuperClaude_Framework": {
-    "positioning": "增强 Claude Code 的结构化开发配置框架",
-    "summary": "SuperClaude 是一个元编程配置框架，通过行为指令注入把 Claude Code 变成结构化开发平台。它提供 30 个斜杠命令、20 个专业 AI 代理和 7 种行为模式，覆盖从头脑风暴、编码到测试部署的完整开发流程。可选集成 8 个 MCP 服务器，可带来 2-3 倍执行提速并节省 30-50% 的 token。",
+    "positioning": "增强 Claude Code 的配置框架，提供结构化开发命令与智能代理",
+    "summary": "SuperClaude 是一个通过行为指令注入和组件编排，将 Claude Code 升级为结构化开发平台的配置框架。它提供 30 个覆盖从头脑风暴到部署全生命周期的斜杠命令、20 个领域专精的智能代理、7 种自适应行为模式，并支持接入 8 个 MCP 服务器以提升执行速度和 Token 效率。",
     "scenarios": [
-      "AI 辅助代码实现与重构",
-      "自主深度网络调研",
-      "结构化头脑风暴与设计",
-      "代码测试与调试排错",
-      "开发工作流自动化管理"
+      "Claude Code 工作流结构化改造",
+      "多跳推理的深度网络调研",
+      "代码实现、测试与重构",
+      "项目管理与任务跟踪",
+      "跨浏览器自动化与文档查询"
     ],
-    "quickStart": "pipx install superclaude\nsuperclaude install",
+    "quickStart": "pipx install superclaude\nsuperclaude install\nsuperclaude mcp --list\nsuperclaude doctor",
     "categories": [
       "人工智能",
       "效率工具"
     ],
     "tags": [
       "Claude Code",
-      "AI编程",
-      "斜杠命令",
-      "MCP集成",
-      "开发效率"
+      "AI 编程",
+      "智能代理",
+      "MCP 集成",
+      "开发工作流"
     ],
-    "sourceHash": "bc97702be8532f35ed597d52cadf2308bafb8815953a7ae850be3cba629d0f34",
-    "translatedAt": "2026-10-21T17:46:13.822Z"
+    "translatedAt": "2026-11-28T02:04:52.814Z"
   },
   "wshobson/agents": {
     "positioning": "一套 Markdown 编写、适配多款 AI 编码工具的插件与技能库",
@@ -8378,29 +8379,29 @@
     "translatedAt": "2026-11-21T23:53:44.614Z"
   },
   "vzhd1701/gridplayer": {
-    "positioning": "多视频同屏播放器，可在网格中同时播放多路视频",
-    "summary": "基于 PyQt 构建的多视频播放器，通过网格布局同时播放任意数量的视频，底层调用 MPV 或 VLC 解码，支持几乎所有音视频格式。借助 streamlink 和 yt-dlp 可直接播放 YouTube、Twitch 等流媒体链接，并通过 SponsorBlock 自动跳过赞助片段。播放列表可保存每个视频的进度、音量、循环区间等设置。",
+    "positioning": "基于 MPV/VLC 的多视频同屏网格播放器",
+    "summary": "GridPlayer 是一款跨平台媒体播放器，可在可配置的网格布局中同时播放任意多个视频，底层由 MPV 或 VLC 驱动，支持几乎所有音视频格式。它借助 streamlink 和 yt-dlp 支持各类流媒体链接（YouTube、Twitch、IPTV 等），单个格子还能播放 m3u 播放列表、文件夹或 YouTube 播放列表。播放列表可保存每个视频的进度、音量、循环片段等设置，并集成 SponsorBlock 自动跳过 YouTube 视频中的赞助内容。",
     "scenarios": [
-      "多路监控画面同屏查看",
-      "多个体育直播同时观看",
-      "视频多版本并排对比",
-      "IPTV 多频道同时播放",
-      "YouTube 视频矩阵观看"
+      "同时观看多路直播或监控画面",
+      "多个视频画面对比分析",
+      "IPTV 多频道并行收看",
+      "体育赛事多场比赛同看",
+      "多视频剪辑素材参考浏览"
     ],
-    "quickStart": "scoop install gridplayer\nuv tool install gridplayer",
+    "quickStart": "winget install -e --id vzhd1701.GridPlayer\nchoco install gridplayer\nscoop install gridplayer\nuv tool install gridplayer",
     "categories": [
-      "游戏娱乐",
-      "效率工具"
+      "效率工具",
+      "游戏娱乐"
     ],
     "tags": [
       "视频播放器",
       "多画面播放",
-      "直播流媒体",
+      "直播",
+      "视频流",
       "MPV",
-      "VLC",
-      "YouTube"
+      "VLC"
     ],
-    "translatedAt": "2026-11-21T00:55:13.140Z"
+    "translatedAt": "2026-11-28T02:05:03.177Z"
   },
   "dgtlmoon/changedetection.io": {
     "positioning": "开源自托管的网页变更监控工具，变化即告警",
@@ -9298,16 +9299,16 @@
     "translatedAt": "2026-10-21T17:49:50.055Z"
   },
   "jianchang512/pyvideotrans": {
-    "positioning": "开源视频翻译配音工具，一键生成译制视频与字幕",
-    "summary": "pyVideoTrans 提供语音识别、字幕翻译、AI 配音到视频合成的全自动翻译流程，支持 Faster-Whisper、DeepSeek、Edge-TTS、F5-TTS 等多种本地与在线模型。具备声音克隆、多角色配音、人声分离等工具链，提供 GUI、CLI、WebUI 和 Docker 多种部署方式，可离线运行。",
+    "positioning": "开源视频翻译工具，一键完成字幕翻译与AI配音",
+    "summary": "pyVideoTrans 提供从语音识别、字幕翻译到语音合成、视频合成的完整自动化流程，支持 Faster-Whisper、DeepSeek、Edge-TTS 等多种本地模型与在线 API，并支持 F5-TTS、CosyVoice 等零样本声音克隆。提供 GUI、CLI、WebUI 及 Docker 多种使用方式，各阶段均可暂停人工校对，还附带人声分离、音视频对齐等辅助工具。",
     "scenarios": [
-      "外语视频翻译与配音",
-      "音视频批量转 SRT 字幕",
-      "字幕文件多语种翻译",
-      "AI 声音克隆配音",
-      "本地离线视频译制"
+      "外语视频一键汉化配音",
+      "批量生成音视频字幕",
+      "多语言字幕文件翻译",
+      "多角色AI配音制作",
+      "服务器无界面批量处理"
     ],
-    "quickStart": "git clone https://github.com/jianchang512/pyvideotrans.git\ncd pyvideotrans\nuv sync\nuv run sp.py\n# WebUI\nuv sync --extra webui\nuv run webui.py\n# Docker\ndocker build -t pyvideotrans-webui .\ndocker run -d -p 7860:7860 --name pyvideotrans pyvideotrans-webui",
+    "quickStart": "git clone https://github.com/jianchang512/pyvideotrans.git\ncd pyvideotrans\nuv sync\nuv run sp.py\ndocker build -t pyvideotrans-webui .\ndocker run -d -p 7860:7860 --name pyvideotrans pyvideotrans-webui",
     "categories": [
       "人工智能",
       "效率工具"
@@ -9315,11 +9316,12 @@
     "tags": [
       "视频翻译",
       "语音识别",
-      "字幕翻译",
       "AI配音",
+      "字幕翻译",
+      "语音合成",
       "声音克隆"
     ],
-    "translatedAt": "2026-11-20T01:23:55.663Z"
+    "translatedAt": "2026-11-28T02:04:58.188Z"
   },
   "RubyMetric/chsrc": {
     "positioning": "全平台通用换源工具，一条命令切换软件镜像源",
@@ -9519,28 +9521,29 @@
     "translatedAt": "2026-10-21T17:50:16.401Z"
   },
   "xykt/IPQuality": {
-    "positioning": "开源IP质量体检脚本，一键检测风险评分与流媒体解锁",
-    "summary": "基于 Shell 的 IP 质量检测脚本，支持 IPv4/IPv6 双栈查询，整合 Maxmind、IPinfo、AbuseIPDB 等多个风险数据库，并可查询 400+ 黑名单库。涵盖基础信息、IP类型、风险评分、风险因子、流媒体解锁、邮局检测六大模块，支持 TikTok、Netflix、ChatGPT 等服务的解锁状态检测，排版直观并支持中英文双语、JSON 输出与 Docker 运行。",
+    "positioning": "一条命令完成IP质量体检的Shell脚本",
+    "summary": "基于Shell的IP质量检测脚本，一条命令即可输出基础信息、IP类型、风险评分、风险因子、流媒体解锁、邮局连通性六大模块结果。整合AbuseIPDB、IP2Location等多个风险数据库及400+黑名单检测，支持IPv4/IPv6双栈、指定网卡与代理，报告可导出JSON或纯文本。",
     "scenarios": [
-      "检测VPS服务器IP质量",
-      "评估代理IP纯净度与风险",
-      "排查流媒体解锁可用性",
-      "测试邮件端口连通性",
-      "选购原生IP前快速筛查"
+      "VPS购买前检测IP质量",
+      "评估代理服务器IP纯净度",
+      "检测流媒体与AI服务解锁",
+      "排查IP黑名单与风险评分",
+      "验证邮件端口连通性"
     ],
-    "quickStart": "bash <(curl -Ls https://IP.Check.Place)\ndocker run --rm --net=host -it xykt/ipquality && docker rmi xykt/ipquality > /dev/null 2>&1",
+    "quickStart": "bash <(curl -Ls https://IP.Check.Place)\nbash <(curl -Ls https://Check.Place) -I\ndocker run --rm --net=host -it xykt/ipquality && docker rmi xykt/ipquality > /dev/null 2>&1",
     "categories": [
       "CLI工具",
       "安全隐私"
     ],
     "tags": [
-      "IP质量检测",
-      "流媒体解锁",
+      "IP检测",
+      "网络诊断",
       "Shell脚本",
-      "VPS",
-      "网络诊断"
+      "风险评分",
+      "流媒体解锁",
+      "VPS评测"
     ],
-    "translatedAt": "2026-11-20T01:24:02.797Z"
+    "translatedAt": "2026-11-28T02:04:59.444Z"
   },
   "FutureUniant/Tailor": {
     "positioning": "AI视频剪辑工具，可智能裁剪、生成和优化视频",
@@ -11042,16 +11045,16 @@
     "translatedAt": "2026-11-03T01:49:24.120Z"
   },
   "schollz/croc": {
-    "positioning": "命令行安全传文件工具，支持端到端加密点对点传输",
-    "summary": "croc 是一款命令行文件传输工具，可在任意两台电脑间安全地传输文件和文件夹。它基于 PAKE 实现端到端加密，支持断点续传、多文件传输、管道传输和二维码收发，无需本地服务器或端口转发。除 CLI 外还提供兼容的浏览器客户端，并支持自建中继服务器。",
+    "positioning": "任意两台电脑间安全点对点传文件的命令行工具",
+    "summary": "croc 是用 Go 编写的文件传输工具，可在任意两台电脑间安全传输文件和文件夹，基于 PAKE 实现端到端加密。支持断点续传、多文件传输、管道输入、二维码分享，无需本地服务器或端口转发。除命令行外还提供浏览器版、终端共享 croc ssh 以及可自建的中继服务。",
     "scenarios": [
-      "跨平台设备间互传文件",
-      "隐私敏感文件的加密传输",
-      "无公网 IP 环境下的文件交换",
-      "命令行脚本自动化传输",
-      "终端协作与临时文件分享"
+      "跨平台设备间传输大文件",
+      "传输隐私敏感文件",
+      "服务器与本地互传文件",
+      "脚本中自动化传输文件",
+      "手机扫码接收文件"
     ],
-    "quickStart": "curl https://getcroc.com | bash\nbrew install croc\nscoop install croc\ngo install github.com/schollz/croc/v11@latest\ncroc send [file(s)-or-folder]\ncroc code-phrase",
+    "quickStart": "curl https://getcroc.com | bash\nbrew install croc\ngo install github.com/schollz/croc/v11@latest",
     "categories": [
       "CLI工具",
       "安全隐私"
@@ -11060,12 +11063,10 @@
       "文件传输",
       "端到端加密",
       "点对点",
-      "命令行",
       "跨平台",
-      "Go"
+      "命令行"
     ],
-    "sourceHash": "c7d250158a909df65e20541a457cab2e6f14f4830db2f6e9be0c4ae135989344",
-    "translatedAt": "2026-11-14T00:28:34.243Z"
+    "translatedAt": "2026-11-28T02:05:05.131Z"
   },
   "Code52/carnac": {
     "positioning": "Windows 键盘按键实时显示工具，适合演示与录屏",
@@ -13973,29 +13974,29 @@
     "translatedAt": "2026-11-13T00:42:04.672Z"
   },
   "excalidraw/excalidraw": {
-    "positioning": "开源手绘风格虚拟白板，支持协作与端到端加密",
-    "summary": "Excalidraw 是一个开源的虚拟白板工具，可绘制手绘风格的图表、线框图等各类草图。支持无限画布、实时协作、端到端加密与本地自动保存，同时提供 npm 组件包，可嵌入到自己的应用中。",
+    "positioning": "手绘风格的开源虚拟白板，支持实时协作",
+    "summary": "Excalidraw 是一款手绘风格的开源虚拟白板，可绘制流程图、线框图等各类图表，支持无限画布、实时协作和端到端加密。它还能将 Mermaid 定义和表格数据转换为可继续编辑的图形，并支持导出 PNG、SVG 及开放格式的 .excalidraw 文件。除在线使用外，还提供 React 组件包和 CLI，便于嵌入自有应用或脚本化渲染。",
     "scenarios": [
-      "绘制架构图与流程草图",
-      "产品线框图与原型草图",
+      "绘制架构图与流程图",
+      "产品线框图原型设计",
       "团队实时协作头脑风暴",
-      "嵌入自研应用提供绘图能力",
-      "教学演示与技术方案讲解"
+      "嵌入应用的画板组件",
+      "Mermaid 图表转可编辑图形"
     ],
     "quickStart": "npm install react react-dom @excalidraw/excalidraw\nyarn add react react-dom @excalidraw/excalidraw",
     "categories": [
-      "效率工具",
-      "前端开发"
+      "设计资源",
+      "效率工具"
     ],
     "tags": [
       "白板",
-      "手绘风格",
       "图表绘制",
       "实时协作",
-      "React组件"
+      "手绘风格",
+      "React组件",
+      "端到端加密"
     ],
-    "sourceHash": "81427994c40f4faf95a83dba0fcf15fc123ddf8e99bbffe47ebe46566f7abf38",
-    "translatedAt": "2026-11-15T23:31:18.546Z"
+    "translatedAt": "2026-11-28T02:05:10.229Z"
   },
   "guodongxiaren/README": {
     "positioning": "GFM 语法详解教程，教你写好 README",
